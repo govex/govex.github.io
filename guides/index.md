@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## Guides
 Below are guidebooks which the Center for Government Excellence makes available online. You may also <a href="https://www.gitbook.com/@centerforgov">visit our page on GitBooks<a/>.
 
