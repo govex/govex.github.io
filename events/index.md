@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Open Government Events
+## <span class="glyphicon glyphicon-calendar"></span> Events
 
 <div class="list-group">
   <a class="list-group-item" href="http://awards.theodi.org/">
