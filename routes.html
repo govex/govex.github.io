@@ -14,7 +14,12 @@
         padding: 0;
         margin: 0;
     }
-    
+    #over_map {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 99;
+    }
     .layer_selector {
         background: rgba(255, 255, 255, 0.9);
         border-radius: 5px;
@@ -60,17 +65,11 @@
 </head>
 
 <body>
-    <input type="text" id="userInput"=>give me input</input>
-    <button id="city">Submit</button>
+    
     <div id="map"></div>
-    <div id="cartocss" class="layer_selector">
-        <p>CartoCSS Selectors</p>
-        <ul>
-            <li data="bwi" data-type="cartocss">bwi
-            </li>
-            <li data="simple" data-type="cartocss">Reset CartoCSS
-            </li>
-        </ul>
+    <div id="over_map">
+        <input type="text" id="userInput"</input>
+        <button id="city">Submit</button>    
     </div>
     <!-- city infowindow template -->
     <script type="infowindow/html" id="infowindow_template">
