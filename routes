@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Named Maps Tutorial | CartoDB</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
+    <style>
+    html,
+    body,
+    #map {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .layer_selector {
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 5px;
+        padding: 0;
+        border: 1px solid #999;
+        width: 250px;
+    }
+    
+    .layer_selector > p {
+        padding: 15px 30px;
+        border-bottom: 1px solid #999;
+    }
+    
+    .layer_selector ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    
+    .layer_selector li {
+        padding: 15px 30px;
+        font-family: Helvetica, Arial;
+        font-size: 13px;
+        color: #444;
+        cursor: pointer;
+    }
+    
+    .layer_selector li:not(:last-child) {
+        border-bottom: 1px solid #999;
+    }
+    
+    .layer_selector li:hover {
+        background-color: #F0F0F0;
+        cursor: pointer;
+    }
+    
+    .layer_selector li.sql_selected,
+    .layer_selector li.cartocss_selected {
+        background-color: #A6CEE3;
+    }
+    </style>
+    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
+</head>
+
+<body>
+    <input type="text" id="userInput"=>give me input</input>
+    <button id="city">Submit</button>
+    <div id="map"></div>
+    <div id="cartocss" class="layer_selector">
+        <p>CartoCSS Selectors</p>
+        <ul>
+            <li data="bwi" data-type="cartocss">bwi
+            </li>
+            <li data="simple" data-type="cartocss">Reset CartoCSS
+            </li>
+        </ul>
+    </div>
+    <!-- city infowindow template -->
+    <script type="infowindow/html" id="infowindow_template">
+        <span> custom </span>
+        <div class="cartodb-popup">
+            <a href="#close" class="cartodb-popup-close-button close">x</a>
+            <div class="cartodb-popup-content-wrapper">
+                <div class="cartodb-popup-content">
+                    <img style="width: 100%" src="http://rambo.webcindario.com/images/18447755.jpg">
+                    <!-- content.data contains the field info -->
+                    <h4>{{content.data.city}}</h4>
+                </div>
+            </div>
+            <div class="cartodb-popup-tip-container"></div>
+        </div>
+    </script>
+    <!-- importing cartodb.js -->
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+    <!-- Draw maps! -->
+    <script>
+    var sublayers = [];
+
+    function main() {
+        // create leaflet map
+        var map = L.map('map', {
+            zoomControl: false,
+            scrollWheelZoom: false,
+            center: [39, -98],
+            zoomControl: true,
+            zoom: 3
+        });
+
+        // base layer
+        L.tileLayer('http://api.tiles.mapbox.com/v4/mapbox.light/{z}/{x}/{y}@2x.png?access_token=pk.eyJ1IjoicGF6b2xlcyIsImEiOiJDaWVtdExNIn0.AFdKkh9ak6tEnrL8OK2S9w', {
+            attribution: 'Mapbox'
+        }).addTo(map);
+
+        //routes layer from config.json template loaded separately
+        cartodb.createLayer(map, {
+                user_name: 'govex',
+                type: 'namedmap',
+                named_map: {
+                    name: "flightpaths",
+                    layers: [{
+                        layer_name: "usairroutes_wwc_1",
+                        interactivity: "cartodb_id, destinat_2, sourcecity"
+                    }]
+                }
+            })
+            .addTo(map)
+            .done(function(layer) {
+                // uncomment the alert to confirm sublayer additions
+                for (var i = 0; i < layer.getSubLayerCount(); i++) {
+                    sublayers[i] = layer.getSubLayer(i);
+                    //alert("Sublayer #" + i + "was added");
+
+                }
+
+                //set city variable from input
+                var metro = "Baltimore";
+                layer.setParams('city', metro);
+
+                $("#city").on('click', function() {
+                    metro = document.getElementById("userInput").value;
+                    layer.setParams('city', metro);
+                });
+
+                //enable interactions
+                layer.getSubLayer(0).setInteraction(true);
+
+                // on mouseover
+                layer.getSubLayer(0).on('featureOver', function(e, pos, pixel, data) {
+                    // print data to console log
+                    console.log("Event #" + data.cartodb_id);
+                });
+
+                // show infowindows on click
+                cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id', 'destinat_2', 'sourcecity']);
+            })
+            .error(function(layer) {
+                console.log("some error occurred");
+            });;
+
+
+        cartodb.createLayer(map, 'https://govex.cartodb.com/api/v2/viz/17b5690c-20f2-11e5-b0ee-0e853d047bba/viz.json')
+            .addTo(map)
+            .done(function(layer) {
+                // uncomment the alert to confirm sublayer additions
+                for (var i = 0; i < layer.getSubLayerCount(); i++) {
+                    sublayers[i] = layer.getSubLayer(i);
+                    //alert("Sublayer #" + i + "was added");
+
+                }
+            })
+            .error(function(layer) {
+                console.log("some error occurred");
+            });
+
+    }
+
+    window.onload = main;
+    </script>
+</body>
+
+</html>
