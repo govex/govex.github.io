@@ -6,6 +6,7 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
+    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <style>
@@ -28,46 +29,36 @@
         z-index: 99;
     }
     
-    .layer_selector {
-        background: rgba(255, 255, 255, 0.9);
-        border-radius: 5px;
-        padding: 0;
-        border: 1px solid #999;
-        width: 250px;
-    }
-    
-    .layer_selector > p {
-        padding: 15px 30px;
-        border-bottom: 1px solid #999;
-    }
-    
-    .layer_selector ul {
-        padding: 0;
-        margin: 0;
-        list-style-type: none;
-    }
-    
-    .layer_selector li {
-        padding: 15px 30px;
-        font-family: Helvetica, Arial;
-        font-size: 13px;
-        color: #444;
+    #menu a {
+        margin: 15px 5% 0 0;
+        float: right;
+        vertical-align: baseline;
+        width: 35%;
+        padding: 5%;
+        text-align: center;
+        font: lighter 15px "Helvetica", Arial;
+        line-height: normal;
+        color: #555;
+        border-radius: 4px;
+        border: none;
+        background: rgba(255, 255, 255, 0.55);
+        text-decoration: none;
         cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.65098) 0px 1px 5px 0px;
     }
     
-    .layer_selector li:not(:last-child) {
-        border-bottom: 1px solid #999;
+    #menu a.selected,
+    #menu a:hover {
+        color: #fff;
+        background:  #FF6600;
+        box-shadow: rgba(0, 0, 0, 0.80) 0px 0.5px 2.5px 0px;
     }
-    
-    .layer_selector li:hover {
-        background-color: #F0F0F0;
-        cursor: pointer;
-    }
-    
-    .layer_selector li.sql_selected,
-    .layer_selector li.cartocss_selected {
-        background-color: #A6CEE3;
-    }
+
+    #userInput{
+        width:100%;
+        height: 125px;
+            }
+}
     </style>
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
 </head>
@@ -75,7 +66,11 @@
 <body>
     <div id="map"></div>
     <div id="over_map">
-        <input type="search" id="userInput">
+        <input type="search" id="userInput" placeholder="City, State">
+        <div id='menu'>
+            <a href="#true" id="true" value=true class="button true selected">Routes To WWC</a>
+            <a href="#false" id="false" value=false class="button false">All Routes</a>
+        </div>
     </div>
     <!-- importing cartodb.js -->
     <script src="http://libs.cartocdn.com/cartodb.js/v3/3.11/cartodb.js"></script>
@@ -126,12 +121,44 @@
                 lat = "49.2833";
                 maxd = "20"
                 mind = "0"
+                wwc_limit = "and a.sourceairp in (select c.nearest_airport from wwcforrouting_3 c) and a.destinatio in (select c.nearest_airport from wwcforrouting_3 c)"
                 layer.setParams({
                     'lon': lon,
                     'lat': lat,
                     'maxd': maxd,
                     'mind': mind
+                        //'wwc_limit': wwc_limit
                 });
+
+                $('.button').click(function() {
+                    $('.button').removeClass('selected');
+                    $(this).addClass('selected');
+                    if ($(this).is('#false')) {
+                        wwc_limit = ""
+                    } else {
+                        wwc_limit = "and a.sourceairp in (select c.nearest_airport from wwcforrouting_3 c) and a.destinatio in (select c.nearest_airport from wwcforrouting_3 c)"
+                    };
+                    var geocoder = new google.maps.Geocoder();
+                    geocoder.geocode({
+                        'address': document.getElementById("userInput").value
+                    }, function(results, status) {
+                        if (status == google.maps.GeocoderStatus.OK) {
+                            lon = String(results[0].geometry.location.lng());
+                            lat = String(results[0].geometry.location.lat());
+
+                            layer.setParams({
+                                'lon': lon,
+                                'lat': lat,
+                                'maxd': maxd,
+                                'mind': mind,
+                                'wwc_limit': wwc_limit
+                            });
+                        } else {
+                            alert("OH NOEZ " + status);
+                        }
+                    });
+                });
+
 
                 $("#userInput").on('search', function() {
 
@@ -147,10 +174,11 @@
                                 'lon': lon,
                                 'lat': lat,
                                 'maxd': maxd,
-                                'mind': mind
+                                'mind': mind,
+                                'wwc_limit': wwc_limit
                             });
                         } else {
-                            alert("Something got wrong " + status);
+                            alert("OH NOEZ " + status);
                         }
                     });
 
