@@ -6,6 +6,8 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <style>
     html,
     body,
@@ -14,12 +16,18 @@
         padding: 0;
         margin: 0;
     }
+    
+    #wrapper {
+        position: relative;
+    }
+    
     #over_map {
         position: absolute;
         top: 10px;
         right: 10px;
         z-index: 99;
     }
+    
     .layer_selector {
         background: rgba(255, 255, 255, 0.9);
         border-radius: 5px;
@@ -65,29 +73,12 @@
 </head>
 
 <body>
-    
     <div id="map"></div>
     <div id="over_map">
-        <input type="text" id="userInput"</input>
-        <button id="city">Submit</button>    
+        <input type="search" id="userInput">
     </div>
-    <!-- city infowindow template -->
-    <script type="infowindow/html" id="infowindow_template">
-        <span> custom </span>
-        <div class="cartodb-popup">
-            <a href="#close" class="cartodb-popup-close-button close">x</a>
-            <div class="cartodb-popup-content-wrapper">
-                <div class="cartodb-popup-content">
-                    <img style="width: 100%" src="http://rambo.webcindario.com/images/18447755.jpg">
-                    <!-- content.data contains the field info -->
-                    <h4>{{content.data.city}}</h4>
-                </div>
-            </div>
-            <div class="cartodb-popup-tip-container"></div>
-        </div>
-    </script>
     <!-- importing cartodb.js -->
-    <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.11/cartodb.js"></script>
     <!-- Draw maps! -->
     <script>
     var sublayers = [];
@@ -112,7 +103,7 @@
                 user_name: 'govex',
                 type: 'namedmap',
                 named_map: {
-                    name: "flightpaths",
+                    name: "flightpathsql",
                     layers: [{
                         layer_name: "usairroutes_wwc_1",
                         interactivity: "cartodb_id, destinat_2, sourcecity"
@@ -128,14 +119,44 @@
 
                 }
 
-                //set city variable from input
-                var metro = "Baltimore";
-                layer.setParams('city', metro);
 
-                $("#city").on('click', function() {
-                    metro = document.getElementById("userInput").value;
-                    layer.setParams('city', metro);
+
+                //set city variable from input
+                lon = "-96.6167";
+                lat = "49.2833";
+                maxd = "20"
+                mind = "0"
+                layer.setParams({
+                    'lon': lon,
+                    'lat': lat,
+                    'maxd': maxd,
+                    'mind': mind
                 });
+
+                $("#userInput").on('search', function() {
+
+                    var geocoder = new google.maps.Geocoder();
+                    geocoder.geocode({
+                        'address': document.getElementById("userInput").value
+                    }, function(results, status) {
+                        if (status == google.maps.GeocoderStatus.OK) {
+                            lon = String(results[0].geometry.location.lng());
+                            lat = String(results[0].geometry.location.lat());
+
+                            layer.setParams({
+                                'lon': lon,
+                                'lat': lat,
+                                'maxd': maxd,
+                                'mind': mind
+                            });
+                        } else {
+                            alert("Something got wrong " + status);
+                        }
+                    });
+
+                });
+
+
 
                 //enable interactions
                 layer.getSubLayer(0).setInteraction(true);
@@ -169,6 +190,7 @@
             });
 
     }
+
 
     window.onload = main;
     </script>
