@@ -7,8 +7,10 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
     <style>
     html,
     body,
@@ -27,6 +29,8 @@
         top: 10px;
         right: 10px;
         z-index: 99;
+        background-color: rgba(255,255,255,.6);
+        padding:10px 10px 20px 10px;
     }
     
     #menu a {
@@ -36,7 +40,7 @@
         width: 35%;
         padding: 5%;
         text-align: center;
-        font: lighter 15px "Helvetica", Arial;
+        font: lighter 12px "Helvetica", Arial;
         line-height: normal;
         color: #555;
         border-radius: 4px;
@@ -50,14 +54,34 @@
     #menu a.selected,
     #menu a:hover {
         color: #fff;
-        background:  #FF6600;
+        background: #FF6600;
         box-shadow: rgba(0, 0, 0, 0.80) 0px 0.5px 2.5px 0px;
     }
+    
+    #userInput {
+        width: 100%;
+    }
 
-    #userInput{
-        width:100%;
-        height: 125px;
-            }
+    #dash p {
+        padding: 20px 10px 10px 0px;
+        display: inline-block;
+
+    }
+
+    #dash input {
+        background-color:rgba(0,0,0,0);
+        font-size: 15px;
+    }
+
+    #dash {
+        font: lighter 15px "Helvetica", Arial;
+        position:relative;
+        width: 300px;
+        z-index: -99;
+        max-height: 120px;
+    }
+
+    
 }
     </style>
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
@@ -70,7 +94,16 @@
         <div id='menu'>
             <a href="#true" id="true" value=true class="button true selected">Routes To WWC</a>
             <a href="#false" id="false" value=false class="button false">All Routes</a>
+            <div id="dash">
+            <p>
+                <label for="amount">Distance:</label>
+                <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+            </p>
+            <div id="header"></div>
+            <div id="slider-range-min" style="width: 100%;"></div>
         </div>
+        </div>
+        
     </div>
     <!-- importing cartodb.js -->
     <script src="http://libs.cartocdn.com/cartodb.js/v3/3.11/cartodb.js"></script>
@@ -114,8 +147,6 @@
 
                 }
 
-
-
                 //set city variable from input
                 lon = "-96.6167";
                 lat = "49.2833";
@@ -129,6 +160,9 @@
                     'mind': mind
                         //'wwc_limit': wwc_limit
                 });
+
+
+
 
                 $('.button').click(function() {
                     $('.button').removeClass('selected');
@@ -184,6 +218,39 @@
 
                 });
 
+                $(function() {
+                    $("#slider-range-min").slider({
+                        range: "min",
+                        value: 2,
+                        min: 0,
+                        max: 10,
+                        slide: function(event, ui) {
+                            $("#amount").val((ui.value * 10) + " miles");
+                            // scale to [0,1] from [0,100]
+                            maxd = String($("#slider-range-min").slider("value") * 10);
+                            var geocoder = new google.maps.Geocoder();
+                            geocoder.geocode({
+                                'address': document.getElementById("userInput").value
+                            }, function(results, status) {
+                                if (status == google.maps.GeocoderStatus.OK) {
+                                    lon = String(results[0].geometry.location.lng());
+                                    lat = String(results[0].geometry.location.lat());
+
+                                    layer.setParams({
+                                        'lon': lon,
+                                        'lat': lat,
+                                        'maxd': maxd,
+                                        'mind': mind,
+                                        'wwc_limit': wwc_limit
+                                    });
+                                } else {
+                                    alert("OH NOEZ " + status);
+                                }
+                            });
+                        }
+                    });
+                    $("#amount").val($("#slider-range-min").slider("value") * 10 + " miles");
+                });
 
 
                 //enable interactions
