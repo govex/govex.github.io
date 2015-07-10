@@ -29,9 +29,9 @@
         top: 10px;
         right: 10px;
         z-index: 99;
-        background-color: rgba(255,255,255,.6);
-        padding:10px 10px 20px 10px;
-        max-width:250px;
+        background-color: rgba(255, 255, 255, .6);
+        padding: 10px 10px 20px 10px;
+        max-width: 250px;
     }
     
     #menu a {
@@ -62,21 +62,26 @@
     #userInput {
         width: 100%;
     }
-
+    
     #menu p {
         padding: 20px 10px 10px 0px;
         display: inline-block;
         font: lighter 12px "Helvetica", Arial;
-
     }
-
+    
     #menu input {
-        background-color:rgba(0,0,0,0);
+        background-color: rgba(0, 0, 0, 0);
         font-size: 15px;
     }
-
-
     
+    #airline {
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    option {
+        font: lighter 12px "Helvetica", Arial;
+    }
 }
     </style>
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
@@ -95,8 +100,18 @@
             </p>
             <div id="header"></div>
             <div id="slider-range-min" style="width: 100%;"></div>
+            <select id="airline">
+                <option value="All">All</option>
+                <option value="FL">Airtran</option>
+                <option value="AA">American</option>
+                <option value="DL">Delta</option>
+                <option value="B6">JetBlue</option>
+                <option value="WN">Southwest</option>
+                <option value="NK">Spirit</option>
+                <option value="US">US Airways</option>
+                <option value="UN">United Airlines</option>
+            </select>
         </div>
-        
     </div>
     <!-- importing cartodb.js -->
     <script src="http://libs.cartocdn.com/cartodb.js/v3/3.11/cartodb.js"></script>
@@ -126,8 +141,8 @@
                 named_map: {
                     name: "flightpathsql",
                     layers: [{
-                        layer_name: "usairroutes_wwc_1",
-                        interactivity: "cartodb_id, destinat_2, sourcecity"
+                        layer_name: "usairroutes_merge",
+                        interactivity: "cartodb_id, destinat_2, sourcecity, name, airline"
                     }]
                 }
             })
@@ -140,18 +155,22 @@
 
                 }
 
+
+
                 //set city variable from input
                 lon = "-96.6167";
                 lat = "49.2833";
                 maxd = "20"
                 mind = "0"
-                wwc_limit = "and a.destinatio in (select c.nearest_airport from wwcforrouting_3 c)"
+                airline = "and airline in ('AA','B6','DL','FL','NK','UA','US','WN')"
+                wwc_limit = "and a.sourceairp in (select c.nearest_airport from wwcforrouting_3 c) and a.destinatio in (select c.nearest_airport from wwcforrouting_3 c)"
                 layer.setParams({
                     'lon': lon,
                     'lat': lat,
                     'maxd': maxd,
-                    'mind': mind
-                        //'wwc_limit': wwc_limit
+                    'mind': mind,
+                    //'airline': airline
+                    //'wwc_limit': wwc_limit
                 });
 
 
@@ -163,7 +182,7 @@
                     if ($(this).is('#false')) {
                         wwc_limit = ""
                     } else {
-                        wwc_limit = "a.destinatio in (select c.nearest_airport from wwcforrouting_3 c)"
+                        wwc_limit = "and a.destinatio in (select c.nearest_airport from wwcforrouting_3 c)"
                     };
                     var geocoder = new google.maps.Geocoder();
                     geocoder.geocode({
@@ -178,7 +197,8 @@
                                 'lat': lat,
                                 'maxd': maxd,
                                 'mind': mind,
-                                'wwc_limit': wwc_limit
+                                'wwc_limit': wwc_limit,
+                                'airline': airline
                             });
                         } else {
                             alert("OH NOEZ " + status);
@@ -202,7 +222,8 @@
                                 'lat': lat,
                                 'maxd': maxd,
                                 'mind': mind,
-                                'wwc_limit': wwc_limit
+                                'wwc_limit': wwc_limit,
+                                'airline': airline
                             });
                         } else {
                             alert("OH NOEZ " + status);
@@ -234,7 +255,8 @@
                                         'lat': lat,
                                         'maxd': maxd,
                                         'mind': mind,
-                                        'wwc_limit': wwc_limit
+                                        'wwc_limit': wwc_limit,
+                                        'airline': airline
                                     });
                                 } else {
                                     alert("OH NOEZ " + status);
@@ -243,6 +265,35 @@
                         }
                     });
                     $("#amount").val($("#slider-range-min").slider("value") * 10 + " miles");
+                });
+
+                $('select[id="airline"]').change(function() {
+
+                    if ($(this).val() == "All") {
+                        airline = "and airline in ('AA','B6','DL','FL','NK','UA','US','WN')";
+                    } else {
+                        airline = "and airline = '" + $(this).val() + "'";
+                    };
+                    var geocoder = new google.maps.Geocoder();
+                    geocoder.geocode({
+                        'address': document.getElementById("userInput").value
+                    }, function(results, status) {
+                        if (status == google.maps.GeocoderStatus.OK) {
+                            lon = String(results[0].geometry.location.lng());
+                            lat = String(results[0].geometry.location.lat());
+
+                            layer.setParams({
+                                'lon': lon,
+                                'lat': lat,
+                                'maxd': maxd,
+                                'mind': mind,
+                                'wwc_limit': wwc_limit,
+                                'airline': airline
+                            });
+                        } else {
+                            alert("OH NOEZ " + status);
+                        }
+                    });
                 });
 
 
@@ -255,8 +306,9 @@
                     console.log("Event #" + data.cartodb_id);
                 });
 
+                
                 // show infowindows on click
-                cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id', 'destinat_2', 'sourcecity']);
+                cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id', 'name', 'destinat_2', 'sourcecity']);
             })
             .error(function(layer) {
                 console.log("some error occurred");
