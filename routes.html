@@ -145,7 +145,7 @@
                 lat = "49.2833";
                 maxd = "20"
                 mind = "0"
-                wwc_limit = "and a.sourceairp in (select c.nearest_airport from wwcforrouting_3 c) and a.destinatio in (select c.nearest_airport from wwcforrouting_3 c)"
+                wwc_limit = "and a.destinatio in (select c.nearest_airport from wwcforrouting_3 c)"
                 layer.setParams({
                     'lon': lon,
                     'lat': lat,
@@ -163,7 +163,7 @@
                     if ($(this).is('#false')) {
                         wwc_limit = ""
                     } else {
-                        wwc_limit = "and a.sourceairp in (select c.nearest_airport from wwcforrouting_3 c) and a.destinatio in (select c.nearest_airport from wwcforrouting_3 c)"
+                        wwc_limit = "a.destinatio in (select c.nearest_airport from wwcforrouting_3 c)"
                     };
                     var geocoder = new google.maps.Geocoder();
                     geocoder.geocode({
