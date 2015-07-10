@@ -62,24 +62,18 @@
         width: 100%;
     }
 
-    #dash p {
+    #menu p {
         padding: 20px 10px 10px 0px;
         display: inline-block;
+        font: lighter 12px "Helvetica", Arial;
 
     }
 
-    #dash input {
+    #menu input {
         background-color:rgba(0,0,0,0);
         font-size: 15px;
     }
 
-    #dash {
-        font: lighter 15px "Helvetica", Arial;
-        position:relative;
-        width: 300px;
-        z-index: -99;
-        max-height: 120px;
-    }
 
     
 }
@@ -94,14 +88,12 @@
         <div id='menu'>
             <a href="#true" id="true" value=true class="button true selected">Routes To WWC</a>
             <a href="#false" id="false" value=false class="button false">All Routes</a>
-            <div id="dash">
             <p>
                 <label for="amount">Distance:</label>
                 <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
             </p>
             <div id="header"></div>
             <div id="slider-range-min" style="width: 100%;"></div>
-        </div>
         </div>
         
     </div>
