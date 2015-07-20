@@ -5,11 +5,6 @@ layout: default
 ## <span class="glyphicon glyphicon-calendar"></span> Events
 
 <div class="list-group">
-  <a class="list-group-item" href="http://awards.theodi.org/">
-    <span class="badge">9 July 2015</span>
-    <h4>Open Data Institute: Open Data Awards</h4>
-    <p>London, United Kingdom</p>
-  </a>
   <a class="list-group-item" href="http://codeforall.org/summit">
     <span class="badge">30-31 July 2015</span>
     <h4>Code for All Summit</h4>
@@ -46,9 +41,9 @@ layout: default
     <p>Tunis, Tunisia</p>
   </a>
   <a class="list-group-item" href="http://summit.theodi.org/">
-    <span class="badge">November 2015</span>
+    <span class="badge">3 November 2015</span>
     <h4>The Open Data Institute Summit</h4>
-    <p>Location To Be Determined</p>
+    <p>London, United Kingdom</p>
   </a>
   <a class="list-group-item" href="http://www.iodc2016.es/">
     <span class="badge">6 -7 October 2016</span>
@@ -84,5 +79,10 @@ layout: default
     <span class="badge">6 - 8 June 2015</span>
     <h4>State of the Map</h4>
     <p>New York City, NY, United States</p>
+  </a>
+  <a class="list-group-item" href="http://awards.theodi.org/">
+    <span class="badge">9 July 2015</span>
+    <h4>Open Data Institute: Open Data Awards</h4>
+    <p>London, United Kingdom</p>
   </a>
 </div>
