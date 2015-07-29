@@ -1,5 +1,8 @@
 ---
 layout: collaboration
+prose-link: http://prose.io/#centerforgov/open-data-portal-requirements/edit/master/README.md
+github-document-link: https://github.com/centerforgov/open-data-portal-requirements/blob/master/README.md
+github-issues-link: https://github.com/centerforgov/open-data-portal-requirements/issues
 ---
 
 # Open Data Portal Requirements
