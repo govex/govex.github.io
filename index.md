@@ -11,4 +11,4 @@ The new center educates governments about best practices for the collection, mea
 
 ## Labs
 
-This site is intended to be under constant revision - a place for experimenting, testing, and sharing.
+This site is our testing ground for collaboration, resource-sharing, and product development. As such, things can change quickly, be moved, or taken down.
