@@ -23,4 +23,12 @@ Below are guidebooks which the Center for Government Excellence makes available 
       <a href="https://github.com/centerforgov/open-data-metadata-guide">View on Github</a>
     </p>
   </li>
+    <li class="list-group-item">
+    <h4>Open Data Portal Requirements</h4>
+    <p>The Open Data Portal Requirements is a document which governments can use to develop or procure an open data platform. It identifies critical and optional functionality needed to support a data catalog, access to data. Non-functional (technical) requirements are also identified.</p>
+    <p>
+      <a href="/open-data-portal-requirements" target="_new">Read online</a> | 
+      <a href="https://github.com/centerforgov/centerforgov.github.io/blob/master/open-data-portal-requirements/index.md">View on Github</a>
+    </p>
+  </li>
 </ul>
