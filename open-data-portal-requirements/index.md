@@ -91,8 +91,8 @@ A data catalog is a listing of available data, with each catalog entry correspon
 ## Accounts and Profiles
 
 ### Customers
-*may be able to register for an account with an email address
-*may be able to create, edit, or remove profile information which may be accessible to other customers
+* may be able to register for an account with an email address
+* may be able to create, edit, or remove profile information which may be accessible to other customers
 
 ### Publishers
 * may be able to grant specific, registered customers permission to access specific data resources that are owned by that publisher
