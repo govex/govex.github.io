@@ -102,7 +102,8 @@ A data catalog is a listing of available data, with each catalog entry correspon
 * must be able to disable customer accounts (if customer accounts are a feature of the portal)
 
 ## Non-Role Requirements
-* The following requirements are general technical requirements which either don’t require a specific role or apply to all roles.
+The following requirements are general technical requirements which either don’t require a specific role or apply to all roles.
+
 * Data resources must be available for download in the original format which they were published on the portal.
 * API calls which are invalid or fail must return the appropriate HTTP response status code (404, 500, etc) and status message.
 * The portal must be accessible through a city-provided Internet domain name (e.g. “data.somecity.gov”).
