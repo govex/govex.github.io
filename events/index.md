@@ -5,11 +5,6 @@ layout: default
 ## <span class="glyphicon glyphicon-calendar"></span> Events
 
 <div class="list-group">
-  <a class="list-group-item" href="http://codeforall.org/summit">
-    <span class="badge">30-31 July 2015</span>
-    <h4>Code for All Summit</h4>
-    <p>New York, NY, United States</p>
-  </a>
   <a class="list-group-item" href="http://transparencycamp.org/">
     <span class="badge">11 - 12 September 2015</span>
     <h4>Transparency Camp</h4>
@@ -84,5 +79,10 @@ layout: default
     <span class="badge">9 July 2015</span>
     <h4>Open Data Institute: Open Data Awards</h4>
     <p>London, United Kingdom</p>
+  </a>
+    <a class="list-group-item" href="http://codeforall.org/summit">
+    <span class="badge">30-31 July 2015</span>
+    <h4>Code for All Summit</h4>
+    <p>New York, NY, United States</p>
   </a>
 </div>
