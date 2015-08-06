@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Applicant Cities</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="shortcut icon" href="http://cartodb.com/assets/favicon.ico" />
+    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    <style>
+    html,
+    body,
+    #map {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #wrapper {
+        position: relative;
+    }
+    
+    .leaflet-container {
+    	background-color: #fff !important;
+    }
+    
+    option {
+        font: lighter 12px "Helvetica", Arial;
+    }
+}
+    </style>
+    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
+</head>
+
+<body>
+    <div id="map"></div>
+    
+    <!-- importing cartodb.js -->
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.11/cartodb.js"></script>
+    <!-- Draw maps! -->
+    <script>
+    var sublayers = [];
+
+    function main() {
+        // create leaflet map
+        var map = L.map('map', {
+            zoomControl: false,
+            scrollWheelZoom: false,
+            center: [39, -98],
+            zoomControl: true,
+            zoom: 4
+        });
+
+        cartodb.createLayer(map, 'https://govex.cartodb.com/api/v2/viz/57c72a8c-1e75-11e5-8d41-0e4fddd5de28/viz.json')
+            .addTo(map)
+            .done(function(layer) {
+                // uncomment the alert to confirm sublayer additions
+                for (var i = 0; i < layer.getSubLayerCount(); i++) {
+                    sublayers[i] = layer.getSubLayer(i);
+                    //alert("Sublayer #" + i + "was added");
+
+                }
+            })
+            .error(function(layer) {
+                console.log("some error occurred");
+            });
+
+    }
+
+
+    window.onload = main;
+    </script>
+</body>
+
+</html>
