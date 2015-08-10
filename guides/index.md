@@ -17,6 +17,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
   </li>
   <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/open-data-metadata-guide/details">
     <h4>Performance Management Getting Started</h4>
+    <p>The Johns Hopkins University Center for Government Excellence has created this getting started guide to assist cities in implementing performance management programs in their own communities.</p>    
     <p>
       <a href="https://www.gitbook.com/read/book/centerforgov/performance-management-getting-started">Read online</a> |
       <a href="https://www.gitbook.com/download/pdf/book/centerforgov/performance-management-getting-started">Download PDF</a> |
@@ -25,6 +26,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
   </li>
   <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/open-data-metadata-guide/details">
     <h4>Open Data Metadata</h4>
+    <p>Finding and working with many different sets of data requires descriptive information. This metadata guide explains the basics.</p>
     <p>
       <a href="https://www.gitbook.com/read/book/centerforgov/open-data-metadata-guide">Read online</a> |
       <a href="https://www.gitbook.com/download/pdf/book/centerforgov/open-data-metadata-guide">Download PDF</a> |
@@ -33,6 +35,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
   </li>
   <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/open-data-metadata-guide/details">
     <h4>Open Data Dataset Starter Kit</h4>
+    <p>Cities often already have valuable data which can be opened up. This guide helps open data program leaders rapidly identify this data within their governments.</p>
     <p>
       <a href="https://www.gitbook.com/read/book/centerforgov/dataset-inventory-guidelines">Read online</a> |
       <a href="https://www.gitbook.com/download/pdf/book/centerforgov/dataset-inventory-guidelines">Download PDF</a> |
