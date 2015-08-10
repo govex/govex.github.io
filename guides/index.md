@@ -16,6 +16,14 @@ Below are guidebooks which the Center for Government Excellence makes available 
     </p>
   </li>
   <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/open-data-metadata-guide/details">
+    <h4>Performance Management Getting Started</h4>
+    <p>
+      <a href="https://www.gitbook.com/read/book/centerforgov/performance-management-getting-started">Read online</a> |
+      <a href="https://www.gitbook.com/download/pdf/book/centerforgov/performance-management-getting-started">Download PDF</a> |
+      <a href="https://github.com/centerforgov/performance-management-getting-started">View on Github</a>
+    </p>
+  </li>
+  <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/open-data-metadata-guide/details">
     <h4>Open Data Metadata</h4>
     <p>
       <a href="https://www.gitbook.com/read/book/centerforgov/open-data-metadata-guide">Read online</a> |
@@ -23,7 +31,15 @@ Below are guidebooks which the Center for Government Excellence makes available 
       <a href="https://github.com/centerforgov/open-data-metadata-guide">View on Github</a>
     </p>
   </li>
-    <li class="list-group-item">
+  <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/open-data-metadata-guide/details">
+    <h4>Open Data Dataset Starter Kit</h4>
+    <p>
+      <a href="https://www.gitbook.com/read/book/centerforgov/dataset-inventory-guidelines">Read online</a> |
+      <a href="https://www.gitbook.com/download/pdf/book/centerforgov/dataset-inventory-guidelines">Download PDF</a> |
+      <a href="https://github.com/centerforgov/open-data-inventory">View on Github</a>
+    </p>
+  </li>
+  <li class="list-group-item">
     <h4>Open Data Portal Requirements</h4>
     <p>The Open Data Portal Requirements is a document which governments can use to develop or procure an open data platform. It identifies critical and optional functionality needed to support a data catalog, access to data. Non-functional (technical) requirements are also identified.</p>
     <p>
