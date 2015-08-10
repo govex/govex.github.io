@@ -3,7 +3,6 @@ layout: collaboration
 prose-link: http://prose.io/#centerforgov/open-data-portal-requirements/edit/master/README.md
 github-document-link: https://github.com/centerforgov/open-data-portal-requirements/blob/master/README.md
 github-issues-link: https://github.com/centerforgov/open-data-portal-requirements/issues
-
 ---
 
 # Open Data Portal Requirements
@@ -13,13 +12,11 @@ This document contains a set of sample requirements to help governments evaluate
 
 ### Terms
 The following terms are used throughout the requirements to indicate importance.
-
 * **Must** denotes a requirement that is critical to the successful implementation of the open data portal. If this requirement is not met, it will significantly impair the use or management of the site.
 * **May** denotes a requirement that is optional, but highly desirable for success.
 
 ### Roles
 The following roles are used throughout this document to approximate to whom each requirement is relevant. They are not intended to reflect a permission system, which might be implemented by a technology solution.
-
 * A **customer** is anyone who visits the portal to find, and access, and use data.
 * Typically, a **publisher** is a government employee who is responsible for publishing or updating data and other content on the portal.
 * Typically, an **administrator** is a government employee who manages the technical and configurableconfiguration options of the portal, such as visual themes, metadata requirements, etc.
@@ -67,7 +64,7 @@ A data catalog is a listing of available data, with each catalog entry correspon
 * may be able to save visualizations with configuration settings for future viewing
 
 ### Publishers
-* may be able to create data visualizations and make them accessible through the data catalog or data resource page(s).
+* may be able to create data visualizations and make them accessible through the data catalog or data resource page(s)
 
 ### Administrators
 * may be able to control whether customer-created data presentations are visible to other customers
@@ -104,10 +101,10 @@ A data catalog is a listing of available data, with each catalog entry correspon
 
 ## Non-Role Requirements
 The following requirements are general technical requirements which either don’t require a specific role or apply to all roles.
+* Data resources must be available for download in the format in which they were originally published on the portal
+* API calls which are invalid or fail must return the appropriate HTTP response status code (404, 500, etc) and status message
+* The portal must be accessible through a city-provided internet domain name (e.g. `data.somecity.gov`)
+* Transport Layer Security (TLS) must be used for account registration, logging in, and all actions performed by publishers and administrators
+* Web pages must be accessible on large-screen devices (desktop computers, laptops, etc.)
+* Web pages may be accessible on small-screen devices (mobile/smart phones, tablets, etc.)
 
-* Data resources must be available for download in the original format which they were published on the portal.
-* API calls which are invalid or fail must return the appropriate HTTP response status code (404, 500, etc) and status message.
-* The portal must be accessible through a city-provided Internet domain name (e.g. “data.somecity.gov”).
-* Transport Layer Security (TLS) must be used for account registration, logging in, and all actions performed by publishers and administrators.
-* Web pages must be accessible on large-screen devices (desktop computers, laptops, etc)
-* Web pages may be accessible on small-screen devices (mobile/smart phones, tablets, etc)
