@@ -19,7 +19,7 @@ The following terms are used throughout the requirements to indicate importance.
 The following roles are used throughout this document to approximate to whom each requirement is relevant. They are not intended to reflect a permission system, which might be implemented by a technology solution.
 * A **customer** is anyone who visits the portal to find, and access, and use data.
 * Typically, a **publisher** is a government employee who is responsible for publishing or updating data and other content on the portal.
-* Typically, an **administrator** is a government employee who manages the technical and configurableconfiguration options of the portal, such as visual themes, metadata requirements, etc.
+* Typically, an **administrator** is a government employee who manages the technical and configuration options of the portal, such as visual themes, metadata requirements, etc.
 
 Generally, a publisher can do anything a customer can do, and an administrator can do anything a publisher can do.
 
@@ -73,7 +73,7 @@ A data catalog is a listing of available data, with each catalog entry correspon
 
 ### Customers
 * must be able to provide comments and feedback on individual data resources
-* must be able to nominate data resources for public release
+* may be able to nominate data resources for public release
 * may be able to provide comments and feedback on the data catalog
 
 ### Publishers
@@ -107,4 +107,3 @@ The following requirements are general technical requirements which either donâ€
 * Transport Layer Security (TLS) must be used for account registration, logging in, and all actions performed by publishers and administrators
 * Web pages must be accessible on large-screen devices (desktop computers, laptops, etc.)
 * Web pages may be accessible on small-screen devices (mobile/smart phones, tablets, etc.)
-
