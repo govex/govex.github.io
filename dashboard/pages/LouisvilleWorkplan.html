@@ -26,8 +26,26 @@
     <!-- Morris Charts CSS -->
     <link href="../bower_components/morrisjs/morris.css" rel="stylesheet">
 
+    <!-- DataTables CSS -->
+    <link href="../bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
+
+    <!-- DataTables Responsive CSS -->
+    <link href="../bower_components/datatables-responsive/css/dataTables.responsive.css" rel="stylesheet">
+
+
     <!-- Custom Fonts -->
     <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel='stylesheet' type='text/css' href='../pages/css/bootstrap.css'>
+
+    <script type="text/javascript" src='../pages/js/jquery.js '></script>
+    <script type="text/javascript" src='../pages/js/tabletop1.3.4.js'></script>
+    <script type="text/javascript" src='../pages/js/sheetsee.js'></script>
+
+
+    <!-- <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Sanchez'>
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Sanchez'>
+    <link media="screen" rel="stylesheet" type="text/css" href="css/style.css">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -36,11 +54,9 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <script type="text/javascript" src='../pages/js/jquery.js '></script>
-    <script type="text/javascript" src='../pages/js/tabletop1.3.4.js'></script>
-    <script type="text/javascript" src='../pages/js/sheetsee.js'></script>
-
 </head>
+
+
 
 <body>
 
@@ -94,12 +110,12 @@
                                     <a href="applicantMap.html">Applicant Cities Map</a>
                                 </li>
                             </ul>
-
                             <!-- /.nav-second-level -->
                         </li>
                         <li>
                             <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
                         </li>
+
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->
@@ -110,25 +126,62 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <a href="https://docs.google.com/spreadsheets/d/1ZgOl5HST07PafQ6HcszALO-OGDjXoOS_vdPL8IpNOAs/edit#gid=0">Submit suggestions here</a>
-                    <p>
-                    <h1 class="page-header">Operations at a Glance</h1>
+
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
 
-<!-- Google Sheet URL https://docs.google.com/spreadsheets/d/13fqaMsuCk99FGvkqpZZncLEX2zCy-S5ZXwbpIFmZkUw/pub?gid=666721649&single=true&output=csv
--->
-<input id="fullTableFilter" type="text" placeholder="filter by.."></input>
-<div id="fullTable"></div>
+
+
+
+  <h1>Mesa Workplan</h1>
+  <input id="fullTableFilter" type="text" placeholder="filter by.."></input>
+  <div id="fullTable"></div>
+
+  <!-- Forked from Jllord's table demo <footer>
+    <h4 id="getting-started">Getting Started</h4>
+    <ul>
+      <li><a href="../docs/about.html">About Sheetsee</a></li>
+      <li><a href="../docs/building.html">Building Sheetsee</a></li>
+      <li><a href="../docs/basics.html">Basics</a></li>
+    </ul>
+    <h4 id="ideas">Ideas</h4>
+    <ul>
+      <li><a href="../docs/fork-n-go.html">Fork-n-Go</a></li>
+      <li><a href="../docs/tips.html">Tips!</a></li>
+      <li><a href="../docs/custom-charts.html">Custom charts</a></li>
+    </ul>
+    <h4>Demos</h4>
+    <ul>
+      <li><a href="./demo-table.html">Table Demo</a></li>
+      <li><a href="./demo-map.html">Map Demo</a></li>
+      <li><a href="./demo-chart.html">Chart Demo</a></li>
+    </ul>
+    <h4 id="use">Use</h4>
+    <ul>
+      <li><a href="../docs/sheetsee-core.html">Sheetsee-core</a></li>
+      <li><a href="../docs/sheetsee-tables.html">Sheetsee-tables</a></li>
+      <li><a href="../docs/sheetsee-maps.html">Sheetsee-maps</a></li>
+      <li><a href="../docs/sheetsee-charts.html">Sheetsee-charts</a></li>
+    </ul>
+    <h4 id="use">Contact</h4>
+    <ul>
+      <li><a href="http://www.twitter.com/jllord">@jllord</a></li>
+      <li><a href="https://github.com/jlord/sheetsee.js/issues/new">File an issue</a></li>
+    </ul>
+    <h4><a class="home-link" href="http://jlord.github.io/sheetsee.js">Home Page</a></h4>
+  </footer> -->
+
+
+</div>
 
 <script id="fullTable" type="text/html">
 <table class=" table table-hover">
-  <tr><th class="tHeader">City</th><th class="tHeader">Services</th><th class="tHeader">Senior Analyst</th><th class="tHeader">Analyst</th>
-  <th class="tHeader">Senior Analyst Hours</th><th class="tHeader">Analyst Hours</th><th class="tHeader">Workplan Tasks</th></tr>
+  <tr><th class="tHeader">Major Task</th><th class="tHeader">Minor Task</th><th class="tHeader">Days</th><th class="tHeader">Start</th>
+  <th class="tHeader">Target Date</th><th class="tHeader">Responsible</th><th class="tHeader">Deliverables</th><th class="tHeader">Complete</th></tr>
     {{#rows}}
-      <tr><td>{{city}}</td><td>{{services}}</td><td>{{sa}}</td><td>{{a}}</td><td>{{sahours}}</td><td>{{ahours}}</td><td>{{workplantasks}}</td></tr>
+      <tr><td>{{majortask}}</td><td>{{minortask}}</td><td>{{days}}</td><td>{{start}}</td><td>{{targetdate}}</td><td>{{responsible}}</td><td>{{deliverables}}</td><td>{{complete}}</td></tr>
     {{/rows}}
 </table>
 </script>
@@ -137,7 +190,7 @@
 <script type="text/javascript">
 document.addEventListener('DOMContentLoaded', function() {
   var data
-  var URL = "13fqaMsuCk99FGvkqpZZncLEX2zCy-S5ZXwbpIFmZkUw"
+  var URL = "14ubX7SDIUgIrbDE6X_ieYNEhz1GzULR_IkFWXB714oo"
   Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true } )
 })
 
@@ -152,12 +205,12 @@ function showInfo(data) {
 
 </script>
 
-            </div>
+        </div>
             <!-- /.row -->
             <div class="row">
             </div>
             <!-- /.row -->
-
+        </div>
         <!-- /#page-wrapper -->
 
     </div>
@@ -172,10 +225,6 @@ function showInfo(data) {
     <!-- Metis Menu Plugin JavaScript -->
     <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
 
-    <!-- Morris Charts JavaScript -->
-    <script src="../bower_components/raphael/raphael-min.js"></script>
-    <script src="../bower_components/morrisjs/morris.min.js"></script>
-    <script src="../js/morris-data.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="../dist/js/sb-admin-2.js"></script>
