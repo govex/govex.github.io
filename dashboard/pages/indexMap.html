@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>GovEx Operations Dashboard</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Timeline CSS -->
+    <link href="../dist/css/timeline.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="../bower_components/morrisjs/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src='../pages/js/jquery.js '></script>
+    <script type="text/javascript" src='../pages/js/tabletop1.3.4.js'></script>
+    <script type="text/javascript" src='../pages/js/sheetsee.js'></script>
+    <script type="text/javascript" src='../pages/js/leaflet.markercluster.js'></script>
+    <link rel="shortcut icon" href="https://raw.github.com/jlord/hack-spots/master/favico.png"/>
+
+    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.css' rel='stylesheet' />
+
+    <link rel="stylesheet" href="../pages/css/MarkerCluster.css" />
+    <link rel="stylesheet" href="../pages/css/MarkerCluster.Default.css" />
+
+    <!-- <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Sanchez'>
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Sanchez'>
+    <link media="screen" rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">GovEx Operations Dashboard</a>
+            </div>
+            <!-- /.navbar-header -->
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li class="sidebar-search">
+                            <div class="input-group custom-search-form">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                            </div>
+                            <!-- /input-group -->
+                        </li>
+                        <li>
+                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> City Dashboard</a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="indexMesafront.html">Mesa</a>
+                                </li>
+                                <li>
+                                    <a href="indexLouisville.html">Louisville</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="indexMap.html">Assignment Map</a>
+                                </li>
+                                <li>
+                                    <a href="applicantMap.html">Applicant Cities Map</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+
+            <div id="wrapper">
+                    <h2>Staffing Assignments</h2>
+
+            <!--         <div class="container">
+                        <div id="center">
+                            <div id="latestSpot"></div>
+                            <div id="selectedSpot"></div>
+                        </div> -->
+                    <div class ="containter">
+                    <div id="map">
+                        <style>
+                        #map {width: 1000px; height: 500px;}
+                        </style>
+                    </div>
+                    <div id="assignmentsTable"</div>
+                    <div id="tableFilter"</div>    
+                        </div>
+                    </div>
+
+
+                </div><!-- end wrapper -->
+
+                <script id="assignmentsTable" type="text/html">
+                    <table class="table table-hover">
+                        <tr><th class="tHeader">Name</th><th class="tHeader">Lead Senior Analyst</th><th class="tHeader">Lead Analyst</th><th class="tHeader">Other</th><th class="tHeader">Other 2</th><th class="tHeader">Assessment_Date</th><th class="tHeader">Status</th></tr>
+                        {{#rows}}
+                            <tr id="{{rowNumber}}" class="spotRow">
+                            <td>{{name}}</td><td>{{leadsenior}}</td><td>{{analyst}}</td><td>{{other}}</td><td>{{other2}}</td><td>{{date}}</td><td>{{status}}</td>
+                            </tr>
+                        {{/rows}}
+                    </table>
+                </script>
+
+
+                <script type="text/javascript">
+                    document.addEventListener('DOMContentLoaded', function() {
+                        var gData
+                        var URL = "https://docs.google.com/spreadsheets/d/1Jt5BDz75pp8CaNBigeLHD9j79N4K5ZCUIbN1dwHo5Jo/pubhtml?gid=2020778140&single=true"
+                            Tabletop.init({ key: URL, callback: showInfo, simpleSheet: true })
+                    })
+
+                    // so long, so messy
+                    function showInfo(gData) {
+                        tableOptions = {
+                            "data": gData,
+                            "tableDiv": "#assignmentsTable",
+                            "filterDiv": "#tableFilter"
+                        }
+                        // make the table, and the search bar
+                        Sheetsee.makeTable(tableOptions)
+                        Sheetsee.initiateTableFilter(tableOptions)
+
+                        // create geoJSON with coordinates and other
+                        // useful bits from the original data
+                        var optionsJSON = ["name", "lat_long", "leadsenior", "analyst", "date", "other", "other2", "status", "rowNumber"]
+                        var geoJSON = Sheetsee.createGeoJSON(gData, optionsJSON)
+
+                        // create map, tilelayer (map background), markers and popups
+                        var map = Sheetsee.loadMap("map")
+                        Sheetsee.addTileLayer(map, 'examples.map-h67hf2ic')
+                        var markerLayer = Sheetsee.addMarkerLayer(geoJSON, map, "<h1>{{ name }}<br>Lead Senior Analyst: {{leadsenior}} <br> Lead Analyst: {{analyst}} <br> Other: {{other}} <br> Other 2: {{other2}} <br> Date: {{date}} <br> Status: {{status}} </h1>")
+
+                        // find the latest spot with the most important
+                        // info filled in (to prevent map breaking if
+                        // someone is currently editing spreadsheet)
+                        var theLatestSpot = findLatestCompleteSpot(gData)
+                        var latestSpot = Sheetsee.ich.latestSpot({
+                            rows: theLatestSpot
+                        })
+                        // set it and pan to it
+                        $('#latestSpot').html(latestSpot)
+                        map.setView([theLatestSpot.lat, theLatestSpot.long], 14)
+
+                        // when someone clicks on a row, highlight it and
+                        // re-center the map
+                        // TODO show popup, change marker color
+                        $('.spotRow').live("click", function(event) {
+                            $('.spotRow').removeClass("selectedRow")
+                            var rowNumber = $(this).closest("tr").attr("id")
+                            $('#' + rowNumber).addClass("selectedRow")
+                            var dataElement = Sheetsee.getMatches(gData, rowNumber, "rowNumber")
+                            var selectedSpot = Sheetsee.ich.selectedSpot({
+                                rows: dataElement
+                            })
+                            $('#latestSpot').css("display", "none")
+                            $('#selectedSpot').html(selectedSpot).css("display", "inline")
+                            var selectedCoords = [dataElement[0].lat, dataElement[0].long]
+                            map.setView(selectedCoords, 14)
+                        })
+
+                        // so that the first map and info that loads
+                        // is complete and doesn't show rows that are
+                        // actively being edited by folk
+                        function findLatestCompleteSpot(data) {
+                            var latestCompleteSpot = []
+                            var startWithLatestRow = data.reverse()
+                            startWithLatestRow.forEach(function(row){
+                                if (!row.lat || !row.long || !row.name || !row.leadsenior || !row.analyst || !row.assessment_date || !row.other || !row.other2 ||!row.status ) return
+                                else latestCompleteSpot.push(row)
+                            })
+                            return latestCompleteSpot[0]
+                        }
+
+                        // Add click listener to the markerLayer
+                        markerLayer.on('click', function(e) {
+                            // clear any selected rows
+                            $('.spotRow').removeClass("selectedRow")
+                            // get row number of selected marker
+                            var rowNumber = e.layer.feature.opts.rowNumber
+                            // find that row in the table and make consider it selected
+                            $('#' + rowNumber).addClass("selectedRow")
+                            // using row number, get the data for the selected spot
+                            var dataElement = Sheetsee.getMatches(gData, rowNumber.toString(), "rowNumber")
+                            // take those details and re-write the selected spot section
+                            var selectedSpot = Sheetsee.ich.selectedSpot({
+                                rows: dataElement
+                            })
+                            // center the map on the selected element
+                            map.panTo([dataElement[0].lat, dataElement[0].long])
+                            // update the spot listing
+                            $('#latestSpot').css("display", "none")
+                            $('#selectedSpot').html(selectedSpot).css("display", "inline")
+                        })
+
+                        // reset the map, zoom out, and recenter on 0,0
+                        $('.resetMap').click(function() {
+                            $('.spotRow').removeClass("selectedRow")
+                            $('#latestSpot').css("display", "inline")
+                            $('#selectedSpot').css("display", "none")
+                            map.setView([0,0], 1)
+                        })
+
+                        // find total number of spots added
+                        var theNumberofCities = Sheetsee.ich.theNumberofCities({
+                            numberOfSpots: gData.length
+                        })
+                        $('#theNumberofCities').html(theNumberofCities)
+
+                        if(window.location.hash) {
+                            $('#tableFilter').val(window.location.hash.substring(1)).keyup()
+                            $('.spotRow').first().click()
+                        }
+                    }
+
+                    $(document).on('keyup', '#tableFilter', function() {
+                        window.location.hash = $(this).val()
+                        $('.spotRow').first().click()
+                    })
+                </script>
+
+        </div>
+            <!-- /.row -->
+            <div class="row">
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="../bower_components/raphael/raphael-min.js"></script>
+    <script src="../bower_components/morrisjs/morris.min.js"></script>
+    <script src="../js/morris-data.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>
