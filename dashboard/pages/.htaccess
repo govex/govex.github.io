@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /Users/nghadji/Documents/labs.centerforgov.org/dashboard/pages/.htpasswd
+require valid-user
