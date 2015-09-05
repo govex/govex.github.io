@@ -4,7 +4,6 @@ prose-link: http://prose.io/#centerforgov/open-data-portal-requirements/edit/mas
 github-document-link: https://github.com/centerforgov/open-data-portal-requirements/blob/master/README.md
 github-issues-link: https://github.com/centerforgov/open-data-portal-requirements/issues
 ---
-
 # Open Data Portal Requirements
 
 ### Introduction
@@ -29,7 +28,7 @@ A data catalog is a listing of available data, with each catalog entry correspon
 ### Customers
 * must be able to search for datasets by one or more terms contained in dataset metadata
 * must be able to browse or explore data by category
-* must be able to download the catalog in a machine-readable format compatible with the common core metadata schema from a well-known address (typically /data.json)
+* must be able to download the catalog in a machine-readable format compatible with the [common core metadata schema](https://project-open-data.cio.gov/v1.1/metadata-resources/) from a well-known address (typically /data.json)
 * must be able to view a summary page for each dataset which details data resources, metadata, and other relevant documentation
 * may be able to search for datasets by terms contained in the data
 
@@ -106,4 +105,6 @@ The following requirements are general technical requirements which either donâ€
 * The portal must be accessible through a city-provided internet domain name (e.g. `data.somecity.gov`)
 * Transport Layer Security (TLS) must be used for account registration, logging in, and all actions performed by publishers and administrators
 * Web pages must be accessible on large-screen devices (desktop computers, laptops, etc.)
+* Web pages may be accessible on small-screen devices (mobile/smart phones, tablets, etc.)
+
 * Web pages may be accessible on small-screen devices (mobile/smart phones, tablets, etc.)
