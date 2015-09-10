@@ -28,17 +28,17 @@ layout: default
   <a class="list-group-item" href="http://www.opengovpartnership.org/2015Summit">
     <span class="badge">27 - 29 October 2015</span>
     <h4>Open Government Partnership Global Summit</h4>
-    <p>Guadalajara, Mexico</p>
-  </a>
-  <a class="list-group-item" href="http://icegov.org/">
-    <span class="badge">3 - 5 November 2015</span>
-    <h4>International Conference on Theory and Practice of Electronic Governance (ICEGOV)</h4>
-    <p>Tunis, Tunisia</p>
+    <p>Mexico City, Mexico</p>
   </a>
   <a class="list-group-item" href="http://summit.theodi.org/">
     <span class="badge">3 November 2015</span>
     <h4>The Open Data Institute Summit</h4>
     <p>London, United Kingdom</p>
+  </a>
+  <a class="list-group-item" href="http://icegov.org/">
+    <span class="badge">March - April 2016</span>
+    <h4>International Conference on Theory and Practice of Electronic Governance (ICEGOV)</h4>
+    <p>To Be Determined</p>
   </a>
   <a class="list-group-item" href="http://www.iodc2016.es/">
     <span class="badge">6 -7 October 2016</span>
