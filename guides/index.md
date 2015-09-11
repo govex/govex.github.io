@@ -11,6 +11,10 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <p></p>
     <p>
       <a href="/data-ownership">Read and comment online</a>
+      <a href="https://github.com/centerforgov/data-ownership/blob/master/README.md">View on Github</a> |
+      <a href="https://github.com/centerforgov/data-ownership/edit/master/README.md">Edit on Github</a> |
+      Fork and submit a <a href="https://github.com/centerforgov/data-ownership/pulls">pull request</a> |
+      <a href="https://github.com/centerforgov/data-ownership/issues">View Github Issues</a>
     </p>
   </li>
   <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/open-data-getting-started/details">
