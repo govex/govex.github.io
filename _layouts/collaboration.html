@@ -45,10 +45,12 @@
       <strong><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> We need your help!</strong>
       <p>This document is being developed collaboratively. We hope to make it the best possible resource by leveraging the collective knowledge of government experts and other stakeholders. You can contribute by:
         <ul>
+          {% if page.github-document-link %}
           <li>Editing this document through 
             <a href="{{page.github-document-link}}">github</a> or 
             <a href="{{page.prose-link}}">prose.io</a> (github account required)</li>
-          <li><a href="{{page.github-issues-link}}">Creating an github issue</a> (github account required)</li>
+          <li><a href="{{page.github-issues-link}}">Creating a github issue</a> (github account required)</li>
+          {% endif %}
           <li>Adding your comments to the <a href="#comments">discussion</a> at the bottom of this page</a></li>
         </ul>
       </p>
