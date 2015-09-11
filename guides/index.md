@@ -6,6 +6,13 @@ layout: default
 Below are guidebooks which the Center for Government Excellence makes available online. You may also visit <a href="https://www.gitbook.com/@centerforgov">our page on GitBooks<a/>.
 
 <ul class="list-group">
+  <li class="list-group-item">
+    <h4><span class="glyphicon glyphicon-asterisk"></span> Data Ownership Contract Terms</h4>
+    <p></p>
+    <p>
+      <a href="/data-ownership">Read and comment online</a>
+    </p>
+  </li>
   <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/open-data-getting-started/details">
     <h4>Open Data Getting Started</h4>
     <p>The Johns Hopkins University Center for Government Excellence has created this getting started guide to assist cities in implementing open data programs in their own communities.</p>
