@@ -22,7 +22,7 @@ layout: default
   </a>
   <a class="list-group-item" href="http://customer-summit.socrata.com/">
     <span class="badge">26 - 27 October 2015</span>
-    <h4>Socrata Customer Summit 2015 (Socrata Customers & Partners Only)</h4>
+    <h4>Socrata Customer Summit 2015 (Socrata Customers &amp; Partners Only)</h4>
     <p>Washington D.C., United States</p>
   </a>
   <a class="list-group-item" href="http://www.opengovpartnership.org/2015Summit">

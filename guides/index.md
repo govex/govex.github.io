@@ -3,14 +3,14 @@ layout: default
 ---
 
 ## <span class="glyphicon glyphicon-book"></span> Guides
-Below are guidebooks which the Center for Government Excellence makes available online. You may also visit <a href="https://www.gitbook.com/@centerforgov">our page on GitBooks<a/>.
+Below are guidebooks which the Center for Government Excellence makes available online. You may also visit <a href="https://www.gitbook.com/@centerforgov">our page on GitBooks</a>.
 
 <ul class="list-group">
   <li class="list-group-item">
     <h4><span class="glyphicon glyphicon-asterisk"></span> Data Ownership Contract Terms</h4>
     <p></p>
     <p>
-      <a href="/data-ownership">Read and comment online</a>
+      <a href="/data-ownership">Read online</a> |
       <a href="https://github.com/centerforgov/data-ownership/blob/master/README.md">View on Github</a> |
       <a href="https://github.com/centerforgov/data-ownership/edit/master/README.md">Edit on Github</a> |
       Fork and submit a <a href="https://github.com/centerforgov/data-ownership/pulls">pull request</a> |
