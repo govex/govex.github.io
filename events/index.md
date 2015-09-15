@@ -5,15 +5,15 @@ layout: default
 ## <span class="glyphicon glyphicon-calendar"></span> Events
 
 <div class="list-group">
-  <a class="list-group-item" href="http://transparencycamp.org/">
-    <span class="badge">11 - 12 September 2015</span>
-    <h4>Transparency Camp</h4>
-    <p>Washington, D.C., United States</p>
-  </a>
   <a class="list-group-item" href="http://www.codeforamerica.org/summit/">
     <span class="badge">30 September - 2 October 2015</span>
     <h4>Code for America Summit</h4>
     <p>Oakland, CA, United States</p>
+  </a>
+  <a class="list-group-item" href="http://www.sustainablejersey.com/events-trainings/government-connext-forum/breakout-sessions/">
+    <span class="badge">2 October 2015</span>
+    <h4>Sustainable Jersey Government Connext Forum</h4>
+    <p>West Windsor, NJ, United States</p>
   </a>
   <a class="list-group-item" href="http://www.theatlantic.com/live/events/citylab/2015/">
     <span class="badge">18 - 20 October 2015</span>
@@ -80,9 +80,14 @@ layout: default
     <h4>Open Data Institute: Open Data Awards</h4>
     <p>London, United Kingdom</p>
   </a>
-    <a class="list-group-item" href="http://codeforall.org/summit">
+  <a class="list-group-item" href="http://codeforall.org/summit">
     <span class="badge">30-31 July 2015</span>
     <h4>Code for All Summit</h4>
     <p>New York, NY, United States</p>
+  </a>
+  <a class="list-group-item" href="http://transparencycamp.org/">
+    <span class="badge">11 - 12 September 2015</span>
+    <h4>Transparency Camp</h4>
+    <p>Washington, D.C., United States</p>
   </a>
 </div>
