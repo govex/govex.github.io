@@ -40,8 +40,13 @@ layout: default
     <h4>International Conference on Theory and Practice of Electronic Governance (ICEGOV)</h4>
     <p>To Be Determined</p>
   </a>
+  <a class="list-group-item" href="https://www.nagw.org/conference">
+    <span class="badge">20 - 23 September 2016</span>
+    <h4>National Association of Government Web Professionals Conference</h4>
+    <p>San Antonio, TX, United States</p>
+  </a>
   <a class="list-group-item" href="http://www.iodc2016.es/">
-    <span class="badge">6 -7 October 2016</span>
+    <span class="badge">6 - 7 October 2016</span>
     <h4>International Open Data Conference</h4>
     <p>Madrid, Spain</p>
   </a>
