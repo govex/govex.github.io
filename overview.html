@@ -210,6 +210,7 @@
             <a id="Eligible" value="Eligible" class="button status selected">Eligible</a>
             <a id="Applied" value="Applied" class="button status selected">Applied</a>
             <a id="To Be Assessed" value="To Be Assessed" class="button status selected tba">To Be Assessed</a>
+            <a id="Assessed" value="Assessed" class="button status selected">Assessed</a></p>
             <a id="Working" value="Working" class="button status selected">Working</a></p>
 
             <p><h2>Scope</h2>
@@ -346,6 +347,7 @@ cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','cit
                             
                             $("#Applied").removeClass('selected');
                             $("#Eligible").removeClass('selected');
+                            $("#Assessed").removeClass('selected');
                             $(".tba").removeClass('selected');
                             statusvalues();
                             status = "and a.status in ('Working')";
@@ -358,6 +360,7 @@ cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','cit
                         scope = "and ('" + scopevalues + "' in (a.scope1,a.scope2,a.scope3))";
                         $("#Applied").removeClass('selected');
                         $("#Eligible").removeClass('selected');
+                        $("#Assessed").removeClass('selected');
                         $(".tba").removeClass('selected');
                         statusvalues();
                         status = "and a.status in ('Working')";
