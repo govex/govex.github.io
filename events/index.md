@@ -46,7 +46,7 @@ layout: default
     <p>Madrid, Spain</p>
   </a>
   <a class="list-group-item" href="http://www.codeforamerica.org/summit/">
-    <span class="badge">2 - 4 November 2015</span>
+    <span class="badge">2 - 4 November 2016</span>
     <h4>Code for America Summit</h4>
     <p>Oakland, CA, United States</p>
   </a>
