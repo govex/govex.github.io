@@ -5,11 +5,6 @@ layout: default
 ## <span class="glyphicon glyphicon-calendar"></span> Events
 
 <div class="list-group">
-  <a class="list-group-item" href="http://www.codeforamerica.org/summit/">
-    <span class="badge">30 September - 2 October 2015</span>
-    <h4>Code for America Summit</h4>
-    <p>Oakland, CA, United States</p>
-  </a>
   <a class="list-group-item" href="http://www.sustainablejersey.com/events-trainings/government-connext-forum/breakout-sessions/">
     <span class="badge">2 October 2015</span>
     <h4>Sustainable Jersey Government Connext Forum</h4>
@@ -50,6 +45,12 @@ layout: default
     <h4>International Open Data Conference</h4>
     <p>Madrid, Spain</p>
   </a>
+  <a class="list-group-item" href="http://www.codeforamerica.org/summit/">
+    <span class="badge">2 - 4 November 2015</span>
+    <h4>Code for America Summit</h4>
+    <p>Oakland, CA, United States</p>
+  </a>
+
 </div>
 
 ## Past Events
@@ -94,5 +95,10 @@ layout: default
     <span class="badge">11 - 12 September 2015</span>
     <h4>Transparency Camp</h4>
     <p>Washington, D.C., United States</p>
+  </a>
+    <a class="list-group-item" href="http://www.codeforamerica.org/summit/">
+    <span class="badge">30 September - 2 October 2015</span>
+    <h4>Code for America Summit</h4>
+    <p>Oakland, CA, United States</p>
   </a>
 </div>
