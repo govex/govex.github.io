@@ -35,6 +35,11 @@ layout: default
     <h4>International Conference on Theory and Practice of Electronic Governance (ICEGOV)</h4>
     <p>To Be Determined</p>
   </a>
+  <a class="list-group-item" href="https://www.mysociety.org/research/tictec-2016/">
+    <span class="badge">27 - 28 April 2016</span>
+    <h4>The Impacts of Civic Technology Conference</h4>
+    <p>Barcelona, Spain</p>
+  </a>
   <a class="list-group-item" href="https://www.nagw.org/conference">
     <span class="badge">20 - 23 September 2016</span>
     <h4>National Association of Government Web Professionals Conference</h4>
