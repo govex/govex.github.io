@@ -22,8 +22,8 @@ Below is the list of civic data standards we have identified to-date. They vary 
 
 * [Open 311](http://open311.org)
 * [Open Referral](http://openreferral.org/)
-** [Open Eligibility](http://about.auntbertha.com/openeligibility)
-** [Human Services Data Specification](https://github.com/codeforamerica/OpenReferral/blob/master/Human%20Services%20Data%20Specification%20%20v1.0.md)
+  * [Open Eligibility](http://about.auntbertha.com/openeligibility)
+  * [Human Services Data Specification](https://github.com/codeforamerica/OpenReferral/blob/master/Human%20Services%20Data%20Specification%20%20v1.0.md)
 * [Open Trails](http://www.opentraildata.org/)
 * [LIVES](http://www.yelp.com/healthscores)
 * [Housefacts](https://sites.google.com/site/housefactsdatastandard/home/specification)
