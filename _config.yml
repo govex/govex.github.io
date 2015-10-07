@@ -1,6 +1,10 @@
 defaults:
- -
-  scope:
-    path: "submodule-test"
-  values:
-    layout: "collaboration"
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+    scope:
+      path: submodule-test
+    values:
+      layout: collaboration
