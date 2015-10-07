@@ -36,4 +36,5 @@ Below is the list of civic data standards we have identified to-date. They vary 
 * [State Decoded](http://statedecoded.github.io/documentation/xml-format.html)
 * [Green Button](http://www.greenbuttondata.org/)
 * [Blue Button](http://bluebuttontoolkit.healthit.gov/)
+* [Socrata data formats for Budget, Expenditures, and Service Connect](http://open-data-standards.github.io/data-schemas/) - debatable if these should be included here; pending a clear definition of what a civic data standard is.
 
