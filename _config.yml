@@ -5,10 +5,10 @@ defaults:
     values:
       layout: default
     scope:
-      path: submodule-test
+      path: submodule-test/
     values:
       layout: collaboration
     scope:
-      path: open-data-portal-requirements
+      path: open-data-portal-requirements/
     values:
       layout: collaboration
