@@ -40,6 +40,6 @@ The below efforts might not qualify as civic data standards (pending further res
 
 * [Local Inspector Value-Entry Specification (LIVES)](http://www.yelp.com/healthscores)
 * [Spotcrime Open Crime Data Standard (SOCS)](http://blog.spotcrime.com/2014/03/the-spotcrime-open-crime-data-standard.html)
-* [Socrata data formats for Budget, Expenditures, and Service Connect](http://open-data-standards.github.io/data-schemas/) - pending a clear definition of what a civic data standard is.
+* [Socrata data formats for Budget, Expenditures, and Service Connect](http://open-data-standards.github.io/data-schemas/)
 * [CitySDK](http://uscensusbureau.github.io/citysdk/) - more of a toolkit for programmers than a data standard, but it does implicitly include some standardized data structures.
 
