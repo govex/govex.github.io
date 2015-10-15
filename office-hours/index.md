@@ -5,14 +5,14 @@ suppressSiteNotice: true
 
   <div class="row center-block">
       <h1>Welcome to GovEx Office Hours!</h1>
-      <h2>Thursday, October 15, 2015 &mdash; 1:00p Eastern / 10:00a Pacific</h2>
+      <h3>Thursday, October 15, 2015 &mdash; 1:00p Eastern / 10:00a Pacific</h3>
       <hr />
       <p>With:</p>
-      <h3>Kate Bender, Deputy Performance Officer, Kansas City, MO</h3>
-      <h3>Carter Hewgley, Director of Performance & Analytics, GovEx</h3>
-      <h3>Andrew Nicklin, Director of Open Data, GovEx</h3>
+      <h4>Kate Bender, Deputy Performance Officer, Kansas City, MO</h4>
+      <h4>Carter Hewgley, Director of Performance & Analytics, GovEx</h4>
+      <h4>Andrew Nicklin, Director of Open Data, GovEx</h4>
       <hr />
-      <p>Please select an option to connect:</p>
+      <h3>Please select an option to connect:</h3>
   </div>
   <div class="row">
     <div class="col-md-6">
