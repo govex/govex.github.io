@@ -3,7 +3,7 @@ layout: default
 suppressSiteNotice: true
 ---
 
-  <div class="row center-block" style="background:url(http://whatworkscities.bloomberg.org/content/themes/cities/images/backgrounds/hero_background.png) no-repeat center center / contain">
+  <div class="row center-block">
       <h1>Welcome to GovEx Office Hours!</h1>
       <h3>Thursday, October 15, 2015 &mdash; 1:00p Eastern / 10:00a Pacific</h3>
       <hr />
