@@ -11,20 +11,20 @@ layout: default
   </div>
   <div class="row">
     <div class="col-md-6">
-      <div class="panel panel-default">
-        <div class="panel-heading"><h2 class="panel-title">Video Conference</h2> (Google Hangout)</div>
+      <div class="panel panel-primary">
+        <div class="panel-heading"><h2 class="panel-title">Video Conference</h2></div>
         <div class="panel-body">
-          <p>Webcam, microphone, and speakers/headset required</p>
-          <h3><a class="btn btn-default" href="#" role="button">Join now!</a></h3>
+          <p>Uses Google Hangouts; webcam, microphone, and speakers/headset required</p>
+          <h3><a class="btn btn-primary" href="#" role="button">Join now!</a></h3>
         </div>
       </div>
     </div>
     <div class="col-md-6">
-      <div class="panel panel-default">
+      <div class="panel panel-info">
         <div class="panel-heading"><h2 class="panel-title">Phone</h2></div>
         <div class="panel-body">
           <p>Please call</p>
-          <h3>410-934-0474</h3>
+          <h3><a href="tel:410-934-0474">410-934-0747</a></h3>
         </div>
       </div>
     </div>
