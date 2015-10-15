@@ -8,9 +8,9 @@ suppressSiteNotice: true
       <h3>Thursday, October 15, 2015 &mdash; 1:00p Eastern / 10:00a Pacific</h3>
       <hr />
       <p>featuring</p>
-      <h4>Kate Bender, Deputy Performance Officer, Kansas City, MO</h4> <a class="bg-primary" href="https://www.linkedin.com/pub/kate-bender/6/19a/5a7">LinkedIn</a>
-      <h4>Carter Hewgley, Director of Performance & Analytics, GovEx</h4> <a class="bg-primary" href="https://www.linkedin.com/in/carterhewgley">LinkedIn</a>
-      <h4>Andrew Nicklin, Director of Open Data, GovEx</h4> <a class="bg-primary" href="https://www.linkedin.com/in/andrewnicklin">LinkedIn</a>
+      <h4><a href="https://www.linkedin.com/pub/kate-bender/6/19a/5a7">Kate Bender, Deputy Performance Officer, Kansas City, MO</a></h4>
+      <h4><a href="https://www.linkedin.com/in/carterhewgley">Carter Hewgley, Director of Performance & Analytics, GovEx</a></h4>
+      <h4><a href="https://www.linkedin.com/in/andrewnicklin">Andrew Nicklin, Director of Open Data, GovEx</a></h4>
       <hr />
       <h3>Please select an option to connect:</h3>
   </div>
