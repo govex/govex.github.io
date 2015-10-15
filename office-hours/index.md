@@ -1,11 +1,12 @@
 ---
 layout: default
+suppressSiteNotice: true
 ---
 
-<div class="container-fluid center-block">
-  <div class="row">
+  <div class="row center-block">
     <div class="col-md-6">
       <h1>Welcome to GovEx Office Hours!</h1>
+      <h2>Thursday, October 15, 2015  1pm ET / 10am PT</h2>
       <p>Please select an option to connect:</p>
     </div>
   </div>
@@ -29,5 +30,4 @@ layout: default
       </div>
     </div>
   </div>
-</div>
       
