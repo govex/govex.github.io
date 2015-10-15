@@ -10,11 +10,19 @@ layout: default
     </div>
   </div>
   <div class="row">
-    <div class="col-md-6">
-      Have a webcam? Use google hangouts
+    <div class="col-md-6 panel panel-default">
+      <div class="panel-heading">Video Conference</div>
+      <div class="panel-body">
+        <p>(Webcam, microphone, and speakers/headset required)</p>
+        <p><a class="button button-default" href="#" role="button">Join now!</a></p>
+      </div>
     </div>
-    <div class="col-md=6">
-      Don't have a webcam? Dial in!
+    <div class="col-md=6 panel panel-default">
+      <div class="panel-heading">Phone</div>
+      <div class="panel-body">
+        <p>Please call</p>
+        <h3>410-934-0474</h3>
+      </div>
     </div>
   </div>
 </div>
