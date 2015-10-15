@@ -8,17 +8,17 @@ layout: default
 
 A Civic Data Standard is an open, collaboratively developed set of data schematics or semantics which facilitates interoperability between multiple providers and consumers for the public good. (This definition is a work in progress)
 
-Civic data standards which enable interoperability between data providers - typically governments - and data consumers. When a data provider publishes information, making it compatible a with a civic data standard (if one exists) can help jumpstart its use. Civic data standards also make it easier for data consumers - particularly individuals or small businesses - consume data from multiple providers without expending as much energy on technical development. Depending on the level of interoperability needed, civic data standards generally fall into two buckets:
+Civic data standards enable interoperability between data providers - typically governments - and data consumers. When a data provider publishes information, making it compatible a with a civic data standard (if one exists) can help jumpstart its use. Civic data standards also make it easier for data consumers - particularly individuals or small businesses - to consume data from multiple providers with less software engineering effort. Depending on the type of interoperability needed, civic data standards generally fall into two buckets:
 
-* *Schematics* standards define a common structure for how the information is shared, but do not attempt to ensure that the meaning of the contained information is consistent between publishers.
+* *Schematic* standards define a common structure for how the information is shared, but do not attempt to ensure that the meaning of the contained information is consistent between publishers.
 * *Semantic* standards define consistent meanings for the information being shared, but do not always ensure that the structure of the information is consistent between publishers.
 
-The best civic data standards address both of these needs, but there are many which address only one or the other.
+The best civic data standards address both of these needs, but currently, many focus mainly on schematic standards.
 
 Note for technologists: while a few civic data standards describe interactive (query/response) application programming interfaces (APIs), most are designed for bulk data transfers.
 
 ### The List
-Below is the list of civic data standards we have identified to-date. They vary greatly in terms of active communities, current use, and approaches used for development. This list will be revised to reflect the additional standards we discover, as well as to include more details about each standard as we research them.
+Below is the list of civic data standards we have identified so far. They vary greatly in terms of active communities, current use, and approaches used for development. This list will be revised to reflect the additional standards we discover, as well as to include more details about each standard as we research them.
 
 * [Open 311](http://open311.org)
 * [Open Referral](http://openreferral.org/)
@@ -40,6 +40,7 @@ The below efforts might not qualify as civic data standards (pending further res
 
 * [Local Inspector Value-Entry Specification (LIVES)](http://www.yelp.com/healthscores)
 * [Spotcrime Open Crime Data Standard (SOCS)](http://blog.spotcrime.com/2014/03/the-spotcrime-open-crime-data-standard.html)
+* [Open Hunting & Fishing](https://github.com/opendata/Hunting-and-Fishing) - this standard requires a reasonable amount of technical skill to use, using JSON-Schema files to describe the data structures.
 * [Socrata data formats for Budget, Expenditures, and Service Connect](http://open-data-standards.github.io/data-schemas/)
 * [CitySDK](http://uscensusbureau.github.io/citysdk/) - more of a toolkit for programmers than a data standard, but it does implicitly include some standardized data structures.
 
