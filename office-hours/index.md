@@ -7,10 +7,10 @@ suppressSiteNotice: true
       <h1>Welcome to GovEx Office Hours!</h1>
       <h3>Thursday, October 15, 2015 &mdash; 1:00p Eastern / 10:00a Pacific</h3>
       <hr />
-      <p>With:</p>
-      <h4>Kate Bender, Deputy Performance Officer, Kansas City, MO</h4>
-      <h4>Carter Hewgley, Director of Performance & Analytics, GovEx</h4>
-      <h4>Andrew Nicklin, Director of Open Data, GovEx</h4>
+      <p>featuring</p>
+      <h4>Kate Bender, Deputy Performance Officer, Kansas City, MO</h4> <a class="bg-primary" href="https://www.linkedin.com/pub/kate-bender/6/19a/5a7">LinkedIn</a>
+      <h4>Carter Hewgley, Director of Performance & Analytics, GovEx</h4> <a class="bg-primary" href="https://www.linkedin.com/in/carterhewgley">LinkedIn</a>
+      <h4>Andrew Nicklin, Director of Open Data, GovEx</h4> <a class="bg-primary" href="https://www.linkedin.com/in/andrewnicklin">LinkedIn</a>
       <hr />
       <h3>Please select an option to connect:</h3>
   </div>
@@ -29,7 +29,7 @@ suppressSiteNotice: true
         <div class="panel-heading"><h3 class="panel-title"><span class="glyphicon glyphicon-earphone"></span> Phone</h3></div>
         <div class="panel-body">
           <p>Please call:</p>
-          <h3><a href="tel:410-934-0474">410-934-0747</a></h3>
+          <h3><a href="tel:410-934-0474">410-934-0474</a></h3>
         </div>
       </div>
     </div>
