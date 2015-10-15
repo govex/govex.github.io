@@ -12,7 +12,8 @@ suppressSiteNotice: true
       <h4><a href="https://www.linkedin.com/in/carterhewgley">Carter Hewgley, Director of Performance & Analytics, GovEx</a></h4>
       <h4><a href="https://www.linkedin.com/in/andrewnicklin">Andrew Nicklin, Director of Open Data, GovEx</a></h4>
       <hr />
-      <h3>Please select an option to connect:</h3>
+      <h3>Thanks for joining!</h3>
+<!--      <h3>Please select an option to connect:</h3>
   </div>
   <div class="row">
     <div class="col-md-6">
@@ -32,6 +33,6 @@ suppressSiteNotice: true
           <h3><a href="tel:410-934-0474">410-934-0474</a></h3>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
       
