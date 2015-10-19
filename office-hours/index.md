@@ -14,10 +14,10 @@ suppressSiteNotice: true
       <hr />
       <!-- <h3>Thanks for joining!</h3> -->
       <!-- <h3>Please select an option to connect:</h3> -->
-      <br />
-      <br />
-      <br />
   </div>
+  <br />
+  <br />
+  <br />
   <div class="row">
 <!--    <div class="col-md-6">
       <div class="panel panel-info">
