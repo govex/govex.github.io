@@ -11,7 +11,7 @@ suppressSiteNotice: true
       <h4><a href="https://www.linkedin.com/in/andrewnicklin">Andrew Nicklin, Director of Open Data, GovEx</a></h4>
       <hr />
       <!-- <h3>Thanks for joining!</h3> -->
-      <h3>Please select an option to connect:</h3>
+      <!-- <h3>Please select an option to connect:</h3> -->
   </div>
   <div class="row">
 <!--    <div class="col-md-6">
