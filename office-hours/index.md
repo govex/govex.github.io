@@ -7,7 +7,9 @@ suppressSiteNotice: true
       <h1>Welcome to the GovEx Public Safety Data Convening!</h1>
       <h3>Friday, October 23, 2015 &mdash; 1:00p Eastern / 10:00a Pacific</h3>
       <hr />
-      <h2 class="bg-warning"><a href="https://docs.google.com/forms/d/1QCsfZ2oT_dzDzP9Vl3teESU7qIDSaVOBvlVV2QVBx38/viewform">Please RSVP by filling out this brief survey</a><h2>
+      <div class="bg-warning">
+        <h2><a href="https://docs.google.com/forms/d/1QCsfZ2oT_dzDzP9Vl3teESU7qIDSaVOBvlVV2QVBx38/viewform">Please RSVP by filling out this brief survey</a><h2>
+      </div>
       <hr />
       <p>facilitated by</p>
       <h4><a href="https://www.linkedin.com/in/andrewnicklin">Andrew Nicklin, Director of Open Data, GovEx</a></h4>
