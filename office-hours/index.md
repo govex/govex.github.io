@@ -8,7 +8,7 @@ suppressSiteNotice: true
       <h3>Friday, October 23, 2015 &mdash; 1:00p Eastern / 10:00a Pacific</h3>
       <hr />
       <div class="bg-warning">
-        <h2><a href="https://docs.google.com/forms/d/1QCsfZ2oT_dzDzP9Vl3teESU7qIDSaVOBvlVV2QVBx38/viewform">Please RSVP by filling out this brief survey</a><h2>
+        <h2><a href="https://docs.google.com/forms/d/1QCsfZ2oT_dzDzP9Vl3teESU7qIDSaVOBvlVV2QVBx38/viewform">Please RSVP by filling out this brief survey</a></h2>
       </div>
       <hr />
       <p>facilitated by</p>
