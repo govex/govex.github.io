@@ -7,8 +7,10 @@ suppressSiteNotice: true
       <h1>Welcome to the GovEx Public Safety Data Convening!</h1>
       <h3>Friday, October 23, 2015 &mdash; 1:00p Eastern / 10:00a Pacific</h3>
       <hr />
-      <div class="bg-warning">
+      <div class="panel panel-warning">
+        <div class="panel-body">
         <h2><a href="https://docs.google.com/forms/d/1QCsfZ2oT_dzDzP9Vl3teESU7qIDSaVOBvlVV2QVBx38/viewform">Please RSVP by filling out this brief survey</a></h2>
+        </div>
       </div>
       <hr />
       <p>facilitated by</p>
