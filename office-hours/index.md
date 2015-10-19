@@ -4,7 +4,7 @@ suppressSiteNotice: true
 ---
 
   <div class="row center-block">
-      <h1>Welcome to GovEx Public Safety Data Convening!</h1>
+      <h1>Welcome to the GovEx Public Safety Data Convening!</h1>
       <h3>Friday, October 23, 2015 &mdash; 1:00p Eastern / 10:00a Pacific</h3>
       <hr />
       <p>facilitated by</p>
