@@ -15,9 +15,6 @@ suppressSiteNotice: true
       <!-- <h3>Thanks for joining!</h3> -->
       <!-- <h3>Please select an option to connect:</h3> -->
   </div>
-  <br />
-  <br />
-  <br />
   <div class="row">
 <!--    <div class="col-md-6">
       <div class="panel panel-info">
@@ -40,6 +37,9 @@ suppressSiteNotice: true
       </div>
 <!--    </div>    -->
   </div>
+  <br />
+  <br />
+  <br />
   <div class="row">
     <h2>Previous Events</h2>
     <hr />
