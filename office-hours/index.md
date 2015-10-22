@@ -21,7 +21,7 @@ suppressSiteNotice: true
   <div class="row">
     <div class="col-md-6">
     <div class="panel panel-info">
-      <div class="panel-heading"><h3 class="panel-title"><span class="glyphicon glyphicon glyphicon-facetime-videoe"></span> Video Conference</h3></div>
+      <div class="panel-heading"><h3 class="panel-title"><span class="glyphicon glyphicon glyphicon-facetime-video"></span> Video Conference</h3></div>
       <div class="panel-body">
         <p>Joining by video requires a desktop or laptop computer with a microphone, speakers, and camera. Apple and Android devices are also supported. Software download required.</p>
         <a class="btn btn-primary" href="https://zoom.us/j/885815129">Join by video</a>
