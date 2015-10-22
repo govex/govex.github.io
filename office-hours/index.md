@@ -20,11 +20,20 @@ suppressSiteNotice: true
   
   <div class="row">
     <div class="panel panel-info">
-      <div class="panel-heading"><h3 class="panel-title"><span class="glyphicon glyphicon-earphone"></span> Phone</h3></div>
+      <div class="panel-heading"><h3 class="panel-title"><span class="glyphicon glyphicon glyphicon-facetime-videoe"></span> Video Conference</h3></div>
       <div class="panel-body">
-        <p>Please check back again closer to the start time</p>
+        <p>Joining by video requires a desktop or laptop computer with a microphone, speakers, and camera. Apple and Android devices are also supported. Software download required.</p>
+        <a style="btn-primary" href="https://zoom.us/j/885815129">Join by video</a>
         <!-- <p>Please call:</p> -->
         <!-- <h3><a href="tel:410-934-0474">410-934-0474</a></h3> -->
+        <!-- <h3><a href="tel:410-989-5752">410-989-5752</a></h3> -->
+      </div>
+    </div>
+    <div class="panel panel-info">
+      <div class="panel-heading"><h3 class="panel-title"><span class="glyphicon glyphicon-earphone"></span> Phone</h3></div>
+      <div class="panel-body">
+        <p>Please call:</p>
+        <h3><a href="tel:+1-646-558-8656">646-558-8656</a>; Meeting ID: 885 815 129</h3> -->
         <!-- <h3><a href="tel:410-989-5752">410-989-5752</a></h3> -->
       </div>
     </div>
