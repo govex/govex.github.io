@@ -5,11 +5,6 @@ layout: default
 ## <span class="glyphicon glyphicon-calendar"></span> Events
 
 <div class="list-group">
-  <a class="list-group-item" href="http://www.theatlantic.com/live/events/citylab/2015/">
-    <span class="badge">18 - 20 October 2015</span>
-    <h4>CityLab</h4>
-    <p>London, United Kingdom</p>
-  </a>
   <a class="list-group-item" href="http://customer-summit.socrata.com/">
     <span class="badge">26 - 27 October 2015</span>
     <h4>Socrata Customer Summit 2015 (Socrata Customers &amp; Partners Only)</h4>
@@ -105,5 +100,10 @@ layout: default
     <span class="badge">2 October 2015</span>
     <h4>Sustainable Jersey Government Connext Forum</h4>
     <p>West Windsor, NJ, United States</p>
+  </a>
+  <a class="list-group-item" href="http://www.theatlantic.com/live/events/citylab/2015/">
+    <span class="badge">18 - 20 October 2015</span>
+    <h4>CityLab</h4>
+    <p>London, United Kingdom</p>
   </a>
 </div>
