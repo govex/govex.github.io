@@ -19,6 +19,7 @@ suppressSiteNotice: true
   </div>
   
   <div class="row">
+    <div class="col-md-6">
     <div class="panel panel-info">
       <div class="panel-heading"><h3 class="panel-title"><span class="glyphicon glyphicon glyphicon-facetime-videoe"></span> Video Conference</h3></div>
       <div class="panel-body">
@@ -29,13 +30,16 @@ suppressSiteNotice: true
         <!-- <h3><a href="tel:410-989-5752">410-989-5752</a></h3> -->
       </div>
     </div>
+    </div>
+    <div class="col-md-6">
     <div class="panel panel-info">
       <div class="panel-heading"><h3 class="panel-title"><span class="glyphicon glyphicon-earphone"></span> Phone</h3></div>
       <div class="panel-body">
         <p>Please call:</p>
-        <h3><a href="tel:+1-646-558-8656">646-558-8656</a>; Meeting ID: 885 815 129</h3> -->
+        <h3><a href="tel:+1-646-558-8656">646-558-8656</a>; Meeting ID: 885 815 129</h3>
         <!-- <h3><a href="tel:410-989-5752">410-989-5752</a></h3> -->
       </div>
+    </div>
     </div>
   </div>
   
