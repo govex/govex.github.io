@@ -24,7 +24,7 @@ suppressSiteNotice: true
       <div class="panel-heading"><h3 class="panel-title"><span class="glyphicon glyphicon glyphicon-facetime-videoe"></span> Video Conference</h3></div>
       <div class="panel-body">
         <p>Joining by video requires a desktop or laptop computer with a microphone, speakers, and camera. Apple and Android devices are also supported. Software download required.</p>
-        <a style="btn-primary" href="https://zoom.us/j/885815129">Join by video</a>
+        <a style="btn btn-primary" href="https://zoom.us/j/885815129">Join by video</a>
         <!-- <p>Please call:</p> -->
         <!-- <h3><a href="tel:410-934-0474">410-934-0474</a></h3> -->
         <!-- <h3><a href="tel:410-989-5752">410-989-5752</a></h3> -->
