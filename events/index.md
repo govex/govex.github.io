@@ -15,10 +15,25 @@ layout: default
     <h4>Open Government Partnership Global Summit</h4>
     <p>Mexico City, Mexico</p>
   </a>
+  <a class="list-group-item" href="http://cityage.org/kc/">
+    <span class="badge">29 - 30 October 2015</span>
+    <h4>CityAge: The New American City</h4>
+    <p>Kansas City, MO, United States</p>
+  </a>
   <a class="list-group-item" href="http://summit.theodi.org/">
     <span class="badge">3 November 2015</span>
     <h4>The Open Data Institute Summit</h4>
     <p>London, United Kingdom</p>
+  </a>
+  <a class="list-group-item" href="http://cityage.org/seattle/">
+    <span class="badge">17 November 2015</span>
+    <h4>CityAge</h4>
+    <p>Seattle, WA, United States</p>
+  </a>
+  <a class="list-group-item" href="https://www.law.berkeley.edu/centers/bclt/upcoming-events/november-2015-open-data-toward-responsible-uses/">
+    <span class="badge">19 - 20 November 2015</span>
+    <h4>Responsible Use of Open Data in Government and the Private Sector</h4>
+    <p>New York City, NY, United States</p>
   </a>
   <a class="list-group-item" href="http://icegov.org/">
     <span class="badge">March - April 2016</span>
