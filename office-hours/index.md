@@ -6,29 +6,25 @@ suppressSiteNotice: true
   <div class="row center-block">
     <h1>Welcome to the GovEx Public Safety Data Convening!</h1>
     <h3>Friday, October 23, 2015 &mdash; 1:00p Eastern / 10:00a Pacific</h3>
-    <div class="panel panel-warning">
-      <div class="panel-body">
-        <h4><a href="https://docs.google.com/forms/d/1QCsfZ2oT_dzDzP9Vl3teESU7qIDSaVOBvlVV2QVBx38/viewform" target="_blank">If you have not already done so, please RSVP by filling out this brief survey</a></h4>
-      </div>
-    </div>
     <p>facilitated by</p>
     <h4><a href="https://www.linkedin.com/in/andrewnicklin">Andrew Nicklin, Director of Open Data, GovEx</a></h4>
     <hr />
-    <!-- <h3>Thanks for joining!</h3> -->
+    <h3>Thanks for joining!</h3>
+    <p>Our next peer event will be at 3:00p ET / 12:00p PT on Wednesday, November 4, 2015.</p>
     <!-- <h3>Please select an option to connect:</h3> -->
   </div>
-  
+<!--  
   <div class="row">
     <div class="col-md-6">
     <div class="panel panel-info">
       <div class="panel-heading"><h3 class="panel-title"><span class="glyphicon glyphicon glyphicon-facetime-video"></span> Video Conference</h3></div>
       <div class="panel-body">
         <p>Joining by video requires a desktop or laptop computer with a microphone, speakers, and camera. Apple and Android devices are also supported. Software download from zoom.us required.</p>
-        <a class="btn btn-primary" href="https://zoom.us/j/885815129" target="_blank">Join by video</a>
+        <a class="btn btn-primary" href="https://zoom.us/j/885815129" target="_blank">Join by video</a> -->
         <!-- <p>Please call:</p> -->
         <!-- <h3><a href="tel:410-934-0474">410-934-0474</a></h3> -->
         <!-- <h3><a href="tel:410-989-5752">410-989-5752</a></h3> -->
-      </div>
+<!--      </div>
     </div>
     </div>
     <div class="col-md-6">
@@ -36,12 +32,12 @@ suppressSiteNotice: true
       <div class="panel-heading"><h3 class="panel-title"><span class="glyphicon glyphicon-earphone"></span> Phone</h3></div>
       <div class="panel-body">
         <p>Please call:</p>
-        <h3><a href="tel:+1-646-558-8656">646-558-8656</a>; Meeting ID: 885 815 129</h3>
+        <h3><a href="tel:+1-646-558-8656">646-558-8656</a>; Meeting ID: 885 815 129</h3> -->
         <!-- <h3><a href="tel:410-989-5752">410-989-5752</a></h3> -->
-      </div>
+<!--      </div>
     </div>
     </div>
-  </div>
+  </div>  -->
   
   <br />
   <br />
@@ -49,6 +45,12 @@ suppressSiteNotice: true
   
   <div class="row">
     <h2>Previous Events</h2>
+    <hr />
+    <h4>Public Safety Data Convening - October 23, 2015</h4>
+    <p>
+      Notes not available online. Please contact your WWC liaison should you need them.
+    </p>
+    <br />
     <hr />
     <h4>Office Hours - October 14, 2015</h4>
     <p>
