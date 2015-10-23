@@ -18,7 +18,7 @@ suppressSiteNotice: true
   <br />
   <br />
   
-  <div class="row">
+  <div class="row center-block">
     <h2>Previous Events</h2>
     <hr />
     <h4>Public Safety Data Convening - October 23, 2015</h4>
