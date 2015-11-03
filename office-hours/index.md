@@ -8,16 +8,14 @@ suppressSiteNotice: true
     <h3>Wednesday, November 4, 2015 &mdash; 3:00p Eastern / 12:00p Pacific</h3>
     <h4><a href="https://zoom.us/j/6396268606">Click Here to Join the Video Conference!</a></h4>
     <h4>Call 410-934-0474 to Join by Phone
-    
+    <hr />
     <p>facilitated by</p>
     <h4><a href="https://www.linkedin.com/in/andrewnicklin">Andrew Nicklin, Director of Open Data, GovEx</a></h4>
     <hr />
     <h3>Future Events</h3>
     <p>Our next Office Hours will be at 3:00p ET / 12:00p PT on Wednesday, December 2, 2015.</p>
   </div>
-
   <br />
-  
   <div class="row center-block">
     <h3>Previous Events</h2>
     <hr />
