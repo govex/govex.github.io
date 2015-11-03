@@ -22,6 +22,7 @@ suppressSiteNotice: true
     <p>
       Notes not available online. Please contact your WWC liaison should you need them.
     </p>
+  </div>
     <h4>Office Hours - October 14, 2015</h4>
     <p>
       <a href="https://drive.google.com/file/d/0B1QndTlkKRzEX2NEZUZmMjl4a2M/view">Get the audio recording</a> | 
