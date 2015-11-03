@@ -23,6 +23,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <p>
       <a href="http://centerforgov.gitbooks.io/open-data-getting-started/content/">Read online</a> | 
       <a href="https://www.gitbook.com/download/pdf/book/centerforgov/open-data-getting-started">Download PDF</a> |
+      
       <a href="https://github.com/centerforgov/open-data-getting-started">View on Github</a>
     </p>
   </li>
@@ -51,6 +52,9 @@ Below are guidebooks which the Center for Government Excellence makes available 
       <a href="https://www.gitbook.com/read/book/centerforgov/dataset-inventory-guidelines">Read online</a> |
       <a href="https://www.gitbook.com/download/pdf/book/centerforgov/dataset-inventory-guidelines">Download PDF</a> |
       <a href="https://github.com/centerforgov/open-data-inventory">View on Github</a>
+      <a href="https://github.com/centerforgov/dataset-inventory-guidelines/edit/master/README.md">Edit on Github</a> |
+      Fork and submit a <a href="https://github.com/centerforgov/dataset-inventory-guidelines/pulls">pull request</a> |
+      <a href="https://github.com/centerforgov/dataset-inventory-guidelines/issues">View Github Issues</a>
     </p>
   </li>
   <li class="list-group-item">
