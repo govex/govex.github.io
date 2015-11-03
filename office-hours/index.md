@@ -6,6 +6,7 @@ suppressSiteNotice: true
   <div class="row center-block">
     <h1>Welcome to the GovEx Office Hours: David vs. Goliath</h1>
     <h3>Wednesday, November 4, 2015 &mdash; 3:00p Eastern / 12:00p Pacific</h3>
+    <h4><a href="https://zoom.us/j/6396268606">Click Here to Join!</a></h4>
     <p>facilitated by</p>
     <h4><a href="https://www.linkedin.com/in/andrewnicklin">Andrew Nicklin, Director of Open Data, GovEx</a></h4>
     <hr />
