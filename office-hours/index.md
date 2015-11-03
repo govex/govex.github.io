@@ -4,13 +4,13 @@ suppressSiteNotice: true
 ---
 
   <div class="row center-block">
-    <h1>Welcome to the GovEx Public Safety Data Convening!</h1>
-    <h3>Friday, October 23, 2015 &mdash; 1:00p Eastern / 10:00a Pacific</h3>
+    <h1>Welcome to the GovEx Office Hours: David vs. Goliath</h1>
+    <h3>Wednesday, November 4, 2015 &mdash; 3:00p Eastern / 12:00p Pacific</h3>
     <p>facilitated by</p>
     <h4><a href="https://www.linkedin.com/in/andrewnicklin">Andrew Nicklin, Director of Open Data, GovEx</a></h4>
     <hr />
     <h3>Thanks for joining!</h3>
-    <p>Our next peer event will be at 3:00p ET / 12:00p PT on Wednesday, November 4, 2015.</p>
+    <p>Our next Office Hours will be at 3:00p ET / 12:00p PT on Wednesday, December 2, 2015.</p>
     <!-- <h3>Please select an option to connect:</h3> -->
   </div>
 
