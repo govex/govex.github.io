@@ -11,7 +11,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <p>The Johns Hopkins University Center for Government Excellence has created this getting started guide to help governments improve performance practices by setting strong targets.</p>    
       <a href="https://centerforgov.gitbooks.io/setting-performance-targets-getting-started-guide/content/">Read online</a> |
       <a href="https://www.gitbook.com/download/pdf/book/centerforgov/setting-performance-targets-getting-started-guide">Download PDF</a> |
-      <a href="https://github.com/centerforgov/Setting-Performance-Targets">View on Github</a>
+      <a href="https://github.com/centerforgov/setting-performance-targets-getting-started-guide">View on Github</a>
     </p>
   </li>
   <li class="list-group-item">
