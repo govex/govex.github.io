@@ -18,7 +18,7 @@ layout: default
   <a class="list-group-item" href="http://icegov.org/">
     <span class="badge">1 - 3 March 2016</span>
     <h4>International Conference on Theory and Practice of Electronic Governance (ICEGOV)</h4>
-    <p>Montevideo, Uruquay</p>
+    <p>Montevideo, Uruguay</p>
   </a>
   <a class="list-group-item" href="https://www.mysociety.org/research/tictec-2016/">
     <span class="badge">27 - 28 April 2016</span>
