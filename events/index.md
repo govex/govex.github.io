@@ -5,26 +5,6 @@ layout: default
 ## <span class="glyphicon glyphicon-calendar"></span> Events
 
 <div class="list-group">
-  <a class="list-group-item" href="http://customer-summit.socrata.com/">
-    <span class="badge">26 - 27 October 2015</span>
-    <h4>Socrata Customer Summit 2015 (Socrata Customers &amp; Partners Only)</h4>
-    <p>Washington D.C., United States</p>
-  </a>
-  <a class="list-group-item" href="http://www.opengovpartnership.org/2015Summit">
-    <span class="badge">27 - 29 October 2015</span>
-    <h4>Open Government Partnership Global Summit</h4>
-    <p>Mexico City, Mexico</p>
-  </a>
-  <a class="list-group-item" href="http://cityage.org/kc/">
-    <span class="badge">29 - 30 October 2015</span>
-    <h4>CityAge: The New American City</h4>
-    <p>Kansas City, MO, United States</p>
-  </a>
-  <a class="list-group-item" href="http://summit.theodi.org/">
-    <span class="badge">3 November 2015</span>
-    <h4>The Open Data Institute Summit</h4>
-    <p>London, United Kingdom</p>
-  </a>
   <a class="list-group-item" href="http://cityage.org/seattle/">
     <span class="badge">17 November 2015</span>
     <h4>CityAge</h4>
@@ -36,9 +16,9 @@ layout: default
     <p>New York City, NY, United States</p>
   </a>
   <a class="list-group-item" href="http://icegov.org/">
-    <span class="badge">March - April 2016</span>
+    <span class="badge">1 - 3 March 2016</span>
     <h4>International Conference on Theory and Practice of Electronic Governance (ICEGOV)</h4>
-    <p>To Be Determined</p>
+    <p>Montevideo, Uruquay</p>
   </a>
   <a class="list-group-item" href="https://www.mysociety.org/research/tictec-2016/">
     <span class="badge">27 - 28 April 2016</span>
@@ -119,6 +99,26 @@ layout: default
   <a class="list-group-item" href="http://www.theatlantic.com/live/events/citylab/2015/">
     <span class="badge">18 - 20 October 2015</span>
     <h4>CityLab</h4>
+    <p>London, United Kingdom</p>
+  </a>
+    <a class="list-group-item" href="http://customer-summit.socrata.com/">
+    <span class="badge">26 - 27 October 2015</span>
+    <h4>Socrata Customer Summit 2015 (Socrata Customers &amp; Partners Only)</h4>
+    <p>Washington D.C., United States</p>
+  </a>
+  <a class="list-group-item" href="http://www.opengovpartnership.org/2015Summit">
+    <span class="badge">27 - 29 October 2015</span>
+    <h4>Open Government Partnership Global Summit</h4>
+    <p>Mexico City, Mexico</p>
+  </a>
+  <a class="list-group-item" href="http://cityage.org/kc/">
+    <span class="badge">29 - 30 October 2015</span>
+    <h4>CityAge: The New American City</h4>
+    <p>Kansas City, MO, United States</p>
+  </a>
+  <a class="list-group-item" href="http://summit.theodi.org/">
+    <span class="badge">3 November 2015</span>
+    <h4>The Open Data Institute Summit</h4>
     <p>London, United Kingdom</p>
   </a>
 </div>
