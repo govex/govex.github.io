@@ -6,8 +6,16 @@ layout: default
 Below are guidebooks which the Center for Government Excellence makes available online. You may also visit <a href="https://www.gitbook.com/@centerforgov">our page on GitBooks</a>.
 
 <ul class="list-group">
+  <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/setting-performance-targets-getting-started-guide/details">
+    <h4><span class="glyphicon glyphicon-asterisk"></span> Setting Performance Targets: Getting Started Guide</h4>
+    <p>The Johns Hopkins University Center for Government Excellence has created this getting started guide to help governments improve performance practices by setting strong targets.</p>    
+      <a href="https://centerforgov.gitbooks.io/setting-performance-targets-getting-started-guide/content/">Read online</a> |
+      <a href="https://www.gitbook.com/download/pdf/book/centerforgov/setting-performance-targets-getting-started-guide">Download PDF</a> |
+      <a href="https://github.com/centerforgov/Setting-Performance-Targets">View on Github</a>
+    </p>
+  </li>
   <li class="list-group-item">
-    <h4><span class="glyphicon glyphicon-asterisk"></span> Data Ownership Contract Terms</h4>
+    <h4>Data Ownership Contract Terms</h4>
     <p></p>
     <p>
       <a href="/data-ownership">Read online</a> |
@@ -66,12 +74,3 @@ Below are guidebooks which the Center for Government Excellence makes available 
     </p>
   </li>
 </ul>
-<ul class="list-group">
- <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/setting-performance-targets-getting-started-guide/details">
-    <h4><span class="glyphicon glyphicon-asterisk"></span> Setting Performance Targets: Getting Started Guide</h4>
-    <p>The Johns Hopkins University Center for Government Excellence has created this getting started guide to help governments improve performance practices by setting strong targets.</p>    
-      <a href="https://centerforgov.gitbooks.io/setting-performance-targets-getting-started-guide/content/">Read online</a> |
-      <a href="https://www.gitbook.com/book/centerforgov/setting-performance-targets-getting-started-guide/details">Download PDF</a> |
-      <a href="https://github.com/centerforgov/Setting-Performance-Targets">View on Github</a>
-    </p>
-  </li>
