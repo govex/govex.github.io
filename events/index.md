@@ -20,6 +20,21 @@ layout: default
     <h4>International Conference on Theory and Practice of Electronic Governance (ICEGOV)</h4>
     <p>Montevideo, Uruguay</p>
   </a>
+  <a class="list-group-item" href="http://opendataday.org/">
+    <span class="badge">5 March 2016</span>
+    <h4>Open Data Day</h4>
+    <p>Multiple international locations</p>
+  </a>
+  <a class="list-group-item" href="https://www.codeforamerica.org/events/codeacross-2015/">
+    <span class="badge">5 March 2016</span>
+    <h4>CodeAcross</h4>
+    <p>Multiple international locations</p>
+  </a>
+  <a class="list-group-item" href="http://opendataday.org/">
+    <span class="badge">5 March 2016</span>
+    <h4>Open Data Day</h4>
+    <p>Multiple international locations</p>
+  </a>
   <a class="list-group-item" href="https://www.mysociety.org/research/tictec-2016/">
     <span class="badge">27 - 28 April 2016</span>
     <h4>The Impacts of Civic Technology Conference</h4>
