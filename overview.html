@@ -19,19 +19,15 @@
         padding: 0;
         margin: 0;
     }
-
     .jspPane {
         overflow: scroll !important;
     }
-
     #wrapper {
         position: relative;
     }
-
     .leaflet-container {
         background-color: #fff !important;
     }
-
     #over_map {
         position: absolute;
         top: 10px;
@@ -41,7 +37,6 @@
         padding: 10px 10px 20px 10px;
         max-width: 370px;
     }
-
     #menu a {
         margin: 15px 5% 0 0;
         float: right;
@@ -59,33 +54,27 @@
         cursor: pointer;
         box-shadow: rgba(0, 0, 0, 0.65098) 0px 1px 5px 0px;
     }
-
     #menu a.selected,
     #menu a:hover {
         color: #fff;
         background: #FF6600;
         box-shadow: rgba(0, 0, 0, 0.80) 0px 0.5px 2.5px 0px;
     }
-
     #userInput {
         width: 100%;
     }
-
     #menu p {
         padding: 20px 10px 10px 0px;
         display: inline-block;
         font: lighter 12px "Helvetica", Arial;
     }
-
     #menu input {
         background-color: rgba(0, 0, 0, 0);
         font-size: 15px;
     }
-
     option {
         font: lighter 12px "Helvetica", Arial;
     }
-
     .cartodb-popup-close-button {
         position: absolute;
         top: -12px;
@@ -100,51 +89,42 @@
         text-transform: uppercase;
         z-index: 3;
     }
-
     .infowindow-custom {
         background: #FFF;
         border-radius: 5px;
         min-height: 200px;
     }
-
     .cartodb-infowindow {
         border-width: 5px;
         border-color: rgba(136, 136, 136, .5);
         border-style: solid;
         border-radius: 5px;
     }
-
     .cartodb-popup-content {
         max-height: 100%;
     }
-
     .popup-header h1 {
         color: #FF6600;
         font: 28px 'DIN condensed', 'Helvetica';
         padding: 10px 20px 1px;
         text-align: center;
     }
-
     .image {
         max-height: 200px;
         max-width: 200px;
         overflow: scroll;
     }
-
     .image img {
         height: auto;
         width: auto;
     }
-
     td {
         padding: 5px;
         text-align: center;
     }
-
     li {
         list-style-type: none;
     }
-
     h2 {
         font: 22px 'DIN condensed', 'Helvetica';
     }
@@ -164,24 +144,7 @@
                     </td><td id="info">
                     <h2>STATUS</h2>
                     <li id="status">{{content.data.status}}</li>
-                    {{#scope1}}
-                    <div id="scopes"><h2 >SCOPES</h2>
-                    <li id="scope1">{{content.data.scope1}}</li>
-                    <li id="scope2">{{content.data.scope2}}</li>
-                    <li id="scope3">{{content.data.scope3}}</li></div>
-                    {{/scope1}}
-
-                    {{#lead}}
-                    <div id="staff"><h2> STAFF</h2>
-                    <li id="lead">{{content.data.lead}}</li>
-                    <li id="analyst">{{content.data.analyst}}</li></div>
-                    {{/lead}}
-
-                    {{#timeline_progress}}
-                    <div id="timeline_progress"><h2>TIMELINE PROGRESS</h2>
-                    <li id="timeline_progress">{{content.data.timeline_progress}}</li>
-                    {{/timeline_progress}}
-
+                    
                     </td></tr></table>
                 </div>
             </div>
@@ -229,8 +192,8 @@
             <a id="Contracting" value="Contracting" class="button scope ">Contracting</a>
             <a id="Low Cost" value="Low Cost" class="button scope ">Low Cost Evaluation</a></p>
 
-            <p><h2>City Info</h2>
-
+            <h2>City Info</h2>
+            <div id = "cityinfo">    </div>
 
     </div>
     </div>
@@ -239,7 +202,6 @@
     <!-- Draw maps! -->
     <script>
     var sublayers = [];
-
     function main() {
         // create leaflet map
         var map = L.map('map', {
@@ -249,10 +211,7 @@
             zoomControl: true,
             zoom: 4
         });
-
-
 //add points later
-
         cartodb.createLayer(map, {
                 user_name: 'govex',
                 type: 'namedmap',
@@ -266,57 +225,65 @@
             })
             .addTo(map)
             .done(function(layer) {
-
-cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','city','state','scope1','scope2','scope3','lead','analyst','picturelink','notes','timeline_progress'], {infowindowTemplate: $('#infowindow_template').html()});
-
+                cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','city','state','scope1','scope2','scope3','lead','analyst','picturelink','notes','timeline_progress'], {infowindowTemplate: $('#infowindow_template').html()});
                 //uncomment the alert to confirm sublayer additions
                 for (var i = 0; i < layer.getSubLayerCount(); i++) {
                     sublayers[i] = layer.getSubLayer(i);
                     //alert("Sublayer #" + i + "was added");
-
                 }
+                var sublayer = layer.getSubLayer(0)
 
-//set city variable from input
+                //cityinfo div filling query
+                sublayer.on('featureClick', function (e, latlng, pos, data, layerIndex) {
+                    var sql = new cartodb.SQL({ user: 'govex', api_key: 'd229b9ac25b04c923fa56651f6bcaec878351cf6' }); 
+
+                    var query = "SELECT * FROM wwcapplicantmap where city = '{{city}}' and state = '{{state}}'";
+                    console.log(query);
+
+                    sql.execute(query, {city: data.city, state: data.state})
+                    .done(function (data) {
+                        console.log(data); 
+                        //set what appears in cityinfo div
+                        for (var i = 0; i < data.total_rows; i++) {
+                            $('#cityinfo').append("<div><h2 class='popup-header'>" + data.rows[i].city +
+                            ", " + data.rows[i].state +
+                            "</h2></div></br><table><tr><td id='info'><h2>STATUS</h2><li id='status'>" + data.rows[i].status + "</li><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div><div id='timeline_progress'><h2>TIMELINE PROGRESS</h2><li id='timeline_progress'>" + data.rows[i].timeline_progress + "</li></td></tr></table>");
+                        }
+                    })
+                });
+            //set city variable from input
                 values = "";
                 analyst = "";
                 lead = "";
                 scope = "";
                 status = "";
+                timeline_progress = "";
                 layer.setParams({
                     'analyst': analyst,
                     'lead': lead,
                     'scope': scope,
                     'status': status
                 });
-
-
-
                 $('select[id="lead"]').change(function() {
-
                     if ($(this).val() == "All") {
                         lead = "";
                     } else {
                         lead = "and a.lead = '" + $(this).val() + "'";
                     };
-
                     layer.setParams({
                     'lead': lead
                     })
                 });
-
                 $('select[id="analyst"]').change(function() {
-
                     if ($(this).val() == "All") {
                         analyst = "";
                     } else {
                         analyst = "and a.analyst = '" + $(this).val() + "'";
                     };
-
                     layer.setParams({
                     'analyst': analyst
                     })
                 });
-
                 $('.button.status').click(function() {
                     status = ""
                     if ($(this).hasClass('selected')) {
@@ -331,15 +298,11 @@ cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','cit
                         $(this).addClass('selected');
                         statusvalues();
                         status = "and a.status in ('" + values + "')";
-
                     };
-
                     layer.setParams({
                     'status': status
                     });
-
                 });
-
                 function statusvalues() {
                     values = "";
                     values = $('.selected.status')
@@ -350,7 +313,6 @@ cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','cit
                      .join("','");
                     return values;
                 };
-
                 $('.button.scope').click(function() {
                     scope = ""
                     if ($(this).hasClass('selected')) {
@@ -358,7 +320,6 @@ cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','cit
                         if ($('a.selected.scope').length){
                             scopeconcat();
                             scope = "and ('" + scopevalues + "' in (a.scope1,a.scope2,a.scope3))";
-
                             $("#Applied").removeClass('selected');
                             $("#Eligible").removeClass('selected');
                             $("#Assessed").removeClass('selected');
@@ -379,14 +340,11 @@ cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','cit
                         statusvalues();
                         status = "and a.status in ('Working')";
                     }
-
                     layer.setParams({
                     'scope': scope,
                     'status': status
                     });
-
                 });
-
                 function scopeconcat() {
                     scopevalues = "";
                     scopevalues = $('.selected.scope')
@@ -397,19 +355,14 @@ cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','cit
                      .join("' in (a.scope1,a.scope2,a.scope3)) or ('");
                     return scopevalues;
                 };
-
-
             })
             .error(function(layer) {
                 console.log("some error occurred");
             });
-
-
     // base layer
 cartodb.createLayer(map, 'https://govex.cartodb.com/api/v2/viz/57c72a8c-1e75-11e5-8d41-0e4fddd5de28/viz.json')
  .addTo(map, -1);
 }
-
     window.onload = main;
     </script>
 </body>
