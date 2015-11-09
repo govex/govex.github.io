@@ -54,6 +54,12 @@
         cursor: pointer;
         box-shadow: rgba(0, 0, 0, 0.65098) 0px 1px 5px 0px;
     }
+    #cityinfo {
+        position: absolute;
+        float: left;
+        vertical-align: baseline;
+        font: lighter 12px "Helvetica", Arial;
+              }
     #menu a.selected,
     #menu a:hover {
         color: #fff;
@@ -144,7 +150,7 @@
                     </td><td id="info">
                     <h2>STATUS</h2>
                     <li id="status">{{content.data.status}}</li>
-                    
+
                     </td></tr></table>
                 </div>
             </div>
@@ -193,7 +199,7 @@
             <a id="Low Cost" value="Low Cost" class="button scope ">Low Cost Evaluation</a></p>
 
             <h2>City Info</h2>
-            <div id = "cityinfo">    </div>
+            <div id = "cityinfo">   </div>
 
     </div>
     </div>
@@ -235,14 +241,14 @@
 
                 //cityinfo div filling query
                 sublayer.on('featureClick', function (e, latlng, pos, data, layerIndex) {
-                    var sql = new cartodb.SQL({ user: 'govex', api_key: 'd229b9ac25b04c923fa56651f6bcaec878351cf6' }); 
+                    var sql = new cartodb.SQL({ user: 'govex', api_key: 'd229b9ac25b04c923fa56651f6bcaec878351cf6' });
                     var query = "SELECT * FROM wwcapplicantmap where city = '{{city}}' and state = '{{state}}'";
                     console.log(query);
 
                     sql.execute(query, {city: data.city, state: data.state})
                     .done(function (data) {
                         $('#cityinfo').empty();
-                        console.log(data); 
+                        console.log(data);
                         //set what appears in cityinfo div
                         for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h2 class='popup-header'>" + data.rows[i].city +
