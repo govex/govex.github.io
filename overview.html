@@ -19,19 +19,19 @@
         padding: 0;
         margin: 0;
     }
-    
+
     .jspPane {
         overflow: scroll !important;
     }
-    
+
     #wrapper {
         position: relative;
     }
-    
+
     .leaflet-container {
         background-color: #fff !important;
     }
-    
+
     #over_map {
         position: absolute;
         top: 10px;
@@ -39,9 +39,9 @@
         z-index: 99;
         background-color: rgba(255, 255, 255, .6);
         padding: 10px 10px 20px 10px;
-        max-width: 270px;
+        max-width: 370px;
     }
-    
+
     #menu a {
         margin: 15px 5% 0 0;
         float: right;
@@ -59,33 +59,33 @@
         cursor: pointer;
         box-shadow: rgba(0, 0, 0, 0.65098) 0px 1px 5px 0px;
     }
-    
+
     #menu a.selected,
     #menu a:hover {
         color: #fff;
         background: #FF6600;
         box-shadow: rgba(0, 0, 0, 0.80) 0px 0.5px 2.5px 0px;
     }
-    
+
     #userInput {
         width: 100%;
     }
-    
+
     #menu p {
         padding: 20px 10px 10px 0px;
         display: inline-block;
         font: lighter 12px "Helvetica", Arial;
     }
-    
+
     #menu input {
         background-color: rgba(0, 0, 0, 0);
         font-size: 15px;
     }
-    
+
     option {
         font: lighter 12px "Helvetica", Arial;
     }
-    
+
     .cartodb-popup-close-button {
         position: absolute;
         top: -12px;
@@ -100,51 +100,51 @@
         text-transform: uppercase;
         z-index: 3;
     }
-    
+
     .infowindow-custom {
         background: #FFF;
         border-radius: 5px;
         min-height: 200px;
     }
-    
+
     .cartodb-infowindow {
         border-width: 5px;
         border-color: rgba(136, 136, 136, .5);
         border-style: solid;
         border-radius: 5px;
     }
-    
+
     .cartodb-popup-content {
         max-height: 100%;
     }
-    
+
     .popup-header h1 {
         color: #FF6600;
         font: 28px 'DIN condensed', 'Helvetica';
         padding: 10px 20px 1px;
         text-align: center;
     }
-    
+
     .image {
         max-height: 200px;
         max-width: 200px;
         overflow: scroll;
     }
-    
+
     .image img {
         height: auto;
         width: auto;
     }
-    
+
     td {
         padding: 5px;
         text-align: center;
     }
-    
+
     li {
         list-style-type: none;
     }
-    
+
     h2 {
         font: 22px 'DIN condensed', 'Helvetica';
     }
@@ -156,7 +156,7 @@
                 <h1>{{content.data.city}}, {{content.data.state}}
             </div>
             <div class="cartodb-popup-content">
-                <div class="content" style="padding:10px">
+                <div class="content" style="padding:5px">
                 <table>
                 <tr>
                     <td class="image">
@@ -168,25 +168,35 @@
                     <div id="scopes"><h2 >SCOPES</h2>
                     <li id="scope1">{{content.data.scope1}}</li>
                     <li id="scope2">{{content.data.scope2}}</li>
-                    <li id="scope3">{{content.data.scope3}}</li></div>                    {{/scope1}}
-                    {{#lead}}
+                    <li id="scope3">{{content.data.scope3}}</li></div>
+                    {{/scope1}}
 
+                    {{#lead}}
                     <div id="staff"><h2> STAFF</h2>
                     <li id="lead">{{content.data.lead}}</li>
                     <li id="analyst">{{content.data.analyst}}</li></div>
                     {{/lead}}
+
+                    {{#timeline_progress}}
+                    <div id="timeline_progress"><h2>TIMELINE PROGRESS</h2>
+                    <li id="timeline_progress">{{content.data.timeline_progress}}</li>
+                    {{/timeline_progress}}
+
                     </td></tr></table>
                 </div>
             </div>
             <div class="cartodb-popup-tip-container"></div>
         </div>
     </script>
+
+
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
 </head>
 
 <body>
     <div id="map"></div>
     <div id="over_map">
+      <img src='images/govexlogo-small.png'>
     <div id="menu">
        <p id="dropdowns"> <select id="lead">
                 <option value="All">All Senior Analysts</option>
@@ -202,9 +212,9 @@
                 <option value="Nick Hadjigeorge">Nick Hadjigeorge</option>
                 <option value="Eric Reese">Eric Reese</option>
             </select></p>
-        
 
-            
+
+
 
             <p><h2>Status</h2>
             <a id="Eligible" value="Eligible" class="button status selected">Eligible</a>
@@ -218,6 +228,10 @@
             <a id="Performance Management" value="Performance Management" class="button scope ">Performance Management</a>
             <a id="Contracting" value="Contracting" class="button scope ">Contracting</a>
             <a id="Low Cost" value="Low Cost" class="button scope ">Low Cost Evaluation</a></p>
+
+            <p><h2>City Info</h2>
+
+
     </div>
     </div>
     <!-- importing cartodb.js -->
@@ -238,7 +252,7 @@
 
 
 //add points later
-        
+
         cartodb.createLayer(map, {
                 user_name: 'govex',
                 type: 'namedmap',
@@ -246,14 +260,14 @@
                     name: "wwcities",
                     layers: [{
                         layer_name: "wwcapplicantmap",
-                        interactivity: "cartodb_id, city, state, scope1, scope2, scope3, lead, analyst, status, picturelink, notes"
+                        interactivity: "cartodb_id, city, state, scope1, scope2, scope3, lead, analyst, status, picturelink, notes, timeline_progress"
                     }]
                 }
             })
             .addTo(map)
             .done(function(layer) {
 
-cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','city','state','scope1','scope2','scope3','lead','analyst','picturelink','notes'], {infowindowTemplate: $('#infowindow_template').html()});
+cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','city','state','scope1','scope2','scope3','lead','analyst','picturelink','notes','timeline_progress'], {infowindowTemplate: $('#infowindow_template').html()});
 
                 //uncomment the alert to confirm sublayer additions
                 for (var i = 0; i < layer.getSubLayerCount(); i++) {
@@ -275,7 +289,7 @@ cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','cit
                     'status': status
                 });
 
-                
+
 
                 $('select[id="lead"]').change(function() {
 
@@ -344,7 +358,7 @@ cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','cit
                         if ($('a.selected.scope').length){
                             scopeconcat();
                             scope = "and ('" + scopevalues + "' in (a.scope1,a.scope2,a.scope3))";
-                            
+
                             $("#Applied").removeClass('selected');
                             $("#Eligible").removeClass('selected');
                             $("#Assessed").removeClass('selected');
@@ -390,7 +404,7 @@ cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','cit
                 console.log("some error occurred");
             });
 
-    
+
     // base layer
 cartodb.createLayer(map, 'https://govex.cartodb.com/api/v2/viz/57c72a8c-1e75-11e5-8d41-0e4fddd5de28/viz.json')
  .addTo(map, -1);
