@@ -236,12 +236,12 @@
                 //cityinfo div filling query
                 sublayer.on('featureClick', function (e, latlng, pos, data, layerIndex) {
                     var sql = new cartodb.SQL({ user: 'govex', api_key: 'd229b9ac25b04c923fa56651f6bcaec878351cf6' }); 
-
                     var query = "SELECT * FROM wwcapplicantmap where city = '{{city}}' and state = '{{state}}'";
                     console.log(query);
 
                     sql.execute(query, {city: data.city, state: data.state})
                     .done(function (data) {
+                        $('#cityinfo').empty();
                         console.log(data); 
                         //set what appears in cityinfo div
                         for (var i = 0; i < data.total_rows; i++) {
