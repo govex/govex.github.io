@@ -19,9 +19,6 @@
         padding: 0;
         margin: 0;
     }
-    .jspPane {
-        overflow: scroll !important;
-    }
     #wrapper {
         position: relative;
     }
@@ -35,7 +32,7 @@
         z-index: 99;
         background-color: rgba(255, 255, 255, .6);
         padding: 10px 10px 20px 10px;
-        max-width: 370px;
+        max-width: 270px;
     }
     #menu a {
         margin: 15px 5% 0 0;
@@ -54,16 +51,46 @@
         cursor: pointer;
         box-shadow: rgba(0, 0, 0, 0.65098) 0px 1px 5px 0px;
     }
-    #cityinfo {
-        position: absolute;
-        float: left;
-        vertical-align: baseline;
-        font: lighter 12px "Helvetica", Arial;
-              }
-    #menu a.selected,
-    #menu a:hover {
+    #Eligible.selected,
+    #Eligible:hover{
+        color: #fff;
+        background: #472F92;
+        box-shadow: rgba(0, 0, 0, 0.80) 0px 0.5px 2.5px 0px;
+    }
+    #Applied.selected,
+    #Applied:hover{
+        color: #fff;
+        background: #472F92;
+        box-shadow: rgba(0, 0, 0, 0.80) 0px 0.5px 2.5px 0px;
+    }
+    #tba.selected,
+    #tba:hover{
         color: #fff;
         background: #FF6600;
+        box-shadow: rgba(0, 0, 0, 0.80) 0px 0.5px 2.5px 0px;
+    }
+    #Assessed.selected,
+    #Assessed:hover{
+        color: #fff;
+        background: #FF6600;
+        box-shadow: rgba(0, 0, 0, 0.80) 0px 0.5px 2.5px 0px;
+    }
+    #Working.selected,
+    #Working:hover{
+        color: #fff;
+        background: #2F9BBB;
+        box-shadow: rgba(0, 0, 0, 0.80) 0px 0.5px 2.5px 0px;
+    }
+    #Open\20 Data.selected,
+    #Open\20 Data:hover{
+        color: #fff;
+        background: #472F92;
+        box-shadow: rgba(0, 0, 0, 0.80) 0px 0.5px 2.5px 0px;
+    }
+    #Performance\20 Management.selected,
+    #Performance\20 Management:hover{
+        color: #fff;
+        background: #472F92;
         box-shadow: rgba(0, 0, 0, 0.80) 0px 0.5px 2.5px 0px;
     }
     #userInput {
@@ -98,7 +125,7 @@
     .infowindow-custom {
         background: #FFF;
         border-radius: 5px;
-        min-height: 200px;
+        min-height: 100px;
     }
     .cartodb-infowindow {
         border-width: 5px;
@@ -115,10 +142,15 @@
         padding: 10px 20px 1px;
         text-align: center;
     }
+    .city_name {
+        color: #FF6600;
+        font: 28px 'DIN condensed', 'Helvetica';
+        padding: 10px 0px 1px 0px;
+        text-align: left;
+    }
     .image {
         max-height: 200px;
         max-width: 200px;
-        overflow: scroll;
     }
     .image img {
         height: auto;
@@ -130,9 +162,12 @@
     }
     li {
         list-style-type: none;
+        font: lighter 12px "Helvetica", Arial;
     }
     h2 {
         font: 22px 'DIN condensed', 'Helvetica';
+        margin-top:8px;
+        line-height: .9em;
     }
     </style>
     <script type="infowindow/html" id="infowindow_template">
@@ -144,30 +179,26 @@
             <div class="cartodb-popup-content">
                 <div class="content" style="padding:5px">
                 <table>
-                <tr>
-                    <td class="image">
-                    <img style="width:100%;" src="https://{{content.data.picturelink}}">
-                    </td><td id="info">
-                    <h2>STATUS</h2>
-                    <li id="status">{{content.data.status}}</li>
-
-                    </td></tr></table>
+                    <tr>
+                        <td class="image">
+                            <img style="width:100%;" src="https://{{content.data.picturelink}}">
+                        </td>
+                    </tr>
+                </table>
                 </div>
             </div>
             <div class="cartodb-popup-tip-container"></div>
         </div>
     </script>
-
-
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/themes/css/cartodb.css" />
 </head>
 
 <body>
     <div id="map"></div>
     <div id="over_map">
-      <img src='images/govexlogo-small.png'>
-    <div id="menu">
-       <p id="dropdowns"> <select id="lead">
+        <img src='images/govexlogo-small.png'>
+        <div id="menu">
+            <p id="dropdowns"> <select id="lead">
                 <option value="All">All Senior Analysts</option>
                 <option value="Sheila Dugan">Sheila Dugan</option>
                 <option value="Katherine Klosek">Katherine Klosek</option>
@@ -175,41 +206,40 @@
                 <option value="Matt Raifman">Matt Raifman</option>
             </select>
 
-        <select id="analyst">
+            <select id="analyst">
                 <option value="All">All Analysts</option>
                 <option value="Lena Geraghty">Lena Geraghty</option>
                 <option value="Nick Hadjigeorge">Nick Hadjigeorge</option>
                 <option value="Eric Reese">Eric Reese</option>
             </select></p>
 
+            <div id="status" style="height:200px;"><h2>Status</h2>
+            <a id="Eligible" class="button status selected">Eligible</a>
+            <a id="Applied" class="button status selected">Applied</a>
+            <a id="Assessed" class="button status selected">Assessed</a>
+            <a id="tba" class="button status selected">To Be Assessed</a>
+            <a id="Working" class="button status selected">Working</a>
+            </div>
 
-
-
-            <p><h2>Status</h2>
-            <a id="Eligible" value="Eligible" class="button status selected">Eligible</a>
-            <a id="Applied" value="Applied" class="button status selected">Applied</a>
-            <a id="To Be Assessed" value="To Be Assessed" class="button status selected tba">To Be Assessed</a>
-            <a id="Assessed" value="Assessed" class="button status selected">Assessed</a></p>
-            <a id="Working" value="Working" class="button status selected">Working</a></p>
-
-            <p><h2>Scope</h2>
-            <a id="Open Data" value="Open Data" class="button scope">Open Data</a>
-            <a id="Performance Management" value="Performance Management" class="button scope ">Performance Management</a>
-            <a id="Contracting" value="Contracting" class="button scope ">Contracting</a>
-            <a id="Low Cost" value="Low Cost" class="button scope ">Low Cost Evaluation</a></p>
+            <div id="scopes" style="height:110px;">
+                <h2>Scope</h2>
+                <a id="Open Data" class="button scope">Open Data</a>
+                <a id="Performance Management" class="button scope ">Performance Management</a>
+                <!--<a id="Contracting" class="button scope ">Contracting</a>
+                <a id="Low Cost" class="button scope ">Low Cost Evaluation</a>-->
+            </div>
 
             <h2>City Info</h2>
-            <div id = "cityinfo">   </div>
-
-    </div>
+            <div id = "cityinfo">    </div>
+        </div>
     </div>
     <!-- importing cartodb.js -->
     <script src="http://libs.cartocdn.com/cartodb.js/v3/3.11/cartodb.js"></script>
-    <!-- Draw maps! -->
+    <!-- drawing map -->
     <script>
     var sublayers = [];
     function main() {
-        // create leaflet map
+        //create leaflet map
         var map = L.map('map', {
             zoomControl: false,
             scrollWheelZoom: false,
@@ -217,7 +247,7 @@
             zoomControl: true,
             zoom: 4
         });
-//add points later
+        //add points layer
         cartodb.createLayer(map, {
                 user_name: 'govex',
                 type: 'namedmap',
@@ -231,6 +261,7 @@
             })
             .addTo(map)
             .done(function(layer) {
+                //data to route to infowindow
                 cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','city','state','scope1','scope2','scope3','lead','analyst','picturelink','notes','timeline_progress'], {infowindowTemplate: $('#infowindow_template').html()});
                 //uncomment the alert to confirm sublayer additions
                 for (var i = 0; i < layer.getSubLayerCount(); i++) {
@@ -241,23 +272,41 @@
 
                 //cityinfo div filling query
                 sublayer.on('featureClick', function (e, latlng, pos, data, layerIndex) {
-                    var sql = new cartodb.SQL({ user: 'govex', api_key: 'd229b9ac25b04c923fa56651f6bcaec878351cf6' });
+                    var sql = new cartodb.SQL({ user: 'govex', api_key: 'd229b9ac25b04c923fa56651f6bcaec878351cf6' }); 
+
                     var query = "SELECT * FROM wwcapplicantmap where city = '{{city}}' and state = '{{state}}'";
                     console.log(query);
 
                     sql.execute(query, {city: data.city, state: data.state})
                     .done(function (data) {
                         $('#cityinfo').empty();
-                        console.log(data);
+                        console.log(data); 
                         //set what appears in cityinfo div
+                        if(data.rows[0].status == "Working") {
                         for (var i = 0; i < data.total_rows; i++) {
-                            $('#cityinfo').append("<div><h2 class='popup-header'>" + data.rows[i].city +
+                            $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
+                            ", " + data.rows[i].state + "</h1></div><h2>STATUS</h2><li>" + data.rows[i].status + "</li><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div><div id='timeline_progress'><h2>TIMELINE PROGRESS</h2><li id='timeline_progress'>" + data.rows[i].timeline_progress + "</li>");
+                        } } else if (data.rows[0].status == "Assessed")
+                        {
+                            for (var i = 0; i < data.total_rows; i++) {
+                            $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
+                            ", " + data.rows[i].state + "</h1></div><h2>STATUS</h2><li>" + data.rows[i].status + "</li><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                        }}  else if
+                         (data.rows[0].status == "To Be Assessed")
+                        {
+                            for (var i = 0; i < data.total_rows; i++) {
+                            $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
+                            ", " + data.rows[i].state + "</h1></div><h2>STATUS</h2><li>" + data.rows[i].status + "</li><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                        }}  else
+                        {
+                            for (var i = 0; i < data.total_rows; i++) {
+                            $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
                             ", " + data.rows[i].state +
-                            "</h2></div></br><table><tr><td id='info'><h2>STATUS</h2><li id='status'>" + data.rows[i].status + "</li><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div><div id='timeline_progress'><h2>TIMELINE PROGRESS</h2><li id='timeline_progress'>" + data.rows[i].timeline_progress + "</li></td></tr></table>");
-                        }
+                            "</h1></div><h2>STATUS</h2><li>" + data.rows[i].status + "</li></div>");
+                        }} 
                     })
                 });
-            //set city variable from input
+            //initialize variables
                 values = "";
                 analyst = "";
                 lead = "";
@@ -270,6 +319,8 @@
                     'scope': scope,
                     'status': status
                 });
+
+                //Senior Analyst dropdown
                 $('select[id="lead"]').change(function() {
                     if ($(this).val() == "All") {
                         lead = "";
@@ -280,6 +331,8 @@
                     'lead': lead
                     })
                 });
+
+                //Analyst dropdown
                 $('select[id="analyst"]').change(function() {
                     if ($(this).val() == "All") {
                         analyst = "";
@@ -290,6 +343,8 @@
                     'analyst': analyst
                     })
                 });
+
+                //status buttons
                 $('.button.status').click(function() {
                     status = ""
                     if ($(this).hasClass('selected')) {
@@ -309,16 +364,20 @@
                     'status': status
                     });
                 });
+
+                //creates string of all selected statuses to pass to CartoDB via SQL
                 function statusvalues() {
                     values = "";
                     values = $('.selected.status')
                     .map(function() {
-                    return this.id;
+                    return $(this).text();
                     })
                     .get()
                      .join("','");
                     return values;
                 };
+
+                //scope buttons
                 $('.button.scope').click(function() {
                     scope = ""
                     if ($(this).hasClass('selected')) {
@@ -329,7 +388,7 @@
                             $("#Applied").removeClass('selected');
                             $("#Eligible").removeClass('selected');
                             $("#Assessed").removeClass('selected');
-                            $(".tba").removeClass('selected');
+                            $("#tba").removeClass('selected');
                             statusvalues();
                             status = "and a.status in ('Working')";
                         } else {
@@ -342,7 +401,8 @@
                         $("#Applied").removeClass('selected');
                         $("#Eligible").removeClass('selected');
                         $("#Assessed").removeClass('selected');
-                        $(".tba").removeClass('selected');
+                        $("#tba").removeClass('selected');
+                        $("#Working").addClass('selected');
                         statusvalues();
                         status = "and a.status in ('Working')";
                     }
@@ -351,6 +411,8 @@
                     'status': status
                     });
                 });
+
+                //creates string of all selected scopes to pass to CartoDB via SQL
                 function scopeconcat() {
                     scopevalues = "";
                     scopevalues = $('.selected.scope')
@@ -372,5 +434,4 @@ cartodb.createLayer(map, 'https://govex.cartodb.com/api/v2/viz/57c72a8c-1e75-11e
     window.onload = main;
     </script>
 </body>
-
 </html>
