@@ -19,11 +19,9 @@
         padding: 0;
         margin: 0;
     }
+    
     #wrapper {
         position: relative;
-    }
-    .leaflet-container {
-        background-color: #fff !important;
     }
     #over_map {
         position: absolute;
@@ -44,7 +42,6 @@
         font: lighter 12px "Helvetica", Arial;
         line-height: normal;
         color: #555;
-        border-radius: 4px;
         border: none;
         background: rgba(255, 255, 255, 0.55);
         text-decoration: none;
@@ -105,8 +102,47 @@
         background-color: rgba(0, 0, 0, 0);
         font-size: 15px;
     }
+    
     option {
         font: lighter 12px "Helvetica", Arial;
+    }
+
+    td {
+        padding: 5px;
+        text-align: center;
+    }
+    li {
+        list-style-type: none;
+        font: lighter 12px "Helvetica", Arial;
+    }
+    h2 {
+        font: 22px 'DIN condensed', 'Helvetica';
+        margin-top:8px;
+        line-height: .9em;
+    }
+    progress {
+        background-color: #2F9BBB;
+        height: 1.5em;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    }
+    progress::-webkit-progress-bar {
+        background-color: #fff;
+        height: 1.5em;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25) inset;
+    }
+    progress::-webkit-progress-value {
+        background-color: #2F9BBB;
+        height: 1.5em;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25) inset;
+    }
+    .bbp {
+        height: 60px;
+        background-repeat: no-repeat;
+        padding-left:60px;
+        margin-bottom:-15px;
+    }
+    .leaflet-container {
+        background-color: #fff !important;
     }
     .cartodb-popup-close-button {
         position: absolute;
@@ -156,19 +192,6 @@
         height: auto;
         width: auto;
     }
-    td {
-        padding: 5px;
-        text-align: center;
-    }
-    li {
-        list-style-type: none;
-        font: lighter 12px "Helvetica", Arial;
-    }
-    h2 {
-        font: 22px 'DIN condensed', 'Helvetica';
-        margin-top:8px;
-        line-height: .9em;
-    }
     </style>
     <script type="infowindow/html" id="infowindow_template">
         <div class="infowindow-custom">
@@ -194,9 +217,19 @@
 </head>
 
 <body>
+
     <div id="map"></div>
     <div id="over_map">
-        <img src='images/govexlogo-small.png'>
+
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 1200 270" style="enable-background:new 0 0 1200 270;" xml:space="preserve">
+        <style type="text/css">
+            .st0{fill:#6FCACB;}
+            .st1{font-family:'Quadon-Black';}
+            .st2{font-size:150px;}
+        </style>
+        <text transform="matrix(1 0 0 1 132.4368 235.7529)" class="st0 st1 st2">GovEx</text>
+        </svg>
         <div id="menu">
             <p id="dropdowns"> <select id="lead">
                 <option value="All">All Senior Analysts</option>
@@ -269,10 +302,20 @@
                     //alert("Sublayer #" + i + "was added");
                 }
                 var sublayer = layer.getSubLayer(0)
+                //$('.leaflet-bottom, .leaflet-right').empty();
+                $('.leaflet-bottom.leaflet-left').append("<img class='bbp' src='https://cloud.githubusercontent.com/assets/3632538/11053004/4cb5bb9e-872b-11e5-9d3a-b9ec5d26b8ca.png'>");
 
+                
                 //cityinfo div filling query
                 sublayer.on('featureClick', function (e, latlng, pos, data, layerIndex) {
                     var sql = new cartodb.SQL({ user: 'govex', api_key: 'd229b9ac25b04c923fa56651f6bcaec878351cf6' }); 
+
+                    function percentify(n) {
+                        raw_number = n;
+                        percentage = n * 100;
+                        format = percentage + "%";
+                        return format;
+                    };
 
                     var query = "SELECT * FROM wwcapplicantmap where city = '{{city}}' and state = '{{state}}'";
                     console.log(query);
@@ -281,11 +324,12 @@
                     .done(function (data) {
                         $('#cityinfo').empty();
                         console.log(data); 
+
                         //set what appears in cityinfo div
                         if(data.rows[0].status == "Working") {
                         for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS</h2><li>" + data.rows[i].status + "</li><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div><div id='timeline_progress'><h2>TIMELINE PROGRESS</h2><li id='timeline_progress'>" + data.rows[i].timeline_progress + "</li>");
+                            ", " + data.rows[i].state + "</h1></div><h2>STATUS</h2><li>" + data.rows[i].status + "</li><div id='timeline_progress'><h2>TIMELINE PROGRESS</h2><li id='timeline_progress'><progress max='1' value='" + data.rows[i].timeline_progress + "'></progress> " + percentify(data.rows[i].timeline_progress) + "</li></div><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
                         } } else if (data.rows[0].status == "Assessed")
                         {
                             for (var i = 0; i < data.total_rows; i++) {
