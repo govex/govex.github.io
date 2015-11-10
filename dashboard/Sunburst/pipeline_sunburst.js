@@ -58,7 +58,7 @@
             return Math.max(0, u(t.y + t.dy))
         });
 
-    (preppedData, function(r, i) {
+    preppedData, function(r, i) {
         function l(n) {
             h.transition().duration(s).attrTween("d", e(n)), m.style("visibility", function(e) {
                 return t(n, e) ? null : d3.select(this).style("visibility")
@@ -102,5 +102,5 @@
         }), y.append("tspan").attr("x", 0).attr("dy", "1em").text(function(t) {
             return t.depth ? t.name.split(" ")[1] || "" : ""
         })
-    })
+    }
 }();
