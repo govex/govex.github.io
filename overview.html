@@ -39,9 +39,16 @@
         padding: 0;
         margin: 0;
     }
-    
+    #Layer_1{
+        margin-top:-30px;
+    }
     #wrapper {
         position: relative;
+    }
+
+    #Open\20 Data{
+        padding-top: 20.5px !important;
+        padding-bottom: 20.5px !important;
     }
     #over_map {
         position: absolute;
@@ -52,6 +59,22 @@
         padding: 10px 10px 20px 10px;
         max-width: 270px;
     }
+    #Working {
+        color: #2F9BBB;
+    }
+
+    #Applied, #Eligible {
+        color: #472F92;
+    }
+
+    #Assessed {
+        color: #FF6600;
+    }
+
+    #To\20 Be\20 Assessed {
+        color: #FF6600;
+    }
+
     #menu a {
         margin: 15px 5% 0 0;
         float: right;
@@ -114,7 +137,7 @@
         width: 100%;
     }
     #menu p {
-        padding: 20px 10px 10px 0px;
+        padding: 10px 10px 10px 0px;
         display: inline-block;
         font: lighter 12px "Helvetica", Arial;
     }
@@ -139,7 +162,10 @@
         font: 22px 'din', 'Helvetica';
         margin-top:8px;
         line-height: .9em;
+        margin-bottom:6px;;
     }
+
+
     progress {
         background-color: #2F9BBB;
         height: 1.5em;
@@ -155,6 +181,8 @@
         height: 1.5em;
         box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25) inset;
     }
+
+    
     .bbp {
         height: 60px;
         background-repeat: no-repeat;
@@ -274,7 +302,7 @@
             <a id="Working" class="button status selected">Working</a>
             </div>
 
-            <div id="scopes" style="height:110px;">
+            <div id="scopes" style="height:100px;">
                 <h2>Scope</h2>
                 <a id="Open Data" class="button scope">Open Data</a>
                 <a id="Performance Management" class="button scope ">Performance Management</a>
@@ -350,25 +378,25 @@
 
                         for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS</h2><li>" + data.rows[i].status + "</li><li>" + data.rows[i].latest_news + "</li><div id='timeline_progress'><h2>TIMELINE PROGRESS</h2><li id='timeline_progress'><progress max='1' value='" + data.rows[i].timeline_progress + "'></progress> " + percentify(data.rows[i].timeline_progress) + "</li></div><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                            ", " + data.rows[i].state + "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2><li>" + data.rows[i].latest_news + "</li><div id='timeline_progress'><h2>TIMELINE PROGRESS</h2><li id='timeline_progress'><progress max='1' value='" + data.rows[i].timeline_progress + "'></progress> " + percentify(data.rows[i].timeline_progress) + "</li></div><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
                             $('.city_name').css("color","#2F9BBB")
                         } } else if (data.rows[0].status == "Assessed")
                         {
                             for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS</h2><li>" + data.rows[i].status + "</li><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                            ", " + data.rows[i].state + "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
                         }}  else if
                          (data.rows[0].status == "To Be Assessed")
                         {
                             for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS</h2><li>" + data.rows[i].status + "</li><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                            ", " + data.rows[i].state + "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
                         }}  else
                         {
                             for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
                             ", " + data.rows[i].state +
-                            "</h1></div><h2>STATUS:</h2><li>" + data.rows[i].status + "</li></div>");
+                            "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2></div>");
                             $('.city_name').css("color","#472F92");
                         }} 
                     })
@@ -464,20 +492,25 @@
                     } else {
                         $(this).addClass('selected');
                         scopeconcat();
-                        scope = "and ('" + scopevalues + "' in (a.scope1,a.scope2,a.scope3))";
+                        scope = "and (('" + scopevalues + "' in (a.scope1,a.scope2,a.scope3)))";
                         $("#Applied").removeClass('selected');
                         $("#Eligible").removeClass('selected');
                         $("#Assessed").removeClass('selected');
                         $("#tba").removeClass('selected');
                         $("#Working").addClass('selected');
                         statusvalues();
+
                         status = "and a.status in ('Working')";
                     }
                     layer.setParams({
                     'scope': scope,
-                    'status': status
+                    'status': status,
+                    'analyst': analyst,
+                    'lead': lead
                     });
                 });
+
+
 
                 //creates string of all selected scopes to pass to CartoDB via SQL
                 function scopeconcat() {
