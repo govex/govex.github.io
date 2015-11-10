@@ -13,7 +13,7 @@
     <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
     <style>
     @font-face {
-        font-family: 'quadon';
+        font-family: 'Quadon';
         src: url('fonts/quadon/webfonts/Quadon-Black.eot');
         src: url('fonts/quadon/webfonts/Quadon-Black.eot?#iefix') format('embedded-opentype'),
              url('fonts/quadon/webfonts/Quadon-Black.woff') format('woff'),
@@ -134,7 +134,7 @@
         font: lighter 12px "Helvetica", Arial;
     }
     h2 {
-        font: 22px 'DIN condensed', 'Helvetica';
+        font: 22px 'DIN-condensed', 'Helvetica';
         margin-top:8px;
         line-height: .9em;
     }
@@ -192,13 +192,13 @@
     }
     .popup-header h1 {
         color: #FF6600;
-        font: 28px 'DIN condensed', 'Helvetica';
+        font: 28px 'DIN-condensed', 'Helvetica';
         padding: 10px 20px 1px;
         text-align: center;
     }
     .city_name {
         color: #FF6600;
-        font: 28px 'DIN condensed', 'Helvetica';
+        font: 28px 'DIN-condensed', 'Helvetica';
         text-align: left;
         height:30px;
     }
@@ -243,7 +243,7 @@
      viewBox="0 0 1200 270" style="enable-background:new 0 0 1200 270;" xml:space="preserve">
         <style type="text/css">
             .st0{fill:#2F9BBB;}
-            .st1{font-family:'Quadon-Black';}
+            .st1{font-family:'quadon';}
             .st2{font-size:200px;}
         </style>
         <text transform="matrix(1 0 0 1 0 242.7529)" class="st0 st1 st2">GovEx</text>
@@ -348,25 +348,25 @@
 
                         for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>" + data.rows[i].status + "</h2><li>" + data.rows[i].latest_news + "</li><div id='timeline_progress'><h2>TIMELINE PROGRESS</h2><li id='timeline_progress'><progress max='1' value='" + data.rows[i].timeline_progress + "'></progress> " + percentify(data.rows[i].timeline_progress) + "</li></div><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                            ", " + data.rows[i].state + "</h1></div><h2>STATUS:</h2><li>" + data.rows[i].status + "</li><li>" + data.rows[i].latest_news + "</li><div id='timeline_progress'><h2>TIMELINE PROGRESS</h2><li id='timeline_progress'><progress max='1' value='" + data.rows[i].timeline_progress + "'></progress> " + percentify(data.rows[i].timeline_progress) + "</li></div><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
                             $('.city_name').css("color","#2F9BBB")
                         } } else if (data.rows[0].status == "Assessed")
                         {
                             for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>" + data.rows[i].status + "</h2><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                            ", " + data.rows[i].state + "</h1></div><h2>STATUS:</h2><li>" + data.rows[i].status + "</li><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
                         }}  else if
                          (data.rows[0].status == "To Be Assessed")
                         {
                             for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>" + data.rows[i].status + "</h2><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                            ", " + data.rows[i].state + "</h1></div><h2>STATUS:</h2><li>" + data.rows[i].status + "</li><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
                         }}  else
                         {
                             for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
                             ", " + data.rows[i].state +
-                            "</h1></div><h2>" + data.rows[i].status + "</h2></div>");
+                            "</h1></div><h2>STATUS:</h2><li>" + data.rows[i].status + "</li></div>");
                             $('.city_name').css("color","#472F92");
                         }} 
                     })
