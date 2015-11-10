@@ -181,8 +181,8 @@
     .city_name {
         color: #FF6600;
         font: 28px 'DIN condensed', 'Helvetica';
-        padding: 10px 0px 1px 0px;
         text-align: left;
+        height:30px;
     }
     .image {
         max-height: 200px;
@@ -224,7 +224,7 @@
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
      viewBox="0 0 1200 270" style="enable-background:new 0 0 1200 270;" xml:space="preserve">
         <style type="text/css">
-            .st0{fill:#6FCACB;}
+            .st0{fill:#2F9BBB;}
             .st1{font-family:'Quadon-Black';}
             .st2{font-size:200px;}
         </style>
@@ -327,26 +327,29 @@
 
                         //set what appears in cityinfo div
                         if(data.rows[0].status == "Working") {
+
                         for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS</h2><li>" + data.rows[i].status + "</li><div id='timeline_progress'><h2>TIMELINE PROGRESS</h2><li id='timeline_progress'><progress max='1' value='" + data.rows[i].timeline_progress + "'></progress> " + percentify(data.rows[i].timeline_progress) + "</li></div><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                            ", " + data.rows[i].state + "</h1></div><h2>" + data.rows[i].status + "</h2><li>" + data.rows[i].latest_news + "</li><div id='timeline_progress'><h2>TIMELINE PROGRESS</h2><li id='timeline_progress'><progress max='1' value='" + data.rows[i].timeline_progress + "'></progress> " + percentify(data.rows[i].timeline_progress) + "</li></div><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                            $('.city_name').css("color","#2F9BBB")
                         } } else if (data.rows[0].status == "Assessed")
                         {
                             for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS</h2><li>" + data.rows[i].status + "</li><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                            ", " + data.rows[i].state + "</h1></div><h2>" + data.rows[i].status + "</h2><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
                         }}  else if
                          (data.rows[0].status == "To Be Assessed")
                         {
                             for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS</h2><li>" + data.rows[i].status + "</li><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                            ", " + data.rows[i].state + "</h1></div><h2>" + data.rows[i].status + "</h2><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
                         }}  else
                         {
                             for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
                             ", " + data.rows[i].state +
-                            "</h1></div><h2>STATUS</h2><li>" + data.rows[i].status + "</li></div>");
+                            "</h1></div><h2>" + data.rows[i].status + "</h2></div>");
+                            $('.city_name').css("color","#472F92");
                         }} 
                     })
                 });
@@ -472,9 +475,9 @@
                 console.log("some error occurred");
             });
     // base layer
-cartodb.createLayer(map, 'https://govex.cartodb.com/api/v2/viz/57c72a8c-1e75-11e5-8d41-0e4fddd5de28/viz.json')
+    cartodb.createLayer(map, 'https://govex.cartodb.com/api/v2/viz/57c72a8c-1e75-11e5-8d41-0e4fddd5de28/viz.json')
  .addTo(map, -1);
-}
+    }
     window.onload = main;
     </script>
 </body>
