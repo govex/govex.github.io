@@ -247,9 +247,9 @@
     </style>
     <script type="infowindow/html" id="infowindow_template">
         <div class="infowindow-custom">
-            <a href="#close" class="cartodb-popup-close-button close" id="#{{content.data.state}}">x</a>
+            <a href="#close" class="cartodb-popup-close-button close" >x</a>
             <div class="popup-header">
-                <h1>{{content.data.city}}, {{content.data.state}}
+                <h1 id="#{{content.data.state}}">{{content.data.city}}, {{content.data.state}}
             </div>
             <div class="cartodb-popup-content">
                 <div class="content" style="padding:5px">
