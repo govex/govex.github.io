@@ -368,7 +368,7 @@
                     function percentify(n) {
                         raw_number = n;
                         percentage = n * 100;
-                        format = percentage + "%";
+                        format = percentage.substr(0, 2) + "%";
                         return format;
                     };
 
