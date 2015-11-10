@@ -57,7 +57,8 @@
         }).outerRadius(function(t) {
             return Math.max(0, u(t.y + t.dy))
         });
-    d3.json("sunburst.json", function(r, i) {
+
+    d3.json(preppedData, function(r, i) {
         function l(n) {
             h.transition().duration(s).attrTween("d", e(n)), m.style("visibility", function(e) {
                 return t(n, e) ? null : d3.select(this).style("visibility")
