@@ -1,0 +1,262 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2792584, 2014-04-10T13:17:10-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2792584
+ * Licensed pageviews: 1,000,000
+ *
+ * © 2014 MyFonts Inc
+*/
+
+/* @import must be at top of file, otherwise CSS will not work */
+/* @import url("//hello.myfonts.net/count/2a9c88"); */
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////*/
+/*/// GENTONA ////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////*/
+
+/*===================*/
+/*=== Heavy (900) ===*/
+/*===================*/
+@font-face {
+  font-family: 'gentona';
+  src: url('webfonts/Gentona-Heavy.eot');
+  src: url('webfonts/Gentona-Heavy.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Gentona-Heavy.woff') format('woff'),
+       url('webfonts/Gentona-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gentona';
+  src: url('webfonts/Gentona-HeavyItalic.eot');
+  src: url('webfonts/Gentona-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Gentona-HeavyItalic.woff') format('woff'),
+       url('webfonts/Gentona-HeavyItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+
+
+/*========================*/
+/*=== Extra Bold (800) ===*/
+/*========================*/
+@font-face {
+  font-family: 'gentona';
+  src: url('webfonts/Gentona-ExtraBold.eot');
+  src: url('webfonts/Gentona-ExtraBold.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Gentona-ExtraBold.woff') format('woff'),
+       url('webfonts/Gentona-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gentona';
+  src: url('webfonts/Gentona-ExtraBoldItalic.eot');
+  src: url('webfonts/Gentona-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Gentona-ExtraBoldItalic.woff') format('woff'),
+       url('webfonts/Gentona-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+
+
+
+
+/*==================*/
+/*=== Bold (700) ===*/
+/*==================*/
+@font-face {
+  font-family: 'gentona';
+  src: url('webfonts/Gentona-Bold.eot');
+  src: url('webfonts/Gentona-Bold.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Gentona-Bold.woff') format('woff'),
+       url('webfonts/Gentona-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gentona';
+  src: url('webfonts/Gentona-BoldItalic.eot');
+  src: url('webfonts/Gentona-BoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Gentona-BoldItalic.woff') format('woff'),
+       url('webfonts/Gentona-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+
+
+
+/*======================*/
+/*=== Semi-Bold (600) ===*/
+/*======================*/
+@font-face {
+  font-family: 'gentona';
+  src: url('webfonts/Gentona-SemiBold.eot');
+  src: url('webfonts/Gentona-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Gentona-SemiBold.woff') format('woff'),
+       url('webfonts/Gentona-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gentona';
+  src: url('webfonts/Gentona-SemiBoldItalic.eot');
+  src: url('webfonts/Gentona-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Gentona-SemiBoldItalic.woff') format('woff'),
+       url('webfonts/Gentona-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+
+
+
+
+/*====================*/
+/*=== Medium (500) ===*/
+/*====================*/
+@font-face {
+  font-family: 'gentona';
+  src: url('webfonts/Gentona-Medium.eot');
+  src: url('webfonts/Gentona-Medium.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Gentona-Medium.woff') format('woff'),
+       url('webfonts/Gentona-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gentona';
+  src: url('webfonts/Gentona-MediumItalic.eot');
+  src: url('webfonts/Gentona-MediumItalic.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Gentona-MediumItalic.woff') format('woff'),
+       url('webfonts/Gentona-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+
+
+
+
+/*==================*/
+/*=== Book (400) ===*/
+/*==================*/
+@font-face {
+  font-family: 'gentona';
+  src: url('webfonts/Gentona-Book.eot');
+  src: url('webfonts/Gentona-Book.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Gentona-Book.woff') format('woff'),
+       url('webfonts/Gentona-Book.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gentona';
+  src: url('webfonts/Gentona-BookItalic.eot');
+  src: url('webfonts/Gentona-BookItalic.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Gentona-BookItalic.woff') format('woff'),
+       url('webfonts/Gentona-BookItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+
+
+
+/*===================*/
+/*=== Light (300) ===*/
+/*===================*/
+@font-face {
+  font-family: 'gentona';
+  src: url('webfonts/Gentona-Light.eot');
+  src: url('webfonts/Gentona-Light.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Gentona-Light.woff') format('woff'),
+       url('webfonts/Gentona-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gentona';
+  src: url('webfonts/Gentona-LightItalic.eot');
+  src: url('webfonts/Gentona-LightItalic.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Gentona-LightItalic.woff') format('woff'),
+       url('webfonts/Gentona-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+
+
+
+
+/*=========================*/
+/*=== Extra Light (200) ===*/
+/*=========================*/
+@font-face {
+  font-family: 'gentona';
+  src: url('webfonts/Gentona-ExtraLight.eot');
+  src: url('webfonts/Gentona-ExtraLight.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Gentona-ExtraLight.woff') format('woff'),
+       url('webfonts/Gentona-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gentona';
+  src: url('webfonts/Gentona-ExtraLightItalic.eot');
+  src: url('webfonts/Gentona-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Gentona-ExtraLightItalic.woff') format('woff'),
+       url('webfonts/Gentona-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+
+
+
+
+/*==================*/
+/*=== Thin (100) ===*/
+/*==================*/
+@font-face {
+  font-family: 'gentona';
+  src: url('webfonts/Gentona-Thin.eot');
+  src: url('webfonts/Gentona-Thin.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Gentona-Thin.woff') format('woff'),
+       url('webfonts/Gentona-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'gentona';
+  src: url('webfonts/Gentona-ThinItalic.eot');
+  src: url('webfonts/Gentona-ThinItalic.eot?#iefix') format('embedded-opentype'),
+       url('webfonts/Gentona-ThinItalic.woff') format('woff'),
+       url('webfonts/Gentona-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
