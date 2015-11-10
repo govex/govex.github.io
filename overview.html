@@ -283,6 +283,7 @@
 
             <select id="analyst">
                 <option value="All">All Analysts</option>
+                <option value="Michael Benison">Eric Reese</option>
                 <option value="Lena Geraghty">Lena Geraghty</option>
                 <option value="Nick Hadjigeorge">Nick Hadjigeorge</option>
                 <option value="Eric Reese">Eric Reese</option>
@@ -345,8 +346,9 @@
                     sublayers[i] = layer.getSubLayer(i);
                     //alert("Sublayer #" + i + "was added");
                 }
+
+                //add logos, sorry leaflet attribution!
                 var sublayer = layer.getSubLayer(0)
-                //$('.leaflet-bottom, .leaflet-right').empty();
                 $('.leaflet-bottom.leaflet-left').append("<img class='bbp' src='https://cloud.githubusercontent.com/assets/3632538/11053004/4cb5bb9e-872b-11e5-9d3a-b9ec5d26b8ca.png'>");
                 $('.leaflet-bottom.leaflet-right').html("<svg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px'\
                      viewBox='0 0 1200 270' style='enable-background:new 0 0 1200 270;' xml:space='preserve'>\
@@ -362,12 +364,14 @@
                 sublayer.on('featureClick', function (e, latlng, pos, data, layerIndex) {
                     var sql = new cartodb.SQL({ user: 'govex', api_key: 'd229b9ac25b04c923fa56651f6bcaec878351cf6' }); 
 
+                    //convert decimal number into formatted percentage
                     function percentify(n) {
                         raw_number = n;
                         percentage = n * 100;
                         format = percentage + "%";
                         return format;
                     };
+
 
                     var query = "SELECT * FROM wwcapplicantmap where city = '{{city}}' and state = '{{state}}'";
                     console.log(query);
