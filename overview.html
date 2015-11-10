@@ -368,7 +368,7 @@
                     function percentify(n) {
                         raw_number = n;
                         percentage = n * 100;
-                        format = percentage.substr(0, 2) + "%";
+                        format = percentage.toString().substr(0, 2) + "%";
                         return format;
                     };
 
