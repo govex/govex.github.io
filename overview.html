@@ -350,19 +350,19 @@
 
                         for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS:</h2><li>" + data.rows[i].status + "</li><li>" + data.rows[i].latest_news + "</li><div id='timeline_progress'><h2>TIMELINE PROGRESS</h2><li id='timeline_progress'><progress max='1' value='" + data.rows[i].timeline_progress + "'></progress> " + percentify(data.rows[i].timeline_progress) + "</li></div><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                            ", " + data.rows[i].state + "</h1></div><h2>STATUS</h2><li>" + data.rows[i].status + "</li><li>" + data.rows[i].latest_news + "</li><div id='timeline_progress'><h2>TIMELINE PROGRESS</h2><li id='timeline_progress'><progress max='1' value='" + data.rows[i].timeline_progress + "'></progress> " + percentify(data.rows[i].timeline_progress) + "</li></div><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
                             $('.city_name').css("color","#2F9BBB")
                         } } else if (data.rows[0].status == "Assessed")
                         {
                             for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS:</h2><li>" + data.rows[i].status + "</li><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                            ", " + data.rows[i].state + "</h1></div><h2>STATUS</h2><li>" + data.rows[i].status + "</li><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
                         }}  else if
                          (data.rows[0].status == "To Be Assessed")
                         {
                             for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS:</h2><li>" + data.rows[i].status + "</li><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                            ", " + data.rows[i].state + "</h1></div><h2>STATUS</h2><li>" + data.rows[i].status + "</li><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
                         }}  else
                         {
                             for (var i = 0; i < data.total_rows; i++) {
