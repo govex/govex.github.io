@@ -35,9 +35,71 @@ p#intro {
 </style>
 
 <h1>GovEx Sunburst Chart</h1>
-<div id="vis"><img src="full.png"></div>
+<div id="vis"></div>
 <script src="d3-master/d3.min.js"></script>
 <script src="pipeline_sunburst.js"></script>
+
+<script>
+d3.csv("data.csv", function(error, data) {
+
+  _.each(data, function(element, index, list){
+      element.pop = +element.pop;
+  });
+
+  //*************************************************
+  // THE FUNCTION
+  //*************************************************
+  function genJSON(csvData, groups) {
+
+    var genGroups = function(data) {
+      return _.map(data, function(element, index) {
+        return { name : index, children : element };
+      });
+    };
+
+    var nest = function(node, curIndex) {
+      if (curIndex === 0) {
+        node.children = genGroups(_.groupBy(csvData, groups[0]));
+        _.each(node.children, function (child) {
+          nest(child, curIndex + 1);
+        });
+      }
+      else {
+        if (curIndex < groups.length) {
+          node.children = genGroups(
+            _.groupBy(node.children, groups[curIndex])
+          );
+          _.each(node.children, function (child) {
+            nest(child, curIndex + 1);
+          });
+        }
+      }
+      return node;
+    };
+    return nest({}, 0);
+  }
+  //*************************************************
+  // CALL THE FUNCTION
+  //*************************************************
+
+
+  var preppedData = genJSON(data, ['WWC Standard',	'Average Joe standard',	'GovEx Book',	'GovEx Chapter',	'GovEx Verse',	'Pre/Post Metric'])
+  console.log(data);
+  //*************************************************
+  // LOAD THE PREPPED DATA IN D3
+  //*************************************************
+  var path = svg.datum(preppedData).selectAll("path")
+    .data(partition.nodes)
+  .enter().append("path")
+    .attr("display", function(d) { return d.depth ? null : "none"; }) // hide inner ring
+    .attr("d", arc)
+    .attr("class", function(d) { return (d.children ? d : d.parent).name; })
+    .style("stroke", "#fff")
+    .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
+    .style("fill-rule", "evenodd")
+
+});
+</script>
 
 <div class="wrapper">
 <h2>Sunburst Trees</h2>
