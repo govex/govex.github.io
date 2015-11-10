@@ -189,6 +189,10 @@
         padding-left:60px;
         margin-bottom:-15px;
     }
+    .leaflet-bottom.leaflet-right{
+        background-repeat: no-repeat;
+        width: 150px;
+    }
     .leaflet-container {
         background-color: #fff !important;
     }
@@ -268,16 +272,6 @@
 
     <div id="map"></div>
     <div id="over_map">
-
-        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     viewBox="0 0 1200 270" style="enable-background:new 0 0 1200 270;" xml:space="preserve">
-        <style type="text/css">
-            .st0{fill:#2F9BBB;}
-            .st1{font-family:'quadon';}
-            .st2{font-size:200px;}
-        </style>
-        <text transform="matrix(1 0 0 1 0 242.7529)" class="st0 st1 st2">GovEx</text>
-        </svg>
         <div id="menu">
             <p id="dropdowns"> <select id="lead">
                 <option value="All">All Senior Analysts</option>
@@ -328,6 +322,8 @@
             zoomControl: true,
             zoom: 4
         });
+
+        
         //add points layer
         cartodb.createLayer(map, {
                 user_name: 'govex',
@@ -352,7 +348,15 @@
                 var sublayer = layer.getSubLayer(0)
                 //$('.leaflet-bottom, .leaflet-right').empty();
                 $('.leaflet-bottom.leaflet-left').append("<img class='bbp' src='https://cloud.githubusercontent.com/assets/3632538/11053004/4cb5bb9e-872b-11e5-9d3a-b9ec5d26b8ca.png'>");
-
+                $('.leaflet-bottom.leaflet-right').html("<svg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px'\
+                     viewBox='0 0 1200 270' style='enable-background:new 0 0 1200 270;' xml:space='preserve'>\
+                        <style type='text/css'>\
+                            .st0{fill:#2F9BBB;}\
+                            .st1{font-family:'quadon';}\
+                            .st2{font-size:200px;}\
+                        </style>\
+                        <text transform='matrix(1 0 0 1 500 242.7529)' class='st0 st1 st2'>GovEx</text>\
+                        </svg>");
                 
                 //cityinfo div filling query
                 sublayer.on('featureClick', function (e, latlng, pos, data, layerIndex) {
