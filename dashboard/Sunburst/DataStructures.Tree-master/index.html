@@ -29,7 +29,7 @@
             .attr("transform", "translate(2,2)");
 
 
-    d3.csv("Sunburst/data.csv", function(data){
+    d3.csv("data.csv", function(data){
 
         var tree = DataStructures.Tree.createFromFlatTable(data),
             simplifiedTree = tree.toSimpleObject(function(objectToDecorate, originalNode) {
