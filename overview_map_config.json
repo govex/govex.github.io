@@ -36,7 +36,7 @@
                     "cartocss": "#wwcapplicantmap{marker-placement: point;marker-type: ellipse;marker-width: 10;marker-fill: #7B00B4;marker-allow-overlap: true;marker-line-opacity:0;} #wwcapplicantmap[status='Applied']{marker-fill: #472F92;
 } #wwcapplicantmap[status='Assessed'] {marker-fill: #E05430;} #wwcapplicantmap[status='Eligible'] {
    marker-fill: #472F92;} #wwcapplicantmap[status='To Be Assessed'] {marker-fill: #E05430;} #wwcapplicantmap[status='Working']{marker-fill: #2F9BBB;}",
-                "interactivity": ["cartodb_id", "city", "state", "scope1", "scope2", "scope3", "lead", "analyst", "status", "picturelink", "notes", "timeline_progress"]
+                "interactivity": ["cartodb_id", "city", "state", "scope1", "scope1_next", "scope2", "scope2_next", "scope3", "scope3_next", "lead", "analyst", "status", "picturelink", "notes", "timeline_progress"]
             }
 
         }]
