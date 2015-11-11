@@ -46,7 +46,7 @@ d3.csv("data.csv", function(error, data) {
     };
     return nest({}, 0);
   }
-
+console.log(JSON.stringify(nest));
   //*************************************************
   // CALL FUNCTION WITH ARRAY OF GROUPS
   //*************************************************
@@ -55,7 +55,7 @@ d3.csv("data.csv", function(error, data) {
   var preppedData = genJSON(data, ['WWC Standard','Average Joe standard','GovEx Book','GovEx Chapter','GovEx Verse','Pre/Post Metric'])
 });
 
-console.log(JSON.stringify(nest));
+
   //*************************************************
   // YOUR DATA VISUALIZATION CODE HERE
   //*************************************************
