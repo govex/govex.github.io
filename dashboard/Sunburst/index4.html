@@ -81,6 +81,8 @@
         //*************************************************
         var preppedData = genJSON(data, ['WWC Standard',	'Average Joe standard',	'GovEx Book',	'GovEx Chapter',	'GovEx Verse',	'Pre/Post Metric'])
 
+console.log(JSON.stringify(preppedData));
+
         //*************************************************
         // LOAD THE PREPPED DATA IN D3
         //*************************************************
@@ -94,7 +96,6 @@
           .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
           .style("fill-rule", "evenodd")
 
-console.log(JSON.stringify(data));
       });
     </script>
   </body>
