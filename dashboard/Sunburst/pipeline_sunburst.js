@@ -58,7 +58,11 @@
             return Math.max(0, u(t.y + t.dy))
         });
 
+<<<<<<< HEAD
     d3.json("sunburst.json", function(r, i) {
+=======
+    (preppedData, function(r, i) {
+>>>>>>> parent of 8d85bf1... update
         function l(n) {
             h.transition().duration(s).attrTween("d", e(n)), m.style("visibility", function(e) {
                 return t(n, e) ? null : d3.select(this).style("visibility")

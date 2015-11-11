@@ -38,13 +38,19 @@ p#intro {
 <div id="vis"></div>
 <script src="d3-master/d3.min.js"></script>
 <script src="pipeline_sunburst.js"></script>
+<script type="text/javascript" src="DataStrctures.Tree-master/js/lib/DataStructures.Tree.js"></script>
 
 <script>
-d3.csv("data.csv", function(error, data) {
-
-  _.each(data, function(element, index, list){
-      element.pop = +element.pop;
-  });
+d3.csv("data.csv", function(data){
+var tree = DataStructures.Tree.createFromFlatTable(data),
+           root = tree.toSimpleObject(function(objectToDecorate, originalNode) {
+                objectToDecorate.size = originalNode.size;
+                if (objectToDecorate.children && objectToDecorate.children.length == 0) {
+                    delete objectToDecorate.children;
+                }
+                return objectToDecorate;
+            });
+console.log(JSON.stringify(root));
 
   //*************************************************
   // THE FUNCTION
