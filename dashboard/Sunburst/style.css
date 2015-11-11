@@ -1,71 +1,100 @@
-.date {
-  font-size: small;
-  font-style: italic;
-  margin: 0;
-  width: 100%;
-  border-top: solid #eee 1px;
+body {
+  font: 300 36px "Helvetica Neue";
+  height: 640px;
+  margin: 80px 160px 80px 160px;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
 }
 
-.breadcrumbs {
-  font-size: small;
-  font-family: sans-serif;
-  width: 100%;
-  margin: 0;
-  padding-top: 3px;
-  font-style: italic;
-  border-bottom: solid #eee 1px;
-  color: #999;
-}
-
-a {
-  color: steelblue;
-}
-
-a:not(:hover) {
+a:link, a:visited {
+  color: #777;
   text-decoration: none;
 }
 
-body {
-  margin: 0 auto;
-  font-family: 'PT Serif', Georgia, Times, 'Times New Roman', serif;
-  line-height: 1.5em;
-  color: #333;
-  background: #fefefe;
-  width: 960px;
-  position: relative;
-}
-
-p {
-  width: 720px;
-}
-
-h1, h2, h3 {
-  font-weight: 300;
-  text-rendering: optimizeLegibility;
-}
-
-h1 {
-  font-size: 2.5em;
-}
-
-aside {
-  font-size: small;
-  position: absolute;
-  right: 0;
-  width: 180px;
-}
-
-aside p {
-  width: auto;
-}
-
-p.cite, p.caption {
+a:hover {
   color: #666;
 }
 
-p.caption {
-  text-align: center;
-  font-size: small;
-  font-style: italic;
-  width: auto;
+blockquote {
+  margin: 0;
+}
+
+blockquote:before {
+  content: "â€œ";
+  position: absolute;
+  left: -.4em;
+}
+
+blockquote:after {
+  content: "â€";
+  position: absolute;
+}
+
+body > ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h1, h2, h3 {
+  font-weight: inherit;
+  margin: 0;
+}
+
+h2, h3 {
+  text-align: right;
+  font-size: inherit;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+h2 {
+  font-size: 24px;
+  position: absolute;
+}
+
+h3 {
+  bottom: -20px;
+  font-size: 18px;
+}
+
+.invert {
+  background: #1f1f1f;
+  color: #dcdccc;
+}
+
+.invert h2, .invert h3 {
+  color: #7f9f7f;
+}
+
+.string, .regexp {
+  color: #f39;
+}
+
+.keyword {
+  color: #00c;
+}
+
+.comment {
+  color: #777;
+  font-style: oblique;
+}
+
+.number {
+  color: #369;
+}
+
+.class, .special {
+  color: #1181B8;
+}
+
+body > svg {
+  position: absolute;
+  top: -80px;
+  left: -160px;
 }
