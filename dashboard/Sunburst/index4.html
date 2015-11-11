@@ -5,19 +5,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../common/delimited-favicon-v4.ico">
-    <title>Sunburst Chart</title>
+
     <script type="text/javascript" src="d3-master/d3.js"></script>
     <script type="text/javascript" src="underscore-min.js"></script>
   </head>
   <body>
-  <div id="viz"></div>
-  <div id="json"></div>
-
     <script>
       //*************************************************
       // SETUP DATA VIZ
       //*************************************************
+      var width = 960, height = 700, radius = 300;
 
+      var color = d3.scale.ordinal().range(['#74E600','#26527C','#61D7A4','#6CAC2B','#408AD2','#218359','#36D792','#679ED2','#B0F26D','#4B9500','#98F23D','#04396C','#007241']);
+
+      var svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height)
+      .append("g")
+        .attr("transform", "translate(" + width / 2 + "," + height * .52 + ")");
+
+      var partition = d3.layout.partition()
+        .sort(null)
+        .size([2 * Math.PI, radius * radius])
+        .value(function(d) { return d.pop; });
+
+      var arc = d3.svg.arc()
+        .startAngle(function(d) { return d.x; })
+        .endAngle(function(d) { return d.x + d.dx; })
+        .innerRadius(function(d) { return Math.sqrt(d.y); })
+        .outerRadius(function(d) { return Math.sqrt(d.y + d.dy); });
 
       //*************************************************
       // GET THE CSV DATA
@@ -63,10 +79,10 @@
         //*************************************************
         // CALL THE FUNCTION
         //*************************************************
-
-
         var preppedData = genJSON(data, ['WWC Standard',	'Average Joe standard',	'GovEx Book',	'GovEx Chapter',	'GovEx Verse',	'Pre/Post Metric'])
-        console.log(data);
+
+console.log(JSON.stringify(preppedData));
+
         //*************************************************
         // LOAD THE PREPPED DATA IN D3
         //*************************************************

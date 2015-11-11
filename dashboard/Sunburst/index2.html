@@ -1,121 +1,171 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>GovEx Sunburst Chart</title>
-
 <style>
-@import ("/style.css");
-path {
-  stroke: #000;
-  stroke-width: 1.5;
+
+.node rect {
   cursor: pointer;
+  fill: #fff;
+  fill-opacity: .5;
+  stroke: #3182bd;
+  stroke-width: 1.5px;
 }
 
-text {
-  font: 11px sans-serif;
-  cursor: pointer;
+.node text {
+  font: 10px sans-serif;
+  pointer-events: none;
 }
 
-h1 {
-  text-align: center;
-  margin: .5em 0;
-}
-
-.wrapper {
-  margin-left: 120px;
-}
-
-blockquote {
-  width: 720px;
-}
-
-p#intro {
-  margin-left: 120px;
+path.link {
+  fill: none;
+  stroke: #9ecae1;
+  stroke-width: 1.5px;
 }
 
 </style>
-
-<h1>GovEx Sunburst Chart</h1>
-<div id="vis"></div>
-<script src="d3-master/d3.min.js"></script>
-<script src="pipeline_sunburst.js"></script>
-
+<body>
+<script src="//d3js.org/d3.v3.min.js"></script>
 <script>
-d3.csv("data.csv", function(error, data) {
 
-  _.each(data, function(element, index, list){
-      element.pop = +element.pop;
+var margin = {top: 30, right: 20, bottom: 30, left: 20},
+    width = 960 - margin.left - margin.right,
+    barHeight = 20,
+    barWidth = width * .8;
+
+var i = 0,
+    duration = 400,
+    root;
+
+var tree = d3.layout.tree()
+    .nodeSize([0, 20]);
+
+var diagonal = d3.svg.diagonal()
+    .projection(function(d) { return [d.y, d.x]; });
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+d3.json("sunburst.json", function(error, flare) {
+  if (error) throw error;
+
+  flare.x0 = 0;
+  flare.y0 = 0;
+  update(root = flare);
+});
+
+function update(source) {
+
+  // Compute the flattened node list. TODO use d3.layout.hierarchy.
+  var nodes = tree.nodes(root);
+
+  var height = Math.max(500, nodes.length * barHeight + margin.top + margin.bottom);
+
+  d3.select("svg").transition()
+      .duration(duration)
+      .attr("height", height);
+
+  d3.select(self.frameElement).transition()
+      .duration(duration)
+      .style("height", height + "px");
+
+  // Compute the "layout".
+  nodes.forEach(function(n, i) {
+    n.x = i * barHeight;
   });
 
-  //*************************************************
-  // THE FUNCTION
-  //*************************************************
-  function genJSON(csvData, groups) {
+  // Update the nodes…
+  var node = svg.selectAll("g.node")
+      .data(nodes, function(d) { return d.id || (d.id = ++i); });
 
-    var genGroups = function(data) {
-      return _.map(data, function(element, index) {
-        return { name : index, children : element };
-      });
-    };
+  var nodeEnter = node.enter().append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
+      .style("opacity", 1e-6);
 
-    var nest = function(node, curIndex) {
-      if (curIndex === 0) {
-        node.children = genGroups(_.groupBy(csvData, groups[0]));
-        _.each(node.children, function (child) {
-          nest(child, curIndex + 1);
-        });
-      }
-      else {
-        if (curIndex < groups.length) {
-          node.children = genGroups(
-            _.groupBy(node.children, groups[curIndex])
-          );
-          _.each(node.children, function (child) {
-            nest(child, curIndex + 1);
-          });
-        }
-      }
-      return node;
-    };
-    return nest({}, 0);
+  // Enter any new nodes at the parent's previous position.
+  nodeEnter.append("rect")
+      .attr("y", -barHeight / 2)
+      .attr("height", barHeight)
+      .attr("width", barWidth)
+      .style("fill", color)
+      .on("click", click);
+
+  nodeEnter.append("text")
+      .attr("dy", 3.5)
+      .attr("dx", 5.5)
+      .text(function(d) { return d.name; });
+
+  // Transition nodes to their new position.
+  nodeEnter.transition()
+      .duration(duration)
+      .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
+      .style("opacity", 1);
+
+  node.transition()
+      .duration(duration)
+      .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
+      .style("opacity", 1)
+    .select("rect")
+      .style("fill", color);
+
+  // Transition exiting nodes to the parent's new position.
+  node.exit().transition()
+      .duration(duration)
+      .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
+      .style("opacity", 1e-6)
+      .remove();
+
+  // Update the links…
+  var link = svg.selectAll("path.link")
+      .data(tree.links(nodes), function(d) { return d.target.id; });
+
+  // Enter any new links at the parent's previous position.
+  link.enter().insert("path", "g")
+      .attr("class", "link")
+      .attr("d", function(d) {
+        var o = {x: source.x0, y: source.y0};
+        return diagonal({source: o, target: o});
+      })
+    .transition()
+      .duration(duration)
+      .attr("d", diagonal);
+
+  // Transition links to their new position.
+  link.transition()
+      .duration(duration)
+      .attr("d", diagonal);
+
+  // Transition exiting nodes to the parent's new position.
+  link.exit().transition()
+      .duration(duration)
+      .attr("d", function(d) {
+        var o = {x: source.x, y: source.y};
+        return diagonal({source: o, target: o});
+      })
+      .remove();
+
+  // Stash the old positions for transition.
+  nodes.forEach(function(d) {
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+}
+
+// Toggle children on click.
+function click(d) {
+  if (d.children) {
+    d._children = d.children;
+    d.children = null;
+  } else {
+    d.children = d._children;
+    d._children = null;
   }
-  //*************************************************
-  // CALL THE FUNCTION
-  //*************************************************
+  update(d);
+}
 
+function color(d) {
+  return d._children ? "#3182bd" : d.children ? "#c6dbef" : "#fd8d3c";
+}
 
-  var preppedData = genJSON(data, ['WWC Standard',	'Average Joe standard',	'GovEx Book',	'GovEx Chapter',	'GovEx Verse',	'Pre/Post Metric'])
-  console.log(data);
-  //*************************************************
-  // LOAD THE PREPPED DATA IN D3
-  //*************************************************
-  var path = svg.datum(preppedData).selectAll("path")
-    .data(partition.nodes)
-  .enter().append("path")
-    .attr("display", function(d) { return d.depth ? null : "none"; }) // hide inner ring
-    .attr("d", arc)
-    .attr("class", function(d) { return (d.children ? d : d.parent).name; })
-    .style("stroke", "#fff")
-    .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
-    .style("fill-rule", "evenodd")
-
-});
 </script>
-
-<div class="wrapper">
-<h2>Sunburst Trees</h2>
-<p>This is an example of using <a href="http://github.com/mbostock/d3/wiki/Partition-Layout">d3.layout.partition</a> to generate a zoomable sunburst tree derived from hierarchical data.  A <a href="http://www.cc.gatech.edu/gvu/ii/sunburst/">sunburst tree</a> is a radial space-filling visualisation, analagous to an icicle tree.
-<h2>Colours</h2>
-<p>The original colours appear to have been selected by the designer, as opposed to matching any standard colour name palettes.  So I painstakingly copied the colours from the outermost (leaf) nodes of the tree to match the original.
-<p>The inner node colours are calculated automatically by taking the average of the two child nodes in HSL colour space.
-<h2>Labels</h2>
-<p>The label colour of black or light grey is automatically chosen by calculating the <a href="http://www.w3.org/WAI/ER/WD-AERT/#color-contrast">colour brightness</a> of each node.  If a label has more than one word, it is split into two lines and placed equidistant to the centre of the segment.
-<h2>Credits</h2>
-<p>Built with <a href="http://d3js.org">D3.js</a>.
-  Sunburst zooming based on an <a href="http://bl.ocks.org/mbostock/4348373">example</a> by <a href="http://bost.ocks.org/mike">Mike Bostock</a>.
-<p>Thanks to Bart Mesuere for suggesting a performance optimisation for Firefox.
-
-<script>
-  if (top != self) top.location.replace(location);
-</script>
-
-<p class="copyright">&copy; <a href="http://www.jasondavies.com/">Jason Davies</a> | <a href="../privacy/">Privacy Policy</a>.
