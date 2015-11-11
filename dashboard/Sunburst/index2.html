@@ -1,144 +1,104 @@
-<html>
-  <head>
-      <meta charset="utf-8">
-  <head>
-
-      <script src="d3.min.js"></script>
-      <script src="pipeline_sunburst.js"></script>
-  </head>
-
+<!DOCTYPE html>
+<meta charset="utf-8">
 <style>
 
 path {
-  stroke: #000;
-  stroke-width: 1.5;
-  cursor: pointer;
+  stroke: #fff;
+  fill-rule: evenodd;
 }
 
 text {
-  font: 11px sans-serif;
-  cursor: pointer;
-}
-
-h1 {
-  text-align: center;
-  margin: .5em 0;
-}
-
-.wrapper {
-  margin-left: 120px;
-}
-
-blockquote {
-  width: 720px;
-}
-
-p#intro {
-  margin-left: 120px;
-}
-
-.date {
-  font-size: small;
-  font-style: italic;
-  margin: 0;
-  width: 100%;
-  border-top: solid #eee 1px;
-}
-
-.breadcrumbs {
-  font-size: small;
-  font-family: sans-serif;
-  width: 100%;
-  margin: 0;
-  padding-top: 3px;
-  font-style: italic;
-  border-bottom: solid #eee 1px;
-  color: #999;
-}
-
-a {
-  color: steelblue;
-}
-
-a:not(:hover) {
-  text-decoration: none;
-}
-
-body {
-  margin: 0 auto;
-  font-family: 'PT Serif', Georgia, Times, 'Times New Roman', serif;
-  line-height: 1.5em;
-  color: #333;
-  background: #fefefe;
-  width: 960px;
-  position: relative;
-}
-
-p {
-  width: 720px;
-}
-
-h1, h2, h3 {
-  font-weight: 300;
-  text-rendering: optimizeLegibility;
-}
-
-h1 {
-  font-size: 2.5em;
-}
-
-aside {
-  font-size: small;
-  position: absolute;
-  right: 0;
-  width: 180px;
-}
-
-aside p {
-  width: auto;
-}
-
-p.cite, p.caption {
-  color: #666;
-}
-
-p.caption {
-  text-align: center;
-  font-size: small;
-  font-style: italic;
-  width: auto;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
 }
 
 </style>
-
 <body>
-<h1>GovEx Sunburst Tree</h1>
-<div id="vis"><img src="full.svg"></div>
-
-</body>
-</html>
-<!-- <div class="wrapper">
-<h2>Sunburst Trees</h2>
-<p>This is an example of using <a href="http://github.com/mbostock/d3/wiki/Partition-Layout">d3.layout.partition</a> to generate a zoomable sunburst tree derived from hierarchical data.  A <a href="http://www.cc.gatech.edu/gvu/ii/sunburst/">sunburst tree</a> is a radial space-filling visualisation, analagous to an icicle tree.
-<h2>Colours</h2>
-<p>The original colours appear to have been selected by the designer, as opposed to matching any standard colour name palettes.  So I painstakingly copied the colours from the outermost (leaf) nodes of the tree to match the original.
-<p>The inner node colours are calculated automatically by taking the average of the two child nodes in HSL colour space.
-<h2>Labels</h2>
-<p>The label colour of black or light grey is automatically chosen by calculating the <a href="http://www.w3.org/WAI/ER/WD-AERT/#color-contrast">colour brightness</a> of each node.  If a label has more than one word, it is split into two lines and placed equidistant to the centre of the segment.
-<h2>Credits</h2>
-<p>The original coffee flavour wheel was created by the <a href="http://www.scaa.org/">Specialty Coffee Association of America</a> in poster form but it appears in various places on the Web.  <a href="http://www.gourmet-coffee.com/how-to-cup-coffee.html">Rogers Gourmet Coffee &amp; Tea Market</a> seems to have the most information about its origin:
-<blockquote>
-  …a flavor wheel created in 1997 by the Specialty Coffee Association of America, the Colombian Coffee Federation, and Jean Lenoir.  It's part of the poster called, "The Coffee Tasters' Flavor Wheel" that you can buy on the SCAA website.
-</blockquote>
-<p>Built with <a href="http://d3js.org">D3.js</a>.
-  Sunburst zooming based on an <a href="http://bl.ocks.org/mbostock/4348373">example</a> by <a href="http://bost.ocks.org/mike">Mike Bostock</a>.
-<p>Thanks to Bart Mesuere for suggesting a performance optimisation for Firefox.
-
+<script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
-  if (top != self) top.location.replace(location);
+
+var width = 960,
+    height = 700,
+    radius = Math.min(width, height) / 2;
+
+var x = d3.scale.linear()
+    .range([0, 2 * Math.PI]);
+
+var y = d3.scale.linear()
+    .range([0, radius]);
+
+var color = d3.scale.category20c();
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + width / 2 + "," + (height / 2 + 10) + ")");
+
+var partition = d3.layout.partition()
+    .value(function(d) { return d.size; });
+
+var arc = d3.svg.arc()
+    .startAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x))); })
+    .endAngle(function(d) { return Math.max(0, Math.min(2 * Math.PI, x(d.x + d.dx))); })
+    .innerRadius(function(d) { return Math.max(0, y(d.y)); })
+    .outerRadius(function(d) { return Math.max(0, y(d.y + d.dy)); });
+
+d3.json("sunburst.json", function(error, root) {
+  var g = svg.selectAll("g")
+      .data(partition.nodes(root))
+    .enter().append("g");
+
+  var path = g.append("path")
+    .attr("d", arc)
+    .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
+    .on("click", click);
+
+  var text = g.append("text")
+    .attr("transform", function(d) { return "rotate(" + computeTextRotation(d) + ")"; })
+    .attr("x", function(d) { return y(d.y); })
+    .attr("dx", "6") // margin
+    .attr("dy", ".35em") // vertical-align
+    .text(function(d) { return d.name; });
+
+  function click(d) {
+    // fade out all text elements
+    text.transition().attr("opacity", 0);
+
+    path.transition()
+      .duration(750)
+      .attrTween("d", arcTween(d))
+      .each("end", function(e, i) {
+          // check if the animated element's data e lies within the visible angle span given in d
+          if (e.x >= d.x && e.x < (d.x + d.dx)) {
+            // get a selection of the associated text element
+            var arcText = d3.select(this.parentNode).select("text");
+            // fade in the text element and recalculate positions
+            arcText.transition().duration(750)
+              .attr("opacity", 1)
+              .attr("transform", function() { return "rotate(" + computeTextRotation(e) + ")" })
+              .attr("x", function(d) { return y(d.y); });
+          }
+      });
+  }
+});
+
+d3.select(self.frameElement).style("height", height + "px");
+
+// Interpolate the scales!
+function arcTween(d) {
+  var xd = d3.interpolate(x.domain(), [d.x, d.x + d.dx]),
+      yd = d3.interpolate(y.domain(), [d.y, 1]),
+      yr = d3.interpolate(y.range(), [d.y ? 20 : 0, radius]);
+  return function(d, i) {
+    return i
+        ? function(t) { return arc(d); }
+        : function(t) { x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); return arc(d); };
+  };
+}
+
+function computeTextRotation(d) {
+  return (x(d.x + d.dx / 2) - Math.PI / 2) / Math.PI * 180;
+}
+
 </script>
-
-<p class="copyright">&copy; <a href="http://www.jasondavies.com/">Jason Davies</a> | <a href="../privacy/">Privacy Policy</a>.
-
-<p><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-2911491153890039" data-ad-slot="2029654015"></ins>
-</div> -->
