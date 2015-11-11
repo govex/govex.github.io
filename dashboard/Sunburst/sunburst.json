@@ -25,7 +25,7 @@
                               "GovEx Chapter": "Emerging Insights Hub",
                               "GovEx Verse": "Specific Revelations from WWC Partners",
                               "Pre\/Post Metric": "N\/A",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -49,7 +49,7 @@
                               "GovEx Chapter": "Conceptual Diagrams",
                               "GovEx Verse": "Performance Management Ecosystem",
                               "Pre\/Post Metric": "The city has (or references) a document explaining to every employee how performance management, analysis, and open data practices fit together in their city.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -73,7 +73,7 @@
                               "GovEx Chapter": "Case Studies",
                               "GovEx Verse": "Stories about frontline employee using data in WWCs and achieving results",
                               "Pre\/Post Metric": "The city publishes (internally or externally) examples of its own employees using data to achieve results in their day-to-day practice.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -92,7 +92,7 @@
                               "GovEx Chapter": "Case Studies",
                               "GovEx Verse": "Give me the code (NYC)",
                               "Pre\/Post Metric": "The city routinely shares analysis (including methodology) with employees across divisions to facilitate shared horizontal learning.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -131,7 +131,7 @@
                               "GovEx Chapter": "Leadership",
                               "GovEx Verse": "Finding an Executive Champion",
                               "Pre\/Post Metric": "The city has an executive with significant authority over resources who throws his\/her full weight behind data-related initiatives like open data, analytics and performance.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -145,7 +145,7 @@
                               "GovEx Chapter": "Leadership",
                               "GovEx Verse": "Finding an Executive Champion",
                               "Pre\/Post Metric": "A representative from the mayor\/city manager's team is part of the leadership",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -159,7 +159,7 @@
                               "GovEx Chapter": "Leadership",
                               "GovEx Verse": "Finding an Executive Champion",
                               "Pre\/Post Metric": "C10. Mayor publicizes commitment to governing with data to city departments (e.g., public remarks, internal employee emails, newsletters, website, etc.)",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -183,7 +183,7 @@
                               "GovEx Chapter": "Picking what problem to focus on",
                               "GovEx Verse": "Performance Management Goal Setting Template",
                               "Pre\/Post Metric": "The city has published goal statements which set clear goals and provide context for why they are important to the city's mission or to the Mayor\/City Manager.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -197,7 +197,7 @@
                               "GovEx Chapter": "Picking what problem to focus on",
                               "GovEx Verse": "Performance Management Goal Setting Template",
                               "Pre\/Post Metric": "Build on the values, goals and mission of the community and government",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -211,7 +211,7 @@
                               "GovEx Chapter": "Picking what problem to focus on",
                               "GovEx Verse": "Performance Management Goal Setting Template",
                               "Pre\/Post Metric": "C2. Has at least one strategic goal",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -225,7 +225,7 @@
                               "GovEx Chapter": "Picking what problem to focus on",
                               "GovEx Verse": "Performance Management Goal Setting Template",
                               "Pre\/Post Metric": "C4. Has at least one publicly stated strategic goal",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -244,7 +244,7 @@
                               "GovEx Chapter": "Picking what problem to focus on",
                               "GovEx Verse": "Department Mapping Template",
                               "Pre\/Post Metric": "The city has established (and published) clear linkages between its goal statements and each department's role in execution.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -268,7 +268,7 @@
                               "GovEx Chapter": "Choosing \"who\" to assign it to",
                               "GovEx Verse": "Choosing \"who\" to assign it to",
                               "Pre\/Post Metric": "The city has established (and published) clear owners (programs and\/or individuals) which make it clear \"who\" is responsible for progress toward each goal statement.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -292,7 +292,7 @@
                               "GovEx Chapter": "Deciding \"how\" to move forward",
                               "GovEx Verse": "Deciding \"how\" to move forward",
                               "Pre\/Post Metric": "The city has clarified (and published) specific strategies and tactics which make it clear how they plan to make progress toward each goal statement.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -316,7 +316,7 @@
                               "GovEx Chapter": "Understanding \"when\" to expect progress",
                               "GovEx Verse": "Setting Targets\/Goals",
                               "Pre\/Post Metric": "The city has specific targets\/goals it is aiming for within each goal statement, and those targets\/goals are calculated based on analysis of past performance, current context, and forseeable future activities.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -330,7 +330,7 @@
                               "GovEx Chapter": "Understanding \"when\" to expect progress",
                               "GovEx Verse": "Setting Targets\/Goals",
                               "Pre\/Post Metric": "Set appropriately ambitious timelines for implementation",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -344,7 +344,7 @@
                               "GovEx Chapter": "Understanding \"when\" to expect progress",
                               "GovEx Verse": "Setting Targets\/Goals",
                               "Pre\/Post Metric": "C3. Has assigned targets, metrics, and a timeframe to measure progress toward the achievement of at least one strategic goal",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -368,7 +368,7 @@
                               "GovEx Chapter": "Picking where to start with Open Data efforts",
                               "GovEx Verse": "Picking where to start with Open Data efforts",
                               "Pre\/Post Metric": "The city has published priorities for Open Data activities.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -382,7 +382,7 @@
                               "GovEx Chapter": "Picking where to start with Open Data efforts",
                               "GovEx Verse": "Picking where to start with Open Data efforts",
                               "Pre\/Post Metric": "Specify methods of determining the prioritization of data release",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -411,7 +411,7 @@
                               "GovEx Chapter": "STAT Forums",
                               "GovEx Verse": "Performance Management (STAT) Getting Started Guide (Git",
                               "Pre\/Post Metric": "The city has a STAT program which is chaired by a senior official with ample authority.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -430,7 +430,7 @@
                               "GovEx Chapter": "STAT Forums",
                               "GovEx Verse": "Intro to STAT",
                               "Pre\/Post Metric": "The city has a STAT program which occurs routinely on a predictable schedule.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -444,7 +444,7 @@
                               "GovEx Chapter": "STAT Forums",
                               "GovEx Verse": "Intro to STAT",
                               "Pre\/Post Metric": "M3. Has a set schedule for performance management or Stat meetings, led by the mayor or his\/her senior team",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -463,7 +463,7 @@
                               "GovEx Chapter": "STAT Forums",
                               "GovEx Verse": "STAT Delivery Model",
                               "Pre\/Post Metric": "The city has a STAT program which consistently leverages data to inform the discussion.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -482,7 +482,7 @@
                               "GovEx Chapter": "STAT Forums",
                               "GovEx Verse": "History of Performance STAT Programs & Appendix",
                               "Pre\/Post Metric": "The city has a STAT program which drives specific actions for which individuals\/programs are held accountable for completing.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -506,7 +506,7 @@
                               "GovEx Chapter": "Non-STAT Forums",
                               "GovEx Verse": "Non-STAT Forums",
                               "Pre\/Post Metric": "The city has an interdisciplinary meeting of senior management officials which is infused with data and analysis to drive the discussion. (but it is not called STAT)",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -530,7 +530,7 @@
                               "GovEx Chapter": "Tactical-level forums",
                               "GovEx Verse": "Open Data Forums",
                               "Pre\/Post Metric": "The city has an Open Data portal.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -549,7 +549,7 @@
                               "GovEx Chapter": "Tactical-level forums",
                               "GovEx Verse": "Internal Data Visualizations",
                               "Pre\/Post Metric": "The city publsihes data visualizations for employees to inform the day-to-day execution of their responsibiliies.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -563,7 +563,7 @@
                               "GovEx Chapter": "Tactical-level forums",
                               "GovEx Verse": "Internal Data Visualizations",
                               "Pre\/Post Metric": "C8. Publishes city progress on city goals annually or more frequently (e.g., annual report, update to city\ufffd\ufffd\ufffds strategic plan, etc.)",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -587,7 +587,7 @@
                               "GovEx Chapter": "Budget Process Forums",
                               "GovEx Verse": "Performance Based Budgeting",
                               "Pre\/Post Metric": "The city routinely make resource\/budgeting decisions in meetings which are infused with the analysis of data.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -601,7 +601,7 @@
                               "GovEx Chapter": "Budget Process Forums",
                               "GovEx Verse": "Performance Based Budgeting",
                               "Pre\/Post Metric": "Ensure sufficient funding for implementation",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -615,7 +615,7 @@
                               "GovEx Chapter": "Budget Process Forums",
                               "GovEx Verse": "Performance Based Budgeting",
                               "Pre\/Post Metric": "A5. Redirects budget allocations for citywide policies, program areas, or multi-agency initiatives based in part on their measurable impact (i.e.,moving funds away from ineffective policies or programs and towards programs that demonstrate better results)",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -639,7 +639,7 @@
                               "GovEx Chapter": "Sustainment Strategies",
                               "GovEx Verse": "Sustainment Strategies",
                               "Pre\/Post Metric": "The city's STAT program or other high-visibility, data-driven, decision-making venue has existed for more than one political administration.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -668,7 +668,7 @@
                               "GovEx Chapter": "Strategic Framework",
                               "GovEx Verse": "Strategic Framework",
                               "Pre\/Post Metric": "The city has a strategic plan which explicitely includes language about leveraging data to make decisions as an organization.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -692,7 +692,7 @@
                               "GovEx Chapter": "Policy",
                               "GovEx Verse": "Open Data Ordinance",
                               "Pre\/Post Metric": "The city has an ordinance passed by city council on Open Data.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -706,7 +706,7 @@
                               "GovEx Chapter": "Policy",
                               "GovEx Verse": "Open Data Ordinance",
                               "Pre\/Post Metric": "Reference and build on existing public accountability and access policies",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -720,7 +720,7 @@
                               "GovEx Chapter": "Policy",
                               "GovEx Verse": "Open Data Ordinance",
                               "Pre\/Post Metric": "Stipulate that provisions apply to contractors or quasi-governmental agencies",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -734,7 +734,7 @@
                               "GovEx Chapter": "Policy",
                               "GovEx Verse": "Open Data Ordinance",
                               "Pre\/Post Metric": "Create guidance or other binding regulations for implementation",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -748,7 +748,7 @@
                               "GovEx Chapter": "Policy",
                               "GovEx Verse": "Open Data Ordinance",
                               "Pre\/Post Metric": "Mandate future review for potential changes to this policy",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -767,7 +767,7 @@
                               "GovEx Chapter": "Policy",
                               "GovEx Verse": "Open Data Executive Order (Examples)",
                               "Pre\/Post Metric": "The city has an executive order signed by the chief executive on Open Data.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -781,7 +781,7 @@
                               "GovEx Chapter": "Policy",
                               "GovEx Verse": "Open Data Executive Order (Examples)",
                               "Pre\/Post Metric": "C9. Has an Open Data policy",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -800,7 +800,7 @@
                               "GovEx Chapter": "Policy",
                               "GovEx Verse": "STAT Executive Order Examples & Chart",
                               "Pre\/Post Metric": "The city has an Executive order establishing a STAT or STAT-like program",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -819,7 +819,7 @@
                               "GovEx Chapter": "Policy",
                               "GovEx Verse": "Sample Performance Management Resolution",
                               "Pre\/Post Metric": "The city's legislative branch has passed a resolution or ordinance establishing performance management requirements for the city.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -843,7 +843,7 @@
                               "GovEx Chapter": "Culture",
                               "GovEx Verse": "Culture Diagnostic Tools",
                               "Pre\/Post Metric": "The city has engaged in demonstrable efforts (i.e. focus groups, consutling reviews, surveys) to understand its own culture.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -862,7 +862,7 @@
                               "GovEx Chapter": "Culture",
                               "GovEx Verse": "Culture Change Resources",
                               "Pre\/Post Metric": "The city has explicitely referenced a desire to change or shape its own culture toward one more adept with data and analysis.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -886,7 +886,7 @@
                               "GovEx Chapter": "Stakeholder Buy-In",
                               "GovEx Verse": "Employee Evaluations - Linkage to Goals",
                               "Pre\/Post Metric": "City employees are evaluated using a tool or framework which connects their own performance to that of their respective programs, departments, and the city writ large.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -905,7 +905,7 @@
                               "GovEx Chapter": "Stakeholder Buy-In",
                               "GovEx Verse": "Employee Recognition",
                               "Pre\/Post Metric": "City employees are routinely recognized for their contributions to improving government.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -924,7 +924,7 @@
                               "GovEx Chapter": "Stakeholder Buy-In",
                               "GovEx Verse": "Employee Engagement - Listening, Participation, Feedback, Communication",
                               "Pre\/Post Metric": "The city leverages multiple channels to engage its employees (listening sessions, internal communications, feedback sessions, high participation rates in activities)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -938,7 +938,7 @@
                               "GovEx Chapter": "Stakeholder Buy-In",
                               "GovEx Verse": "Employee Engagement - Listening, Participation, Feedback, Communication",
                               "Pre\/Post Metric": "Awareness and use of the open data portal is fostered within agencies\/departments",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -952,7 +952,7 @@
                               "GovEx Chapter": "Stakeholder Buy-In",
                               "GovEx Verse": "Employee Engagement - Listening, Participation, Feedback, Communication",
                               "Pre\/Post Metric": "C6. Involves internal stakeholders in goal setting",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -976,7 +976,7 @@
                               "GovEx Chapter": "Publicity",
                               "GovEx Verse": "Capturing Best Practices",
                               "Pre\/Post Metric": "The city captures its own best practices and communicates about them.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -990,7 +990,7 @@
                               "GovEx Chapter": "Publicity",
                               "GovEx Verse": "Capturing Best Practices",
                               "Pre\/Post Metric": "Open data success stories are routinely shared with the media and on social media",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1004,7 +1004,7 @@
                               "GovEx Chapter": "Publicity",
                               "GovEx Verse": "Capturing Best Practices",
                               "Pre\/Post Metric": "New, recently updated, or important datasets are routinely highlighted",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1018,7 +1018,7 @@
                               "GovEx Chapter": "Publicity",
                               "GovEx Verse": "Capturing Best Practices",
                               "Pre\/Post Metric": "Stories, links to stories, or links to work done based upon open data are routinely provided",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1037,7 +1037,7 @@
                               "GovEx Chapter": "Publicity",
                               "GovEx Verse": "Press Examples",
                               "Pre\/Post Metric": "The city actively pushes its own example of data-driven practices to the press\/media.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1051,7 +1051,7 @@
                               "GovEx Chapter": "Publicity",
                               "GovEx Verse": "Press Examples",
                               "Pre\/Post Metric": "City leaders routinely reference public data in press releases, interviews, presentations or public speeches",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1065,7 +1065,7 @@
                               "GovEx Chapter": "Publicity",
                               "GovEx Verse": "Press Examples",
                               "Pre\/Post Metric": "C1. The mayor or chief executive cites data when speaking publicly about progress towards city goals",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1079,7 +1079,7 @@
                               "GovEx Chapter": "Publicity",
                               "GovEx Verse": "Press Examples",
                               "Pre\/Post Metric": "A6. In public remarks (or public materials), the mayor or chief executive explains how any change in funding between vendors or programs was driven by data and evidence",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1103,7 +1103,7 @@
                               "GovEx Chapter": "Competency",
                               "GovEx Verse": "Creating a Data & Analysis Literate Workforce",
                               "Pre\/Post Metric": "The city either directly provides or dedicates budget resources for purchasing employee training on data\/analytics.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1122,7 +1122,7 @@
                               "GovEx Chapter": "Competency",
                               "GovEx Verse": "Assessing Your Own Capabilities",
                               "Pre\/Post Metric": "The city has a mechanism to assess the mathematical, statistical, and computer science capabilites of its own workforce.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1161,7 +1161,7 @@
                               "GovEx Chapter": "Using the measures you have",
                               "GovEx Verse": "KPIs",
                               "Pre\/Post Metric": "The city has selected specific performance measures as \"Key Performance Indicators\" to highlight and visit on a routine basis.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1175,7 +1175,7 @@
                               "GovEx Chapter": "Using the measures you have",
                               "GovEx Verse": "KPIs",
                               "Pre\/Post Metric": "C5. Has assigned targets, metrics, and a timeframe to measure progress toward the achievement of at least one publicly stated strategic goal",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1199,7 +1199,7 @@
                               "GovEx Chapter": "Building new measures",
                               "GovEx Verse": "Using families of measures (inputs, outputs, outcomes\/impacts, service quality, efficiency)",
                               "Pre\/Post Metric": "The city leverages a \"family of measures\" to monitor the progress toward each goal statement",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1213,7 +1213,7 @@
                               "GovEx Chapter": "Building new measures",
                               "GovEx Verse": "Using families of measures (inputs, outputs, outcomes\/impacts, service quality, efficiency)",
                               "Pre\/Post Metric": "M1. Collects key output indicators (outputs are interim data points that indicate progress towards a city priority or goal; e.g., number of trees planted in city fiscal year)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1227,7 +1227,7 @@
                               "GovEx Chapter": "Building new measures",
                               "GovEx Verse": "Using families of measures (inputs, outputs, outcomes\/impacts, service quality, efficiency)",
                               "Pre\/Post Metric": "M2. Collects key outcome indicators (outcomes are final data points that indicate concrete progress made towards a city priority or goal; e.g., reduction in unemployment rate; previously unemployed maintain jobs for 12 months)",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1261,7 +1261,7 @@
                               "GovEx Chapter": "Inventory Data",
                               "GovEx Verse": "Data Inventory Guide",
                               "Pre\/Post Metric": "The city has conducted (and publsihed) a complete data inventory.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1275,7 +1275,7 @@
                               "GovEx Chapter": "Inventory Data",
                               "GovEx Verse": "Data Inventory Guide",
                               "Pre\/Post Metric": "Create a public, comprehensive list of all information holdings",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1289,7 +1289,7 @@
                               "GovEx Chapter": "Inventory Data",
                               "GovEx Verse": "Data Inventory Guide",
                               "Pre\/Post Metric": "The data inventory is routinely reviewed and public data releases are prioritized",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1318,7 +1318,7 @@
                               "GovEx Chapter": "Data Collection",
                               "GovEx Verse": "Data Collection Best Practices",
                               "Pre\/Post Metric": "Optimize methods of data collection",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1332,7 +1332,7 @@
                               "GovEx Chapter": "Data Collection",
                               "GovEx Verse": "Data Collection Best Practices",
                               "Pre\/Post Metric": "Data is kept up-to-date without human interaction (re: Sunlight #22)",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1356,7 +1356,7 @@
                               "GovEx Chapter": "Leveraging External Sources",
                               "GovEx Verse": "Data from key partners with overlapping equities (e.g. school districts, utilities, counties, states, feds)",
                               "Pre\/Post Metric": "The city routinely leverages data from external stakeholders (E.g. school districts, utilities, counties, states, feds) to enhance the quality of its own analysis.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1380,7 +1380,7 @@
                               "GovEx Chapter": "Leveraging Multiple Formats",
                               "GovEx Verse": "Data from web, databases, APIs",
                               "Pre\/Post Metric": "The city demonstrates the in-house ability to leverage open source data through APIs to enhance the quality of its analysis.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1409,7 +1409,7 @@
                               "GovEx Chapter": "Open Data",
                               "GovEx Verse": "Open Data Advancement Guide",
                               "Pre\/Post Metric": "",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1428,7 +1428,7 @@
                               "GovEx Chapter": "Open Data",
                               "GovEx Verse": "Open Data Getting Started Guide",
                               "Pre\/Post Metric": "Publish bulk data",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1447,7 +1447,7 @@
                               "GovEx Chapter": "Open Data",
                               "GovEx Verse": "Open Data Metadata & Dictionary Guide",
                               "Pre\/Post Metric": "Charge data-creating agencies with recommending an appropriate citation form",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1461,7 +1461,7 @@
                               "GovEx Chapter": "Open Data",
                               "GovEx Verse": "Open Data Metadata & Dictionary Guide",
                               "Pre\/Post Metric": "Require publishing metadata",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1475,7 +1475,7 @@
                               "GovEx Chapter": "Open Data",
                               "GovEx Verse": "Open Data Metadata & Dictionary Guide",
                               "Pre\/Post Metric": "Metadata is compatible with project-open-data \/ DCAT (re: Sunlight #13)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1489,7 +1489,7 @@
                               "GovEx Chapter": "Open Data",
                               "GovEx Verse": "Open Data Metadata & Dictionary Guide",
                               "Pre\/Post Metric": "References to 3rd party specifications (e.g. civic data standards) are included if relevant",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1508,7 +1508,7 @@
                               "GovEx Chapter": "Open Data",
                               "GovEx Verse": "Open Data Portal Technical Requirements",
                               "Pre\/Post Metric": "M9. Has an Open Data portal",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1522,7 +1522,7 @@
                               "GovEx Chapter": "Open Data",
                               "GovEx Verse": "Open Data Portal Technical Requirements",
                               "Pre\/Post Metric": "The web site provides a useful search feature (re: Sunlight #18)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1536,7 +1536,7 @@
                               "GovEx Chapter": "Open Data",
                               "GovEx Verse": "Open Data Portal Technical Requirements",
                               "Pre\/Post Metric": "The web site provides a data.json feed (re: Sunlight #18)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1550,7 +1550,7 @@
                               "GovEx Chapter": "Open Data",
                               "GovEx Verse": "Open Data Portal Technical Requirements",
                               "Pre\/Post Metric": "A one-stop data discovery mechanism exists when the jurisdiction operates multiple open data sites (re: Sunlight #18)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1564,7 +1564,7 @@
                               "GovEx Chapter": "Open Data",
                               "GovEx Verse": "Open Data Portal Technical Requirements",
                               "Pre\/Post Metric": "Value-level metadata is available and maintained (re: Sunlight #13)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1578,7 +1578,7 @@
                               "GovEx Chapter": "Open Data",
                               "GovEx Verse": "Open Data Portal Technical Requirements",
                               "Pre\/Post Metric": "Column-level metadata is available and maintained (re: Sunlight #13)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1592,7 +1592,7 @@
                               "GovEx Chapter": "Open Data",
                               "GovEx Verse": "Open Data Portal Technical Requirements",
                               "Pre\/Post Metric": "This mechanism also includes parent jurisdiction data such as county, state, and federal (see Sunlight #18)",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1611,7 +1611,7 @@
                               "GovEx Chapter": "Open Data",
                               "GovEx Verse": "Open Data Licensing Standards",
                               "Pre\/Post Metric": "Mandate data be explicitly license-free",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1630,7 +1630,7 @@
                               "GovEx Chapter": "Open Data",
                               "GovEx Verse": "Creating a broader management strategy for Open Data",
                               "Pre\/Post Metric": "The city has published a management strategy for Open Data",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1654,7 +1654,7 @@
                               "GovEx Chapter": "Non-Open Data",
                               "GovEx Verse": "Non-Open Data",
                               "Pre\/Post Metric": "The city demonstrates the ability to properly deal with sensitive data using the right security and protection procedures.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1683,7 +1683,7 @@
                               "GovEx Chapter": "Data Governance",
                               "GovEx Verse": "Establishing Data Governance",
                               "Pre\/Post Metric": "The city has established data governance to manage data as an enterprise assett and designated participants routinely attend",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1697,7 +1697,7 @@
                               "GovEx Chapter": "Data Governance",
                               "GovEx Verse": "Establishing Data Governance",
                               "Pre\/Post Metric": "Governance body meets at least once a month",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1711,7 +1711,7 @@
                               "GovEx Chapter": "Data Governance",
                               "GovEx Verse": "Establishing Data Governance",
                               "Pre\/Post Metric": "M10. Has a structured process for releasing data as part of an Open Data program (e.g., defined roles and responsibilities, governance plan, and\/or governance committee)",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1740,7 +1740,7 @@
                               "GovEx Chapter": "Benchmarking",
                               "GovEx Verse": "Comparing you to you",
                               "Pre\/Post Metric": "The city routinely compares its current performance to past performance.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1759,7 +1759,7 @@
                               "GovEx Chapter": "Benchmarking",
                               "GovEx Verse": "Comparing you to others",
                               "Pre\/Post Metric": "The city routine compares its current and past performance to that of other comparable jurisdictions.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1773,7 +1773,7 @@
                               "GovEx Chapter": "Benchmarking",
                               "GovEx Verse": "Comparing you to others",
                               "Pre\/Post Metric": "TS3. Measures and compares performance in core areas against external benchmarks",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1802,7 +1802,7 @@
                               "GovEx Chapter": "Data Standards",
                               "GovEx Verse": "Leveraging Data Standards",
                               "Pre\/Post Metric": "The city leverages existing (or publishes its own) data standards for the enterprise.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1816,7 +1816,7 @@
                               "GovEx Chapter": "Data Standards",
                               "GovEx Verse": "Leveraging Data Standards",
                               "Pre\/Post Metric": "Mandate data formats for maximal technical access.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1830,7 +1830,7 @@
                               "GovEx Chapter": "Data Standards",
                               "GovEx Verse": "Leveraging Data Standards",
                               "Pre\/Post Metric": "Provide comprehensive and appropriate formats for varied uses",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1844,7 +1844,7 @@
                               "GovEx Chapter": "Data Standards",
                               "GovEx Verse": "Leveraging Data Standards",
                               "Pre\/Post Metric": "Implementation Guidance (Sunlight #24) defines standards for common data elements to keep them consistent across different datasets (e.g. addresses, date formats, geospatial projections)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1858,7 +1858,7 @@
                               "GovEx Chapter": "Data Standards",
                               "GovEx Verse": "Leveraging Data Standards",
                               "Pre\/Post Metric": "Civic data specifications are used (if they exist) (similar to Sunlight #8)",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -1897,7 +1897,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Performance Based Contracting",
                               "Pre\/Post Metric": "The city demonstrates that city contracts are routinely evaluated based on performance, and that adverse contracting actions result from underperformance.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1911,7 +1911,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Performance Based Contracting",
                               "Pre\/Post Metric": "M4. Identifies goals for key procurements (including grants and contracts), specifies measurable outcomes, and aligns procurement strategy, including the selection of competition strategy, contract structure, and requirements, with goals (goals should describe what the city is seeking to accomplish through the procurement and why the city needs to purchase the good or service)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1925,7 +1925,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Performance Based Contracting",
                               "Pre\/Post Metric": "M5. Contracts include performance incentives (e.g., selecting the right contract structure, providing rewards for good performance, reducing payment for underperformance, shrinking future contracts)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1939,7 +1939,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Performance Based Contracting",
                               "Pre\/Post Metric": "M6. Has systems in place to measure outcomes, impacts, and\/or cost effectiveness of key procurements",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1953,7 +1953,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Performance Based Contracting",
                               "Pre\/Post Metric": "TS6. Monitors outcomes specified in contracts",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1967,7 +1967,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Performance Based Contracting",
                               "Pre\/Post Metric": "TS7. Reviews outcome data specified in contracts with contractors during the contract term",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1981,7 +1981,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Performance Based Contracting",
                               "Pre\/Post Metric": "TS8. At the end of a contract term, systematically reviews and assesses contractor performance",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -1995,7 +1995,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Performance Based Contracting",
                               "Pre\/Post Metric": "TS9. Compares relative performance across service providers (i.e., agency staff reviews performance of all vendors for a particular service)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2009,7 +2009,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Performance Based Contracting",
                               "Pre\/Post Metric": "A2. Uses performance data to manage ongoing contracts, including detecting issues in real-time and implementing mid-course corrections as needed",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2023,7 +2023,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Performance Based Contracting",
                               "Pre\/Post Metric": "A3. Makes contracting decisions based with consideration of past performance of vendor(s)",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2042,7 +2042,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Stakeholder engagement (CFA Brigades, Identifying Coalitions)",
                               "Pre\/Post Metric": "The city routinely leverages external stakeholders (CFA brigades, coalitions, advocates) for co-problem solving.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2056,7 +2056,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Stakeholder engagement (CFA Brigades, Identifying Coalitions)",
                               "Pre\/Post Metric": "Incorporate public perspectives into policy implementation",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2070,7 +2070,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Stakeholder engagement (CFA Brigades, Identifying Coalitions)",
                               "Pre\/Post Metric": "Create or explore potential partnerships",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2084,7 +2084,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Stakeholder engagement (CFA Brigades, Identifying Coalitions)",
                               "Pre\/Post Metric": "Agency\/department representatives discuss available data with industry\/domain representatives (re: Sunlight #30)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2098,7 +2098,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Stakeholder engagement (CFA Brigades, Identifying Coalitions)",
                               "Pre\/Post Metric": "City representatives regularly attend local \"civic hacker\" meetings (CfA Brigades, etc)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2112,7 +2112,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Stakeholder engagement (CFA Brigades, Identifying Coalitions)",
                               "Pre\/Post Metric": "The jurisdiction actively participates in the development & evolution of civic data specifications",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2126,7 +2126,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Stakeholder engagement (CFA Brigades, Identifying Coalitions)",
                               "Pre\/Post Metric": "C7. Involves external stakeholders in goal setting",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2140,7 +2140,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Stakeholder engagement (CFA Brigades, Identifying Coalitions)",
                               "Pre\/Post Metric": "TS5. Collaborates with researchers (e.g., university partners or research firms) to design or conduct empirical assessments of programs\/service delivery",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2154,7 +2154,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Stakeholder engagement (CFA Brigades, Identifying Coalitions)",
                               "Pre\/Post Metric": "A7. Actively and successfully facilitates the creative and valuable use of data by residents and entrepreneurs (e.g., public events, prizes, competitions, hackathons, developing apps for the public)",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2173,7 +2173,7 @@
                               "GovEx Chapter": "Doing what works",
                               "GovEx Verse": "Finding best practices",
                               "Pre\/Post Metric": "The city can cite at least three examples of implementing a program or service change based on a \"best practice\" in another jurisdiction.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2197,7 +2197,7 @@
                               "GovEx Chapter": "Stopping bad practices",
                               "GovEx Verse": "Finding bad practices",
                               "Pre\/Post Metric": "The city can cite at least one example of NOT trying something because it was deemed a bad or ineffective practice in another jurisdiction.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2216,7 +2216,7 @@
                               "GovEx Chapter": "Stopping bad practices",
                               "GovEx Verse": "Knowing when your practices are bad",
                               "Pre\/Post Metric": "The city can cite at least three examples of stopping a program or service that, based on analysis of evidence, was not working.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2240,7 +2240,7 @@
                               "GovEx Chapter": "Going first (taking a risk)",
                               "GovEx Verse": "Influencing Behavior through new approaches",
                               "Pre\/Post Metric": "The city can cite at least one example of trying an unprecedented action based on a belief it might work and and absence of evidence it wouldn't work.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2264,7 +2264,7 @@
                               "GovEx Chapter": "Applying the right resources to the problem",
                               "GovEx Verse": "Applying the right resources to the problem",
                               "Pre\/Post Metric": "The city makes resource decisions which are based on precice calculations and derived from thorough analysis.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2293,7 +2293,7 @@
                               "GovEx Chapter": "Connecting new insights to past and future actions\/decisions",
                               "GovEx Verse": "Connecting new insights to past and future actions\/decisions",
                               "Pre\/Post Metric": "The city can cite three examples of adjusting previous decisions based on new data and analysis (taking stock).",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2307,7 +2307,7 @@
                               "GovEx Chapter": "Connecting new insights to past and future actions\/decisions",
                               "GovEx Verse": "Connecting new insights to past and future actions\/decisions",
                               "Pre\/Post Metric": "Web site and dataset usage statistics are routinely reviewed to aid in prioritization",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2321,7 +2321,7 @@
                               "GovEx Chapter": "Connecting new insights to past and future actions\/decisions",
                               "GovEx Verse": "Connecting new insights to past and future actions\/decisions",
                               "Pre\/Post Metric": "A1. Modifies the delivery of existing programs based on the review of their results in performance management meetings or through a benchmarking analysis",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2335,7 +2335,7 @@
                               "GovEx Chapter": "Connecting new insights to past and future actions\/decisions",
                               "GovEx Verse": "Connecting new insights to past and future actions\/decisions",
                               "Pre\/Post Metric": "A4. Modifies the delivery of existing programs (contracted or agency administered) based on evaluation results",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2374,7 +2374,7 @@
                               "GovEx Chapter": "Identify the right skills",
                               "GovEx Verse": "Identify the right skills",
                               "Pre\/Post Metric": "The city has job descriptions which explicitely list data science skillsets in mathematics, statistics, computer science, communications, and general critical thinking.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2398,7 +2398,7 @@
                               "GovEx Chapter": "High-Yield Recruitment",
                               "GovEx Verse": "STAT Analyst Job Description",
                               "Pre\/Post Metric": "The city has speciic job descriptions for a STAT Director and\/or STAT analysts.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2417,7 +2417,7 @@
                               "GovEx Chapter": "High-Yield Recruitment",
                               "GovEx Verse": "Open Data Analyst Job Description",
                               "Pre\/Post Metric": "The city has speciic job descriptions for an Open Data Director and\/or Open Data analysts.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2436,7 +2436,7 @@
                               "GovEx Chapter": "High-Yield Recruitment",
                               "GovEx Verse": "Where to Look for Talent",
                               "Pre\/Post Metric": "The city proactively lists data and analytics-related job postings with organizations that have relevent expertise and broad reach into top talent.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2455,7 +2455,7 @@
                               "GovEx Chapter": "High-Yield Recruitment",
                               "GovEx Verse": "Chief Data Officer Job Description (Nicklin)",
                               "Pre\/Post Metric": "The city has a Chief Data Officer or has a speciic job descriptions for a Chief Data Officer.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2469,7 +2469,7 @@
                               "GovEx Chapter": "High-Yield Recruitment",
                               "GovEx Verse": "Chief Data Officer Job Description (Nicklin)",
                               "Pre\/Post Metric": "Create or appoint oversight authority",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2488,7 +2488,7 @@
                               "GovEx Chapter": "High-Yield Recruitment",
                               "GovEx Verse": "Open Data Program Manager Job Description (Sheila - Cambridge)",
                               "Pre\/Post Metric": "The city has an Open Data Program Manager or has a speciic job descriptions for an Open Data Program Manager.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2502,7 +2502,7 @@
                               "GovEx Chapter": "High-Yield Recruitment",
                               "GovEx Verse": "Open Data Program Manager Job Description (Sheila - Cambridge)",
                               "Pre\/Post Metric": "M11. Has designated a person or team responsible for Open Data",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2526,7 +2526,7 @@
                               "GovEx Chapter": "Building effective teams",
                               "GovEx Verse": "Building effective teams",
                               "Pre\/Post Metric": "The city has more than one person advancing the practices of data, analytics, and performance management internally.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2540,7 +2540,7 @@
                               "GovEx Chapter": "Building effective teams",
                               "GovEx Verse": "Building effective teams",
                               "Pre\/Post Metric": "M13. Has staff dedicated to data analysis (e.g., data analytics staff, performance management staff, evaluation staff, Chief Data Officer, etc.)",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2564,7 +2564,7 @@
                               "GovEx Chapter": "Retention",
                               "GovEx Verse": "Retention",
                               "Pre\/Post Metric": "The city demonstrates the ability to retain data analysts for longer than two years.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2588,7 +2588,7 @@
                               "GovEx Chapter": "Identify existing talent",
                               "GovEx Verse": "Identify existing talent",
                               "Pre\/Post Metric": "The city has created an informal network of analysts from an existing pool of talent across the city.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2607,7 +2607,7 @@
                               "GovEx Chapter": "Identify existing talent",
                               "GovEx Verse": "Finding open data and performance management coordinators internally",
                               "Pre\/Post Metric": "The city has designated open data, data governance, performance management, or analytics coordinators across the government.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2621,7 +2621,7 @@
                               "GovEx Chapter": "Identify existing talent",
                               "GovEx Verse": "Finding open data and performance management coordinators internally",
                               "Pre\/Post Metric": "Every agency\/department has designated an open data liaison",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2650,7 +2650,7 @@
                               "GovEx Chapter": "Data Science Tools",
                               "GovEx Verse": "Performance Management Platform Recommendations",
                               "Pre\/Post Metric": "The city publishes its performance data on an interactive virtual platform.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2669,7 +2669,7 @@
                               "GovEx Chapter": "Data Science Tools",
                               "GovEx Verse": "Statistical Tools",
                               "Pre\/Post Metric": "The city enables the utilization of (i.e. Stata, SPSS, R, Matlab, Minitab, SAS) by employees.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2688,7 +2688,7 @@
                               "GovEx Chapter": "Data Science Tools",
                               "GovEx Verse": "Geospatial Tools",
                               "Pre\/Post Metric": "The city enables the utilization of GIS software (i.e. AutoCAD, Esri, Mapinfo, etc) by employees.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2707,7 +2707,7 @@
                               "GovEx Chapter": "Data Science Tools",
                               "GovEx Verse": "Data Visualization Tools",
                               "Pre\/Post Metric": "The city enables the utilization of data visualization software (i.e. Tableau, Qlikview, Socrata, R) by employees.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2726,7 +2726,7 @@
                               "GovEx Chapter": "Data Science Tools",
                               "GovEx Verse": "Data Management Tools",
                               "Pre\/Post Metric": "The city enables the utilization of data management software (e.g. Access, MySQL, Hadoop, NoSQL) for employees.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2745,7 +2745,7 @@
                               "GovEx Chapter": "Data Science Tools",
                               "GovEx Verse": "Exploration Tools",
                               "Pre\/Post Metric": "The city enables the utilization of data exploration software (e.g. Excel, MySQL, R, Tableau, Pentaho) for employees.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2764,7 +2764,7 @@
                               "GovEx Chapter": "Data Science Tools",
                               "GovEx Verse": "Programming Tools",
                               "Pre\/Post Metric": "The city enables employees to conduct data analysis using computer programming through Java, R, Python, C, etc.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2788,7 +2788,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Preparation for Analysis - Specifying the Question",
                               "Pre\/Post Metric": "Analysts in the city report being given very specific questions to answer BEFORE they are expected to conduct analysis,",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2807,7 +2807,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Preparation for Analysis - Questions you should be asking",
                               "Pre\/Post Metric": "Analysts report having the freedom and security to elevate or suggest questions worth answering to city leadership.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2821,7 +2821,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Preparation for Analysis - Questions you should be asking",
                               "Pre\/Post Metric": "TS1. Has a designated process for conducting analysis, prep, and follow-up for each Stat or performance management meeting",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2840,7 +2840,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Data Management - Hygeine",
                               "Pre\/Post Metric": "Analysts report a significant portion of their project time is dedicated to data hygeine prior to analysis being conducted.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2854,7 +2854,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Data Management - Hygeine",
                               "Pre\/Post Metric": "Mandate the use of unique identifiers",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2868,7 +2868,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Data Management - Hygeine",
                               "Pre\/Post Metric": "Create processes to ensure data quality",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2882,7 +2882,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Data Management - Hygeine",
                               "Pre\/Post Metric": "Implementation guidance (Sunlight #24) includes a framework for data quality",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2901,7 +2901,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Data Management - Database Administration",
                               "Pre\/Post Metric": "The city has more than one individual on an enterprise analytics\/STAT\/Open Data team who is adept at more than two DBM tools.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2915,7 +2915,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Data Management - Database Administration",
                               "Pre\/Post Metric": "Mandate ongoing data publication and updates",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2934,7 +2934,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Data Management - Data Security",
                               "Pre\/Post Metric": "The city has published protocols and training for managing PII and other sensitive information in accordance with security guidelines.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2948,7 +2948,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Data Management - Data Security",
                               "Pre\/Post Metric": "Appropriately safeguard sensitive information",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -2962,7 +2962,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Data Management - Data Security",
                               "Pre\/Post Metric": "A risk management plan exists",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -2981,7 +2981,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Data Management - Data Storage",
                               "Pre\/Post Metric": "The city demonstrates the ability or intention to transition its data to cloud-based storage, and out of legacy systems.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -3000,7 +3000,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Data Exploration & Descriptive Statistics (central tendency, variability)",
                               "Pre\/Post Metric": "The city published descriptive statistics wherever data is presented (reports, dashboards, websites)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3014,7 +3014,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Data Exploration & Descriptive Statistics (central tendency, variability)",
                               "Pre\/Post Metric": "TS4. Uses a range of evaluation methods to test the impact of programs",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -3033,7 +3033,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Data Modeling & Statistical Inference - Sampling & Population Estimation",
                               "Pre\/Post Metric": "The city leverages inferential statistics to drive its understanding of issues affecting broader city populations (e.g. disease transmission).",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -3052,7 +3052,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Data Modeling & Statistical Inference - Prediction & Machine Learning",
                               "Pre\/Post Metric": "The city leverages inferential statistics to develop predictive models for at least one service area.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -3071,7 +3071,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Coding & Programming",
                               "Pre\/Post Metric": "The city employees at least two employees (outside the IT department) who are adept in multiple computer programming languages.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -3090,7 +3090,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Math that Matters (ratios, slopes, net vs. gross changes)",
                               "Pre\/Post Metric": "The city routinely uses basic counting, ratios, and percent changes to understand changes in program performance.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -3109,7 +3109,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Reproducibility",
                               "Pre\/Post Metric": "The city publsihes its analysis and underlying methodology to its own employees and\/or the public through Github, Sharepoint, or an internal tool",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3123,7 +3123,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Reproducibility",
                               "Pre\/Post Metric": "Require publishing data creation processes",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3137,7 +3137,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Reproducibility",
                               "Pre\/Post Metric": "Require code sharing or publishing open source",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -3156,7 +3156,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Geospatial Analysis",
                               "Pre\/Post Metric": "The city has multiple GIS Specialists on staff and leverages them for spatial and non-spatial analysis at the enterprise level (i.e. not limited to",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -3175,7 +3175,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Text Mining",
                               "Pre\/Post Metric": "The city treats qualitative information as data and uses text mining analysis to derive insights from PDF reports, etc.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3189,7 +3189,7 @@
                               "GovEx Chapter": "Data Science Methods",
                               "GovEx Verse": "Text Mining",
                               "Pre\/Post Metric": "Require digitization and distribution of archival materials",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -3218,7 +3218,7 @@
                               "GovEx Chapter": "Design choices",
                               "GovEx Verse": "Accessibility",
                               "Pre\/Post Metric": "The city practices 508-compliance-like standards to make content accessible to those with disabilities.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3232,7 +3232,7 @@
                               "GovEx Chapter": "Design choices",
                               "GovEx Verse": "Accessibility",
                               "Pre\/Post Metric": "Remove restrictions for accessing information",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3246,7 +3246,7 @@
                               "GovEx Chapter": "Design choices",
                               "GovEx Verse": "Accessibility",
                               "Pre\/Post Metric": "Create public APIs for accessing information",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3260,7 +3260,7 @@
                               "GovEx Chapter": "Design choices",
                               "GovEx Verse": "Accessibility",
                               "Pre\/Post Metric": "Create permanent, lasting access to data",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -3279,7 +3279,7 @@
                               "GovEx Chapter": "Design choices",
                               "GovEx Verse": "Data Visualization",
                               "Pre\/Post Metric": "The city has published data visualizations which are intutive and well designed.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -3298,7 +3298,7 @@
                               "GovEx Chapter": "Design choices",
                               "GovEx Verse": "Choosing Content Carefully",
                               "Pre\/Post Metric": "The analysis produced by a city is easily understandable and clearly presented, not jumbled with all possible facts.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -3317,7 +3317,7 @@
                               "GovEx Chapter": "Design choices",
                               "GovEx Verse": "When Maps Matter (and when they don't)",
                               "Pre\/Post Metric": "The maps published by cities have context provided with them.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -3341,7 +3341,7 @@
                               "GovEx Chapter": "Presentation skills",
                               "GovEx Verse": "Storytelling Through Data",
                               "Pre\/Post Metric": "Presentations given by city officials tell a clear and compelling story about how data is used to add value.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -3360,7 +3360,7 @@
                               "GovEx Chapter": "Presentation skills",
                               "GovEx Verse": "Briefing Executives (written, verbal)",
                               "Pre\/Post Metric": "Executives in the city report satisfaction with the quality of briefings provided by analyticl staff,",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -3384,7 +3384,7 @@
                               "GovEx Chapter": "Communicating Insights & Articulating value with Stakeholders",
                               "GovEx Verse": "Communicating with employees",
                               "Pre\/Post Metric": "The city routinely communicates with employees about the importance of data and analysis in their work.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -3403,7 +3403,7 @@
                               "GovEx Chapter": "Communicating Insights & Articulating value with Stakeholders",
                               "GovEx Verse": "Communicating with politicians",
                               "Pre\/Post Metric": "The city routinely provides data and analysis to elected officials during committee hearings.",
-
+                              "pop": null
                             }
                           ]
                         }
@@ -3422,7 +3422,7 @@
                               "GovEx Chapter": "Communicating Insights & Articulating value with Stakeholders",
                               "GovEx Verse": "Communicating with the community",
                               "Pre\/Post Metric": "The city communicates with the public, through multiple channels, about data and analysis relevant to their lives.",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3436,7 +3436,7 @@
                               "GovEx Chapter": "Communicating Insights & Articulating value with Stakeholders",
                               "GovEx Verse": "Communicating with the community",
                               "Pre\/Post Metric": "Proactively release government information online",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3450,7 +3450,7 @@
                               "GovEx Chapter": "Communicating Insights & Articulating value with Stakeholders",
                               "GovEx Verse": "Communicating with the community",
                               "Pre\/Post Metric": "Create a central location devoted to data publication and policy",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3464,7 +3464,7 @@
                               "GovEx Chapter": "Communicating Insights & Articulating value with Stakeholders",
                               "GovEx Verse": "Communicating with the community",
                               "Pre\/Post Metric": "Incorporate public perspectives into policy implementation\ufffd\ufffd\ufffd The launch of the open data website has been publicly announced",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3478,7 +3478,7 @@
                               "GovEx Chapter": "Communicating Insights & Articulating value with Stakeholders",
                               "GovEx Verse": "Communicating with the community",
                               "Pre\/Post Metric": "Social media is routinely used to engage the public in conversations about open data",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3492,7 +3492,7 @@
                               "GovEx Chapter": "Communicating Insights & Articulating value with Stakeholders",
                               "GovEx Verse": "Communicating with the community",
                               "Pre\/Post Metric": "Links to the open data portal(s) are prominently included on the jurisdiction's web site(s) (header, footer, or navigation)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3506,7 +3506,7 @@
                               "GovEx Chapter": "Communicating Insights & Articulating value with Stakeholders",
                               "GovEx Verse": "Communicating with the community",
                               "Pre\/Post Metric": "City representatives who attend locally-organized events direct the public to the open data portal when appropriate",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3520,7 +3520,7 @@
                               "GovEx Chapter": "Communicating Insights & Articulating value with Stakeholders",
                               "GovEx Verse": "Communicating with the community",
                               "Pre\/Post Metric": "A means is provided for the public to request data",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3534,7 +3534,7 @@
                               "GovEx Chapter": "Communicating Insights & Articulating value with Stakeholders",
                               "GovEx Verse": "Communicating with the community",
                               "Pre\/Post Metric": "A means is provided for the public to provide feedback on published data",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3548,7 +3548,7 @@
                               "GovEx Chapter": "Communicating Insights & Articulating value with Stakeholders",
                               "GovEx Verse": "Communicating with the community",
                               "Pre\/Post Metric": "The jurisdiction is listed as a provider on the civic data specification's website",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3562,7 +3562,7 @@
                               "GovEx Chapter": "Communicating Insights & Articulating value with Stakeholders",
                               "GovEx Verse": "Communicating with the community",
                               "Pre\/Post Metric": "M7. Publicly releases data that is descriptive of core city services or related to city goals (i.e., data that is useful to the public)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3576,7 +3576,7 @@
                               "GovEx Chapter": "Communicating Insights & Articulating value with Stakeholders",
                               "GovEx Verse": "Communicating with the community",
                               "Pre\/Post Metric": "M8. Has a mechanism for releasing data to the public (e.g., resource page on city website)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3590,7 +3590,7 @@
                               "GovEx Chapter": "Communicating Insights & Articulating value with Stakeholders",
                               "GovEx Verse": "Communicating with the community",
                               "Pre\/Post Metric": "M12. Publicly releases data that is responsive to residents\ufffd\ufffd\ufffd requests (i.e., there is a clear relationship between the data released and residents\ufffd\ufffd\ufffd requests)",
-
+                              "pop": null
                             }
                           ]
                         },
@@ -3604,7 +3604,7 @@
                               "GovEx Chapter": "Communicating Insights & Articulating value with Stakeholders",
                               "GovEx Verse": "Communicating with the community",
                               "Pre\/Post Metric": "TS2. Shares key data, findings, and decisions from performance management meetings with the public",
-
+                              "pop": null
                             }
                           ]
                         }
