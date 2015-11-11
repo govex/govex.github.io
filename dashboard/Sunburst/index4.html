@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../common/delimited-favicon-v4.ico">
-    <title>delimited | D3 CSV to Nested JSON</title>
+
     <script type="text/javascript" src="d3-master/d3.js"></script>
     <script type="text/javascript" src="underscore-min.js"></script>
   </head>
@@ -94,7 +94,7 @@
           .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
           .style("fill-rule", "evenodd")
 
-console.log((preppedData));
+console.log((data));
       });
     </script>
   </body>
