@@ -57,14 +57,49 @@
         }).outerRadius(function(t) {
             return Math.max(0, u(t.y + t.dy))
         });
-        d3.csv("data.csv", function(data){
-        var tree = DataStructures.Tree.createFromFlatTable(data),
-                   root = tree.toSimpleObject(function(objectToDecorate, originalNode) {
-                        objectToDecorate.size = originalNode.size;
-                        if (objectToDecorate.children && objectToDecorate.children.length == 0) {
-                            delete objectToDecorate.children;
-                        }
-                        return objectToDecorate;
-                    });
-      });
+    d3.json("sunburst.json", function(r, i) {
+        function l(n) {
+            h.transition().duration(s).attrTween("d", e(n)), m.style("visibility", function(e) {
+                return t(n, e) ? null : d3.select(this).style("visibility")
+            }).transition().duration(s).attrTween("text-anchor", function(t) {
+                return function() {
+                    return d(t.x + t.dx / 2) > Math.PI ? "end" : "start"
+                }
+            }).attrTween("transform", function(t) {
+                var n = (t.name || "").split(" ").length > 1;
+                return function() {
+                    var e = 180 * d(t.x + t.dx / 2) / Math.PI - 90,
+                        r = e + (n ? -.5 : 0);
+                    return "rotate(" + r + ")translate(" + (u(t.y) + c) + ")rotate(" + (e > 90 ? -180 : 0) + ")"
+                }
+            }).style("fill-opacity", function(e) {
+                return t(n, e) ? 1 : 1e-6
+            }).each("end", function(e) {
+                d3.select(this).style("visibility", t(n, e) ? null : "hidden")
+            })
+        }
+        var o = p.nodes({
+                children: i
+            }),
+            h = f.selectAll("path").data(o);
+        h.enter().append("path").attr("id", function(t, n) {
+            return "path-" + n
+        }).attr("d", x).attr("fill-rule", "evenodd").style("fill", n).on("click", l);
+        var m = f.selectAll("text").data(o),
+            y = m.enter().append("text").style("fill-opacity", 1).style("fill", function(t) {
+                return a(d3.rgb(n(t))) < 125 ? "#eee" : "#000"
+            }).attr("text-anchor", function(t) {
+                return d(t.x + t.dx / 2) > Math.PI ? "end" : "start"
+            }).attr("dy", ".2em").attr("transform", function(t) {
+                var n = (t.name || "").split(" ").length > 1,
+                    e = 180 * d(t.x + t.dx / 2) / Math.PI - 90,
+                    r = e + (n ? -.5 : 0);
+                return "rotate(" + r + ")translate(" + (u(t.y) + c) + ")rotate(" + (e > 90 ? -180 : 0) + ")"
+            }).on("click", l);
+        y.append("tspan").attr("x", 0).text(function(t) {
+            return t.depth ? t.name.split(" ")[0] : ""
+        }), y.append("tspan").attr("x", 0).attr("dy", "1em").text(function(t) {
+            return t.depth ? t.name.split(" ")[1] || "" : ""
+        })
+    })
 }();
