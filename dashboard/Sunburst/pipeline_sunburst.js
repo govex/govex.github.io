@@ -66,5 +66,5 @@
                         }
                         return objectToDecorate;
                     });
-        console.log(JSON.stringify(root));
+      });
 }();
