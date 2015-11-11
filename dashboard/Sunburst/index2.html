@@ -38,74 +38,7 @@ p#intro {
 <div id="vis"></div>
 <script src="d3-master/d3.min.js"></script>
 <script src="pipeline_sunburst.js"></script>
-<script type="text/javascript" src="DataStrctures.Tree-master/js/lib/DataStructures.Tree.js"></script>
-
-<script>
-d3.csv("data.csv", function(data){
-var tree = DataStructures.Tree.createFromFlatTable(data),
-           root = tree.toSimpleObject(function(objectToDecorate, originalNode) {
-                objectToDecorate.size = originalNode.size;
-                if (objectToDecorate.children && objectToDecorate.children.length == 0) {
-                    delete objectToDecorate.children;
-                }
-                return objectToDecorate;
-            });
-console.log(JSON.stringify(root));
-
-  //*************************************************
-  // THE FUNCTION
-  //*************************************************
-  function genJSON(csvData, groups) {
-
-    var genGroups = function(data) {
-      return _.map(data, function(element, index) {
-        return { name : index, children : element };
-      });
-    };
-
-    var nest = function(node, curIndex) {
-      if (curIndex === 0) {
-        node.children = genGroups(_.groupBy(csvData, groups[0]));
-        _.each(node.children, function (child) {
-          nest(child, curIndex + 1);
-        });
-      }
-      else {
-        if (curIndex < groups.length) {
-          node.children = genGroups(
-            _.groupBy(node.children, groups[curIndex])
-          );
-          _.each(node.children, function (child) {
-            nest(child, curIndex + 1);
-          });
-        }
-      }
-      return node;
-    };
-    return nest({}, 0);
-  }
-  //*************************************************
-  // CALL THE FUNCTION
-  //*************************************************
-
-
-  var preppedData = genJSON(data, ['WWC Standard',	'Average Joe standard',	'GovEx Book',	'GovEx Chapter',	'GovEx Verse',	'Pre/Post Metric'])
-  console.log(preppedData);
-  //*************************************************
-  // LOAD THE PREPPED DATA IN D3
-  //*************************************************
-  var path = svg.datum(preppedData).selectAll("path")
-    .data(partition.nodes)
-  .enter().append("path")
-    .attr("display", function(d) { return d.depth ? null : "none"; }) // hide inner ring
-    .attr("d", arc)
-    .attr("class", function(d) { return (d.children ? d : d.parent).name; })
-    .style("stroke", "#fff")
-    .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
-    .style("fill-rule", "evenodd")
-
-});
-</script>
+<script src="DataStrctures.Tree-master/js/lib/DataStructures.Tree.js"></script>
 
 <div class="wrapper">
 <h2>Sunburst Trees</h2>
