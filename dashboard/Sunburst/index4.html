@@ -79,7 +79,7 @@
         //*************************************************
         // CALL THE FUNCTION
         //*************************************************
-        var preppedData = genJSON(data, ['year', 'cat'])
+        var preppedData = genJSON(data, ['WWC Standard',	'Average Joe standard',	'GovEx Book',	'GovEx Chapter',	'GovEx Verse',	'Pre/Post Metric'])
 
         //*************************************************
         // LOAD THE PREPPED DATA IN D3
@@ -94,6 +94,7 @@
           .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
           .style("fill-rule", "evenodd")
 
+console.log(JSON.stringify(data));
       });
     </script>
   </body>
