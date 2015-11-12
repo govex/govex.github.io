@@ -66,8 +66,7 @@ d3.json("sunburst.json", function(error, root) {
   node = root;
   var path = svg.datum(root).selectAll("path")
       .data(partition.nodes)
-    .enter().append("g")
-  path.append("path")
+    .enter().append("path")
       .attr("d", arc)
       .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
       .on("click", click)
