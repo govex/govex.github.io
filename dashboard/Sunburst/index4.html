@@ -24,10 +24,10 @@
       // .append("g")
       //   .attr("transform", "translate(" + width / 2 + "," + height * .52 + ")");
       //
-      // var partition = d3.layout.partition()
-      //   .sort(null)
-      //   .size([2 * Math.PI, radius * radius])
-      //   .value(function(d) { return d.pop; });
+      var partition = d3.layout.partition()
+        .sort(null)
+        .size([2 * Math.PI, radius * radius])
+        .value(function(d) { return d.pop; });
       //
       // var arc = d3.svg.arc()
       //   .startAngle(function(d) { return d.x; })
