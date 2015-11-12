@@ -64,9 +64,11 @@ var node;
 
 d3.json("sunburst.json", function(error, root) {
   node = root;
-  var path = svg.datum(root).selectAll("g")
+  var path = svg.datum(root).selectAll("path")
       .data(partition.nodes)
-    .enter().append("path")
+    .enter().append("g")
+  path.append("path")
+      .attr("display", function(d) { return d.depth ? null : "none"; }) // hide inner ring
       .attr("d", arc)
       .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
       .on("click", click)
