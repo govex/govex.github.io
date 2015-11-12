@@ -92,7 +92,7 @@ var arc = d3.svg.arc()
           }
 
 
-      });
+      }});
 
 // Keep track of the node that is currently being displayed as the root.
 var node;
@@ -167,6 +167,6 @@ function arcTweenZoom(d) {
         ? function(t) { return arc(d); }
         : function(t) { x.domain(xd(t)); y.domain(yd(t)).range(yr(t)); return arc(d); };
   };
-};
+}
 
 </script>
