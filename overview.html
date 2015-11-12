@@ -116,6 +116,12 @@
         background: #FF6600;
         box-shadow: rgba(0, 0, 0, 0.80) 0px 0.5px 2.5px 0px;
     }
+    #csv.selected,
+    #csv:hover{
+        color: #fff;
+        background: #FF6600;
+        box-shadow: rgba(0, 0, 0, 0.80) 0px 0.5px 2.5px 0px;
+    }
     #Working.selected,
     #Working:hover{
         color: #fff;
@@ -313,7 +319,7 @@
             <div id="status" style="height:170px;"><h2>Status</h2>
             <a id="Applied" class="button status selected">Applied</a>
             <a id="Eligible" class="button status selected">Eligible</a>
-            <a id="Completed Site Visit" class="button status selected">Completed Site Visit</a>
+            <a id="csv" class="button status selected">Completed Site Visit</a>
             <a id="tba" class="button status selected">Scheduled Site Visit</a>
             <a id="Working" class="button status selected">Working</a>
             </div>
@@ -354,14 +360,14 @@
                     name: "wwcities",
                     layers: [{
                         layer_name: "wwcapplicantmap",
-                        interactivity: "cartodb_id, city, state, scope1, scope2, scope3, lead, analyst, status, picturelink, notes, timeline_progress, mayor, pop, income"
+                        interactivity: "cartodb_id, city, state, scope1, scope2, scope3, lead, analyst, status, timeline_progress, mayor, pop, income"
                     }]
                 }
             })
             .addTo(map)
             .done(function(layer) {
                 //data to route to infowindow
-                cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','city','state','scope1','scope2','scope3','lead','analyst','picturelink','notes','timeline_progress','mayor', 'pop', 'income'], {infowindowTemplate: $('#infowindow_template').html()});
+                cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','city','state','scope1','scope2','scope3','lead','analyst','timeline_progress','mayor', 'pop', 'income'], {infowindowTemplate: $('#infowindow_template').html()});
                 //uncomment the alert to confirm sublayer additions
                 for (var i = 0; i < layer.getSubLayerCount(); i++) {
                     sublayers[i] = layer.getSubLayer(i);
@@ -511,7 +517,7 @@
                             scope = "and ('" + scopevalues + "' in (a.scope1,a.scope2,a.scope3))";
                             $("#Applied").removeClass('selected');
                             $("#Eligible").removeClass('selected');
-                            $("#Completed\20 Site\20 Visit").removeClass('selected');
+                            $(".csv").removeClass('selected');
                             $("#tba").removeClass('selected');
                             statusvalues();
                             status = "and a.status in ('Working')";
@@ -522,9 +528,10 @@
                         $(this).addClass('selected');
                         scopeconcat();
                         scope = "and (('" + scopevalues + "' in (a.scope1,a.scope2,a.scope3)))";
+
                         $("#Applied").removeClass('selected');
                         $("#Eligible").removeClass('selected');
-                        $("#Completed\20 Site\20 Visit").removeClass('selected');
+                        $("#csv").removeClass('selected');
                         $("#tba").removeClass('selected');
                         $("#Working").addClass('selected');
                         statusvalues();
