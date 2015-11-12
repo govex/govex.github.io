@@ -64,7 +64,7 @@ var node;
 
 d3.json("sunburst.json", function(error, root) {
   node = root;
-  var path = svg.datum(root).selectAll("path")
+  var path = svg.datum(root).selectAll("g")
       .data(partition.nodes)
     .enter().append("path")
       .attr("d", arc)
