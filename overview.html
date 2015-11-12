@@ -151,6 +151,10 @@
         height: 100%;
         overflow: scroll;
     }
+
+    table {
+        width:100%;
+    }
     
     option {
         font: lighter 12px "Helvetica", Arial;
@@ -169,6 +173,10 @@
         margin-top:8px;
         line-height: .9em;
         margin-bottom:6px;;
+    }
+
+    h3 {
+        font: 18px 'din', 'Helvetica';
     }
 
 
@@ -217,7 +225,7 @@
         z-index: 3;
     }
     .infowindow-custom {
-        background: rgba(255,255,255,0.8);
+        background: rgba(255,255,255,0.7);
         border-radius: 5px;
         min-height: 100px;
     }
@@ -261,9 +269,16 @@
                 <div class="content" style="padding:5px">
                 <table>
                     <tr>
-                        <td class="image">
-                            <img style="width:100%;" src="https://{{content.data.picturelink}}">
-                        </td>
+                        <td ><h3>MAYOR: </h3></td>
+                        <td><h3>{{content.data.mayor}}</h3></td>
+                    </tr>
+                    <tr>
+                        <td ><h3>POPULATION: </h3></td>
+                        <td><h3>{{content.data.pop}}</h3></td>
+                    </tr>
+                    <tr>
+                        <td ><h3>INCOME: </h3></td>
+                        <td><h3>{{content.data.income}}</h3></td>
                     </tr>
                 </table>
                 </div>
@@ -295,7 +310,7 @@
                 <option value="Eric Reese">Eric Reese</option>
             </select></p>
 
-            <div id="status" style="height:200px;"><h2>Status</h2>
+            <div id="status" style="height:170px;"><h2>Status</h2>
             <a id="Applied" class="button status selected">Applied</a>
             <a id="Eligible" class="button status selected">Eligible</a>
             <a id="Completed Site Visit" class="button status selected">Completed Site Visit</a>
@@ -339,14 +354,14 @@
                     name: "wwcities",
                     layers: [{
                         layer_name: "wwcapplicantmap",
-                        interactivity: "cartodb_id, city, state, scope1, scope2, scope3, lead, analyst, status, picturelink, notes, timeline_progress"
+                        interactivity: "cartodb_id, city, state, scope1, scope2, scope3, lead, analyst, status, picturelink, notes, timeline_progress, mayor, pop, income"
                     }]
                 }
             })
             .addTo(map)
             .done(function(layer) {
                 //data to route to infowindow
-                cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','city','state','scope1','scope2','scope3','lead','analyst','picturelink','notes','timeline_progress'], {infowindowTemplate: $('#infowindow_template').html()});
+                cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','city','state','scope1','scope2','scope3','lead','analyst','picturelink','notes','timeline_progress','mayor', 'pop', 'income'], {infowindowTemplate: $('#infowindow_template').html()});
                 //uncomment the alert to confirm sublayer additions
                 for (var i = 0; i < layer.getSubLayerCount(); i++) {
                     sublayers[i] = layer.getSubLayer(i);
