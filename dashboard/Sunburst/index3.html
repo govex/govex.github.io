@@ -31,6 +31,8 @@ path {
 
 <script>
 
+
+
 var width = 960,
     height = 700,
     radius = Math.min(width, height) / 2;
@@ -59,14 +61,23 @@ var arc = d3.svg.arc()
     .innerRadius(function(d) { return Math.max(0, y(d.y)); })
     .outerRadius(function(d) { return Math.max(0, y(d.y + d.dy)); });
 
-  var text = g.append("text")
-    .attr("transform", function(d) { return "rotate(" + computeTextRotation(d) + ")"; })
-    .attr("x", function(d) { return y(d.y); })
-    .attr("dx", "6") // margin
-    .attr("dy", ".35em") // vertical-align
-    .attr("visibility",function(d) { return d.dx < 0.01? "hidden" : "visible"})
-    .text(function(d) { return d.name; });
-    
+// var g = node.enter().append("g");
+//     g.append("circle")
+//             .attr("class", function(d) { return "node " + d.id; })
+//             .attr("id", function(d) { return d.id; })
+//             .attr("r", 8)
+//         .on("click", nodeClick);
+//     g.append("text")
+//             .text(function(d) {return d.id; });
+//
+//   var text = g.append("text")
+//     .attr("transform", function(d) { return "rotate(" + computeTextRotation(d) + ")"; })
+//     .attr("x", function(d) { return y(d.y); })
+//     .attr("dx", "6") // margin
+//     .attr("dy", ".35em") // vertical-align
+//     .attr("visibility",function(d) { return d.dx < 0.01? "hidden" : "visible"})
+//     .text(function(d) { return d.name; });
+
 
 // Keep track of the node that is currently being displayed as the root.
 var node;
