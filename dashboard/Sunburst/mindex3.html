@@ -100,46 +100,44 @@ var path =
         .style("fill", function(d) { return color((d.children ? d : d.parent).name);})
         .style("fill-rule", "evenodd")
         .each(stash)
-        .on("mouseover", mouseover)
-        .on("mouseout", mouseout);
+        .on("click", click);
 
-var text = g.selectAll("text")
-            .data(partition.nodes(root))
-            .enter()
-            .append("text")
-            .attr("id", "tip")
-            .attr("x", 10)
-            .attr("y", 50)
-            .attr("font-size", "11px")
-            .style("opacity", 0);
+var text = g.append("text")
+    .attr("transform", function(d) { return "rotate(" + computeTextRotation(d) + ")"; })
+    .attr("x", function(d) { return y(d.y); })
+    .attr("dx", "6") // margin
+    .attr("dy", ".35em") // vertical-align
+    .attr("visibility",function(d) { return d.dx < 0.01? "hidden" : "visible"})
+    .text(function(d) { return d.name; });
+
+function click(d) {
+    var total = d.dx;
+
+    // fade out all text elements
+    text.transition().attr("opacity", 0);
+
+    path.transition()
+       .duration(750)
+       .attrTween("d", arcTween(d))
+       .each("end", function(e, i) {
+           // check if the animated element's data e lies within the visible angle span given in d
+           if (e.x >= d.x && e.x < (d.x + d.dx)) {
+           // get a selection of the associated text element
+           var arcText = d3.select(this.parentNode).select("text");
+            // fade in the text element and recalculate positions
+            arcText.transition()
+            .attr("opacity", 1)
+
+            .attr("transform", function() { return "rotate(" + computeTextRotation(e) + ")" })
+            .attr("x", function(d) { return y(d.y); })
+            .attr("visibility",function(d) { return d.dx/total < 0.01? "hidden" : "visible"});
+
+      }
 
 
-function mouseover(d) {
+  });
 
-  d3.select(this)
-        .transition()
-        .duration(1000)
-        .ease('elastic')
-        .style("opacity", 0.3);
-
-//label.style("opacity", .9);
-d3.select("#tip").text(d.name).style("opacity", 0.9);
-
-console.log('mouseover', mouseover);    
-};
-
-function mouseout(d) {
-d3.select(this)
-        .transition()
-        .duration(100)
-        .style("opacity", 1);
-
-d3.select("#tip").text(d.name).style("opacity", 0);
-
-console.log('mouseout', mouseout);  
-  };
-
-});
+}; });
 
 d3.select(self.frameElement).style("height", height + "px");
 
