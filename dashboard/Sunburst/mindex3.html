@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Sequences sunburst</title>
+    <title>GovEx publication sunburst</title>
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <link rel="stylesheet" type="text/css"
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,600">
@@ -129,7 +129,6 @@ d3.text("mindex.csv", function(text) {
 function createVisualization(json) {
 
   // Basic setup of page elements.
-  initializeBreadcrumbTrail();
   drawLegend();
   d3.select("#togglelegend").on("click", toggleLegend);
 
@@ -151,7 +150,7 @@ function createVisualization(json) {
       .attr("display", function(d) { return d.depth ? null : "none"; })
       .attr("d", arc)
       .attr("fill-rule", "evenodd")
-      .style("fill", function(d) { return colors[d3.select(this.parentNode).name]; })
+      .style("fill", function(d) { return colors[function(node) {  node.parent.name })]; })
       .style("opacity", 1)
       .on("mouseover", mouseover);
 
@@ -228,24 +227,6 @@ function getAncestors(node) {
   }
   return path;
 }
-
-
-
-// Generate a string that describes the points of a breadcrumb polygon.
-function breadcrumbPoints(d, i) {
-  var points = [];
-  points.push("0,0");
-  points.push(b.w + ",0");
-  points.push(b.w + b.t + "," + (b.h / 2));
-  points.push(b.w + "," + b.h);
-  points.push("0," + b.h);
-  if (i > 0) { // Leftmost breadcrumb; don't include 6th vertex.
-    points.push(b.t + "," + (b.h / 2));
-  }
-  return points.join(" ");
-}
-
-// Update the breadcrumb trail to show the current sequence and percentage.
 
 function drawLegend() {
 
@@ -332,9 +313,6 @@ function buildHierarchy(csv) {
   }
   return root;
 };</script>
-    <script type="text/javascript">
-      // Hack to make this example display correctly in an iframe on bl.ocks.org
-      d3.select(self.frameElement).style("height", "700px");
-  </script> 
+    
   </body>
 </html>
