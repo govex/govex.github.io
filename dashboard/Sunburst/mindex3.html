@@ -173,7 +173,7 @@ function mouseover(d) {
   }
   var sequenceArray = getAncestors(d);
   var lastItem = sequenceArray[sequenceArray.length-1];
-  function(d) { var name = d.name; }
+  function(d) { var name = d.name; };
 
   d3.select("#percentage")
       .text(percentageString);
