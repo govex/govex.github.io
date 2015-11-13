@@ -87,7 +87,6 @@ var arc = d3.svg.arc()
 var node;
 
 d3.json("sunburst.json", function(error, root) {
-  d3.json("flare.json", function(error, root) {
 var g = svg.selectAll("g")
   .data(partition.nodes(root))
 .enter().append("g");
