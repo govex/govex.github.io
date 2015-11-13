@@ -15,23 +15,32 @@ text {
 <body>
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script>
+
     var width = 960,
         height = 700,
         radius = Math.min(width, height) / 2;
+
+
     var x = d3.scale.linear()
         .range([0, 2 * Math.PI]);
+
     var y = d3.scale.linear()
         .range([0, radius]);
+
     var color = d3.scale.category20c();
+
     var svg = d3.select("body").append("svg")
         .attr("width", width)
         .attr("height", height)
         .append("g")
         .attr("transform", "translate(" + width / 2 + "," + (height / 2 + 10) + ")");
+
     var partition = d3.layout.partition()
         .value(function(d) {
             return d.size;
         });
+
+
     var arc = d3.svg.arc()
         .startAngle(function(d) {
             return Math.max(0, Math.min(2 * Math.PI, x(d.x)));
@@ -45,16 +54,20 @@ text {
         .outerRadius(function(d) {
             return Math.max(0, y(d.y + d.dy));
         });
+
+
     d3.json("sunburst.json", function(error, root) {
         var g = svg.selectAll("g")
-            .data(partition.nodes(root))
+            .data(partition.nodes)
             .enter().append("g");
+
         var path = g.append("path")
             .attr("d", arc)
             .style("fill", function(d) {
                 return color((d.children ? d : d.parent).name);
             })
             .on("click", click);
+
         var text = g.append("text")
             .attr("transform", function(d) {
                 return "rotate(" + computeTextRotation(d) + ")";
