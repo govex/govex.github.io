@@ -68,7 +68,7 @@
       <div id="chart">
         <div id="explanation" style="visibility: hidden;">
           <span id="percentage"></span><br/>
-          of visits begin with this sequence of pages
+         <span id="title"></span>
         </div>
       </div>
     </div>
@@ -175,10 +175,15 @@ function mouseover(d) {
   d3.select("#percentage")
       .text(percentageString);
 
+  d3.select("#title")
+      .text(lastItem);    
+
   d3.select("#explanation")
       .style("visibility", "");
 
   var sequenceArray = getAncestors(d);
+  var lastItem = sequenceArray[sequenceArray.length-1];
+
   updateBreadcrumbs(sequenceArray, percentageString);
 
   // Fade all the segments.
