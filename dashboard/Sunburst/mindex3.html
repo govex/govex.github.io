@@ -171,8 +171,7 @@ function mouseover(d) {
 
   d3.select("#percentage")
       .text(percentageString);
-  d3.select(this.parentNode)
-      .style("fill", function(d) { return colors[ this.parentNode.name ]; })
+ 
   d3.select("#title")
       .text(name);    
 
