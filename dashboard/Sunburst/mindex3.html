@@ -173,12 +173,13 @@ function mouseover(d) {
   }
   var sequenceArray = getAncestors(d);
   var lastItem = sequenceArray[sequenceArray.length-1];
+  function(d) { var name = d.name; }
 
   d3.select("#percentage")
       .text(percentageString);
 
   d3.select("#title")
-      .text(function(d) { return d.name; });    
+      .text(name);    
 
   d3.select("#explanation")
       .style("visibility", "");
