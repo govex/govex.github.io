@@ -147,7 +147,7 @@ function createVisualization(json) {
       .attr("display", function(d) { return d.depth ? null : "none"; })
       .attr("d", arc)
       .attr("fill-rule", "evenodd")
-      .style("fill", function(d) { return colors[function(node) {  node.parent.name }]; })
+      .style("fill", function(d) { return colors[ node.parent.name ]; })
       .style("opacity", 1)
       .on("mouseover", mouseover);
 
