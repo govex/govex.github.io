@@ -87,37 +87,24 @@ var arc = d3.svg.arc()
 var node;
 
 d3.json("sunburst.json", function(error, root) {
-  node = root;
-  var path = svg.datum(root).selectAll("path")
-      .data(partition.nodes)
-    .enter().append("path")
-      .attr("d", arc)
-      .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
-      .on("click", click)
-      .each(stash)
-      .on("mouseover", mouseover)
-      .on("mouseout", mouseout);
+  d3.json("flare.json", function(error, root) {
+var g = svg.selectAll("g")
+  .data(partition.nodes(root))
+.enter().append("g");
 
-  d3.selectAll("input").on("change", function change() {
-    var value = this.value === "count"
-        ? function() { return 1; }
-        : function(d) { return d.size; };
+var path = 
+        g.append("path")
+        .attr("display", function(d) { return d.depth ? null : 'none';}) //hide inner ring 
+        .attr("d", arc)//used whenever I come across a path 
+        .attr("id", "part")
+        .style("stroke", "#fff")
+        .style("fill", function(d) { return color((d.children ? d : d.parent).name);})
+        .style("fill-rule", "evenodd")
+        .each(stash)
+        .on("mouseover", mouseover)
+        .on("mouseout", mouseout);
 
-    path
-        .data(partition.value(value).nodes)
-      .transition()
-        .duration(1000)
-        .attrTween("d", arcTweenData);
-  });
-
-  function click(d) {
-    node = d;
-    path.transition()
-      .duration(1000)
-      .attrTween("d", arcTweenZoom(d));
-  }
-
-  var text = path.selectAll("text")
+var text = g.selectAll("text")
             .data(partition.nodes(root))
             .enter()
             .append("text")
