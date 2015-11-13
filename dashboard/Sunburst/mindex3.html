@@ -178,7 +178,7 @@ function mouseover(d) {
       .text(percentageString);
 
   d3.select("#title")
-      .text(sequenceArray);    
+      .text(function(d) { return d.name; });    
 
   d3.select("#explanation")
       .style("visibility", "");
