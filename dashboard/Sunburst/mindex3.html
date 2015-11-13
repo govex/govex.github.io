@@ -147,7 +147,7 @@ function createVisualization(json) {
       .attr("display", function(d) { return d.depth ? null : "none"; })
       .attr("d", arc)
       .attr("fill-rule", "evenodd")
-      .style("fill", function(d) { return colors[ node.parent.name ]; })
+      .style("fill", function(d) { return colors[ d.name ]; })
       .style("opacity", 1)
       .on("mouseover", mouseover);
 
@@ -171,7 +171,8 @@ function mouseover(d) {
 
   d3.select("#percentage")
       .text(percentageString);
-
+  d3.select(this.parentNode)
+      .style("fill", function(d) { return colors[ this.parentNode.name ]; })
   d3.select("#title")
       .text(name);    
 
