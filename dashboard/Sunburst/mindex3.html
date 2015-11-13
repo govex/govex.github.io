@@ -117,7 +117,7 @@ d3.json("sunburst.json", function(error, root) {
       .attrTween("d", arcTweenZoom(d));
   }
 
-  var text = g.selectAll("text")
+  var text = path.selectAll("text")
             .data(partition.nodes(root))
             .enter()
             .append("text")
@@ -152,7 +152,7 @@ d3.select("#tip").text(d.name).style("opacity", 0);
 
 console.log('mouseout', mouseout);  
   };
-  
+
 });
 
 d3.select(self.frameElement).style("height", height + "px");
