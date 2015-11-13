@@ -151,7 +151,7 @@ function createVisualization(json) {
       .attr("display", function(d) { return d.depth ? null : "none"; })
       .attr("d", arc)
       .attr("fill-rule", "evenodd")
-      .style("fill", function(d) { return colors[d.node().parentNode]; })
+      .style("fill", function(d) { return colors[d3.select(this.parentNode).name]; })
       .style("opacity", 1)
       .on("mouseover", mouseover);
 
@@ -183,7 +183,6 @@ function mouseover(d) {
       .style("visibility", "");
 
 
-  updateBreadcrumbs(sequenceArray, percentageString);
 
   // Fade all the segments.
   d3.selectAll("path")
@@ -200,9 +199,7 @@ function mouseover(d) {
 // Restore everything to full opacity when moving off the visualization.
 function mouseleave(d) {
 
-  // Hide the breadcrumb trail
-  d3.select("#trail")
-      .style("visibility", "hidden");
+  
 
   // Deactivate all segments during transition.
   d3.selectAll("path").on("mouseover", null);
@@ -232,17 +229,7 @@ function getAncestors(node) {
   return path;
 }
 
-function initializeBreadcrumbTrail() {
-  // Add the svg area.
-  var trail = d3.select("#sequence").append("svg:svg")
-      .attr("width", width)
-      .attr("height", 50)
-      .attr("id", "trail");
-  // Add the label at the end, for the percentage.
-  trail.append("svg:text")
-    .attr("id", "endlabel")
-    .style("fill", "#000");
-}
+
 
 // Generate a string that describes the points of a breadcrumb polygon.
 function breadcrumbPoints(d, i) {
