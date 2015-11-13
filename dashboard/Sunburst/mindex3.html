@@ -171,6 +171,8 @@ function mouseover(d) {
   if (percentage < 0.1) {
     percentageString = "< 0.1%";
   }
+  var sequenceArray = getAncestors(d);
+  var lastItem = sequenceArray[sequenceArray.length-1];
 
   d3.select("#percentage")
       .text(percentageString);
@@ -181,8 +183,6 @@ function mouseover(d) {
   d3.select("#explanation")
       .style("visibility", "");
 
-  var sequenceArray = getAncestors(d);
-  var lastItem = sequenceArray[sequenceArray.length-1];
 
   updateBreadcrumbs(sequenceArray, percentageString);
 
