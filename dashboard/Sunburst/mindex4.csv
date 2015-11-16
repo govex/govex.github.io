@@ -1,7 +1,7 @@
 "General-The city has (or references) a document explaining to every employee how performance management, analysis, and open data practices fit together in their city.",1
-General-The city publishes (internally or externally) examples of its own employees using data to achieve results in their day-to-day practice.,1
+General-The city publishes (internally or externally) examples of its own employees using data to achieve results in their day to day practice.,1
 General-The city routinely shares analysis (including methodology) with employees across divisions to facilitate shared horizontal learning.,1
-"Commit-The city has an executive with significant authority over resources who throws his/her full weight behind data-related initiatives like open data, analytics and performance.",1
+"Commit-The city has an executive with significant authority over resources who throws his/her full weight behind data related initiatives like open data, analytics and performance.",1
 Commit-A representative from the mayor/city manager's team is part of the leadership,1
 "Commit-C10. Mayor publicizes commitment to governing with data to city departments (e.g., public remarks, internal employee emails, newsletters, website, etc.)",1
 Commit-The city has published goal statements which set clear goals and provide context for why they are important to the city's mission or to the Mayor/City Manager.,1
@@ -11,7 +11,7 @@ Commit-C4. Has at least one publicly stated strategic goal,1
 Commit-The city has established (and published) clear linkages between its goal statements and each department's role in execution.,1
 "Commit-The city has established (and published) clear owners (programs and/or individuals) which make it clear ""who"" is responsible for progress toward each goal statement.",1
 Commit-The city has clarified (and published) specific strategies and tactics which make it clear how they plan to make progress toward each goal statement.,1
-"Commit-The city has specific targets/goals it is aiming for within each goal statement, and those targets/goals are calculated based on analysis of past performance, current context, and foreseeable future activities.",1
+"Commit-The city has specific targets/goals it is aiming for within each goal statement, and those targets/goals are calculated based on analysis of past performance, current context, and forseeable future activities.",1
 Commit-Set appropriately ambitious timelines for implementation,1
 "Commit-C3. Has assigned targets, metrics, and a timeframe to measure progress toward the achievement of at least one strategic goal",1
 Commit-The city has published priorities for Open Data activities.,1
@@ -23,23 +23,23 @@ Commit-The city has a STAT program which consistently leverages data to inform t
 Commit-The city has a STAT program which drives specific actions for which individuals/programs are held accountable for completing.,1
 Commit-The city has an interdisciplinary meeting of senior management officials which is infused with data and analysis to drive the discussion. (but it is not called STAT),1
 Commit-The city has an Open Data portal.,1
-Commit-The city publishes data visualizations for employees to inform the day-to-day execution of their responsibilities.,1
-"Commit-C8. Publishes city progress on city goals annually or more frequently (e.g., annual report, update to city's strategic plan, etc.)",1
+Commit-The city publsihes data visualizations for employees to inform the day to day execution of their responsibiliies.,1
+"Commit-C8. Publishes city progress on city goals annually or more frequently (e.g., annual report, update to city’s strategic plan, etc.)",1
 Commit-The city routinely make resource/budgeting decisions in meetings which are infused with the analysis of data.,1
 Commit-Ensure sufficient funding for implementation,1
-"Commit-A5. Redirects budget allocations for citywide policies, program areas, or multi-agency initiatives based in part on their measurable impact (i.e.,moving funds away from ineffective policies or programs and towards programs that demonstrate better results)",1
-"Commit-The city's STAT program or other high-visibility, data-driven, decision-making venue has existed for more than one political administration.",1
-Commit-The city has a strategic plan which explicitly includes language about leveraging data to make decisions as an organization.,1
+"Commit-A5. Redirects budget allocations for citywide policies, program areas, or multi agency initiatives based in part on their measurable impact (i.e.,moving funds away from ineffective policies or programs and towards programs that demonstrate better results)",1
+"Commit-The city's STAT program or other high visibility, data driven, decision making venue has existed for more than one political administration.",1
+Commit-The city has a strategic plan which explicitely includes language about leveraging data to make decisions as an organization.,1
 Commit-The city has an ordinance passed by city council on Open Data.,1
 Commit-Reference and build on existing public accountability and access policies,1
-Commit-Stipulate that provisions apply to contractors or quasi-governmental agencies,1
+Commit-Stipulate that provisions apply to contractors or quasi governmental agencies,1
 Commit-Create guidance or other binding regulations for implementation,1
 Commit-Mandate future review for potential changes to this policy,1
 Commit-The city has an executive order signed by the chief executive on Open Data.,1
 Commit-C9. Has an Open Data policy,1
-Commit-The city has an Executive order establishing a STAT or STAT-like program,1
+Commit-The city has an Executive order establishing a STAT or STAT like program,1
 Commit-The city's legislative branch has passed a resolution or ordinance establishing performance management requirements for the city.,1
-"Commit-The city has engaged in demonstrable efforts (i.e. focus groups, consulting reviews, surveys) to understand its own culture.",1
+"Commit-The city has engaged in demonstrable efforts (i.e. focus groups, consutling reviews, surveys) to understand its own culture.",1
 Commit-The city has explicitely referenced a desire to change or shape its own culture toward one more adept with data and analysis.,1
 "Commit-City employees are evaluated using a tool or framework which connects their own performance to that of their respective programs, departments, and the city writ large.",1
 Commit-City employees are routinely recognized for their contributions to improving government.,1
@@ -50,12 +50,12 @@ Commit-The city captures its own best practices and communicates about them.,1
 Commit-Open data success stories are routinely shared with the media and on social media,1
 "Commit-New, recently updated, or important datasets are routinely highlighted",1
 "Commit-Stories, links to stories, or links to work done based upon open data are routinely provided",1
-Commit-The city actively pushes its own example of data-driven practices to the press/media.,1
+Commit-The city actively pushes its own example of data driven practices to the press/media.,1
 "Commit-City leaders routinely reference public data in press releases, interviews, presentations or public speeches",1
 Commit-C1. The mayor or chief executive cites data when speaking publicly about progress towards city goals,1
 "Commit-A6. In public remarks (or public materials), the mayor or chief executive explains how any change in funding between vendors or programs was driven by data and evidence",1
 Commit-The city either directly provides or dedicates budget resources for purchasing employee training on data/analytics.,1
-"Commit-The city has a mechanism to assess the mathematical, statistical, and computer science capabilities of its own workforce.",1
+"Commit-The city has a mechanism to assess the mathematical, statistical, and computer science capabilites of its own workforce.",1
 "Measure-The city has selected specific performance measures as ""Key Performance Indicators"" to highlight and visit on a routine basis.",1
 "Measure-C5. Has assigned targets, metrics, and a timeframe to measure progress toward the achievement of at least one publicly stated strategic goal",1
 "Measure-The city leverages a ""family of measures"" to monitor the progress toward each goal statement",1
@@ -65,26 +65,26 @@ Measure-The city has conducted (and publsihed) a complete data inventory.,1
 "Measure-Create a public, comprehensive list of all information holdings",1
 Measure-The data inventory is routinely reviewed and public data releases are prioritized,1
 Measure-Optimize methods of data collection,1
-Measure-Data is kept up-to-date without human interaction (re: Sunlight #22),1
+Measure-Data is kept up to date without human interaction (re: Sunlight #22),1
 "Measure-The city routinely leverages data from external stakeholders (E.g. school districts, utilities, counties, states, feds) to enhance the quality of its own analysis.",1
-Measure-The city demonstrates the in-house ability to leverage open source data through APIs to enhance the quality of its analysis.,1
+Measure-The city demonstrates the in house ability to leverage open source data through APIs to enhance the quality of its analysis.,1
 Measure-,1
 Measure-Publish bulk data,1
-Measure-Charge data-creating agencies with recommending an appropriate citation form,1
+Measure-Charge data creating agencies with recommending an appropriate citation form,1
 Measure-Require publishing metadata,1
-Measure-Metadata is compatible with project-open-data / DCAT (re: Sunlight #13),1
+Measure-Metadata is compatible with project open data / DCAT (re: Sunlight #13),1
 Measure-References to 3rd party specifications (e.g. civic data standards) are included if relevant,1
 Measure-M9. Has an Open Data portal,1
 Measure-The web site provides a useful search feature (re: Sunlight #18),1
 Measure-The web site provides a data.json feed (re: Sunlight #18),1
-Measure-A one-stop data discovery mechanism exists when the jurisdiction operates multiple open data sites (re: Sunlight #18),1
-Measure-Value-level metadata is available and maintained (re: Sunlight #13),1
-Measure-Column-level metadata is available and maintained (re: Sunlight #13),1
+Measure-A one stop data discovery mechanism exists when the jurisdiction operates multiple open data sites (re: Sunlight #18),1
+Measure-Value level metadata is available and maintained (re: Sunlight #13),1
+Measure-Column level metadata is available and maintained (re: Sunlight #13),1
 "Measure-This mechanism also includes parent jurisdiction data such as county, state, and federal (see Sunlight #18)",1
-Measure-Mandate data be explicitly license-free,1
+Measure-Mandate data be explicitly license free,1
 Measure-The city has published a management strategy for Open Data,1
 Measure-The city demonstrates the ability to properly deal with sensitive data using the right security and protection procedures.,1
-Measure-The city has established data governance to manage data as an enterprise asset and designated participants routinely attend,1
+Measure-The city has established data governance to manage data as an enterprise assett and designated participants routinely attend,1
 Measure-Governance body meets at least once a month,1
 "Measure-M10. Has a structured process for releasing data as part of an Open Data program (e.g., defined roles and responsibilities, governance plan, and/or governance committee)",1
 Measure-The city routinely compares its current performance to past performance.,1
@@ -103,9 +103,9 @@ Act-TS6. Monitors outcomes specified in contracts,1
 Act-TS7. Reviews outcome data specified in contracts with contractors during the contract term,1
 "Act-TS8. At the end of a contract term, systematically reviews and assesses contractor performance",1
 "Act-TS9. Compares relative performance across service providers (i.e., agency staff reviews performance of all vendors for a particular service)",1
-"Act-A2. Uses performance data to manage ongoing contracts, including detecting issues in real-time and implementing mid-course corrections as needed",1
+"Act-A2. Uses performance data to manage ongoing contracts, including detecting issues in real time and implementing mid course corrections as needed",1
 Act-A3. Makes contracting decisions based with consideration of past performance of vendor(s),1
-"Act-The city routinely leverages external stakeholders (CFA brigades, coalitions, advocates) for co-problem solving.",1
+"Act-The city routinely leverages external stakeholders (CFA brigades, coalitions, advocates) for co problem solving.",1
 Act-Incorporate public perspectives into policy implementation,1
 Act-Create or explore potential partnerships,1
 Act-Agency/department representatives discuss available data with industry/domain representatives (re: Sunlight #30),1
@@ -118,18 +118,18 @@ Act-C7. Involves external stakeholders in goal setting,1
 Act-The city can cite at least one example of NOT trying something because it was deemed a bad or ineffective practice in another jurisdiction.,1
 "Act-The city can cite at least three examples of stopping a program or service that, based on analysis of evidence, was not working.",1
 Act-The city can cite at least one example of trying an unprecedented action based on a belief it might work and and absence of evidence it wouldn't work.,1
-Act-The city makes resource decisions which are based on precise calculations and derived from thorough analysis.,1
+Act-The city makes resource decisions which are based on precice calculations and derived from thorough analysis.,1
 Act-The city can cite three examples of adjusting previous decisions based on new data and analysis (taking stock).,1
 Act-Web site and dataset usage statistics are routinely reviewed to aid in prioritization,1
 Act-A1. Modifies the delivery of existing programs based on the review of their results in performance management meetings or through a benchmarking analysis,1
 Act-A4. Modifies the delivery of existing programs (contracted or agency administered) based on evaluation results,1
-"Take Stock-The city has job descriptions which explicitly list data science skillsets in mathematics, statistics, computer science, communications, and general critical thinking.",1
+"Take Stock-The city has job descriptions which explicitely list data science skillsets in mathematics, statistics, computer science, communications, and general critical thinking.",1
 Take Stock-The city has speciic job descriptions for a STAT Director and/or STAT analysts.,1
 Take Stock-The city has speciic job descriptions for an Open Data Director and/or Open Data analysts.,1
-Take Stock-The city proactively lists data and analytics-related job postings with organizations that have relevant expertise and broad reach into top talent.,1
-Take Stock-The city has a Chief Data Officer or has a specific job descriptions for a Chief Data Officer.,1
+Take Stock-The city proactively lists data and analytics related job postings with organizations that have relevent expertise and broad reach into top talent.,1
+Take Stock-The city has a Chief Data Officer or has a speciic job descriptions for a Chief Data Officer.,1
 Take Stock-Create or appoint oversight authority,1
-Take Stock-The city has an Open Data Program Manager or has a specific job descriptions for an Open Data Program Manager.,1
+Take Stock-The city has an Open Data Program Manager or has a speciic job descriptions for an Open Data Program Manager.,1
 Take Stock-M11. Has designated a person or team responsible for Open Data,1
 "Take Stock-The city has more than one person advancing the practices of data, analytics, and performance management internally.",1
 "Take Stock-M13. Has staff dedicated to data analysis (e.g., data analytics staff, performance management staff, evaluation staff, Chief Data Officer, etc.)",1
@@ -146,8 +146,8 @@ Take Stock-The city publishes its performance data on an interactive virtual pla
 "Take Stock-The city enables employees to conduct data analysis using computer programming through Java, R, Python, C, etc.",1
 "Take Stock-Analysts in the city report being given very specific questions to answer BEFORE they are expected to conduct analysis,",1
 Take Stock-Analysts report having the freedom and security to elevate or suggest questions worth answering to city leadership.,1
-"Take Stock-TS1. Has a designated process for conducting analysis, prep, and follow-up for each Stat or performance management meeting",1
-Take Stock-Analysts report a significant portion of their project time is dedicated to data hygiene prior to analysis being conducted.,1
+"Take Stock-TS1. Has a designated process for conducting analysis, prep, and follow up for each Stat or performance management meeting",1
+Take Stock-Analysts report a significant portion of their project time is dedicated to data hygeine prior to analysis being conducted.,1
 Take Stock-Mandate the use of unique identifiers,1
 Take Stock-Create processes to ensure data quality,1
 Take Stock-Implementation guidance (Sunlight #24) includes a framework for data quality,1
@@ -156,41 +156,41 @@ Take Stock-Mandate ongoing data publication and updates,1
 Take Stock-The city has published protocols and training for managing PII and other sensitive information in accordance with security guidelines.,1
 Take Stock-Appropriately safeguard sensitive information,1
 Take Stock-A risk management plan exists,1
-"Take Stock-The city demonstrates the ability or intention to transition its data to cloud-based storage, and out of legacy systems.",1
+"Take Stock-The city demonstrates the ability or intention to transition its data to cloud based storage, and out of legacy systems.",1
 "Take Stock-The city published descriptive statistics wherever data is presented (reports, dashboards, websites)",1
 Take Stock-TS4. Uses a range of evaluation methods to test the impact of programs,1
 Take Stock-The city leverages inferential statistics to drive its understanding of issues affecting broader city populations (e.g. disease transmission).,1
 Take Stock-The city leverages inferential statistics to develop predictive models for at least one service area.,1
 Take Stock-The city employees at least two employees (outside the IT department) who are adept in multiple computer programming languages.,1
 "Take Stock-The city routinely uses basic counting, ratios, and percent changes to understand changes in program performance.",1
-"Take Stock-The city publishes its analysis and underlying methodology to its own employees and/or the public through Github, Sharepoint, or an internal tool",1
+"Take Stock-The city publsihes its analysis and underlying methodology to its own employees and/or the public through Github, Sharepoint, or an internal tool",1
 Take Stock-Require publishing data creation processes,1
 Take Stock-Require code sharing or publishing open source,1
-Take Stock-The city has multiple GIS Specialists on staff and leverages them for spatial and non-spatial analysis at the enterprise level (i.e. not limited to,1
+Take Stock-The city has multiple GIS Specialists on staff and leverages them for spatial and non spatial analysis at the enterprise level (i.e. not limited to,1
 "Take Stock-The city treats qualitative information as data and uses text mining analysis to derive insights from PDF reports, etc.",1
 Take Stock-Require digitization and distribution of archival materials,1
-Take Stock-The city practices 508-compliance-like standards to make content accessible to those with disabilities.,1
+Take Stock-The city practices 508 compliance like standards to make content accessible to those with disabilities.,1
 Take Stock-Remove restrictions for accessing information,1
 Take Stock-Create public APIs for accessing information,1
 "Take Stock-Create permanent, lasting access to data",1
-Take Stock-The city has published data visualizations which are intuitive and well designed.,1
+Take Stock-The city has published data visualizations which are intutive and well designed.,1
 "Take Stock-The analysis produced by a city is easily understandable and clearly presented, not jumbled with all possible facts.",1
 Take Stock-The maps published by cities have context provided with them.,1
 Take Stock-Presentations given by city officials tell a clear and compelling story about how data is used to add value.,1
-"Take Stock-Executives in the city report satisfaction with the quality of briefings provided by analytical staff,",1
+"Take Stock-Executives in the city report satisfaction with the quality of briefings provided by analyticl staff,",1
 Take Stock-The city routinely communicates with employees about the importance of data and analysis in their work.,1
 Take Stock-The city routinely provides data and analysis to elected officials during committee hearings.,1
 "Take Stock-The city communicates with the public, through multiple channels, about data and analysis relevant to their lives.",1
 Take Stock-Proactively release government information online,1
 Take Stock-Create a central location devoted to data publication and policy,1
-Take Stock-Incorporate public perspectives into policy implementation��� The launch of the open data website has been publicly announced,1
+Take Stock-Incorporate public perspectives into policy implementation• The launch of the open data website has been publicly announced,1
 Take Stock-Social media is routinely used to engage the public in conversations about open data,1
 "Take Stock-Links to the open data portal(s) are prominently included on the jurisdiction's web site(s) (header, footer, or navigation)",1
-Take Stock-City representatives who attend locally-organized events direct the public to the open data portal when appropriate,1
+Take Stock-City representatives who attend locally organized events direct the public to the open data portal when appropriate,1
 Take Stock-A means is provided for the public to request data,1
 Take Stock-A means is provided for the public to provide feedback on published data,1
 Take Stock-The jurisdiction is listed as a provider on the civic data specification's website,1
 "Take Stock-M7. Publicly releases data that is descriptive of core city services or related to city goals (i.e., data that is useful to the public)",1
 "Take Stock-M8. Has a mechanism for releasing data to the public (e.g., resource page on city website)",1
-"Take Stock-M12. Publicly releases data that is responsive to residents��� requests (i.e., there is a clear relationship between the data released and residents��� requests)",1
+"Take Stock-M12. Publicly releases data that is responsive to residents’ requests (i.e., there is a clear relationship between the data released and residents’ requests)",1
 "Take Stock-TS2. Shares key data, findings, and decisions from performance management meetings with the public",1
