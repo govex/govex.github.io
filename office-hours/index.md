@@ -12,7 +12,7 @@ suppressSiteNotice: true
     <p>featuring:</p>
     <h4><a href="https://www.linkedin.com/in/michael-flowers-8b61601b">Michael Flowers, Chief Analytics Officer at Enigma and founder of NYC Mayor's Office of Data Analytics (MODA)</a></h4>
     <hr />
-    <h4><a href="https://drive.google.com/open?id=0B9eOOc60hbhLNDcxNURkS1dlSkU">Click Here to Access the Slides</a></h4>
+    <h4><a href="https://drive.google.com/file/d/0B9eOOc60hbhLQXNxYTlWSzhMLW8/view?usp=sharing">Click Here to Access the Slides</a></h4>
     <br>
     <h3>Please select an option to connect:</h3>
   </div>
