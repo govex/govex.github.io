@@ -4,14 +4,13 @@ suppressSiteNotice: true
 ---
 
   <div class="row center-block">
-    <h1>Welcome to the GovEx Office Hours: David vs. Goliath</h1>
-    <h3>Wednesday, November 4, 2015 &mdash; 3:00p Eastern / 12:00p Pacific</h3>
+    <h1>Welcome to the GovEx Office Hours: What is Data Science? And why does my city need it?</h1>
+    <h3>Wednesday, December 2, 2015 &mdash; 3:00p Eastern / 12:00p Pacific</h3>
     <p>facilitated by</p>
     <h4><a href="https://www.linkedin.com/in/carterhewgley">Carter Hewgley, Director of Performance & Analytics, GovEx</a></h4>
     <h4><a href="https://www.linkedin.com/in/andrewnicklin">Andrew Nicklin, Director of Open Data, GovEx</a></h4>
     <p>featuring:</p>
-    <h4><a href="https://www.linkedin.com/in/davidbibo">David Bibo, Deputy Associate Administrator for Policy and Strategy, FEMA</a></h4>
-    <h4><a href="https://www.linkedin.com/pub/tim-moreland/10/782/6a6">Tim Moreland, Director of Performance Management and Open Data, City of Chattanooga, TN</a></h4>
+    <h4><a href="https://www.linkedin.com/in/michael-flowers-8b61601b">Michael Flowers, Chief Analytics Officer at Enigma and founder of NYC Mayor's Office of Data Analytics (MODA)</a></h4>
     <hr />
     <h4><a href="https://drive.google.com/open?id=0B9eOOc60hbhLNDcxNURkS1dlSkU">Click Here to Access the Slides</a></h4>
     <br>
@@ -43,7 +42,7 @@ suppressSiteNotice: true
   
   <div class="row center-block">
     <h3>Future Events</h3>
-    <p>Our next Office Hours will be at 3:00p ET / 12:00p PT on Wednesday, December 2, 2015.</p>
+    <p>Our next Office Hours will be at 3:00p ET / 12:00p PT on Wednesday, January 6, 2015.</p>
   </div>
   
   <hr />
@@ -51,6 +50,7 @@ suppressSiteNotice: true
   <div class="row center-block">
     <h3>Previous Events</h2>
     
+    <h4>Office Hours - November 4, 2015</h4>
     <h4>Public Safety Data Convening - October 23, 2015</h4>
     <p>
       Notes not available online. Please contact your WWC liaison should you need them.
