@@ -55,6 +55,7 @@ suppressSiteNotice: true
       <a href="https://drive.google.com/open?id=0B1QndTlkKRzEdHVaMEJVSkt5V0E">Get the audio recording</a> | 
       <a href="https://drive.google.com/open?id=0B9eOOc60hbhLNDcxNURkS1dlSkU">View the slides</a>
     <p>
+    
     <h4>Public Safety Data Convening - October 23, 2015</h4>
     <p>
       Notes not available online. Please contact your WWC liaison should you need them.
