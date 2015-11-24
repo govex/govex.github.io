@@ -161,7 +161,7 @@
         box-shadow: rgba(0, 0, 0, 0.80) 0px 0.5px 2.5px 0px;
     }
 
-    
+
 
     #userInput {
         width: 100%;
@@ -184,7 +184,7 @@
     table {
         width:100%;
     }
-    
+
     option {
         font: lighter 12px "Helvetica", Arial;
     }
@@ -225,7 +225,7 @@
         box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25) inset;
     }
 
-    
+
     .bbp {
         height: 60px;
         background-repeat: no-repeat;
@@ -333,7 +333,7 @@
 
             <select id="analyst">
                 <option value="All">All Analysts</option>
-                <option value="Michael Benison">Eric Reese</option>
+                <option value="Michael Benison">Michael Benison</option>
                 <option value="Lena Geraghty">Lena Geraghty</option>
                 <option value="Nick Hadjigeorge">Nick Hadjigeorge</option>
                 <option value="Eric Reese">Eric Reese</option>
@@ -364,6 +364,9 @@
     <!-- drawing map -->
     <script>
     var sublayers = [];
+    var maxBounds = [
+    [24.94932, -123.4], [49.59037, -66.93264]  //Northeast
+];
     function main() {
         //create leaflet map
         var map = L.map('map', {
@@ -372,9 +375,9 @@
             center: [37, -85],
             zoomControl: true,
             zoom: 4
-        });
+            });
 
-        
+
         //add points layer
         cartodb.createLayer(map, {
                 user_name: 'govex',
@@ -389,6 +392,7 @@
             })
             .addTo(map)
             .done(function(layer) {
+
                 //data to route to infowindow
                 cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','city','state','scope1','scope2','scope3','lead','analyst','timeline_progress','mayor', 'pop', 'income'], {infowindowTemplate: $('#infowindow_template').html()});
                 //uncomment the alert to confirm sublayer additions
@@ -409,10 +413,10 @@
                         </style>\
                         <text transform='matrix(1 0 0 1 500 242.7529)' class='st0 st1 st2'>GovEx</text>\
                         </svg>");
-                
+
                 //cityinfo div filling query
                 sublayer.on('featureClick', function (e, latlng, pos, data, layerIndex) {
-                    var sql = new cartodb.SQL({ user: 'govex', api_key: 'd229b9ac25b04c923fa56651f6bcaec878351cf6' }); 
+                    var sql = new cartodb.SQL({ user: 'govex', api_key: 'd229b9ac25b04c923fa56651f6bcaec878351cf6' });
 
                     //convert decimal number into formatted percentage
                     function percentify(n) {
@@ -433,7 +437,7 @@
                     sql.execute(query, {city: data.city, state: data.state})
                     .done(function (data) {
                         $('#cityinfo').empty();
-                        console.log(data); 
+                        console.log(data);
 
                         //set what appears in cityinfo div
                         if(data.rows[0].status == "Working") {
@@ -460,7 +464,7 @@
                             ", " + data.rows[i].state +
                             "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2></div>");
                             $('.city_name').css("color","#472F92");
-                        }} 
+                        }}
                     })
                 });
             //initialize variables
