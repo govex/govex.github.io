@@ -6,6 +6,12 @@ layout: default
 Below are guidebooks which the Center for Government Excellence makes available online. You may also visit <a href="https://www.gitbook.com/@centerforgov">our page on GitBooks</a>.
 
 <ul class="list-group">
+  <li class="list-group-item" href="https://youtu.be/MCRXeMG95I0">
+    <h4><span class="glyphicon glyphicon-asterisk"></span> Talking about Performance (Without Complicating It)</h4>
+    <p>The Johns Hopkins University Center for Government Excellence has created this short survey to help governments get past the semantics and focus on the substance of performance measurement.</p>    
+    <a href="https://youtu.be/MCRXeMG95I0">Watch the Video</a> 
+    </p>
+  </li>
   <li class="list-group-item" href="https://drive.google.com/open?id=0B9eOOc60hbhLR3dLNzBLRGM0WUU">
     <h4><span class="glyphicon glyphicon-asterisk"></span> GovEx Guide: Performance Alignment</h4>
     <p>The Johns Hopkins University Center for Government Excellence has created this infographic to help governments align outcomes, measures, activities and resources within a performance management system.</p>    
