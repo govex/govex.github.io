@@ -6,6 +6,14 @@ layout: default
 Below are guidebooks which the Center for Government Excellence makes available online. You may also visit <a href="https://www.gitbook.com/@centerforgov">our page on GitBooks</a>.
 
 <ul class="list-group">
+  <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/benchmarking/details">
+    <h4>Benchmarking</h4>
+    <p>The Johns Hopkins University Center for Government Excellence has created this short guide to help governments understand the practices of internal and external benchmarking.</p>
+    <a href="https://centerforgov.gitbooks.io/benchmarking/content/">Read online</a> |
+      <a href="https://www.gitbook.com/book/centerforgov/benchmarking/details">Download PDF</a> |
+      <a href="https://github.com/centerforgov/benchmarking">View on Github</a>
+    </p>
+  </li>
   <li class="list-group-item" href="https://youtu.be/MCRXeMG95I0">
     <h4>Talking about Performance (Without Complicating It)</h4>
     <p>The Johns Hopkins University Center for Government Excellence has created this short survey to help governments get past the semantics and focus on the substance of performance measurement.</p>
