@@ -23,7 +23,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
   <li class="list-group-item" href="https://drive.google.com/open?id=0B9eOOc60hbhLR3dLNzBLRGM0WUU">
     <h4>GovEx Guide: Performance Alignment</h4>
     <p>The Johns Hopkins University Center for Government Excellence has created this infographic to help governments align outcomes, measures, activities and resources within a performance management system.</p>
-    <a href="https://drive.google.com/open?id=0B9eOOc60hbhLR3dLNzBLRGM0WUU">View & Download PDF</a> 
+    <a href="https://drive.google.com/open?id=0B9eOOc60hbhLUG55bURsSTZwdms">View & Download PDF</a> 
     </p>
   </li>
   <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/setting-performance-targets-getting-started-guide/details">
