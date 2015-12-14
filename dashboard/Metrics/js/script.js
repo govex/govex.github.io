@@ -1611,7 +1611,7 @@ function displayData() {
 
       if ( $yearSelected.value === 'All days' ){
         currentEndpoint = "https://" + $dataPortal.value + alldays[i];
-      } else ( $yearSelected.value === 'All days' ){
+      } else {
         currentEndpoint = "https://" + $dataPortal.value + alldays[i];
       }
       // } else {
