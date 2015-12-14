@@ -17,7 +17,14 @@ var portals = [
     'data.cityofboston.gov',
     'data.act.gov.au',
     'data.kcmo.org',
-    'data.providenceri.gov'];
+    'data.providenceri.gov',
+    'data.chattlibrary.org',
+    'data.edmonton.ca',
+    'opendata.go.ke',
+    'data.maryland.gov',
+    'data.orgeon.gov',
+    'gavaobert.gavaciutat.cat',
+    'opendata.rubi.cat'];
 
 var months2012 = [
     '/api/site_metrics.json?start=1325376000000&end=1327968000000',
