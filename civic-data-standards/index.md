@@ -38,6 +38,7 @@ Below is the list of civic data standards we have identified so far. They vary g
 ### Other relevant work
 The below efforts might not qualify as civic data standards (pending further research), but their existence is worth noting.
 
+* [Popolo - International Open Government Specifications](http://www.popoloproject.com/)
 * [Local Inspector Value-Entry Specification (LIVES)](http://www.yelp.com/healthscores)
 * [Spotcrime Open Crime Data Standard (SOCS)](http://blog.spotcrime.com/2014/03/the-spotcrime-open-crime-data-standard.html)
 * [Open Hunting & Fishing](https://github.com/opendata/Hunting-and-Fishing) - this standard requires a reasonable amount of technical skill to use, using JSON-Schema files to describe the data structures.
