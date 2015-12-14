@@ -1586,8 +1586,8 @@ function clearOutputs(){
 };
 
 function setNumberOfMonths(){
-	if ( $yearSelected.value === '36 Months' ){
-		numMonths = 36;
+	if ( $yearSelected.value === 'All days' ){
+		numMonths = 1462;
 	} else {
 		numMonths = 1462;
 	}
@@ -1609,17 +1609,17 @@ function displayData() {
     	var currentMonthNum = i;
 
 
-      if ( $yearSelected.value === '36 Months' ){
-        currentEndpoint = "https://" + $dataPortal.value + months36[i];
-      } else if ( $yearSelected.value === '2014' ){
-        currentEndpoint = "https://" + $dataPortal.value + months2013[i];
-      } else if ( $yearSelected.value === '2013' ){
-        currentEndpoint = "https://" + $dataPortal.value + months2013[i];
-      } else if ( $yearSelected.value === 'alldays' ){
+      if ( $yearSelected.value === 'All days' ){
         currentEndpoint = "https://" + $dataPortal.value + alldays[i];
-      } else {
-        currentEndpoint = "https://" + $dataPortal.value + months2012[i];
-      }
+      // } else if ( $yearSelected.value === '2014' ){
+      //   currentEndpoint = "https://" + $dataPortal.value + months2013[i];
+      // } else if ( $yearSelected.value === '2013' ){
+      //   currentEndpoint = "https://" + $dataPortal.value + months2013[i];
+      } else ( $yearSelected.value === 'alldays' ){
+        currentEndpoint = "https://" + $dataPortal.value + alldays[i];
+      // } else {
+      //   currentEndpoint = "https://" + $dataPortal.value + months2012[i];
+      // }
 
       console.log("Requesting Month " + currentMonthNum + " data from: " + currentEndpoint);
       $('#results').append("<a href='" + currentEndpoint + "'>" + currentEndpoint + "</a><br>");
