@@ -1611,11 +1611,7 @@ function displayData() {
 
       if ( $yearSelected.value === 'All days' ){
         currentEndpoint = "https://" + $dataPortal.value + alldays[i];
-      // } else if ( $yearSelected.value === '2014' ){
-      //   currentEndpoint = "https://" + $dataPortal.value + months2013[i];
-      // } else if ( $yearSelected.value === '2013' ){
-      //   currentEndpoint = "https://" + $dataPortal.value + months2013[i];
-      } else ( $yearSelected.value === 'alldays' ){
+      } else ( $yearSelected.value === 'All days' ){
         currentEndpoint = "https://" + $dataPortal.value + alldays[i];
       }
       // } else {
