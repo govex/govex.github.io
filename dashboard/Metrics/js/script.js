@@ -107,8 +107,7 @@ var months36 = [
     '/api/site_metrics.json?start=1414800000000&end=1417305600000',
     '/api/site_metrics.json?start=1417392000000&end=1419984000000'];
 
-    var alldays = [
-      API Endpoint
+var alldays = [
   '/api/site_metrics.json?start=1325376000000&end=1325462400000',
   '/api/site_metrics.json?start=1325462400000&end=1325548800000',
   '/api/site_metrics.json?start=1325548800000&end=1325635200000',
