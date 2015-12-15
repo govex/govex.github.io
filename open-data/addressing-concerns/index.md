@@ -32,7 +32,7 @@ If we open our data, someone could identify individuals and then use that to har
       </dd>
       <dt>City Example</dt>
       <dd>
-         Many cities aggregate crime data to the nearest intersection or block level when it is released (for example Seattle uses the <a href="https://data.seattle.gov/Public-Safety/Seattle-Police-Department-Police-Report-Incident/7ais-f98f">Hundred Block Level</a>). This allows critical information on public safety to be available to the public without identifying individuals.
+         Many cities aggregate crime data to the nearest intersection or block level when it is released (for example Seattle uses the <a href="https://data.seattle.gov/Public-Safety/Seattle-Police-Department-Police-Report-Incident/7ais-f98f" target="_blank">Hundred Block Level</a>). This allows critical information on public safety to be available to the public without identifying individuals.
       </dd>
     </dl>
   </div>
@@ -84,7 +84,7 @@ Media or residents will take our data and miss key elements, telling the wrong s
       </dd>
       <dt>City Example</dt>
       <dd>
-         San Francisco provides excellent contextualized data for one of its biggest and highest profile challenges: housing. It's <a href="http://housing.datasf.org/overview/">Housing Hub</a> provides policies, reports, and resources to help put the data it is releasing in the proper context for users.
+         San Francisco provides excellent contextualized data for one of its biggest and highest profile challenges: housing. It's <a href="http://housing.datasf.org/overview/" target="_blank">Housing Hub</a> provides policies, reports, and resources to help put the data it is releasing in the proper context for users.
       </dd>
     </dl>
   </div>
