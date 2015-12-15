@@ -22,12 +22,10 @@ If we open our data, someone could identify individuals and then use that to har
       <dd>
         Personal data should be protected and we must have strong governance practices to ensure that we are releasing data that should be released.
       </dd>
-      <br />
       <dt>Technical Response</dt>
       <dd>
         We can aggregate data to ensure that private information is protected. There are a variety of other approaches that can be included in a city’s plan to manage the risk of opening data.
       </dd>
-      <br />
       <dt>City Example</dt>
       <dd>
          Many cities aggregate crime data to the nearest intersection or block level when it is released (for example Seattle uses the <a href="https://data.seattle.gov/Public-Safety/Seattle-Police-Department-Police-Report-Incident/7ais-f98f">Hundred Block Level</a>). This allows critical information on public safety to be available to the public without identifying individuals.
