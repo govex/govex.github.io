@@ -89,3 +89,29 @@ Media or residents will take our data and miss key elements, telling the wrong s
     </dl>
   </div>
 </div>
+
+<div class="panel panel-warning">
+  <div class="panel-heading">
+     <h3 class="panel-title">4. We don’t have time to prioritize opening data while doing our jobs</h4>
+  </div>
+  <div class="panel-body">
+    <div style="font-family: monospace">
+Our staff are already too overworked to add another thing for them to do.
+    </div>
+  	<hr />
+	  <dl class="dl-horizontal">
+      <dt>Philosophical Response</dt>
+      <dd>
+        While it is true that an open data program takes resources, efficiencies are also gained. Most often these are from a reduction in freedom of information requests and improved data sharing across city departments.
+      </dd>
+      <dt>Technical Response</dt>
+      <dd>
+        We can automate the routine publication of data to significantly reduce staff burdens in the long-term. 
+      </dd>
+      <dt>City Example</dt>
+      <dd>
+         Prioritizing an investment in open data can help staff focus on their jobs instead of responding to requests for data. For example the <a href="https://data.hartford.gov/Public-Safety/Towed-Cars-for-the-Past-30-Days/hefc-wgp8" target="_blank">City of Hartford</a> publishes towing data automatically every hour so that residents can check if their car has been towed, reducing the burden on staff to respond to requests.
+      </dd>
+    </dl>
+  </div>
+</div>
