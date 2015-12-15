@@ -40,7 +40,7 @@ If we open our data, someone could identify individuals and then use that to har
 
 <div class="panel panel-warning">
   <div class="panel-heading">
-     <h3 class="panel-title">2.Our data will say we are doing poorly</h4>
+     <h3 class="panel-title">2. Our data will say we are doing poorly</h4>
   </div>
   <div class="panel-body">
     <div style="font-family: monospace">
@@ -59,6 +59,32 @@ We are not doing well and opening data will expose us to criticism from the publ
       <dt>City Example</dt>
       <dd>
          Many cities release datasets with explanations and important contextual information as a sort of justification of their data. This allows cities to demonstrate the action they are taking to address challenges and improve performance while promoting transparency and opening lines of communication with the public.
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<div class="panel panel-warning">
+  <div class="panel-heading">
+     <h3 class="panel-title">3. The data will be misinterpreted by end users</h4>
+  </div>
+  <div class="panel-body">
+    <div style="font-family: monospace">
+Media or residents will take our data and miss key elements, telling the wrong story.
+    </div>
+  	<hr />
+	  <dl class="dl-horizontal">
+      <dt>Philosophical Response</dt>
+      <dd>
+        Opening data provides an opportunity to shape the story since users will draw their own conclusions with our without the released data.
+      </dd>
+      <dt>Technical Response</dt>
+      <dd>
+        Providing context along with data can help us tell our story and ensure that we are addressing items that might be commonly misinterpreted.
+      </dd>
+      <dt>City Example</dt>
+      <dd>
+         San Francisco provides excellent contextualized data for one of its biggest and highest profile challenges: housing. It's <a href="http://housing.datasf.org/overview/">Housing Hub</a> provides policies, reports, and resources to help put the data it is releasing in the proper context for users.
       </dd>
     </dl>
   </div>
