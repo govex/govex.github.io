@@ -14,7 +14,7 @@ Cities starting down the path of opening data often have concerns about  releasi
 
 <div class="panel panel-warning">
   <div class="panel-heading">
-     <h3 class="panel-title">1. Someone will reengineer the data to get personal infromation</h4>
+     <h3 class="panel-title">1. Someone will reengineer the data to get personal information</h4>
   </div>
   <div class="panel-body">
     <div style="font-family: monospace">
