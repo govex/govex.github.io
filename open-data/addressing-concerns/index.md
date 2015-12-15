@@ -14,23 +14,23 @@ Cities starting down the path of opening data often have concerns about  releasi
   </div>
   <div class="panel-body">
     <div style="font-family: monospace">
-If we open our data, someone can identify individuals and then use that to harm them. This is also referred to as the mosaic effect.  
+If we open our data, someone could identify individuals and then use that to harm them. This is also referred to as the mosaic effect.
     </div>
   	<hr />
 	  <dl class="dl-horizontal">
-      <dt>What This Is</dt>
+      <dt>Philosophical Response</dt>
       <dd>
-        This allows the Vendor keep its copyright interest in non-government data it may have, except when the Agency combines Government Data with the Vendor’s data. 
+        Personal data should be protected and we must have strong governance practices to ensure that we are releasing data that should be released.
       </dd>
       <br />
-      <dt>Why It Is Here</dt>
+      <dt>Technical Response</dt>
       <dd>
-        This supports situations where the Vendor’s provides proprietary data that the Agency wishes to purchase (or rent). In these cases, the Vendor keeps its copyright in its data, and the Government keeps its copyright in its data. 
+        We can aggregate data to ensure that private information is protected. There are a variety of other approaches that can be included in a city’s plan to manage the risk of opening data.
       </dd>
       <br />
-      <dt>Notes</dt>
+      <dt>City Example</dt>
       <dd>
-         When the Government combines the two data sets, the Vendor may get a copyright interest in that result. 
+         Many cities aggregate crime data to the nearest intersection or block level when it is released (for example Seattle uses the “Hundred Block Level”). This allows critical information on public safety to be available to the public without identifying individuals.
       </dd>
     </dl>
   </div>
