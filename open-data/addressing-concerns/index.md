@@ -142,7 +142,7 @@ Releasing data is risky and we might get sued if we reveal something wrong.
   </div>
 </div>
 
-div class="panel panel-warning">
+<div class="panel panel-warning">
   <div class="panel-heading">
      <h3 class="panel-title">6. The cost to keep this program going in the future will be too high</h4>
   </div>
