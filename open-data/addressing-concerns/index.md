@@ -115,3 +115,29 @@ Our staff are already too overworked to add another thing for them to do.
     </dl>
   </div>
 </div>
+
+<div class="panel panel-warning">
+  <div class="panel-heading">
+     <h3 class="panel-title">5. We might get sued if we release protected information</h4>
+  </div>
+  <div class="panel-body">
+    <div style="font-family: monospace">
+Releasing data is risky and we might get sued if we reveal something wrong.
+    </div>
+  	<hr />
+	  <dl class="dl-horizontal">
+      <dt>Philosophical Response</dt>
+      <dd>
+        To date, no city has been sued for releasing open data which turned out to be faulty or misleading.
+      </dd>
+      <dt>Technical Response</dt>
+      <dd>
+        We can include disclaimers in the Terms of Use for our open data. We can also prepare a response plan to carry out in the event we accidentally release protected or incorrect information. 
+      </dd>
+      <dt>City Example</dt>
+      <dd>
+         Chattanooga’s <a href="https://data.chattlibrary.org/terms" target="_blank">Open Data Terms of Use</a> include limitations of liability and indemnification clauses in Section VIII.
+      </dd>
+    </dl>
+  </div>
+</div>
