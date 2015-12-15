@@ -10,11 +10,11 @@ Cities starting down the path of opening data often have concerns about  releasi
 
 <div class="panel panel-warning">
   <div class="panel-heading">
-     <h3 class="panel-title">1. Someone will reengineer the data to get personal infromation</h3>
+     <h3 class="panel-title">1. Someone will reengineer the data to get personal infromation</h4>
   </div>
   <div class="panel-body">
     <div style="font-family: monospace">
-If we open our data, someone could identify individuals and then use that to harm them. This is also referred to as the mosaic effect.
+If we open our data, someone could identify individuals and then use that to harm them (referred to as the mosaic effect).
     </div>
   	<hr />
 	  <dl class="dl-horizontal">
@@ -30,7 +30,7 @@ If we open our data, someone could identify individuals and then use that to har
       <br />
       <dt>City Example</dt>
       <dd>
-         Many cities aggregate crime data to the nearest intersection or block level when it is released (for example Seattle uses the “Hundred Block Level”). This allows critical information on public safety to be available to the public without identifying individuals.
+         Many cities aggregate crime data to the nearest intersection or block level when it is released (for example Seattle uses the <a href="https://data.seattle.gov/Public-Safety/Seattle-Police-Department-Police-Report-Incident/7ais-f98f">Hundred Block Level</a>). This allows critical information on public safety to be available to the public without identifying individuals.
       </dd>
     </dl>
   </div>
