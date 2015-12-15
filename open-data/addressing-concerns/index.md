@@ -141,3 +141,29 @@ Releasing data is risky and we might get sued if we reveal something wrong.
     </dl>
   </div>
 </div>
+
+div class="panel panel-warning">
+  <div class="panel-heading">
+     <h3 class="panel-title">6. The cost to keep this program going in the future will be too high</h4>
+  </div>
+  <div class="panel-body">
+    <div style="font-family: monospace">
+We will spend a lot on software, staff, training, etc. while getting little in return.
+    </div>
+  	<hr />
+	  <dl class="dl-horizontal">
+      <dt>Philosophical Response</dt>
+      <dd>
+        It may be more costly to keep on with business as usual. Delivering open data encourages cities to view their digital information as a more strategic asset.
+      </dd>
+      <dt>Technical Response</dt>
+      <dd>
+        Publishing raw data allows third parties to deliver that information to the public (build apps, visualizations, etc.), often relieving us of that responsibility. 
+      </dd>
+      <dt>City Example</dt>
+      <dd>
+         The Kansas City Area Transit Authority <a href="http://www.kcata.org/transit_data" target="_blank">publishes route and schedule data.</a> It also provides <a href="http://www.kcata.org/maps_schedules/app_center">a directory of third-party applications</a> which make that information more accessible to the public, reducing the need for it to do so directly.
+      </dd>
+    </dl>
+  </div>
+</div>
