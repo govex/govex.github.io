@@ -54,7 +54,8 @@ Cities starting down the path of opening data often have concerns about releasin
     </div>
   	<hr />
 	  <dl class="dl-horizontal">
-      <dt>Philosophical Response</dt>
+      <dt>Philosophical</dt> 
+      <dt>Response</dt>
       <dd>
         Personal data should be protected and we must have strong governance practices to ensure that we are releasing data that should be released.
       </dd>
