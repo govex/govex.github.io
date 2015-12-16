@@ -6,9 +6,9 @@ layout: collaboration
 <!-- do not edit anything above this text -->
 
 <!-- add your html or markdown here -->
-# Responding to Open Data Concerns
+## Responding to Open Data Concerns
 
-Cities starting down the path of opening data often have concerns about  releasing  data to the public. This document compiles some of the most common concerns we have heard about opening data. Along with these frequently cited issues, we have included technical responses, philosophical responses, and an example from a city for each concern to help other cities respond to these arguments. 
+Cities starting down the path of opening data often have concerns about  releasing  data to the public. This document compiles some of the most common concerns we have heard about opening data. Along with these frequently cited issues, we have included technical responses, philosophical responses, and an example from a city for each concern to help other cities respond to these arguments.
 
 <div class="panel panel-warning">
   <div class="panel-heading">
@@ -104,7 +104,7 @@ Our staff are already too overworked to add another thing for them to do.
       </dd>
       <dt>Technical Response</dt>
       <dd>
-        We can automate the routine publication of data to significantly reduce staff burdens in the long-term. 
+        We can automate the routine publication of data to significantly reduce staff burdens in the long-term.
       </dd>
       <dt>City Example</dt>
       <dd>
@@ -130,7 +130,7 @@ Releasing data is risky and we might get sued if we reveal something wrong.
       </dd>
       <dt>Technical Response</dt>
       <dd>
-        We can include disclaimers in the Terms of Use for our open data. We can also prepare a response plan to carry out in the event we accidentally release protected or incorrect information. 
+        We can include disclaimers in the Terms of Use for our open data. We can also prepare a response plan to carry out in the event we accidentally release protected or incorrect information.
       </dd>
       <dt>City Example</dt>
       <dd>
@@ -156,7 +156,7 @@ We will spend a lot on software, staff, training, etc. while getting little in r
       </dd>
       <dt>Technical Response</dt>
       <dd>
-        Publishing raw data allows third parties to deliver that information to the public (build apps, visualizations, etc.), often relieving us of that responsibility. 
+        Publishing raw data allows third parties to deliver that information to the public (build apps, visualizations, etc.), often relieving us of that responsibility.
       </dd>
       <dt>City Example</dt>
       <dd>
