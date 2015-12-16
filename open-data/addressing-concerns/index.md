@@ -33,7 +33,7 @@ Cities starting down the path of opening data often have concerns about releasin
   </div>
   <div class="panel-body">
     <div style="font-family: monospace">
-If we open our data, someone could identify individuals and then use that to harm them (referred to as the mosaic effect).
+"If we open our data, someone could identify individuals and then use that to harm them (referred to as the mosaic effect)."
     </div>
   	<hr />
 	  <dl class="dl-horizontal">
@@ -59,7 +59,7 @@ If we open our data, someone could identify individuals and then use that to har
   </div>
   <div class="panel-body">
     <div style="font-family: monospace">
-We are not doing well and opening data will expose us to criticism from the public.
+"We are not doing well and opening data will expose us to criticism from the public."
     </div>
   	<hr />
 	  <dl class="dl-horizontal">
@@ -85,7 +85,7 @@ We are not doing well and opening data will expose us to criticism from the publ
   </div>
   <div class="panel-body">
     <div style="font-family: monospace">
-Media or residents will take our data and miss key elements, telling the wrong story.
+"Media or residents will take our data and miss key elements, telling the wrong story."
     </div>
   	<hr />
 	  <dl class="dl-horizontal">
@@ -111,7 +111,7 @@ Media or residents will take our data and miss key elements, telling the wrong s
   </div>
   <div class="panel-body">
     <div style="font-family: monospace">
-Our staff are already too overworked to add another thing for them to do.
+"Our staff are already too overworked to add another thing for them to do."
     </div>
   	<hr />
 	  <dl class="dl-horizontal">
@@ -137,7 +137,7 @@ Our staff are already too overworked to add another thing for them to do.
   </div>
   <div class="panel-body">
     <div style="font-family: monospace">
-Releasing data is risky and we might get sued if we reveal something wrong.
+"Releasing data is risky and we might get sued if we reveal something wrong."
     </div>
   	<hr />
 	  <dl class="dl-horizontal">
@@ -163,7 +163,7 @@ Releasing data is risky and we might get sued if we reveal something wrong.
   </div>
   <div class="panel-body">
     <div style="font-family: monospace">
-We will spend a lot on software, staff, training, etc. while getting little in return.
+"We will spend a lot on software, staff, training, etc. while getting little in return."
     </div>
   	<hr />
 	  <dl class="dl-horizontal">
