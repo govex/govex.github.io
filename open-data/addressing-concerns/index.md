@@ -5,29 +5,7 @@ layout: collaboration
 
 <!-- do not edit anything above this text -->
 
-<!-- add your html or markdown here -->
 
-<head>
-<style>
-/*DL, DT, DD TAGS LIST DATA*/
-dl {
-    margin-bottom:50px;
-}
-
-dl dt {
-    float:left;
-    font-weight:bold;
-    margin-right:25px;
-    padding:5px;
-    width:100%;
-}
-
-dl dd {
-    margin:2px 0;
-    padding:5px 0;
-}
-</style>
-</head>
 
 
 
