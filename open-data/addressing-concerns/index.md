@@ -6,13 +6,15 @@ layout: collaboration
 <!-- do not edit anything above this text -->
 
 <!-- add your html or markdown here -->
-## Responding to Open Data Concerns
+# Responding to Open Data Concerns
 
-Cities starting down the path of opening data often have concerns about  releasing  data to the public. This document compiles some of the most common concerns we have heard about opening data. Along with these frequently cited issues, we have included technical responses, philosophical responses, and an example from a city for each concern to help other cities respond to these arguments.
+## Introduction
+
+Cities starting down the path of opening data often have concerns about releasing data to the public. This document compiles some of the most common concerns we have heard about opening data. Along with these frequently cited issues, we have included technical responses, philosophical responses, and an example from a city for each concern to help other cities respond to these arguments.
 
 <div class="panel panel-warning">
   <div class="panel-heading">
-     <h3 class="panel-title">1. Someone will reengineer the data to get personal information</h4>
+     <h3 class="panel-title"> 1. Someone will reengineer the data to get personal information</h3>
   </div>
   <div class="panel-body">
     <div style="font-family: monospace">
@@ -38,7 +40,7 @@ If we open our data, someone could identify individuals and then use that to har
 
 <div class="panel panel-warning">
   <div class="panel-heading">
-     <h3 class="panel-title">2. Our data will say we are doing poorly</h4>
+     <h3 class="panel-title">2. Our data will say we are doing poorly</h3>
   </div>
   <div class="panel-body">
     <div style="font-family: monospace">
@@ -64,7 +66,7 @@ We are not doing well and opening data will expose us to criticism from the publ
 
 <div class="panel panel-warning">
   <div class="panel-heading">
-     <h3 class="panel-title">3. The data will be misinterpreted by end users</h4>
+     <h3 class="panel-title">3. The data will be misinterpreted by end users</h3>
   </div>
   <div class="panel-body">
     <div style="font-family: monospace">
@@ -90,7 +92,7 @@ Media or residents will take our data and miss key elements, telling the wrong s
 
 <div class="panel panel-warning">
   <div class="panel-heading">
-     <h3 class="panel-title">4. We don’t have time to prioritize opening data while doing our jobs</h4>
+     <h3 class="panel-title">4. We don’t have time to prioritize opening data while doing our jobs</h3>
   </div>
   <div class="panel-body">
     <div style="font-family: monospace">
@@ -116,7 +118,7 @@ Our staff are already too overworked to add another thing for them to do.
 
 <div class="panel panel-warning">
   <div class="panel-heading">
-     <h3 class="panel-title">5. We might get sued if we release protected information</h4>
+     <h3 class="panel-title">5. We might get sued if we release protected information</h3>
   </div>
   <div class="panel-body">
     <div style="font-family: monospace">
@@ -142,7 +144,7 @@ Releasing data is risky and we might get sued if we reveal something wrong.
 
 <div class="panel panel-warning">
   <div class="panel-heading">
-     <h3 class="panel-title">6. The cost to keep this program going in the future will be too high</h4>
+     <h3 class="panel-title">6. The cost to keep this program going in the future will be too high</h3>
   </div>
   <div class="panel-body">
     <div style="font-family: monospace">
