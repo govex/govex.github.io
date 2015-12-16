@@ -7,40 +7,7 @@ layout: collaboration
 
 <!-- add your html or markdown here -->
 
-<head>
-<style>
-/*DL, DT, DD TAGS LIST DATA*/
-dl {
-    margin-bottom:50px;
-}
-
-dl dt {
-    float:left;
-    font-weight:bold;
-    margin-right:10px;
-    padding:5px;
-    width:100%;
-}
-
-dl dd {
-    margin:2px 0;
-    padding:5px 0;
-}
-</style>
-</head>
-
-
-
-
-
-
-
-
-
-
 # Responding to Open Data Concerns
-
-## Introduction
 
 Cities starting down the path of opening data often have concerns about releasing data to the public. This document compiles some of the most common concerns we have heard about opening data. Along with these frequently cited issues, we have included technical responses, philosophical responses, and an example from a city for each concern to help other cities respond to these arguments.
 
