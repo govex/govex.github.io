@@ -15,9 +15,9 @@ dl {
 }
 
 dl dt {
-    float:right;
+    float:left;
     font-weight:bold;
-    margin-right:10px;
+    margin-right:25px;
     padding:5px;
     width:125px;
 }
