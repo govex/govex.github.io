@@ -17,7 +17,7 @@ dl {
 dl dt {
     float:left;
     font-weight:bold;
-    margin-right:25px;
+    margin-right:50px;
     padding:5px;
     width:100%;
 }
