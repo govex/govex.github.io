@@ -15,9 +15,7 @@ dl {
 }
 
 dl dt {
-    background:#5f9be3;
-    color:#fff;
-    float:left;
+    float:right;
     font-weight:bold;
     margin-right:10px;
     padding:5px;
