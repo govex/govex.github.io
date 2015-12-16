@@ -19,7 +19,7 @@ dl dt {
     font-weight:bold;
     margin-right:25px;
     padding:5px;
-    width:125px;
+    width:100%;
 }
 
 dl dd {
