@@ -6,17 +6,36 @@ layout: collaboration
 <!-- do not edit anything above this text -->
 
 <!-- add your html or markdown here -->
+
 <head>
 <style>
+/*DL, DT, DD TAGS LIST DATA*/
 dl {
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 1em;
+    margin-bottom:50px;
+}
+
+dl dt {
+    background:#5f9be3;
+    color:#fff;
+    float:left;
+    font-weight:bold;
+    margin-right:10px;
+    padding:5px;
+    width:100px;
+}
+
+dl dd {
+    margin:2px 0;
+    padding:5px 0;
 }
 </style>
 </head>
+
+
+
+
+
+
 
 
 
