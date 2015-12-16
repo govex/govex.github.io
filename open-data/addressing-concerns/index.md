@@ -6,6 +6,21 @@ layout: collaboration
 <!-- do not edit anything above this text -->
 
 <!-- add your html or markdown here -->
+<head>
+<style>
+dl {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+</style>
+</head>
+
+
+
+
 # Responding to Open Data Concerns
 
 ## Introduction
