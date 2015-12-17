@@ -10,7 +10,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Addressing Open Data Concerns</h4>
     <p>City leaders often hear concerns and resistance about opening data. GovEx developed a short video and list to guide you through common concerns and how to respond.</p>
     <a href="http://labs.centerforgov.org/open-data/addressing-concerns/">Read online</a> |
-    <a href="https://www.youtube.com/watch?v=70Zl9jXdzLo&feature=youtu.be">View the video</a>
+    <a href="https://www.youtube.com/watch?v=70Zl9jXdzLo&feature=youtu.be" target="_blank">View the video</a>
     </p>
   </li>
   <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/benchmarking/details">
