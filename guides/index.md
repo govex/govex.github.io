@@ -6,6 +6,13 @@ layout: default
 Below are guidebooks which the Center for Government Excellence makes available online. You may also visit <a href="https://www.gitbook.com/@centerforgov">our page on GitBooks</a>.
 
 <ul class="list-group">
+  <li class="list-group-item" href="http://labs.centerforgov.org/open-data/addressing-concerns/">
+    <h4>Addressing Open Data Concerns</h4>
+    <p>City leaders often hear concerns and resistance about opening data. GovEx developed a short video and list to guide you through common concerns and how to respond.</p>
+    <a href="http://labs.centerforgov.org/open-data/addressing-concerns/">Read online</a> |
+    <a href="https://www.youtube.com/watch?v=70Zl9jXdzLo&feature=youtu.be">View the video</a>
+    </p>
+  </li>
   <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/benchmarking/details">
     <h4>Benchmarking</h4>
     <p>The Johns Hopkins University Center for Government Excellence has created this short guide to help governments understand the practices of internal and external benchmarking.</p>
