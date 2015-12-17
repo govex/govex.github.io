@@ -12,8 +12,6 @@ layout: collaboration
 
 # Responding to Open Data Concerns
 
-<br>
-
 ## Introduction
 
 #### Cities starting down the path of opening data often have concerns about releasing data to the public. This document compiles some of the most common concerns we have heard about opening data. Along with these frequently cited issues, we have included technical responses, philosophical responses, and an example from a city for each concern to help other cities respond to these arguments.
