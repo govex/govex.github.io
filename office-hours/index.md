@@ -4,13 +4,17 @@ suppressSiteNotice: true
 ---
 
   <div class="row center-block">
-    <h1>Welcome to the GovEx Office Hours: What is Data Science? And why does my city need it?</h1>
-    <h3>Wednesday, December 2, 2015 &mdash; 3:00p Eastern / 12:00p Pacific</h3>
+    <h1>Welcome to the GovEx Office Hours: Culture Change</h1>
+    <h3>Wednesday, January 6, 2016 &mdash; 3:00p Eastern / 12:00p Pacific</h3>
     <p>facilitated by</p>
     <h4><a href="https://www.linkedin.com/in/carterhewgley">Carter Hewgley, Director of Performance & Analytics, GovEx</a></h4>
     <h4><a href="https://www.linkedin.com/in/andrewnicklin">Andrew Nicklin, Director of Open Data, GovEx</a></h4>
     <p>featuring:</p>
-    <h4><a href="https://www.linkedin.com/in/michael-flowers-8b61601b">Michael Flowers, Chief Analytics Officer at Enigma and founder of NYC Mayor's Office of Data Analytics (MODA)</a></h4>
+    <h4><a href="https://www.linkedin.com/in/bjelms">Brian Elms, Manager of Denver's Peak Academy</a></h4>
+    <hr />
+    <h4><a href="https://www.linkedin.com/in/greger1">Greg Reger, Performance Improvement Specialist at Denver's Peak Academy</a></h4>
+    <hr />
+    <h4><a href="https://www.linkedin.com/in/greger1">Gerrin Cheek Butler, Director of Food Protection at Chicago's Department of Public Health</a></h4>
     <hr />
     <h4><a href="https://drive.google.com/open?id=0B9eOOc60hbhLMjF5eFczLWhaYzg">Click Here to Access the Slides</a></h4>
     <br>
@@ -42,7 +46,7 @@ suppressSiteNotice: true
   
   <div class="row center-block">
     <h3>Future Events</h3>
-    <p>Our next Office Hours will be at 3:00p ET / 12:00p PT on Wednesday, January 6, 2015.</p>
+    <p>Our next Office Hours will be at 3:00p ET / 12:00p PT on Wednesday, February 3, 2016.</p>
   </div>
   
   <hr />
@@ -50,6 +54,13 @@ suppressSiteNotice: true
   <div class="row center-block">
     <h3>Previous Events</h2>
     
+    <h4>Office Hours - December 2, 2015</h4>
+    <p>
+      <a href="https://drive.google.com/open?id=0B1QndTlkKRzEUzVJR1BQdW5uYVE">Get the audio recording</a> | 
+      <a href="https://drive.google.com/open?id=0B9eOOc60hbhLMjF5eFczLWhaYzg">View the slides</a> |
+      <a href="https://drive.google.com/drive/u/0/folders/0B9eOOc60hbhLRkxkUDkxQkJuaGc">View the Feedback</a>
+    </p>
+    <br />
     <h4>Office Hours - November 4, 2015</h4>
     <p>
       <a href="https://drive.google.com/open?id=0B1QndTlkKRzEdHVaMEJVSkt5V0E">Get the audio recording</a> | 
