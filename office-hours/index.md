@@ -14,7 +14,7 @@ suppressSiteNotice: true
     <hr />
     <h4><a href="https://www.linkedin.com/in/greger1">Greg Reger, Performance Improvement Specialist at Denver's Peak Academy</a></h4>
     <hr />
-    <h4><a href="https://www.linkedin.com/in/greger1">Gerrin Cheek Butler, Director of Food Protection at Chicago's Department of Public Health</a></h4>
+    <h4><a href="https://www.linkedin.com/in/gerrin-cheek-a06643b8">Gerrin Cheek Butler, Director of Food Protection at Chicago's Department of Public Health</a></h4>
     <hr />
     <h4><a href="https://drive.google.com/open?id=0B9eOOc60hbhLNEhPUElMN092SWs">Click Here to Access the Slides</a></h4>
     <br>
