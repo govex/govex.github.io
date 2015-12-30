@@ -6,6 +6,14 @@ layout: default
 Below are guidebooks which the Center for Government Excellence makes available online. You may also visit <a href="https://www.gitbook.com/@centerforgov">our page on GitBooks</a>.
 
 <ul class="list-group">
+  <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/changing-culture/details">
+    <h4>Changing Culture</h4>
+    <p>This practical guide helps government leaders and managers understand organizational culture and how to build cultures more adept with data.</p>
+    <a href="https://centerforgov.gitbooks.io/changing-culture/content/index.html">Read online</a> |
+      <a href="https://www.gitbook.com/book/centerforgov/changing-culture/details">Download PDF</a> |
+      <a href="https://github.com/centerforgov/culture">View on Github</a>
+    </p>
+  </li>
   <li class="list-group-item" href="http://labs.centerforgov.org/open-data/addressing-concerns/">
     <h4>Addressing Open Data Concerns</h4>
     <p>City leaders often hear concerns and resistance about opening data. GovEx developed a short video and list to guide you through common concerns and how to respond.</p>
