@@ -19,7 +19,7 @@ suppressSiteNotice: true
     <h3>Learn More</h4>
     <p>
       <a href="https://drive.google.com/open?id=0B9eOOc60hbhLOXIwbFRJNFBjSEk">Read the Background Info</a> | 
-      <a href="https://drive.google.com/open?id=0B9eOOc60hbhLaVlfS1NnR2ZDdmM">View the slides</a>
+      <a href="https://drive.google.com/open?id=0B9eOOc60hbhLY3RYV0ItZURHRWc">View the slides</a>
     </p>
     <br />
     <br>
