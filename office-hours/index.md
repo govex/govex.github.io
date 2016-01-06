@@ -52,6 +52,7 @@ suppressSiteNotice: true
   <div class="row center-block">
     <h3>Future Events</h3>
     <p>Our next Office Hours will be at 3:00p ET / 12:00p PT on Wednesday, February 3, 2016.</p>
+    <a class="btn btn-primary" href="/office-hours/vote" target="_blank">Vote for a future topic</a>
   </div>
   
   <hr />
