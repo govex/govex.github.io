@@ -4,25 +4,15 @@ suppressSiteNotice: true
 ---
 
   <div class="row center-block">
-    <h1>Welcome to the GovEx Office Hours: Culture Change</h1>
-    <h3>Wednesday, January 6, 2016 &mdash; 3:00p Eastern / 12:00p Pacific</h3>
+    <h1>Welcome to the GovEx Office Hours</h1>
+    <h3>Wednesday, February 3, 2016 &mdash; 3:00p Eastern / 12:00p Pacific</h3>
     <p>facilitated by</p>
     <h4><a href="https://www.linkedin.com/in/carterhewgley">Carter Hewgley, Director of Performance & Analytics, GovEx</a></h4>
     <h4><a href="https://www.linkedin.com/in/andrewnicklin">Andrew Nicklin, Director of Open Data, GovEx</a></h4>
-    <p>featuring:</p>
-    <h4><a href="https://www.linkedin.com/in/bjelms">Brian Elms, Manager of Denver's Peak Academy</a></h4>
-    <hr />
-    <h4><a href="https://www.linkedin.com/in/greger1">Greg Reger, Performance Improvement Specialist at Denver's Peak Academy</a></h4>
-    <hr />
-    <h4><a href="https://www.linkedin.com/in/gerrin-cheek-a06643b8">Gerrin Cheek Butler, Director of Food Protection at Chicago's Department of Public Health</a></h4>
-    <hr />
-    <h3>Learn More</h4>
-    <p>
-      <a href="https://drive.google.com/open?id=0B9eOOc60hbhLOXIwbFRJNFBjSEk">Read the Background Info</a> | 
-      <a href="https://drive.google.com/open?id=0B9eOOc60hbhLOGowNlotek9GMzg">View the slides</a>
-    </p>
     <br />
-    <br>
+    <a class="btn btn-primary" href="/office-hours/vote" target="_blank">Vote for a future topic</a>
+    <br />
+    <hr />
     <h3>Please select an option to connect:</h3>
   </div>
 
@@ -58,13 +48,17 @@ suppressSiteNotice: true
   <hr />
   
   <div class="row center-block">
-    <h3>Previous Events</h2>
+    <h3 id="previousevents">Previous Events</h3>
     
+    <h4>Office Hours - January 6, 2015</h4>
+    <p>
+      <a href="https://drive.google.com/open?id=0B1QndTlkKRzESlZyejQ0b2lGblk">Get the audio recording</a> | 
+      <a href="https://drive.google.com/open?id=0B9eOOc60hbhLOGowNlotek9GMzg">View the slides</a> |
+    </p>
     <h4>Office Hours - December 2, 2015</h4>
     <p>
       <a href="https://drive.google.com/open?id=0B1QndTlkKRzEUzVJR1BQdW5uYVE">Get the audio recording</a> | 
       <a href="https://drive.google.com/open?id=0B9eOOc60hbhLMjF5eFczLWhaYzg">View the slides</a> |
-      <a href="https://drive.google.com/drive/u/0/folders/0B9eOOc60hbhLRkxkUDkxQkJuaGc">View the Feedback</a>
     </p>
     <br />
     <h4>Office Hours - November 4, 2015</h4>
