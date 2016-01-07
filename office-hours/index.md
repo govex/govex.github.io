@@ -55,6 +55,7 @@ suppressSiteNotice: true
       <a href="https://drive.google.com/open?id=0B1QndTlkKRzESlZyejQ0b2lGblk">Get the audio recording</a> | 
       <a href="https://drive.google.com/open?id=0B9eOOc60hbhLOGowNlotek9GMzg">View the slides</a> |
     </p>
+    <br />
     <h4>Office Hours - December 2, 2015</h4>
     <p>
       <a href="https://drive.google.com/open?id=0B1QndTlkKRzEUzVJR1BQdW5uYVE">Get the audio recording</a> | 
