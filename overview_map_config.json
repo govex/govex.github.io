@@ -24,6 +24,10 @@
       "timeline_progress": {
         "type":"sql_ident",
         "default":""
+      },
+      "style": {
+        "type":"sql_ident",
+        "default":""
       }
   },
     "layergroup": {
@@ -35,7 +39,7 @@
                     "cartocss_version": "2.1.1",
                     "cartocss": "#wwcapplicantmap{marker-placement: point;marker-type: ellipse;marker-width: 10;marker-fill: #7B00B4;marker-allow-overlap: true;marker-line-opacity:0;marker-fill-opacity:0.7;} #wwcapplicantmap[status='Applied']{marker-fill: #472F92;
 } #wwcapplicantmap[status='Completed Site Visit'] {marker-fill: #E05430;} #wwcapplicantmap[status='Eligible'] {
-   marker-fill: #472F92;} #wwcapplicantmap[status='Scheduled Site Visit'] {marker-fill: #E05430;} #wwcapplicantmap[status='Working']{marker-fill: #2F9BBB;}",
+   marker-fill: #472F92;} #wwcapplicantmap[status='Scheduled Site Visit'] {marker-fill: #E05430;} #wwcapplicantmap[status='Working']{marker-fill: #2F9BBB;} #wwcapplicantmap[status='Completed']{marker-fill: #2F9BBB;}  <%= style %>",
                 "interactivity": ["cartodb_id", "city", "state", "scope1", "scope2", "scope3", "latest_news", "lead", "analyst", "status", "timeline_progress", "mayor", "pop", "income"]
             }
 

@@ -280,6 +280,19 @@
     .short{
         line-height: 30px !important;
     }
+
+#Labels.selected,
+    #Labels:hover{
+        color: #fff;
+        background: #808080;
+        box-shadow: rgba(0, 0, 0, 0.80) 0px 0.5px 2.5px 0px;
+    }
+
+    #tog{
+        padding-left: 130px;
+        width: 80px;
+    }
+
     </style>
     <script type="infowindow/html" id="infowindow_template">
         <div class="infowindow-custom">
@@ -339,6 +352,8 @@
         </tr>
         <tr>
             <td id="status"><h2>Status</h2></td>
+            <td id="tog"><a id="Labels" class="short button labels">Labels</a></td>
+
         </tr>
         <tr>
             <td id="two"><a id="Applied" class="short button status selected">Applied</a></td>
@@ -486,12 +501,14 @@
                 lead = "";
                 scope = "";
                 status = "";
+                style = "";
                 timeline_progress = "";
                 layer.setParams({
                     'analyst': analyst,
                     'lead': lead,
                     'scope': scope,
-                    'status': status
+                    'status': status,
+                    'style': style
                 });
 
                 //Senior Analyst dropdown
@@ -516,6 +533,21 @@
                     layer.setParams({
                     'analyst': analyst
                     })
+                });
+
+                //labels button
+                $('.button.labels').click(function() {
+                    style = ""
+                    if ($(this).hasClass('selected')) {
+                        $(this).removeClass('selected');
+                        style = "";
+                    } else {
+                        $(this).addClass('selected');
+                        style = "#wwcapplicantmap {text-name: [city];text-face-name: 'Open Sans Regular';text-size: 12;text-label-position-tolerance: 12;text-fill: #000;text-halo-fill: #FFF;text-halo-radius: 1;text-dy: -10;text-allow-overlap: false;text-placements: 'N,NE,NW,S,E,W,SE,SW,11,10';text-placement-type: simple;}";
+                    };
+                    layer.setParams({
+                    'style': style
+                    });
                 });
 
                 //status buttons
@@ -578,9 +610,9 @@
                         $("#Eligible").removeClass('selected');
                         $("#csv").removeClass('selected');
                         $("#tba").removeClass('selected');
+                        $("#Accepted").removeClass('selected');
                         $("#Working").addClass('selected');
                         $("#Completed").addClass('selected');
-                        $("#Accepted").addClass('selected');
                         statusvalues();
 
                         status = "and a.status in ('Working','Completed')";
