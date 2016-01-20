@@ -5,16 +5,6 @@ layout: default
 ## <span class="glyphicon glyphicon-calendar"></span> Events
 
 <div class="list-group">
-  <a class="list-group-item" href="http://cityage.org/seattle/">
-    <span class="badge">17 November 2015</span>
-    <h4>CityAge</h4>
-    <p>Seattle, WA, United States</p>
-  </a>
-  <a class="list-group-item" href="https://www.law.berkeley.edu/centers/bclt/upcoming-events/november-2015-open-data-toward-responsible-uses/">
-    <span class="badge">19 - 20 November 2015</span>
-    <h4>Responsible Use of Open Data in Government and the Private Sector</h4>
-    <p>New York City, NY, United States</p>
-  </a>
   <a class="list-group-item" href="http://icegov.org/">
     <span class="badge">1 - 3 March 2016</span>
     <h4>International Conference on Theory and Practice of Electronic Governance (ICEGOV)</h4>
@@ -35,10 +25,20 @@ layout: default
     <h4>Open Data Day</h4>
     <p>Multiple international locations</p>
   </a>
+  <a class="list-group-item" href="http://cityage.org/sf/">
+    <span class="badge">5 - 6 April 2016</span>
+    <h4>CityAge</h4>
+    <p>San Francisco, CA, United States</p>
+  </a>
   <a class="list-group-item" href="https://www.mysociety.org/research/tictec-2016/">
     <span class="badge">27 - 28 April 2016</span>
     <h4>The Impacts of Civic Technology Conference</h4>
     <p>Barcelona, Spain</p>
+  </a>
+  <a class="list-group-item" href="http://csvconf.com/">
+    <span class="badge">3 - 4 May 2016</span>
+    <h4>csvconf</h4>
+    <p>Berlin, Germany</p>
   </a>
   <a class="list-group-item" href="https://www.nagw.org/conference">
     <span class="badge">20 - 23 September 2016</span>
@@ -135,5 +135,15 @@ layout: default
     <span class="badge">3 November 2015</span>
     <h4>The Open Data Institute Summit</h4>
     <p>London, United Kingdom</p>
+  </a>
+  <a class="list-group-item" href="http://cityage.org/seattle/">
+    <span class="badge">17 November 2015</span>
+    <h4>CityAge</h4>
+    <p>Seattle, WA, United States</p>
+  </a>
+  <a class="list-group-item" href="https://www.law.berkeley.edu/centers/bclt/upcoming-events/november-2015-open-data-toward-responsible-uses/">
+    <span class="badge">19 - 20 November 2015</span>
+    <h4>Responsible Use of Open Data in Government and the Private Sector</h4>
+    <p>New York City, NY, United States</p>
   </a>
 </div>
