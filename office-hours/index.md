@@ -4,7 +4,7 @@ suppressSiteNotice: true
 ---
 
   <div class="row center-block">
-    <h1>Welcome to the GovEx Office Hours</h1>
+    <h1>GovEx Office Hours: Measuring the Impact of Open Data</h1>
     <h3>Wednesday, February 3, 2016 &mdash; 3:00p Eastern / 12:00p Pacific</h3>
     <p>facilitated by</p>
     <!--<h4><a href="https://www.linkedin.com/in/carterhewgley">Carter Hewgley, Director of Performance & Analytics, GovEx</a></h4> -->
