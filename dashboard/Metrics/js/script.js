@@ -1801,7 +1801,7 @@ function setNumberOfMonths(){
 	if ( $yearSelected.value === 'All days' ){
 		numMonths = 1430;
 	} else {
-		numMonths = 207;
+		numMonths = 209;
 	}
 };
 
