@@ -1779,7 +1779,7 @@ var allweeks = [
 '/api/site_metrics.json?start=1449360000000&end=1449964800000',
 '/api/site_metrics.json?start=1449964800000&end=1450569600000',
 '/api/site_metrics.json?start=1450569600000&end=1451174400000',
-'/api/site_metrics.json?start=1451174400000&end=1451779200000',
+'/api/site_metrics.json?start=1451174400000&end=1451779200000'
 ];
 
 var $currentURL = '';
