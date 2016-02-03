@@ -51,6 +51,6 @@ suppressSiteNotice: true
   <hr />
   
   <div class="row center-block">
-    <h3 id="previousevents"><a class="btn btn-primary" href="http://govex.jhu.edu/resource-type/office-hours/>View Previous Events</a></h3>
+    <h3 id="previousevents"><a class="btn btn-primary" href="http://govex.jhu.edu/resource-type/office-hours/">View Previous Events</a></h3>
   </div>
       
