@@ -51,35 +51,6 @@ suppressSiteNotice: true
   <hr />
   
   <div class="row center-block">
-    <h3 id="previousevents">Previous Events</h3>
-    
-    <h4>Office Hours - January 6, 2015</h4>
-    <p>
-      <a href="https://drive.google.com/open?id=0B1QndTlkKRzESlZyejQ0b2lGblk">Get the audio recording</a> | 
-      <a href="https://drive.google.com/open?id=0B9eOOc60hbhLOGowNlotek9GMzg">View the slides</a> |
-    </p>
-    <br />
-    <h4>Office Hours - December 2, 2015</h4>
-    <p>
-      <a href="https://drive.google.com/open?id=0B1QndTlkKRzEUzVJR1BQdW5uYVE">Get the audio recording</a> | 
-      <a href="https://drive.google.com/open?id=0B9eOOc60hbhLMjF5eFczLWhaYzg">View the slides</a> |
-    </p>
-    <br />
-    <h4>Office Hours - November 4, 2015</h4>
-    <p>
-      <a href="https://drive.google.com/open?id=0B1QndTlkKRzEdHVaMEJVSkt5V0E">Get the audio recording</a> | 
-      <a href="https://drive.google.com/open?id=0B9eOOc60hbhLNDcxNURkS1dlSkU">View the slides</a>
-    </p>
-    <br />
-    <h4>Public Safety Data Convening - October 23, 2015</h4>
-    <p>
-      Notes not available online. Please contact your WWC liaison should you need them.
-    </p>
-    <br />
-    <h4>Office Hours - October 14, 2015</h4>
-    <p>
-      <a href="https://drive.google.com/file/d/0B1QndTlkKRzEX2NEZUZmMjl4a2M/view">Get the audio recording</a> | 
-      <a href="https://drive.google.com/file/d/0B3D_5mo12oglcUxBTlZqdGtOVWs/view">View the slides</a>
-    </p>
+    <h3 id="previousevents"><a class="btn btn-primary" href="http://govex.jhu.edu/resource-type/office-hours/>View Previous Events</a></h3>
   </div>
       
