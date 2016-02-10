@@ -20,6 +20,11 @@ layout: default
     <h4>CodeAcross</h4>
     <p>Multiple international locations</p>
   </a>
+  <a class="list-group-item" href="http://schedule.sxsw.com/2016/events/event_PP56756">
+    <span class="badge">11 - 15 March 2016</span>
+    <h4>SXSW</h4>
+    <p>Austin, TX</p>
+  </a>
   <a class="list-group-item" href="http://opendataday.org/">
     <span class="badge">5 March 2016</span>
     <h4>Open Data Day</h4>
@@ -40,10 +45,20 @@ layout: default
     <h4>csvconf</h4>
     <p>Berlin, Germany</p>
   </a>
+  <a class="list-group-item" href="http://www.neighborhoodindicators.org/activities/meetings/community-indicators-consortium-impact-summit-2016">
+    <span class="badge">26-27 September 2016</span>
+    <h4>NNIP Community Indicators Consortium Impact Summit 2016</h4>
+    <p>Washington, DC</p>
+  </a>
   <a class="list-group-item" href="https://www.nagw.org/conference">
     <span class="badge">20 - 23 September 2016</span>
     <h4>National Association of Government Web Professionals Conference</h4>
     <p>San Antonio, TX, United States</p>
+  </a>
+  <a class="list-group-item" href="http://www.usmayors.org/meetings/">
+    <span class="badge">24-27 June 2016</span>
+    <h4>USCM 84th Annual Conference of Mayors</h4>
+    <p>Indianapolis, IN</p>
   </a>
   <a class="list-group-item" href="http://www.iodc2016.es/">
     <span class="badge">6 - 7 October 2016</span>
