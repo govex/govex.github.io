@@ -46,7 +46,7 @@ layout: default
     <p>Berlin, Germany</p>
   </a>
   <a class="list-group-item" href="http://www.neighborhoodindicators.org/activities/meetings/community-indicators-consortium-impact-summit-2016">
-    <span class="badge">26-27 September 2016</span>
+    <span class="badge">26 - 27 September 2016</span>
     <h4>NNIP Community Indicators Consortium Impact Summit 2016</h4>
     <p>Washington, DC</p>
   </a>
