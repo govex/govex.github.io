@@ -175,3 +175,29 @@ Help us build a more comprehensive resource by letting us know if you have other
     </dl>
   </div>
 </div>
+
+<div class="panel panel-warning">
+  <div class="panel-heading">
+     <h3 class="panel-title">7. Using an open data portal creates a cybersecurity risk to our internal IT systems</h3>
+  </div>
+  <div class="panel-body">
+    <div style="font-family: monospace">
+"Loading datasets onto an open data portal will leave our internal IT systems vulnerable to exploitation and puts our data at risk."
+    </div>
+  	<hr />
+	  <dl class="dl-horizontal">
+      <dt>Philosophical Response</dt>
+      <dd>
+       Generally, open data portals, and the data they hold, are completely separate from your internal IT systems. There are very infrequent exceptions to this, and in those cases, GovEx can provide best practices to ensure the greatest possible security of both your technology infrastructure as well as your data. There are no known examples of cybersecurity attacks where government data has been inappropriately obtained through open data portals.
+      </dd>
+      <dt>Technical Response</dt>
+      <dd>
+       Data and the systems it’s housed in are typically decoupled through automated ETL (extract-transform-load) or human intervention; there isn’t usually a connection between a customer accessing information on an open data portal and the computers where the data is maintained. During ETL processes, data is flattened, filtered, merged with information from other databases, and otherwise manipulated which obfuscates or masks the source data system(s). Finally, an effective open data program has processes to review data before it’s published to prevent the accidental release of data not appropriate for public consumption.
+      </dd>
+      <dt>City Example</dt>
+      <dd>
+         Having a clear process to publish data eliminates cybersecurity risks. Chattanooga created a workflow to ensure that data moves through the proper channels before being released. Once data is identified for publishing, it’s reviewed by the city attorney’s office, the office of performance management and open data, the relevant department’s open data coordinators, and the department of information technology. The city has also set clear protocols for decoupling data from the city’s data systems before releasing data to promote security.
+      </dd>
+    </dl>
+  </div>
+</div>
