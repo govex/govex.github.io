@@ -14,19 +14,19 @@
     <style>
     @font-face {
         font-family: 'quadon';
-        src: url('fonts/quadon/webfonts/Quadon-Black.eot');
-        src: url('fonts/quadon/webfonts/Quadon-Black.eot?#iefix') format('embedded-opentype'),
-             url('fonts/quadon/webfonts/Quadon-Black.woff') format('woff'),
-             url('fonts/quadon/webfonts/Quadon-Black.ttf') format('truetype');
+        src: url('http://govex.github.io/fonts/quadon/webfonts/Quadon-Black.eot');
+        src: url('http://govex.github.io/fonts/quadon/webfonts/Quadon-Black.eot?#iefix') format('embedded-opentype'),
+             url('http://govex.github.io/fonts/quadon/webfonts/Quadon-Black.woff') format('woff'),
+             url('http://govex.github.io/fonts/quadon/webfonts/Quadon-Black.ttf') format('truetype');
         font-weight: 800;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'din';
-        src: url('fonts/din-condensed/DINWeb-CondBold.eot');
-        src: url('fonts/din-condensed/DINWeb-CondBold.woff') format('woff'),
-             url('fonts/din-condensed/DINWeb-CondBold.ttf') format('truetype');
+        src: url('http://govex.github.io/fonts/din-condensed/DINWeb-CondBold.eot');
+        src: url('http://govex.github.io/fonts/din-condensed/DINWeb-CondBold.woff') format('woff'),
+             url('http://govex.github.io/fonts/din-condensed/DINWeb-CondBold.ttf') format('truetype');
         font-weight: 800;
         font-style: normal;
     }
@@ -330,39 +330,11 @@
     <div id="over_map">
         <div id="menu">
         <table>
-        <tr>
-            <td>
-                <select id="lead">
-                    <option value="All">All Senior Analysts</option>
-                    <option value="Sheila Dugan">Sheila Dugan</option>
-                    <option value="Katherine Klosek">Katherine Klosek</option>
-                    <option value="Matt Pazoles">Matt Pazoles</option>
-                    <option value="Matt Raifman">Matt Raifman</option>
-                </select>
-            </td>
-            <td>
-                <select id="analyst">
-                    <option value="All">All Analysts</option>
-                    <option value="Michael Benison">Michael Benison</option>
-                    <option value="Lena Geraghty">Lena Geraghty</option>
-                    <option value="Nick Hadjigeorge">Nick Hadjigeorge</option>
-                    <option value="Eric Reese">Eric Reese</option>
-                </select>
-            </td>
-        </tr>
+        
         <tr>
             <td id="status"><h2>Status</h2></td>
             <td id="tog"><a id="Labels" class="short button labels">Labels</a></td>
 
-        </tr>
-        <tr>
-            <td id="two"><a id="Applied" class="short button status selected">Applied</a></td>
-            <td id="two"><a id="Eligible" class="short button status selected">Eligible</a></td>
-        </tr>
-        <tr>
-            <td id="three"><a id="Accepted" class="short button status selected">Accepted</a></td>
-            <td id="three"><a id="csv" class="button status selected">Completed Site Visit</a></td>
-            <td id="three"><a id="tba" class="button status selected">Scheduled Site Visit</a></td>
         </tr>
         <tr>
             <td id="two"><a id="Working" class="short button status selected">Working</a></td>
@@ -466,33 +438,15 @@
 
                         for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2><li>" + data.rows[i].latest_news + "</li><div id='timeline_progress'><h2>TIMELINE PROGRESS</h2><li id='timeline_progress'><progress max='1' value='" + data.rows[i].timeline_progress + "'></progress> " + percentify(data.rows[i].timeline_progress) + "</li></div><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                            ", " + data.rows[i].state + "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2></div><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'></div>");
                             $('.city_name').css("color","#2F9BBB")
                         }} else if (data.rows[0].status == "Completed")
                         {
                             for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2><li>" + data.rows[i].latest_news + "</li><div id='timeline_progress'><h2>TIMELINE PROGRESS</h2><li id='timeline_progress'><progress max='1' value='" + data.rows[i].timeline_progress + "'></progress> " + percentify(data.rows[i].timeline_progress) + "</li></div><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                            ", " + data.rows[i].state + "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2></div><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'></div>");
                             $('.city_name').css("color","#2F9BBB")
-                        }} else if (data.rows[0].status == "Completed Site Visit")
-                        {
-                            for (var i = 0; i < data.total_rows; i++) {
-                            $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
-                        }}  else if
-                         (data.rows[0].status == "Scheduled Site Visit")
-                        {
-                            for (var i = 0; i < data.total_rows; i++) {
-                            $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
-                        }}  else
-                        {
-                            for (var i = 0; i < data.total_rows; i++) {
-                            $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state +
-                            "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2></div>");
-                            $('.city_name').css("color","#472F92");
-                        }}
+                        }} 
                     })
                 });
             //initialize variables
@@ -500,7 +454,7 @@
                 analyst = "";
                 lead = "";
                 scope = "";
-                status = "";
+                status = "and a.status in ('Working','Completed')";
                 style = "";
                 timeline_progress = "";
                 layer.setParams({
