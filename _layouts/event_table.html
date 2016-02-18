@@ -29,7 +29,7 @@
       ga('send', 'pageview');
     </script>
 
-    <script id="tableTemplate" type="text/html">
+    <script id="table" type="text/html">
         <table>
         <tr><th class="tHeader">Start Date</th><th class="tHeader">End Date</th><th class="tHeader">Name</th><th class="tHeader">URL</th><th class="tHeader">Location</th></tr>
           {{#rows}}
@@ -46,7 +46,7 @@
 
       function showInfo(data) {
         var tableOptions = {"data": data
-        , "pagination": 100, "tableDiv": "#fullTable", "filterDiv": "#fullTableFilter"}
+        , "pagination": 100, "#table", "filter"}
         Sheetsee.makeTable(tableOptions)
         Sheetsee.initiateTableFilter(tableOptions)
       }
