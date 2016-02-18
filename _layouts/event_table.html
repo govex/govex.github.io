@@ -29,7 +29,7 @@
       ga('send', 'pageview');
     </script>
 
-    <script id="Table" type="text/html">
+    <script id="fullTable" type="text/html">
         <table>
         <tr><th class="tHeader">Start Date</th><th class="tHeader">End Date</th><th class="tHeader">Name</th><th class="tHeader">URL</th><th class="tHeader">Location</th></tr>
           {{#rows}}
@@ -39,23 +39,18 @@
     </script>
 
     <script type="text/javascript">
-      document.addEventListener('DOMContentLoaded', function() {
-        var URL = "1ScaeD66VckxYur2-5QTsj2bvKL-DdPXTYdyk8wFpBoI"
-        Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true } )
-      })
+    document.addEventListener('DOMContentLoaded', function() {
+      var data
+      var URL = "1ScaeD66VckxYur2-5QTsj2bvKL-DdPXTYdyk8wFpBoI/pub?gid=1728659978&single=true&output=csv"
+      Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true } )
+    })
 
-      function showInfo(data) {
-        var tableOptions = {
-          "data": data,
-          "pagination": 100,
-          "tableDiv": "#Table",
-          "filterDiv": "#TableFilter"
-        }
-        Sheetsee.makeTable(tableOptions)
-        Sheetsee.initiateTableFilter(tableOptions)
+    function showInfo(data) {
+      var tableOptions = {"data": data
+      , "pagination": 50, "tableDiv": "#fullTable", "filterDiv": "#fullTableFilter"}
+      Sheetsee.makeTable(tableOptions)
+      Sheetsee.initiateTableFilter(tableOptions)
       }
-
-
     </script>
 
   </head>
