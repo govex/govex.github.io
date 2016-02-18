@@ -46,8 +46,13 @@
     })
 
     function showInfo(data) {
-      var tableOptions = {"data": data
-      , "pagination": 50, "tableDiv": "#fullTable", "filterDiv": "#fullTableFilter"}
+      var tableOptions = {
+                          "data": data,
+                          "pagination": 50,
+                          "tableDiv": "#fullTable",
+                          "filterDiv": "#fullTableFilter",
+                          "templateID":"fullTable"
+                          }
       Sheetsee.makeTable(tableOptions)
       Sheetsee.initiateTableFilter(tableOptions)
       }
