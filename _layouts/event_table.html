@@ -45,8 +45,12 @@
       })
 
       function showInfo(data) {
-        var tableOptions = {"data": data
-        , "pagination": 100, "#table", "filter"}
+        var tableOptions = {
+          "data": data,
+          "pagination": 100,
+          "tableDiv": "#table",
+          "filterDiv": "#filter"
+        }
         Sheetsee.makeTable(tableOptions)
         Sheetsee.initiateTableFilter(tableOptions)
       }
