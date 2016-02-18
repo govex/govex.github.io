@@ -39,17 +39,19 @@
     </script>
 
     <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function() {
-          var tableOptions = {
-                              "data": gData,
-                              "pagination": 100,
-                              "tableDiv": "#siteTable",
-                              "filterDiv": "#siteTableFilter",
-                              "templateID": "tableTemplate"
-                              }
-          Sheetsee.makeTable(tableOptions)
-          Sheetsee.initiateTableFilter(tableOptions)
-        })
+      document.addEventListener('DOMContentLoaded', function() {
+        var URL = "https://docs.google.com/spreadsheets/d/1ScaeD66VckxYur2-5QTsj2bvKL-DdPXTYdyk8wFpBoI/pub?gid=1728659978&single=true&output=csv"
+        Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true } )
+      })
+
+      function showInfo(data) {
+        var tableOptions = {"data": data
+        , "pagination": 100, "tableDiv": "#fullTable", "filterDiv": "#fullTableFilter"}
+        Sheetsee.makeTable(tableOptions)
+        Sheetsee.initiateTableFilter(tableOptions)
+      }
+
+
     </script>
 
   </head>
