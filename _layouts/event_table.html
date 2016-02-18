@@ -7,7 +7,7 @@
     <title>Labs - Center for Government Excellence</title>
     <script type="text/javascript" src="//code.jquery.com/jquery-2.1.3.min.js"></script>
     <!-- Bootstrap -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -16,9 +16,6 @@
     <![endif]-->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-
-    <script type='text/javascript' src='js/tabletop1.3.4.js'></script>
-    <script type='text/javascript' src='js/sheetsee.js'></script>
 
     <script type="text/javascript">
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -29,8 +26,11 @@
       ga('send', 'pageview');
     </script>
 
+    <script type='text/javascript' src='js/tabletop1.3.4.js'></script>
+    <script type='text/javascript' src='js/sheetsee.js'></script>
+
     <script id="fullTable" type="text/html">
-        <table>
+        <table class= "table table-hover">
         <tr><th class="tHeader">Start Date</th><th class="tHeader">End Date</th><th class="tHeader">Name</th><th class="tHeader">URL</th><th class="tHeader">Location</th></tr>
           {{#rows}}
             <tr><td>{{start}}</td><td>{{end}}</td><td>{{name}}</td><td>{{url}}</td><td>{{location}}</td></tr>
@@ -50,8 +50,8 @@
                           "data": data,
                           "pagination": 50,
                           "tableDiv": "#fullTable",
-                          "filterDiv": "#fullTableFilter",
-                          "templateID":"fullTable"
+                          "filterDiv": "#fullTableFilter"
+
                           }
       Sheetsee.makeTable(tableOptions)
       Sheetsee.initiateTableFilter(tableOptions)
