@@ -6,4 +6,4 @@ layout: event_table
 
 <input id="fullTableFilter" type="text" placeholder="search">
 
-<div id="fullTable_template"></div>
+<div id="fullTable"></div>
