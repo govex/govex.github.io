@@ -29,7 +29,7 @@ function gettimestamps() {
 }
 
 function displayData() {
-  var currentURL = "URL";
+  var currentURL = "url_array";
 
     for (i=0; i < currentURL.length; i++){
 
@@ -47,7 +47,7 @@ function displayData() {
 	        var socrataData = jqXHR.responseJSON;
 	        // Adding 1 to the interval number to start from 1 (instead of 0)
 	        socrataData.interval = currentURL + 1;
-          socrataData.portal = $URL.value;
+          socrataData.portal = $currentURL.value;
 	        dataObj.push(socrataData);
 	        var dataTextObj = JSON.stringify(dataObj);
           $('#displayData').text(dataTextObj);
@@ -67,7 +67,6 @@ function createURLs() {
       var url = (portal + "/api/site_metrics.json?start=" + range[i] + "&end=" + range[i+1]);
       console.log(url)
       url_array.push(url)
-      var URL = url_array;
   }
 
 }
