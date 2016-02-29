@@ -29,7 +29,7 @@ function gettimestamps() {
 }
 
 function displayData() {
-  var currentURL = ("url_array").length;
+  var currentURL = URL.length;
 
     for (i=0; i < currentURL; i++){
 
@@ -67,6 +67,7 @@ function createURLs() {
       var url = (portal + "/api/site_metrics.json?start=" + range[i] + "&end=" + range[i+1]);
       console.log(url)
       url_array.push(url)
+      var URL = url_array;
   }
 
 }
