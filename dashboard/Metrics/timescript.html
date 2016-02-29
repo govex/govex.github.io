@@ -39,7 +39,6 @@ function displayData() {
 	      $.ajax({
 	          url: URL,
 	          type: "GET",
-	          dataType: "json",
             dataObj: [],
             currentURL: interval,
 
@@ -48,6 +47,7 @@ function displayData() {
 	        var socrataData = jqXHR.responseJSON;
 	        // Adding 1 to the interval number to start from 1 (instead of 0)
 	        socrataData.interval = currentURL + 1;
+          socrataData.portal = $URL.value;
 	        dataObj.push(socrataData);
 	        var dataTextObj = JSON.stringify(dataObj);
           $('#displayData').text(dataTextObj);
