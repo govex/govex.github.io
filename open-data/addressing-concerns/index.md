@@ -136,7 +136,7 @@ Help us build a more comprehensive resource by letting us know if you have other
 	  <dl class="dl-horizontal">
       <dt>Philosophical Response</dt>
       <dd>
-        To date, no city has been sued for releasing open data which turned out to be faulty or misleading.
+        To date, very few cities have been sued for releasing open data which turned out to be faulty or misleading. Having a plan and process to protect sensitive information can help limit a city's exposure to risk.
       </dd>
       <dt>Technical Response</dt>
       <dd>
