@@ -4,6 +4,30 @@
 
 <script>
 
+function gettimestamps() {
+  startdate = document.getElementById("start")[0].value;
+  start = new Date (startdate);
+
+  enddate = document.getElementById("end")[0].value;
+  end = new Date (enddate);
+
+  interval = document.getElementById("interval")[0].value;
+  int = Number (interval * 1000);
+
+  range = []
+
+  for (var i=start.getTime(); i<end.getTime();i=i+int) {
+
+  range.push(i)
+
+  }
+  console.log(start);
+  console.log(interval);
+  console.log(range);
+  console.log(end);
+
+}
+
 function displayData() {
   var URL = ("url_array");
 
@@ -43,30 +67,6 @@ function createURLs() {
       console.log(url)
       url_array.push(url)
   }
-
-}
-
-function gettimestamps() {
-  startdate = document.getElementById("start")[0].value;
-  start = new Date (startdate);
-
-  enddate = document.getElementById("end")[0].value;
-  end = new Date (enddate);
-
-  interval = document.getElementById("interval")[0].value;
-  int = Number (interval * 1000);
-
-  range = []
-
-  for (var i=start.getTime(); i<end.getTime();i=i+int) {
-
-  range.push(i)
-
-  }
-  console.log(start);
-  console.log(interval);
-  console.log(range);
-  console.log(end);
 
 }
 
