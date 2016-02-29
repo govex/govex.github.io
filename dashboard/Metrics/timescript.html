@@ -29,9 +29,9 @@ function gettimestamps() {
 }
 
 function displayData() {
-  var currentURL = URL.length;
+  var currentURL = "URL";
 
-    for (i=0; i < currentURL; i++){
+    for (i=0; i < currentURL.length; i++){
 
     	var interval = i;
 
@@ -41,9 +41,9 @@ function displayData() {
 	          type: "GET",
 	          dataType: "json",
             dataObj: [],
-            currentURL: interval
+            currentURL: interval,
 
-	      }).done(function(data, status, jqXHR) {
+	      }).success(function(data, status, jqXHR) {
           console.log("Returned Interval #" + (currentURL + 1) + " data with status of " + status);
 	        var socrataData = jqXHR.responseJSON;
 	        // Adding 1 to the interval number to start from 1 (instead of 0)
