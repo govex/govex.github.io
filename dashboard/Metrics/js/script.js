@@ -12,7 +12,7 @@ var portals = [
     'data.raleighnc.gov',
     'data.ok.gov',
     'data.seattle.gov',
-    'data.montgomerycountymd.gov',
+    'data.montgomerycountymd.gov' ,
     'finances.worldbank.org',
     'data.cityofboston.gov',
     'data.act.gov.au',
@@ -24,7 +24,21 @@ var portals = [
     'data.maryland.gov',
     'data.orgeon.gov',
     'gavaobert.gavaciutat.cat',
-    'opendata.rubi.cat'];
+    'opendata.rubi.cat',
+    'data.strathcona.ca',
+    'www.natsdatasct.gob.mx',
+    'data.cambridgema.gov',
+    'data.cese.nsw.gov.au',
+    'www.datossct.gob.mx',
+    'ata.rentonwa.gov',
+    'data.montgomeryschoolsmd.org',
+    'data.princegeorgescountymd.gov',
+    'data.mass.gov',
+    'data.cityofberkeley.info',
+    'data.menlopark.org',
+    'landslide.data.nasa.gov',
+
+  ];
 
 var months2012 = [
     '/api/site_metrics.json?start=1325376000000&end=1327968000000',
@@ -1782,6 +1796,8 @@ var allweeks = [
 '/api/site_metrics.json?start=1451174400000&end=1451779200000'
 ];
 
+
+
 var $currentURL = '';
 var $results = document.getElementById("results");
 var $dataPortal = document.getElementById("data-portal");
@@ -1819,7 +1835,6 @@ function displayData() {
     for (i=0; i < numMonths; i++){
 
     	var currentMonthNum = i;
-
 
       if ( $yearSelected.value === 'All days' ){
         currentEndpoint = "https://" + $dataPortal.value + alldays[i];

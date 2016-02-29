@@ -1,0 +1,150 @@
+<body>
+<head>
+  <meta charset="utf-8">
+
+<script>
+
+function displayData() {
+  var URL = ("url_array");
+
+    for (i=0; i < URL.length; i++){
+
+    	var currentURL = i;
+
+      (function(currentURL){
+	      $.ajax({
+	          url: currentURL,
+	          type: "GET",
+	          dataType: "json",
+            dataObj: [],
+
+	      }).done(function(data, status, jqXHR) {
+          console.log("Returned Interval #" + (currentURL + 1) + " data with status of " + status);
+	        var socrataData = jqXHR.responseJSON;
+	        // Adding 1 to the interval number to start from 1 (instead of 0)
+	        socrataData.interval = currentURL + 1;
+	        dataObj.push(socrataData);
+	        var dataTextObj = JSON.stringify(dataObj);
+          $('#displayData').text(dataTextObj);
+
+	      }).fail(function(xhr, status, err) {
+	          console.log('fail', status, err);
+	      });
+      })(i);
+    };
+}
+
+function createURLs() {
+    var portal = document.getElementById("portal")[0].value;
+    var length = range.length - 1;
+    var url_array = []
+    for(var i=0; i < length; i++){
+      var url = (portal + "/api/site_metrics.json?start=" + range[i] + "&end=" + range[i+1]);
+      console.log(url)
+      url_array.push(url)
+  }
+
+}
+
+function gettimestamps() {
+  startdate = document.getElementById("start")[0].value;
+  start = new Date (startdate);
+
+  enddate = document.getElementById("end")[0].value;
+  end = new Date (enddate);
+
+  interval = document.getElementById("interval")[0].value;
+  int = Number (interval * 1000);
+
+  range = []
+
+  for (var i=start.getTime(); i<end.getTime();i=i+int) {
+
+  range.push(i)
+
+  }
+  console.log(start);
+  console.log(interval);
+  console.log(range);
+  console.log(end);
+
+}
+
+</script>
+</head>
+<div class = "row">
+<form id='portal'>
+      <p> Select Portal </p>
+         <select name = 'portal'>
+           <option value = 'data.austintexas.gov'>data.austintexas.gov</option>
+           <option value = 'data.cityofnewyork.us'>data.cityofnewyork.us</option>
+           <option value = 'data.hawaii.gov'>data.hawaii.gov</option>
+           <option value = 'bronx.lehman.cuny.edu'>bronx.lehman.cuny.edu</option>
+           <option value = 'data.sfgov.org'>data.sfgov.org</option>
+           <option value = 'data.baltimorecity.gov'>data.baltimorecity.gov</option>
+           <option value = 'data.raleighnc.gov'>data.raleighnc.gov</option>
+           <option value = 'data.ok.gov'>data.ok.gov</option>
+           <option value = 'data.seattle.gov'>data.seattle.gov</option>
+           <option value = 'data.montgomerycountymd.gov'>data.montgomerycountymd.gov</option>
+           <option value = 'finances.worldbank.org'>finances.worldbank.org</option>
+           <option value = 'data.cityofboston.gov'>data.cityofboston.gov</option>
+           <option value = 'data.act.gov.au'>data.act.gov.au</option>
+           <option value = 'data.kcmo.org'>data.kcmo.org</option>
+           <option value = 'data.providenceri.gov'>data.providenceri.gov</option>
+           <option value = 'data.chattlibrary.org'>data.chattlibrary.org</option>
+           <option value = 'data.edmonton.ca'>data.edmonton.ca</option>
+           <option value = 'opendata.go.ke'>opendata.go.ke</option>
+           <option value = 'data.maryland.gov'>data.maryland.gov</option>
+           <option value = 'data.orgeon.gov'>data.orgeon.gov</option>
+           <option value = 'gavaobert.gavaciutat.cat'>gavaobert.gavaciutat.cat</option>
+           <option value = 'opendata.rubi.cat'>opendata.rubi.cat</option>
+           <option value = 'data.strathcona.ca'>data.strathcona.ca</option>
+           <option value = 'www.natsdatasct.gob.mx'>www.natsdatasct.gob.mx</option>
+           <option value = 'data.cambridgema.gov'>data.cambridgema.gov</option>
+           <option value = 'data.cese.nsw.gov.au'>data.cese.nsw.gov.au</option>
+           <option value = 'www.datossct.gob.mx'>www.datossct.gob.mx</option>
+           <option value = 'ata.rentonwa.gov'>ata.rentonwa.gov</option>
+           <option value = 'data.montgomeryschoolsmd.org'>data.montgomeryschoolsmd.org</option>
+           <option value = 'data.princegeorgescountymd.gov'>data.princegeorgescountymd.gov</option>
+           <option value = 'data.mass.gov'>data.mass.gov</option>
+           <option value = 'data.cityofberkeley.info'>data.cityofberkeley.info</option>
+           <option value = 'data.menlopark.org'>data.menlopark.org</option>
+           <option value = 'landslide.data.nasa.gov'>landslide.data.nasa.gov</option>
+         </select>
+</form>
+
+<form id="start">
+    <p>Start Date </p>
+    <input type="date" value="2015-01-01">
+</form>
+
+<form id="end">
+    <p> End Date </p>
+    <input type="date" value="2015-12-31">
+</form>
+
+<form id="interval">
+      <p> Interval </p>
+         <select name = "interval">
+           <option value = "2629743">months</option>
+           <option value = "3600">hours</option>
+           <option value = "86400">days</option>
+           <option value = "604800">weeks</option>
+           <option value = "31556926">years</option>
+         </select>
+</form>
+
+
+<form onsubmit="return false;">
+    <input type="submit" onclick="gettimestamps(); createURLs(); displayData();"/>
+</form>
+<br>
+
+    <div id="displayData"></div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+</body>
