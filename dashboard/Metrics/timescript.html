@@ -29,19 +29,19 @@ function gettimestamps() {
 }
 
 function displayData() {
-  var url_list = ("url_array");
-  var URL = (url_list.length);
+  var currentURL = ("url_array").length;
 
-    for (i=0; i < URL; i++){
+    for (i=0; i < currentURL; i++){
 
     	var currentURL = i;
 
       (function(currentURL){
 	      $.ajax({
-	          url: currentURL,
+	          url: "url_array",
 	          type: "GET",
 	          dataType: "json",
             dataObj: [],
+            currentURL: currentURL
 
 	      }).done(function(data, status, jqXHR) {
           console.log("Returned Interval #" + (currentURL + 1) + " data with status of " + status);
