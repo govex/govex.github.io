@@ -33,7 +33,7 @@ function displayData() {
 
     for (i=0; i < currentURL; i++){
 
-    	var currentURL = i;
+    	var interval = i;
 
       (function(currentURL){
 	      $.ajax({
@@ -41,7 +41,7 @@ function displayData() {
 	          type: "GET",
 	          dataType: "json",
             dataObj: [],
-            currentURL: currentURL
+            currentURL: interval
 
 	      }).done(function(data, status, jqXHR) {
           console.log("Returned Interval #" + (currentURL + 1) + " data with status of " + status);
