@@ -1,5 +1,5 @@
 $("#go").click(function(e){
-  console.log("this button was clicked");
+  console.log("Getting site metrics for" + portal + "." + "Start Date =" + start + "End Date = " + end + "Iteration = " + interval);
   var url_array = [];
   var dataObj = [];
   startdate = document.getElementById("start")[0].value;
