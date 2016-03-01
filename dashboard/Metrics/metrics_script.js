@@ -1,5 +1,5 @@
 $("#go").click(function(e){
-  console.log("Getting site metrics for" + portal + "." + "Start Date =" + start + "End Date = " + end + "Iteration = " + interval);
+  console.log("Getting site metrics for" + document.getElementById("portal"));
   var url_array = [];
   var dataObj = [];
   startdate = document.getElementById("start")[0].value;
@@ -41,10 +41,10 @@ url_array.forEach(function(myUrl){
 
 
       }).done(function(data, status, jqXHR) {
-        console.log(data);
-        console.log("Returned Interval #" + (myUrl.iteration + 1) + " data with status of " + status);
         var socrataData = jqXHR.responseJSON;
 
+        socrataData.interval = myUrl.iteration + 1;
+        console.log(socrataData);
         dataObj.push(socrataData);
         var dataTextObj = JSON.stringify(dataObj);
         $('#displayData').text(dataTextObj);
