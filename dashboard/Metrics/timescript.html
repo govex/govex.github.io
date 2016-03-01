@@ -40,13 +40,13 @@ function displayData() {
 	          url: URL,
 	          type: "GET",
             dataObj: [],
-            currentURL: interval,
+            currentURL: URL,
 
 	      }).success(function(data, status, jqXHR) {
           console.log("Returned Interval #" + (currentURL + 1) + " data with status of " + status);
 	        var socrataData = jqXHR.responseJSON;
 	        // Adding 1 to the interval number to start from 1 (instead of 0)
-	        socrataData.interval = currentURL + 1;
+	        socrataData.URL = currentURL + 1;
           socrataData.portal = $currentURL.value;
 	        dataObj.push(socrataData);
 	        var dataTextObj = JSON.stringify(dataObj);
