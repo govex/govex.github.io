@@ -41,14 +41,14 @@ url_array.forEach(function(myUrl){
 
       }).done(function(data, status, jqXHR) {
         console.log(data);
-        // console.log("Returned Interval #" + (myUrl.iteration + 1) + " data with status of " + status);
-        // var socrataData = jqXHR.responseJSON;
-        // // Adding 1 to the interval number to start from 1 (instead of 0)
-        // socrataData.int = currentURL + 1;
-        // socrataData.portal = $currentURL.value;
-        // dataObj.push(socrataData);
-        // var dataTextObj = JSON.stringify(dataObj);
-        // $('#displayData').text(dataTextObj);
+        console.log("Returned Interval #" + (myUrl.iteration + 1) + " data with status of " + status);
+        var socrataData = jqXHR.responseJSON;
+        // Adding 1 to the interval number to start from 1 (instead of 0)
+        socrataData.int = currentURL + 1;
+        socrataData.portal = $currentURL.value;
+        dataObj.push(socrataData);
+        var dataTextObj = JSON.stringify(dataObj);
+        $('#displayData').text(dataTextObj);
 
       }).fail(function(xhr, status, err) {
           console.log('fail', status, err);
