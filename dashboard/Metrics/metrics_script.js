@@ -43,9 +43,7 @@ url_array.forEach(function(myUrl){
         console.log(data);
         console.log("Returned Interval #" + (myUrl.iteration + 1) + " data with status of " + status);
         var socrataData = jqXHR.responseJSON;
-        // Adding 1 to the interval number to start from 1 (instead of 0)
-        // socrataData.int = myUrl.endpoint + 1;
-        // socrataData.portal = $currentURL.value;
+
         dataObj.push(socrataData);
         var dataTextObj = JSON.stringify(dataObj);
         $('#displayData').text(dataTextObj);
