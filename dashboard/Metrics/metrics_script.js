@@ -1,6 +1,7 @@
 $("#go").click(function(e){
   console.log("this button was clicked");
   var url_array = [];
+  var dataObj = [];
   startdate = document.getElementById("start")[0].value;
   start = new Date (startdate);
 
