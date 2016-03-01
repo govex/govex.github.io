@@ -1,4 +1,5 @@
-$("go").click(function(e){
+$("#go").click(function(e){
+  console.log("this button was clicked");
   var url_array = [];
   startdate = document.getElementById("start")[0].value;
   start = new Date (startdate);
@@ -14,19 +15,22 @@ $("go").click(function(e){
   for (var i=start.getTime(); i<end.getTime();i=i+int) {
 
   range.push(i)
+  }
 
   var portal = document.getElementById("portal")[0].value;
   var length = range.length - 1;
   // var url_array = []
-  for(var i=0; i < length; i++){
+
+  range.forEach(function(item, i)
+  {
     var url = {
       endpoint : (portal + "/api/site_metrics.json?start=" + range[i] + "&end=" + range[i+1]),
       iteration : i
               }
     console.log(url)
     url_array.push(url)
-      }
-    }
+  })
+
 url_array.forEach(function(myUrl){
       $.ajax({
           url: myUrl.endpoint,
