@@ -24,7 +24,7 @@ $("#go").click(function(e){
   range.forEach(function(item, i)
   {
     var url = {
-      endpoint : (portal + "/api/site_metrics.json?start=" + range[i] + "&end=" + range[i+1]),
+      endpoint : ("https://" + portal + "/api/site_metrics.json?start=" + range[i] + "&end=" + range[i+1]),
       iteration : i
               }
     console.log(url)
