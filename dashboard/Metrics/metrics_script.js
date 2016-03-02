@@ -55,9 +55,11 @@ url_array.forEach(function(myUrl){
         });
 });
 
+// Adapted from http://jsfiddle.net/hybrid13i/JXrwM/
+
 $(document).ready(function(){
     $('button').click(function(){
-        var data = $('#displayData').val();
+        var data = $('displayData').val();
         if(data == '')
             return;
 
