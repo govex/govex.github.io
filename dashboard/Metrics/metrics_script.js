@@ -37,8 +37,7 @@ url_array.forEach(function(myUrl){
           url: myUrl.endpoint,
           type: "GET",
           dataObj: [],
-          iter: myUrl.iteration,
-          range: range
+          iter: myUrl.iteration
 
 
       }).done(function(data, status, jqXHR) {
