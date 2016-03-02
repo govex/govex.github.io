@@ -37,9 +37,7 @@ url_array.forEach(function(myUrl){
           url: myUrl.endpoint,
           type: "GET",
           dataObj: [],
-          iter: myUrl.iteration,
-          start: myUrl.startdate,
-          end: myUrl.enddate
+          iter: myUrl.iteration
 
       }).done(function(data, status, jqXHR) {
         var socrataData = jqXHR.responseJSON;
