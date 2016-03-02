@@ -7,9 +7,9 @@ Below are guidebooks which the Center for Government Excellence makes available 
 
 <ul class="list-group">
 <li class="list-group-item" href="http://labs.centerforgov.org/affordability.html">
-  <h4>Changing Culture</h4>
+  <h4>Affordability Index</h4>
   <p>A data visualization tool for users to explore housing affordability trends in select mid-sized U.S. cities.</p>
-  <a href="http://labs.centerforgov.org/affordability.html">View online</a> |
+  <a href="http://labs.centerforgov.org/affordability.html">View online</a>
   </p>
 </li>
   <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/changing-culture/details">
