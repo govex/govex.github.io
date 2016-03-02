@@ -38,8 +38,8 @@ url_array.forEach(function(myUrl){
           type: "GET",
           dataObj: [],
           iter: myUrl.iteration,
-          start: myUrl.range[i].value,
-          end: myUrl.end[i+1]
+          start: myUrl.range[i],
+          end: myUrl.range[i+1]
 
       }).done(function(data, status, jqXHR) {
         var socrataData = jqXHR.responseJSON;
