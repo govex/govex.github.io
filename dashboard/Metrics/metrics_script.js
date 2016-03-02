@@ -44,8 +44,8 @@ url_array.forEach(function(myUrl){
       }).done(function(data, status, jqXHR) {
         var socrataData = jqXHR.responseJSON;
 
-        socrataData.startdate = start;
-        socrataData.enddate = end;
+        socrataData.startdate = start + 1;
+        socrataData.enddate = end + 1;
         socrataData.interval = myUrl.iteration + 1;
         console.log(socrataData);
 
