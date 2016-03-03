@@ -1,5 +1,7 @@
 $("#go").click(function(e){
   console.log("Getting site metrics for" + document.getElementById("portal"));
+
+  // Get user inputs
   var url_array = [];
   var dataObj = [];
   startdate = document.getElementById("start")[0].value;
@@ -13,6 +15,8 @@ $("#go").click(function(e){
 
   range = []
 
+  // Create unix timestamps for user's time selection
+
   for (var i=start.getTime(); i  < end.getTime();i=i+int) {
 
   range.push(i)
@@ -20,7 +24,8 @@ $("#go").click(function(e){
 
   var portal = document.getElementById("portal")[0].value;
   var length = range.length - 1;
-  // var url_array = []
+
+  //Create Socrata API endpint URLs
 
   range.forEach(function(item, i)
   {
@@ -32,6 +37,8 @@ $("#go").click(function(e){
     url_array.push(url)
   })
 
+  //Get JSON data from Socrata API endpint URLs
+
 url_array.forEach(function(myUrl){
       $.ajax({
           url: myUrl.endpoint,
@@ -42,12 +49,18 @@ url_array.forEach(function(myUrl){
       }).done(function(data, status, jqXHR) {
         var socrataData = jqXHR.responseJSON;
 
+        //Add variable to identify which time span the row describes
+
         socrataData.interval = myUrl.iteration + 1;
         console.log(socrataData);
+
+        // Display JSON data on page
 
         dataObj.push(socrataData);
         var dataTextObj = JSON.stringify(dataObj);
         $('#displayData').text(dataTextObj);
+
+        // Convert JSON to CSV
 
         var json = dataObj;
         var fields = Object.keys(json[0]);
@@ -66,17 +79,8 @@ url_array.forEach(function(myUrl){
         });
 
 
-        var json = dataTextObj;
-        var fields = Object.keys(json[0]);
-        var csv = json.map(function(row){
-          return fields.map(function(fieldName){
-            return '"' + (row[fieldName] || '') + '"';
-          });
-        });
-        csv.unshift(fields); // add header column
 
-        console.log(csv.join('\r\n'));
 
-        
+
 
 });
