@@ -1,5 +1,5 @@
 $("#go").click(function(e){
-  console.log("Getting site metrics for" + "document.getElementById("portal")");
+  console.log("Getting site metrics");
 
   // Get user inputs
   var url_array = [];
@@ -52,7 +52,7 @@ url_array.forEach(function(myUrl){
         //Add variable to identify which time span the row describes
 
         socrataData.interval = myUrl.iteration + 1;
-        console.log(socrataData);
+        // console.log(socrataData);
 
         // Display JSON data on page
 
