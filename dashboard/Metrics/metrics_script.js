@@ -60,6 +60,12 @@ url_array.forEach(function(myUrl){
         var dataTextObj = JSON.stringify(dataObj);
         $('#displayData').text(dataTextObj);
 
+
+
+      }).fail(function(xhr, status, err) {
+          console.log('fail', status, err);
+          });
+        });
         // Convert JSON to CSV
 
         var json = dataObj;
@@ -72,15 +78,5 @@ url_array.forEach(function(myUrl){
         csv.unshift(fields); // add header column
 
         console.log(csv.join('\r\n'));
-
-      }).fail(function(xhr, status, err) {
-          console.log('fail', status, err);
-          });
-        });
-
-
-
-
-
 
 });
