@@ -1,5 +1,5 @@
 $("#go").click(function(e){
-  console.log("Getting site metrics for" + document.getElementById("portal"));
+  console.log("Getting site metrics for" + "document.getElementById("portal")");
 
   // Get user inputs
   var url_array = [];
