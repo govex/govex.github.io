@@ -6,6 +6,14 @@ layout: default
 Below are guidebooks which the Center for Government Excellence makes available online. You may also visit <a href="https://www.gitbook.com/@centerforgov">our page on GitBooks</a>.
 
 <ul class="list-group">
+<li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/cultivating-talent/details">
+  <h4>Cultivating Talent</h4>
+  <p>Talent isn't everything, but it sure helps. This guide helps governments find and keep the talent necessary to accelerate the effective use of data and evidence.</p>
+  <a href="https://www.gitbook.com/book/centerforgov/cultivating-talent/details">Read online</a> |
+      <a href="https://www.gitbook.com/download/pdf/book/centerforgov/cultivating-talent">Download PDF</a> |
+      <a href="https://github.com/govex/Talent">View on Github</a>
+  </p>
+</li>
 <li class="list-group-item" href="http://labs.centerforgov.org/affordability.html">
   <h4>Affordability Index</h4>
   <p>A data visualization tool for users to explore housing affordability trends in select mid-sized U.S. cities.</p>
