@@ -60,23 +60,11 @@ url_array.forEach(function(myUrl){
         var dataTextObj = JSON.stringify(dataObj);
         $('#displayData').text(dataTextObj);
 
+        // Convert JSON to CSV
 
 
       }).fail(function(xhr, status, err) {
           console.log('fail', status, err);
           });
         });
-        // Convert JSON to CSV
-
-        var json = dataObj;
-        var fields = Object.keys(json[0]);
-        var csv = json.map(function(row){
-          return fields.map(function(fieldName){
-            return '"' + (row[fieldName] || '') + '"';
-          });
-        });
-        csv.unshift(fields); // add header column
-
-        console.log(csv.join('\r\n'));
-
 });
