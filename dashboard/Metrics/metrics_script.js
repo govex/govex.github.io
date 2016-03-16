@@ -17,8 +17,7 @@ $("#go").click(function(e){
 
   // Create unix timestamps for user's time selection
 
-  for (var i=start.getTime(); i  <= end.getTime();i=i+int) {
-
+  for (var i=start.getTime(); i  < end.getTime();i=i+int) {
   range.push(i)
   }
 
@@ -29,16 +28,10 @@ $("#go").click(function(e){
 
   range.forEach(function(item, i)
   {
-    if(i < range.length ){
     var url = {
       endpoint : ("https://" + portal + "/api/site_metrics.json?start=" + range[i] + "&end=" + range[i+1]),
       iteration : i
-    }}
-      else {
-        var url = {
-        endpoint : ("https://" + portal + "/api/site_metrics.json?start=" + range[i] + "&end=" + (range[i]+int)),
-        iteration : i
-      }}
+              }
     console.log(url)
     url_array.push(url)
   })
