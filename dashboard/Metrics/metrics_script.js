@@ -17,7 +17,7 @@ $("#go").click(function(e){
 
   // Create unix timestamps for user's time selection
 
-  for (var i=start.getTime(); i  < end.getTime();i=i+int) {
+  for (var i=start.getTime(); i  <= end.getTime();i=i+int) {
 
   range.push(i)
   }
