@@ -30,9 +30,14 @@ $("#go").click(function(e){
   range.forEach(function(item, i)
   {
     var url = {
+      if(i < length ){
       endpoint : ("https://" + portal + "/api/site_metrics.json?start=" + range[i] + "&end=" + range[i+1]),
       iteration : i
-              }
+    }
+      else {
+        endpoint : ("https://" + portal + "/api/site_metrics.json?start=" + range[i] + "&end=" + (range[i]+int)),
+        iteration : i
+      }}
     console.log(url)
     url_array.push(url)
   })
