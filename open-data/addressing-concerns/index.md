@@ -8,7 +8,7 @@ layout: collaboration
 
 
 
-
+Check out GovEx's accompanying <a href="https://www.youtube.com/watch?v=70Zl9jXdzLo&feature=youtu.be" target="_blank"> open data concerns video</a>.
 
 # Responding to Open Data Concerns
 
