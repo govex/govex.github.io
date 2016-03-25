@@ -12,7 +12,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
   <a href="http://labs.centerforgov.org/guides/dataviz/index.html">Read online</a>
   </p>
 </li>
-<li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/cultivating-talent/details"">
+<li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/cultivating-talent/details">
   <h4>Cultivating Talent</h4>
   <p>Talent isn't everything, but it sure helps. This guide helps governments find and keep the talent necessary to accelerate the effective use of data and evidence.</p>
   <a href="https://www.gitbook.com/book/centerforgov/cultivating-talent/details">Read online</a> |
