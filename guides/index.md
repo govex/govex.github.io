@@ -6,7 +6,13 @@ layout: default
 Below are guidebooks which the Center for Government Excellence makes available online. You may also visit <a href="https://www.gitbook.com/@centerforgov">our page on GitBooks</a>.
 
 <ul class="list-group">
-<li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/cultivating-talent/details">
+<li class="list-group-item" href="http://labs.centerforgov.org/guides/dataviz/index.html">
+  <h4>Data Visualization Guide</h4>
+  <p>Governments collect a significant amount of valuable data, but visualizing it can be difficult. This guide helps governments determine the right visualization to display information clearly.</p>
+  <a href="http://labs.centerforgov.org/guides/dataviz/index.html">Read online</a>
+  </p>
+</li>
+<li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/cultivating-talent/details"">
   <h4>Cultivating Talent</h4>
   <p>Talent isn't everything, but it sure helps. This guide helps governments find and keep the talent necessary to accelerate the effective use of data and evidence.</p>
   <a href="https://www.gitbook.com/book/centerforgov/cultivating-talent/details">Read online</a> |
