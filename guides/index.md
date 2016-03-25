@@ -26,7 +26,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
   <a href="http://labs.centerforgov.org/affordability.html">View online</a>
   </p>
 </li>
-  <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/changing-culture/details">
+  <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/changing-culture/details/">
     <h4>Changing Culture</h4>
     <p>This practical guide helps government leaders and managers understand organizational culture and how to build cultures more adept with data.</p>
     <a href="https://centerforgov.gitbooks.io/changing-culture/content/index.html">Read online</a> |
