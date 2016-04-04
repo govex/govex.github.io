@@ -2,6 +2,7 @@
 layout: default
 ---
 **Data Inventory Guide**
+------------------------
 
 This guide is designed to help cities understand what a data inventory is and how to inventory data. It begins by explaining the basic concepts and value of a data inventory. Then, it features insights from city employees who have gone through the inventory process. Finally, it provides links to city resources, guides, and templates of actual data inventories.
 
@@ -59,6 +60,7 @@ The data inventory process is carried out in the following steps:
 		 - Public demand
 
 **Insights from Data Inventorying Efforts**
+-------------------------------------------
 
 GovEx has helped a variety of city governments work through the inventorying process. When creating this resource, we reached out to many of those city champions and some seasoned veterans to surface best practices, learn about opportunities for improvement, and dive deeper into what worked well. The following is a list of takeaways from those conversations:
 
@@ -77,6 +79,7 @@ GovEx has helped a variety of city governments work through the inventorying pro
  - **A note about privacy.** Do not exclude any datasets based on privacy or confidentiality concerns. To make the data inventory as useful as possible, it should include data that may be sensitive, private, or unlikely to be released. Always include a description of the sensitivity concerns.
 
 **Resources from Local Government Data Inventory Efforts**
+----------------------------------------------------------
 
 When it comes to inventorying, there’s no need to reinvent the wheel. A lot of cities have gone through the inventory process and publicly share their resources. The following list includes data inventory guides, templates, publishing plans, presentations, publicly released inventories, and workflow diagrams for completing inventories from cities across the United States. There are many ways to structure and scope a data inventory; the first step is deciding what works best for your city.
 
