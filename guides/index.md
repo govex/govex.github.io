@@ -6,6 +6,12 @@ layout: default
 Below are guidebooks which the Center for Government Excellence makes available online. You may also visit <a href="https://www.gitbook.com/@centerforgov">our page on GitBooks</a>.
 
 <ul class="list-group">
+<li class="list-group-item" href="http://labs.centerforgov.org/guides/datainventory.md">
+  <h4>Data Inventory Guide</h4>
+  <p>A guide to help cities understand what a data inventory is and how to inventory data</p>
+  <a href="http://labs.centerforgov.org/guides/datainventory.md">Read online</a>
+  </p>
+</li>
 <li class="list-group-item" href="http://labs.centerforgov.org/guides/dataviz/index.html">
   <h4>Data Visualization Guide</h4>
   <p>Governments collect a significant amount of valuable data, but visualizing it can be difficult. This guide helps governments determine the right visualization to display information clearly.</p>
