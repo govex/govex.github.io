@@ -72,7 +72,7 @@ City leaders were impressed by the number of stakeholder participants these even
 | Fire Department’s Budget Proposal Desired Outcome <br /> Reduce violent crimes; Reduce juvenile crimes  |
 | Fire Department’s Budget Proposal Description of Output Measured <br /> Evaluation of fire investigation activities and arson conviction rate to ensure measures receive due attention; if high conviction rate changes, data can help determine course of action to correct; also to ensure juvenile arson numbers remain low  |
 
-</strong>
+</center>
 
 *See Appendix B for an example of how Baltimore, Lincoln, and Richmond align their priorities, goals, and key performance indicators.*
 
