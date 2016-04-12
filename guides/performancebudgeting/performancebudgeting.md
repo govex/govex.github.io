@@ -61,18 +61,15 @@ Chattanooga, TN, uses its performance management initiative, [ChattaData](https:
 
 City leaders were impressed by the number of stakeholder participants these events and participants left asking for more performance management and performance-based budgeting training sessions throughout the year. By following clear guidelines for the budgeting process and gaining a deeper understanding of how goals, metrics, and targets fit into the process, writers produce high-quality proposals, lessen the time it takes to evaluate these proposals, and feel in control of and involved in the budgeting process.
 
-*Example of ChattaData Goal Taxonomy from Budgeting Training*
+**Example of ChattaData Goal Taxonomy from Budgeting Training**
 
-<center>
-
-| Citywide Priority <br /> Safer Streets |
-|---|
-| Citywide Goal <br /> Reduce Violent Crime by 20% by June 30, 2016  |
-| Citywide Key Performance Indicator (KPI) <br /> Average Monthly Violent Crime Incidents |
-| Fire Department’s Budget Proposal Desired Outcome <br /> Reduce violent crimes; Reduce juvenile crimes  |
-| Fire Department’s Budget Proposal Description of Output Measured <br /> Evaluation of fire investigation activities and arson conviction rate to ensure measures receive due attention; if high conviction rate changes, data can help determine course of action to correct; also to ensure juvenile arson numbers remain low  |
-
-</center>
+<table style="text-align: center">
+<tr><td>Citywide Priority <br /> Safer Streets </td></tr>
+<tr><td>Citywide Goal <br /> Reduce Violent Crime by 20% by June 30, 2016</td></tr>
+<tr><td>Citywide Key Performance Indicator (KPI) <br /> Average Monthly Violent Crime Incidents</td></tr>
+<tr><td>Fire Department’s Budget Proposal Desired Outcome <br /> Reduce violent crimes; Reduce juvenile crimes</td></tr>
+<tr><td>Fire Department’s Budget Proposal Description of Output Measured <br /> Evaluation of fire investigation activities and arson conviction rate to ensure measures receive due attention; if high conviction rate changes, data can help determine course of action to correct; also to ensure juvenile arson numbers remain low</td></tr>
+</table>
 
 *See Appendix B for an example of how Baltimore, Lincoln, and Richmond align their priorities, goals, and key performance indicators.*
 
