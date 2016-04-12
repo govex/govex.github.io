@@ -41,3 +41,14 @@ In 2011, Baltimore, MD, was very clear in messaging the move to [performance-bas
 
 ![Alt text](https://github.com/govex/govex.github.io/blob/master/guides/performancebudgeting/baltimoreoldwaynewway.png "Old Way vs. New Way in Baltimore")
 Source: http://www.aabpa.org/assets/Symposia/2014_Summer_Symposium_July10-2014/kleine_outcome%20budgeting%20in%20baltimore%20aabpa%207.10.14.pdf
+
+Providing timelines and coaching to explain how performance management fits in with the existing budget process is the first step to ensuring that departments and agencies understand and use performance-based budgeting effectively. Baltimore, like many cities, has historically had a long and detailed process for developing and submitting agency budgets, beginning in September and lasting through July when the budget is adopted. To make it easier for agencies to align their budget requests with the performance-based budgeting and performance metrics, Baltimore’s budget office includes step-by-step guidance for agencies detailing the mayor’s priority outcomes (see Appendix A for examples of citywide priorities in performance-based budgeting), informed by the [annual citizen survey](http://bbmr.baltimorecity.gov/OutcomeBudgeting/CitizenSurvey.aspx), and indicators of emphasis for the fiscal year budget process. By clearly defining the [budgeting expectations and process](http://www.businessofgovernment.org/blog/business-government/baltimores-outcome-budgeting-approach) up front, the city ensured staff participation and buy-in, reconciling a [$500 million budget deficit](http://results4america.org/city-baltimore-use-evidence-data-fact-sheet/) in four fiscal years.
+
+![Alt text]()
+Source: http://bbmr.baltimorecity.gov/OutcomeBudgeting/AboutOutcomeBudgeting.aspx
+
+**_2. Develop guidelines for department or agency budget proposals that include guidance on choosing goals, metrics, and strategies from the city’s existing strategic framework._**
+
+If a city is already using performance management, there is probably a strategic framework that organizes priorities, breaks them down into goals, and uses metrics to track progress. The city may even be using a prevailing measure known as a Key Performance Indicator (KPI) for its priority areas. Cities may use this strategic framework to develop guidelines for budget proposals, requiring that proposals include references to existing priorities and show anticipated progress towards goals based on existing metrics and KPIs. 
+
+Chattanooga, TN, uses its performance management initiative, [ChattaData](https://performance.chattanooga.gov/), as a strategic framework for its performance-based budgeting program. In 2016, Chattanooga held training sessions for city staff and nonprofits interested in learning about the city’s performance-based budgeting process. There were five sessions:
