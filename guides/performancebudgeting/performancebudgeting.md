@@ -46,6 +46,7 @@ Source: http://www.aabpa.org/assets/Symposia/2014_Summer_Symposium_July10-2014/k
 Providing timelines and coaching to explain how performance management fits in with the existing budget process is the first step to ensuring that departments and agencies understand and use performance-based budgeting effectively. Baltimore, like many cities, has historically had a long and detailed process for developing and submitting agency budgets, beginning in September and lasting through July when the budget is adopted. To make it easier for agencies to align their budget requests with the performance-based budgeting and performance metrics, Baltimore’s budget office includes step-by-step guidance for agencies detailing the mayor’s priority outcomes (see Appendix A for examples of citywide priorities in performance-based budgeting), informed by the [annual citizen survey](http://bbmr.baltimorecity.gov/OutcomeBudgeting/CitizenSurvey.aspx), and indicators of emphasis for the fiscal year budget process. By clearly defining the [budgeting expectations and process](http://www.businessofgovernment.org/blog/business-government/baltimores-outcome-budgeting-approach) up front, the city ensured staff participation and buy-in, reconciling a [$500 million budget deficit](http://results4america.org/city-baltimore-use-evidence-data-fact-sheet/) in four fiscal years.
 
 ![Alt text](https://github.com/govex/govex.github.io/blob/master/guides/performancebudgeting/BaltimoreOBprocess.jpg)
+
 Source: http://bbmr.baltimorecity.gov/OutcomeBudgeting/AboutOutcomeBudgeting.aspx
 
 **_2. Develop guidelines for department or agency budget proposals that include guidance on choosing goals, metrics, and strategies from the city’s existing strategic framework._**
@@ -61,7 +62,7 @@ Chattanooga, TN, uses its performance management initiative, [ChattaData](https:
 
 City leaders were impressed by the number of stakeholder participants these events and participants left asking for more performance management and performance-based budgeting training sessions throughout the year. By following clear guidelines for the budgeting process and gaining a deeper understanding of how goals, metrics, and targets fit into the process, writers produce high-quality proposals, lessen the time it takes to evaluate these proposals, and feel in control of and involved in the budgeting process.
 
-**Example of ChattaData Goal Taxonomy from Budgeting Training**
+<strong><center>Example of ChattaData Goal Taxonomy from Budgeting Training</center></strong>
 
 <table>
 <tr align=center><td>Citywide Priority <br /> Safer Streets </td></tr>
