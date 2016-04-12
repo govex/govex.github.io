@@ -9,11 +9,11 @@ Performance-based budgeting is the allocation of funds based on programmatic res
 
 After hearing the call for a new way to budget, Johns Hopkins University Center for Government Excellence has created this guide, detailing performance-based budgeting and describing how it can be tied into new or existing performance management and analytics programs. By learning from the experiences of other cities and following the steps described in this guide, cities will have a greater understanding of performance-based budgeting and be well on their way to rethinking how budgeting can work for them.
 
----
+<hr>
 Terminology
 
 What GovEx refers to as performance-based budgeting is known by a variety of names: outcome-based budgeting, results-based budgeting, or priority-based budgeting. All of these terms indicate a focus on increasing the use of data and evidence to improve the allocation of resources and achieve programmatic and community goals. This guide uses performance-based budgeting for the sake of clarity and consistency.
----
+<hr>
 
 Performance-based budgeting allows cities to strengthen the budgetary process in light of competing claims for resources by using objective criteria to:
 
@@ -39,5 +39,5 @@ Since cities already have budget processes that have been in place for decades, 
 
 In 2011, Baltimore, MD, was very clear in messaging the move to [performance-based budgeting](http://bbmr.baltimorecity.gov/OutcomeBudgeting.aspx) to city staff and officials and aligning this process to its previous budgeting schedule. This required [reframing the budget conversation](http://www.aabpa.org/assets/Symposia/2014_Summer_Symposium_July10-2014/kleine_outcome%20budgeting%20in%20baltimore%20aabpa%207.10.14.pdf) from considering last year’s spending on agency goals and debating what to cut to focusing on next year’s strategic goals for citywide priorities and debating what is worth keeping in the budget. In Baltimore, performance-based budgeting is connected to its CitiStat program, strategic plan, and agency performance agreements and aligns with the city’s goal of being a performance-based city so it seemed like a natural addition to city staff.
 
-![Alt text](guides/performancebudgeting/baltimoreoldwaynewway.png)
+![Alt text](https://github.com/govex/govex.github.io/blob/master/guides/performancebudgeting/baltimoreoldwaynewway.png "Old Way vs. New Way in Baltimore")
 Source: http://www.aabpa.org/assets/Symposia/2014_Summer_Symposium_July10-2014/kleine_outcome%20budgeting%20in%20baltimore%20aabpa%207.10.14.pdf
