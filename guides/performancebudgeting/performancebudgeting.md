@@ -106,6 +106,23 @@ Cities across the country use a variety of methods (performance management progr
 
 Lincoln, NE, tracks its budget allocations in executive leadership meetings and [community stakeholder events](http://www.gfoa.org/sites/default/files/GFR_JUN_14_18.pdf) during the year through its [Taking Charge](http://lincoln.ne.gov/city/mayor/takingcharge/how-it-works.htm) initiative. Additionally, the city monitors funding allocations, [program and service delivery prioritization](http://lincoln.ne.gov/city/mayor/takingcharge/program-prioritization.htm) information, and [Taking Charge changes](http://lincoln.ne.gov/city/mayor/takingcharge/changes.htm) on its website, providing insight into why these decisions were made. City staff and residents alike are able to engage with this information, increasing trust in government in Lincoln and creating a unified vision for the city’s performance-based budgeting process.
 
-Conclusion
+### Conclusion
 
 Performance management is a natural precursor to performance-based budgeting. The focus on using data and evidence to understand which programs and initiatives are furthering progress towards goals should lead an organization to think about which programs and initiatives should be funded. Many cities are building on existing performance management efforts to expand into performance-based budgeting. By thinking strategically about how performance-based budgeting aligns to current budgeting efforts, developing clear guidelines for proposals and the revised budgeting process, and building in opportunities for revisioning and monitoring, cities can dramatically shift their budgeting conversations from what should be cut to what should be kept, while building consensus internally and externally for those decisions.
+
+### Worksheet: Guiding Prompts for Performance-Based Budgeting Exploration
+
+List the current publicly stated outcomes that the administration hopes to achieve. Consider performance management priorities, campaign priorities, department-specific missions, strategic framework, sustainability plans, economic development plans, etc. 
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+How long is your current budget process? How can performance-based budgeting be aligned with the standard budget cycle? How can employees be trained and prepared to switch from the standard to performance-based budgets?
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Determine the goals that will help the city progress toward each desired stated outcome. Indicate which departments and management activities are responsible for which goal. Remember, goals that span multiple departments encourage more robust budget discussions.
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+How would you engage residents in the budget process? Consider ways to solicit resident input and share feedback.
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Who will be on the team that will review the budget for each priority? Consider agencies, nongovernmental actors, community members.
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
