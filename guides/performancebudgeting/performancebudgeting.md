@@ -62,7 +62,9 @@ Chattanooga, TN, uses its performance management initiative, [ChattaData](https:
 City leaders were impressed by the number of stakeholder participants these events and participants left asking for more performance management and performance-based budgeting training sessions throughout the year. By following clear guidelines for the budgeting process and gaining a deeper understanding of how goals, metrics, and targets fit into the process, writers produce high-quality proposals, lessen the time it takes to evaluate these proposals, and feel in control of and involved in the budgeting process.
 
 *Example of ChattaData Goal Taxonomy from Budgeting Training*
-| Citywide Priority <br /> Safer Streets |
+
+| Citywide Priority
+Safer Streets |
 |---|
 |   |
 |   |
