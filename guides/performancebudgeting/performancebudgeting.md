@@ -85,8 +85,7 @@ Bellevue is in the process of revamping its scoring criteria for budget proposal
 
 | **Bellevue’s Performance Metric Scoring** |
 | --- |
-|
-* Are the metrics well-rounded and comprehensive (a family of measures)?
+| * Are the metrics well-rounded and comprehensive (a family of measures)?
 * Are the metrics actionable (departments can impact or influence these metrics)?
 * Are the metrics outcome-oriented?
 * Is the data source identified and reliable?
