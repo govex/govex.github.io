@@ -83,6 +83,14 @@ Bellevue, WA, uses Results Teams to evaluate proposals through its performance-b
 
 Bellevue is in the process of revamping its scoring criteria for budget proposals to further encourage collaboration between Results Teams and proposal writers by providing multiple occasions to discuss and revise the proposals, while also elevating the quality of the performance metrics supporting these proposals. During this budget cycle, Results Teams will score both the performance metrics and proposal as a whole with a high-medium-low scale. Proposals must meet a minimum score on their performance metrics before being recommended for funding.
 
+**Bellevue’s Performance Metric Scoring**
+* Are the metrics well-rounded and comprehensive (a family of measures)?
+* Are the metrics actionable (departments can impact or influence these metrics)?
+* Are the metrics outcome-oriented?
+* Is the data source identified and reliable?
+* Is the data updated with the appropriate frequency for decision making?
+* Are the metrics’ targets aspirational and also realistic?
+
 *See Appendix C for performance-based budgeting scoring criteria from Baltimore and Chattanooga.*
 
 **_4. Use an executive group to reconcile budget proposals._**
