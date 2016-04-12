@@ -112,17 +112,72 @@ Performance management is a natural precursor to performance-based budgeting. Th
 
 ### Worksheet: Guiding Prompts for Performance-Based Budgeting Exploration
 
-List the current publicly stated outcomes that the administration hopes to achieve. Consider performance management priorities, campaign priorities, department-specific missions, strategic framework, sustainability plans, economic development plans, etc. 
-__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+List the current publicly stated outcomes that the administration hopes to achieve. Consider performance management priorities, campaign priorities, department-specific missions, strategic framework, sustainability plans, economic development plans, etc.
+---
 
 How long is your current budget process? How can performance-based budgeting be aligned with the standard budget cycle? How can employees be trained and prepared to switch from the standard to performance-based budgets?
-________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-
+---
 Determine the goals that will help the city progress toward each desired stated outcome. Indicate which departments and management activities are responsible for which goal. Remember, goals that span multiple departments encourage more robust budget discussions.
-________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+---
 
 How would you engage residents in the budget process? Consider ways to solicit resident input and share feedback.
-________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+---
 
 Who will be on the team that will review the budget for each priority? Consider agencies, nongovernmental actors, community members.
-__________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+---
+
+### Appendix A - Priority Areas in Examples Cities
+
+**Baltimore, MD’s Fiscal Priority Outcomes**
+Better Schools
+Safer Streets
+Stronger Neighborhoods
+A Growing Economy
+Innovative Government
+A Cleaner City
+A Healthier City
+
+---
+
+**Bellevue, WA’s Community Outcomes**
+Responsive Government
+Healthy and Sustainable Environment
+Innovative, Vibrant and Caring Community
+Quality Neighborhoods
+Safe Community
+Improved Mobility
+Economic Growth and Competitiveness
+
+---
+
+**Chattanooga, TN’s Citywide Priorities**
+Smarter Students, Stronger Families
+Safer Streets
+High Performing Government
+Growing Economy
+Stronger Neighborhoods
+
+---
+
+**Lincoln, NE’s Outcome Areas**
+Safety & Security
+Livable Neighborhoods
+Economic Opportunity
+Efficient Transportation
+Accountable Government
+Healthy & Productive People
+Environmental Quality
+Identity Lincoln (what makes Lincoln special)
+
+---
+
+**Richmond, VA’s Focus Areas**
+Unique, Healthy, & Inclusive Neighborhoods & Communities
+Economic Growth
+Community Safety & Well Being
+Transportation
+Education & Workforce Development
+Sustainability & the Natural Environment
+Well Managed Government
+
+### 
