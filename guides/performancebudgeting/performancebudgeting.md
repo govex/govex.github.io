@@ -284,7 +284,7 @@ Chattanooga, TN, releases its budget proposal [scoring criteria](https://docs.go
 
 Chattanooga, TN, includes nonprofits in its performance-based budgeting program, asking them to apply for funding in the same manner as city departments and align their request with one of the city’s six citywide priority areas. Previously, the nonprofits were required to procure a letter of support from the city department leader with whom they would coordinate the spending of city funds. The following is the guidance and requirements from Chattanooga for nonprofit funding requests.
 
-Community Organization Support Instructions for Requesting Funds from the City of Chattanooga
+**Community Organization Support Instructions for Requesting Funds from the City of Chattanooga**
 
 - A one-page Cover Letter specifying:
   - The name and address of the non-profit organization
@@ -298,6 +298,7 @@ Community Organization Support Instructions for Requesting Funds from the City o
       - High Performing Government
       - Growing Economy
       - Innovation
+
 - An Executive Summary of no more than two pages, signed by the Chief Executive Officer of the organization, which includes the following:
   - A brief summary of the amount and proposed usage for any financial assistance appropriated by the City of Chattanooga
   - A brief description of the specific programs of the non-profit organization which serve the residents of the City of Chattanooga
@@ -306,6 +307,7 @@ Community Organization Support Instructions for Requesting Funds from the City o
     - List of accomplishments or outcomes achieved through the use of municipal funds;
     - Copies of Annual Audits of the non-profit organization (performed by an independent Certified Public Accountant in accordance with Generally Accepted Auditing Standards;
     - Copies of other financial and operational information upon request.
+
 - Agency Documents required:
   - Copy of the Agency-Wide, board approved Annual Operating Budget for the non-profit organization effective at the time of the request for appropriation of funds from the City of Chattanooga;
   - Copy of the Charter of the non-profit organization filed with Tennessee Secretary of State. If the Name on the Charter does not match the Agency’s current name, please ensure any amendments or merger documents filed with the State;
@@ -316,12 +318,13 @@ Community Organization Support Instructions for Requesting Funds from the City o
   - Local Government Funding/Service Statistics (Template B1)
   - Program Beneficiary Statistics (Template B2)
   - Schedule of Positions, Salaries, and Wages (Template B3)
-  - Major Sources of Funding for the Past Five Years(Template B4)
+  - Major Sources of Funding for the Past Five Years (Template B4)
+
 - Offer Packet(s)
   - Copy of the Offer Worksheet which includes a description of the proposed usage, proposed outcomes, and proposed budget related to request for appropriation of Funds. (Template A1) Note: Each offer submitted must have a separate Offer Worksheet completed
   - Copy of the Offer Summary (Template A2) Note: this copy will be submitted with each offer.
-  - Copy of Budget related to Offer ( Template A3)
-  - Copy of FY15 BFO Agency Performance Results Update ( Template A4)
+  - Copy of Budget related to Offer (Template A3)
+  - Copy of FY15 BFO Agency Performance Results Update (Template A4)
   - Copy of Letter(s) from Collaborating City Department Head acknowledging the mutual agreement to collaborate on the Offer.
 
 Links:
