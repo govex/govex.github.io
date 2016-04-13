@@ -39,7 +39,7 @@ Since cities already have budget processes that have been in place for decades, 
 
 In 2011, Baltimore, MD, was very clear in messaging the move to [performance-based budgeting](http://bbmr.baltimorecity.gov/OutcomeBudgeting.aspx) to city staff and officials and aligning this process to its previous budgeting schedule. This required [reframing the budget conversation](http://www.aabpa.org/assets/Symposia/2014_Summer_Symposium_July10-2014/kleine_outcome%20budgeting%20in%20baltimore%20aabpa%207.10.14.pdf) from considering last year’s spending on agency goals and debating what to cut to focusing on next year’s strategic goals for citywide priorities and debating what is worth keeping in the budget. In Baltimore, performance-based budgeting is connected to its CitiStat program, strategic plan, and agency performance agreements and aligns with the city’s goal of being a performance-based city so it seemed like a natural addition to city staff.
 
-![Alt text](https://github.com/govex/govex.github.io/blob/master/guides/performancebudgeting/baltimoreoldwaynewway.png "Old Way vs. New Way in Baltimore")
+<p align="center"> ![Alt text](https://github.com/govex/govex.github.io/blob/master/guides/performancebudgeting/baltimoreoldwaynewway.png "Old Way vs. New Way in Baltimore") </p>
 
 Source: http://www.aabpa.org/assets/Symposia/2014_Summer_Symposium_July10-2014/kleine_outcome%20budgeting%20in%20baltimore%20aabpa%207.10.14.pdf
 
