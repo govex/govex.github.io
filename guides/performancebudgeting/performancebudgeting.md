@@ -192,10 +192,8 @@ Well Managed Government
 
 Baltimore, MD, has identified Safer Streets, which makes up 33% of Baltimore City’s $2.549 billion operating budget, as a priority outcome, with six key strategies that support the priority outcome. The strategies outline diverse agency actions such as code enforcement, zoning classification, outreach to at-risk youth, etc. Five goals support the priority outcome, and each goal is accompanied by a KPI. The KPIs may not be representative of all activities for which an agency is responsible.
 
-| Priority Goal | Agency | KPI | YTD Data
-(FY 2013) | Previous Year (FY 2012) | Goal/ Benchmark |
+| Priority Goal | Agency | KPI | YTD Data (FY 2013) | Previous Year (FY 2012) | Goal/ Benchmark |
 |---	|---	|---	|---	|---	|---	|
-
 | Increase the percentage of citizens that rate the City safe or very safe. | Mayor's Office | Baltimore Citizen Perception of Safety “Very Safe” or “Safe” Responses | 66.25% | 65% | - |
 | Reduce violent crime rate. | Baltimore City Police Department | Baltimore's Violent Crime Rate per 100,000 People | 1,426 | 1,406	| - |
 | Reduce property crime rate. | Baltimore City Police Department | Baltimore's Property Crime Rate per 100,000 People | 4,717 | 4,650 | - |
