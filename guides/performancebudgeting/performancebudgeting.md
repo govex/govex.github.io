@@ -211,12 +211,10 @@ Richmond, VA, is in the process of aligning its priorities, goals, and metrics. 
 | FY2014 - FY2015 Key Performance Indicators	| FY 2012 Baseline | Initiative |
 |---	|---	|---	|
 | Poverty Rate <br /> To decrease the percentage of population living at or below the poverty line | 26.3%	| -Increase SNAP Participation Rate <br /> -Teen Pregnancy |
-| City Health Ranking <br /> To obtain targeted health goals including infant
-mortality, low birth weight, and obesity. | 125/131 | -Develop Office of Multicultural Affairs <br /> -Resource Centers <br /> -Food Policy Task Force <br />-Office on Aging and Persons with Disabilities <br /> -Breastfeeding Commission |
+| City Health Ranking <br /> To obtain targeted health goals including infant mortality, low birth weight, and obesity. | 125/131 | -Develop Office of Multicultural Affairs <br /> -Resource Centers <br /> -Food Policy Task Force <br />-Office on Aging and Persons with Disabilities <br /> -Breastfeeding Commission |
 | Neighborhoods and Community Amenities/Assets Index <br /> Increase percent of population that has access to key amenities (schools, parks, recreation facilities, retail, etc.)	| Under Development	| -Riverfront Plan <br /> -Swimming Pool Renovations <br /> -School Construction <br /> -Cannon Creek <br /> -Monroe Park Improvements <br /> -Southside Community Center <br /> -Pedestrian, Bike and Trails Initiative <br /> -Virginia Capital Trail <br /> -Library Renovations |
 | Cultural Events <br /> Increase the number of cultural events in the City | Under Development | -Increase Cultural Events at Libraries |
-| Blighted and Derelict Property <br /> Decrease the number of properties with code
-violations to 500 | 2140 | -Blight Abatement |
+| Blighted and Derelict Property <br /> Decrease the number of properties with code violations to 500 | 2140 | -Blight Abatement |
 | Mixed Income Housing Availability in RRHA <br /> Increase the percent of housing units available for middle and lower income individuals | Under Development | -Eastview Whitcomb Initiative <br /> -East End/ Nine Mile Road Transformation <br /> -Dove Court Revitalization <br /> -Hull Street Corridor Revitalization |
 
 Source: [Adopted Biennial Fiscal Plans for Fiscal Years 2014 and 2015 & Adopted Capital Improvement Program for Fiscal Years 2014–2018](http://www.richmondgov.com/budget/documents/BiennialPlans/2014-15_AdoptedBiennialAndCIP_FY14-FY18.pdf)
@@ -226,6 +224,8 @@ Lincoln, NE, developed 132 performance indicators to measure the City's progress
 <p align="center"> <strong>Outcome Area: Healthy & Productive People</strong></p>
 
 **_Goal 1: Maintain community's health status_**
+
+![Alt text](https://github.com/govex/govex.github.io/blob/master/guides/performancebudgeting/LincolnHealthyPeopleGoal.png)
 
 About this measure:
 This measure indicates the rate of self-reported smoking in samples of students in grades 9-12 voluntarily participating in the Youth Risk Behavioral Survey (YRBS). LLCHD conducts the YRBS every other year in Lincoln and Lancaster County high schools; the Nebraska Department of Health and Human Services conducts the YRBS every other year in high schools across the state.
