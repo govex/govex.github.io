@@ -242,3 +242,31 @@ Youth continue to experiment with tobacco in succumbing to peer-pressure, tobacc
 * Utilizing peer support to prevent tobacco initiation
 
 Source: Lincoln’s [Taking Charge Performance Indicators](http://lincoln.ne.gov/city/mayor/takingcharge/performance-indicators.htm)
+
+### Appendix C - Budget Proposal Funding Criteria
+
+<hr>
+
+For the Safer Streets priority, Baltimore, MD’s Results Team is made up of representatives from the Police Department, Office of Emergency Management, Transportation, Budget Analyst, Health Department, a community member, and a Mayor’s Office liaison. In addition to giving priority consideration of funding to proposals that would advance its goals and strategies, Baltimore requires agencies to respond to the following criteria.
+
+
+| Baltimore’s Criteria for Budget Proposals |
+| Value | Proposals that demonstrate good value tell us what we can expect to be delivered per dollar spent. Value is a measure of both efficiency and the effectiveness of a service. |
+| Strength of alignment with the Priority Outcome, Goals, and Strategies |   |
+| Innovation | Innovative proposals demonstrate new solutions or the degree to which the service improves or re-engineers the way a service is currently delivered. Even high-value services, as they currently are delivered, have areas for improvement. |
+| Multiple Priority Outcomes | We seek proposals that demonstrate the ability to address multiple Priority Outcomes concurrently. |
+| Leverage | We seek proposals that demonstrate the ability to leverage other funds or resources for service delivery, and/or collaborate with other internal or external entities. Partnerships can also be with neighborhood groups or other non-service providers. |
+| Evidence-based | We seek proposals that deliver a service that is proven effective through empirical data or professional best practices. This can be an agency's data gathered through CitiStat or some other performance measurement effort, or reliable data gathered by another organization. |
+| Part of a Strategic Plan | We seek proposals that advance an existing or emerging strategic plan. Strategic Plans outline clear goals and objectives with specific action items, funding sources, individual roles, and time lines. Examples include the Sustainability Plan, Comprehensive Master Plan, Ten Year Plan to End Homelessness, Birth Outcomes Plan, etc. |
+| Customer Service Focus | We seek proposals that focus on providing excellent customer service. Think of customers broadly and to include internal customers, such other City agencies or City staff members, and external customers, including citizens and users of City services. |
+
+Chattanooga, TN, releases its budget proposal [scoring criteria](https://docs.google.com/document/d/1Gi13s7hmK2Tv5hUwNUzSqtebSuVOxV7LPgCjAzustVg/pub) to ensure a level playing field for all proposal writers. In 2016, the city revised its proposal framework and concentrated on the following five areas to clarify the process for writers and reduce the amount of time its Results Teams were spending evaluating each proposal.
+
+
+| Chattanooga’s Budget Proposal Scoring Criteria |
+| Scoring Criteria | Guiding Assessment Questions |
+| Impact on Chattanooga | To what extent does this improve the lives of Chattanooga residents? |
+| Advances Priority Results Area | To what extent will this advance City priorities? (Smarter Students, Stronger Families; Safer Streets; High Performing Government; Growing Economy; Stronger Neighborhoods) |
+| Implementation Plan | Does the proposed implementation plan provide a clear, feasible roadmap to achieve your outcome goals? |
+| Measures | Do you have the measures in place to know if you are achieving the proposed outcomes? |
+| Approach | Does the offer choose the optimal route to achieve the outcomes? (Demonstrated with benchmarks, proven methods, partner collaborations, and with clarity on how your solution fits into the larger work on the issue being addressed) |
