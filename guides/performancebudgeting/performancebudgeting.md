@@ -85,8 +85,8 @@ Bellevue, WA, uses Results Teams to evaluate proposals through its performance-b
 Bellevue is in the process of revamping its scoring criteria for budget proposals to further encourage collaboration between Results Teams and proposal writers by providing multiple occasions to discuss and revise the proposals, while also elevating the quality of the performance metrics supporting these proposals. During this budget cycle, Results Teams will score both the performance metrics and proposal as a whole with a high-medium-low scale. Proposals must meet a minimum score on their performance metrics before being recommended for funding.
 
 <table>
-<tr align=center><td><strong>Bellevue’s Performance Metric Scoring</strong></td></tr>
-<tr><td>Are the metrics well-rounded and comprehensive (a family of measures)? <br /> Are the metrics actionable (departments can impact or influence these metrics)? <br /> Are the metrics outcome-oriented? <br /> Is the data source identified and reliable? <br /> Is the data updated with the appropriate frequency for decision making? <br /> Are the metrics’ targets aspirational and also realistic? </td></tr>
+<tr align=center><td><strong> Bellevue’s Performance Metric Scoring </strong></td></tr>
+<tr align=center><td> Are the metrics well-rounded and comprehensive (a family of measures)? <br /> Are the metrics actionable (departments can impact or influence these metrics)? <br /> Are the metrics outcome-oriented? <br /> Is the data source identified and reliable? <br /> Is the data updated with the appropriate frequency for decision making? <br /> Are the metrics’ targets aspirational and also realistic? </td></tr>
 </table>
 
 *See Appendix C for performance-based budgeting scoring criteria from Baltimore and Chattanooga.*
@@ -269,9 +269,11 @@ Chattanooga, TN, releases its budget proposal [scoring criteria](https://docs.go
 
 <p align="center"> <strong>Chattanooga’s Budget Proposal Scoring Criteria</strong></p>
 
-| Scoring Criteria | Guiding Assessment Questions |
-| Impact on Chattanooga | To what extent does this improve the lives of Chattanooga residents? |
-| Advances Priority Results Area | To what extent will this advance City priorities? (Smarter Students, Stronger Families; Safer Streets; High Performing Government; Growing Economy; Stronger Neighborhoods) |
-| Implementation Plan | Does the proposed implementation plan provide a clear, feasible roadmap to achieve your outcome goals? |
-| Measures | Do you have the measures in place to know if you are achieving the proposed outcomes? |
-| Approach | Does the offer choose the optimal route to achieve the outcomes? (Demonstrated with benchmarks, proven methods, partner collaborations, and with clarity on how your solution fits into the larger work on the issue being addressed) |
+<table>
+<tr><td>Scoring Criteria </td><td> Guiding Assessment Questions</td></tr>
+<tr><td>Impact on Chattanooga </td><td> To what extent does this improve the lives of Chattanooga residents?</td></tr>
+<tr><td>Advances Priority Results Area </td><td> To what extent will this advance City priorities? (Smarter Students, Stronger Families; Safer Streets; High Performing Government; Growing Economy; Stronger Neighborhoods)</td></tr>
+<tr><td>Implementation Plan </td><td> Does the proposed implementation plan provide a clear, feasible roadmap to achieve your outcome goals?</td></tr>
+<tr><td>Measures </td><td> Do you have the measures in place to know if you are achieving the proposed outcomes?</td></tr>
+<tr><td>Approach </td><td> Does the offer choose the optimal route to achieve the outcomes? (Demonstrated with benchmarks, proven methods, partner collaborations, and with clarity on how your solution fits into the larger work on the issue being addressed)</td></tr>
+</table>
