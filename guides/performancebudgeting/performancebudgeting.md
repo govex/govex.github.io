@@ -199,8 +199,7 @@ Baltimore, MD, has identified Safer Streets, which makes up 33% of Baltimore Cit
 | Reduce violent crime rate. | Baltimore City Police Department | Baltimore's Violent Crime Rate per 100,000 People | 1,426 | 1,406	|   	|
 | Reduce property crime rate. | Baltimore City Police Department | Baltimore's Property Crime Rate per 100,000 People | 4,717 | 4,650 |   	|
 | Increase the percentage of Fire responses that meet national standards. | Baltimore City Fire Department | Percent Fire Responses that Meet National Response Standards | 87.8% | 87.8% | 90% (national standard) |
-|
-Percent of Fire and EMS 911 calls meeting national response time standards. | Baltimore City Fire Department | EMS Response Time Meeting Standards | 38.5% | 40.1% |   	|
+| Percent of Fire and EMS 911 calls meeting national response time standards. | Baltimore City Fire Department | EMS Response Time Meeting Standards | 38.5% | 40.1% |   	|
 
 Source: [Section 1: Mayoral Objectives](http://ca.baltimorecity.gov/flexpaper/docs/safer%20streets.pdf)
 
