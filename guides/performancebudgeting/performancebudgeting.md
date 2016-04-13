@@ -84,9 +84,10 @@ Bellevue, WA, uses Results Teams to evaluate proposals through its performance-b
 
 Bellevue is in the process of revamping its scoring criteria for budget proposals to further encourage collaboration between Results Teams and proposal writers by providing multiple occasions to discuss and revise the proposals, while also elevating the quality of the performance metrics supporting these proposals. During this budget cycle, Results Teams will score both the performance metrics and proposal as a whole with a high-medium-low scale. Proposals must meet a minimum score on their performance metrics before being recommended for funding.
 
-| **Bellevue’s Performance Metric Scoring** |
-| --- |
-| Are the metrics well-rounded and comprehensive (a family of measures)? <br /> Are the metrics actionable (departments can impact or influence these metrics)? <br /> Are the metrics outcome-oriented? <br /> Is the data source identified and reliable? <br /> Is the data updated with the appropriate frequency for decision making? <br /> Are the metrics’ targets aspirational and also realistic? |
+<table>
+<tr align=center><td><strong>Bellevue’s Performance Metric Scoring</strong></td></tr>
+<tr><td>Are the metrics well-rounded and comprehensive (a family of measures)? <br /> Are the metrics actionable (departments can impact or influence these metrics)? <br /> Are the metrics outcome-oriented? <br /> Is the data source identified and reliable? <br /> Is the data updated with the appropriate frequency for decision making? <br /> Are the metrics’ targets aspirational and also realistic? </td></tr>
+</table>
 
 *See Appendix C for performance-based budgeting scoring criteria from Baltimore and Chattanooga.*
 
@@ -252,14 +253,16 @@ For the Safer Streets priority, Baltimore, MD’s Results Team is made up of rep
 
 <p align="center"> <strong>Baltimore’s Criteria for Budget Proposals</strong></p>
 
-| Value | Proposals that demonstrate good value tell us what we can expect to be delivered per dollar spent. Value is a measure of both efficiency and the effectiveness of a service. |
-| Strength of alignment with the Priority Outcome, Goals, and Strategies |   |
-| Innovation | Innovative proposals demonstrate new solutions or the degree to which the service improves or re-engineers the way a service is currently delivered. Even high-value services, as they currently are delivered, have areas for improvement. |
-| Multiple Priority Outcomes | We seek proposals that demonstrate the ability to address multiple Priority Outcomes concurrently. |
-| Leverage | We seek proposals that demonstrate the ability to leverage other funds or resources for service delivery, and/or collaborate with other internal or external entities. Partnerships can also be with neighborhood groups or other non-service providers. |
-| Evidence-based | We seek proposals that deliver a service that is proven effective through empirical data or professional best practices. This can be an agency's data gathered through CitiStat or some other performance measurement effort, or reliable data gathered by another organization. |
-| Part of a Strategic Plan | We seek proposals that advance an existing or emerging strategic plan. Strategic Plans outline clear goals and objectives with specific action items, funding sources, individual roles, and time lines. Examples include the Sustainability Plan, Comprehensive Master Plan, Ten Year Plan to End Homelessness, Birth Outcomes Plan, etc. |
-| Customer Service Focus | We seek proposals that focus on providing excellent customer service. Think of customers broadly and to include internal customers, such other City agencies or City staff members, and external customers, including citizens and users of City services. |
+<table>
+<tr><td> Value </td><td> Proposals that demonstrate good value tell us what we can expect to be delivered per dollar spent. Value is a measure of both efficiency and the effectiveness of a service. </td></tr>
+<tr><td> Strength of alignment with the Priority Outcome, Goals, and Strategies </td><td>    </td></tr>
+<tr><td> Innovation </td><td> Innovative proposals demonstrate new solutions or the degree to which the service improves or re-engineers the way a service is currently delivered. Even high-value services, as they currently are delivered, have areas for improvement. </td></tr>
+<tr><td> Multiple Priority Outcomes </td><td> We seek proposals that demonstrate the ability to address multiple Priority Outcomes concurrently. </td></tr>
+<tr><td> Leverage </td><td> We seek proposals that demonstrate the ability to leverage other funds or resources for service delivery, and/or collaborate with other internal or external entities. Partnerships can also be with neighborhood groups or other non-service providers. </td></tr>
+<tr><td> Evidence-based </td><td> We seek proposals that deliver a service that is proven effective through empirical data or professional best practices. This can be an agency's data gathered through CitiStat or some other performance measurement effort, or reliable data gathered by another organization. </td></tr>
+<tr><td> Part of a Strategic Plan </td><td> We seek proposals that advance an existing or emerging strategic plan. Strategic Plans outline clear goals and objectives with specific action items, funding sources, individual roles, and time lines. Examples include the Sustainability Plan, Comprehensive Master Plan, Ten Year Plan to End Homelessness, Birth Outcomes Plan, etc. </td></tr>
+<tr><td> Customer Service Focus </td><td> We seek proposals that focus on providing excellent customer service. Think of customers broadly and to include internal customers, such other City agencies or City staff members, and external customers, including citizens and users of City services. </td></tr>
+</table>
 
 Chattanooga, TN, releases its budget proposal [scoring criteria](https://docs.google.com/document/d/1Gi13s7hmK2Tv5hUwNUzSqtebSuVOxV7LPgCjAzustVg/pub) to ensure a level playing field for all proposal writers. In 2016, the city revised its proposal framework and concentrated on the following five areas to clarify the process for writers and reduce the amount of time its Results Teams were spending evaluating each proposal.
 
