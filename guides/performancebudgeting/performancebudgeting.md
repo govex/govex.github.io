@@ -45,7 +45,7 @@ Source: http://www.aabpa.org/assets/Symposia/2014_Summer_Symposium_July10-2014/k
 
 Providing timelines and coaching to explain how performance management fits in with the existing budget process is the first step to ensuring that departments and agencies understand and use performance-based budgeting effectively. Baltimore, like many cities, has historically had a long and detailed process for developing and submitting agency budgets, beginning in September and lasting through July when the budget is adopted. To make it easier for agencies to align their budget requests with the performance-based budgeting and performance metrics, Baltimore’s budget office includes step-by-step guidance for agencies detailing the mayor’s priority outcomes (see Appendix A for examples of citywide priorities in performance-based budgeting), informed by the [annual citizen survey](http://bbmr.baltimorecity.gov/OutcomeBudgeting/CitizenSurvey.aspx), and indicators of emphasis for the fiscal year budget process. By clearly defining the [budgeting expectations and process](http://www.businessofgovernment.org/blog/business-government/baltimores-outcome-budgeting-approach) up front, the city ensured staff participation and buy-in, reconciling a [$500 million budget deficit](http://results4america.org/city-baltimore-use-evidence-data-fact-sheet/) in four fiscal years.
 
-<img class="aligncenter" src="https://github.com/govex/govex.github.io/blob/master/guides/performancebudgeting/BaltimoreOBprocess.jpg">
+![Alt text](https://github.com/govex/govex.github.io/blob/master/guides/performancebudgeting/BaltimoreOBprocess.jpg)
 
 Source: http://bbmr.baltimorecity.gov/OutcomeBudgeting/AboutOutcomeBudgeting.aspx
 
@@ -84,7 +84,7 @@ Bellevue, WA, uses Results Teams to evaluate proposals through its performance-b
 
 Bellevue is in the process of revamping its scoring criteria for budget proposals to further encourage collaboration between Results Teams and proposal writers by providing multiple occasions to discuss and revise the proposals, while also elevating the quality of the performance metrics supporting these proposals. During this budget cycle, Results Teams will score both the performance metrics and proposal as a whole with a high-medium-low scale. Proposals must meet a minimum score on their performance metrics before being recommended for funding.
 
-<table align="center">
+<table>
 <tr align=center><td><strong> Bellevue’s Performance Metric Scoring </strong></td></tr>
 <tr align=center><td> Are the metrics well-rounded and comprehensive (a family of measures)? <br /> Are the metrics actionable (departments can impact or influence these metrics)? <br /> Are the metrics outcome-oriented? <br /> Is the data source identified and reliable? <br /> Is the data updated with the appropriate frequency for decision making? <br /> Are the metrics’ targets aspirational and also realistic? </td></tr>
 </table>
