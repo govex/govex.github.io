@@ -250,7 +250,8 @@ Source: Lincoln’s [Taking Charge Performance Indicators](http://lincoln.ne.gov
 For the Safer Streets priority, Baltimore, MD’s Results Team is made up of representatives from the Police Department, Office of Emergency Management, Transportation, Budget Analyst, Health Department, a community member, and a Mayor’s Office liaison. In addition to giving priority consideration of funding to proposals that would advance its goals and strategies, Baltimore requires agencies to respond to the following criteria.
 
 
-| Baltimore’s Criteria for Budget Proposals |
+<p align="center"> <strong>Baltimore’s Criteria for Budget Proposals</strong></p>
+
 | Value | Proposals that demonstrate good value tell us what we can expect to be delivered per dollar spent. Value is a measure of both efficiency and the effectiveness of a service. |
 | Strength of alignment with the Priority Outcome, Goals, and Strategies |   |
 | Innovation | Innovative proposals demonstrate new solutions or the degree to which the service improves or re-engineers the way a service is currently delivered. Even high-value services, as they currently are delivered, have areas for improvement. |
@@ -263,7 +264,8 @@ For the Safer Streets priority, Baltimore, MD’s Results Team is made up of rep
 Chattanooga, TN, releases its budget proposal [scoring criteria](https://docs.google.com/document/d/1Gi13s7hmK2Tv5hUwNUzSqtebSuVOxV7LPgCjAzustVg/pub) to ensure a level playing field for all proposal writers. In 2016, the city revised its proposal framework and concentrated on the following five areas to clarify the process for writers and reduce the amount of time its Results Teams were spending evaluating each proposal.
 
 
-| Chattanooga’s Budget Proposal Scoring Criteria |
+<p align="center"> <strong>Chattanooga’s Budget Proposal Scoring Criteria</strong></p>
+
 | Scoring Criteria | Guiding Assessment Questions |
 | Impact on Chattanooga | To what extent does this improve the lives of Chattanooga residents? |
 | Advances Priority Results Area | To what extent will this advance City priorities? (Smarter Students, Stronger Families; Safer Streets; High Performing Government; Growing Economy; Stronger Neighborhoods) |
