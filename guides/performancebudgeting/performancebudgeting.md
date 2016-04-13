@@ -328,10 +328,10 @@ Chattanooga, TN, includes nonprofits in its performance-based budgeting program,
   - Copy of Letter(s) from Collaborating City Department Head acknowledging the mutual agreement to collaborate on the Offer.
 
 Links:
-Template A1 – Budgeting for Outcomes Offer (Template Provided)
-Template A2 – Agency BFO Summary (Template Provided)
-Template A3 – Budget Template (Budget Related to Offer – Template Provided) Template A4 – FY15 BFO Agency Performance Results Update
-Template B1 – Local Government Funding and Service Statistics
-Template B2 – Program Beneficiary Statistics
-Template B3 – Schedule of Positions, Salaries, and Wages
-Template B4 – Major Sources of Funding for the Past Five Years
+- Template A1 – Budgeting for Outcomes Offer (Template Provided)
+- Template A2 – Agency BFO Summary (Template Provided)
+- Template A3 – Budget Template (Budget Related to Offer – Template Provided) Template A4 – FY15 BFO Agency Performance Results Update
+- Template B1 – Local Government Funding and Service Statistics
+- Template B2 – Program Beneficiary Statistics
+- Template B3 – Schedule of Positions, Salaries, and Wages
+- Template B4 – Major Sources of Funding for the Past Five Years
