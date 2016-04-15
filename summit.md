@@ -4,8 +4,9 @@ layout: default
 
 ## <span class="glyphicon glyphicon-book"></span> WWC Summit on Transforming Data into Action
 <img src="images/summit-logo.png">
+<p>
 Below are links to materials and presentations from the 2016 WWC Summit on Transforming Data into Action.
-
+</p>
 <ul class="list-group">
 <li class="list-group-item" href="...">
   <h4>General Summit Information</h4>
