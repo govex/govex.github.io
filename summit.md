@@ -19,22 +19,22 @@ Below are links to materials and presentations from the 2016 WWC Summit on Trans
 <li class="list-group-item">
   <h4>Preventing Adverse Police Interactions - Charlotte, NC</h4>
   <p>Thisprojectuses d atasciencetoimprovethepolicedepartment’sEarlyIntervention System (EIS) by figuring out which of Charlotte’s 1,800 officers are likely to have an adverse interaction in the next two years.</p>
-  <p><a href="/summit-materials/S1_CriminalJustice_Summary">Summary</a></p>
-  <p><a href="/summit-materials/S1_CriminalJustice_Prez">Presentation</a></p>
+  <p><a href="/summit-materials/S1_CriminalJustice_Summary.pdf">Summary</a></p>
+  <p><a href="/summit-materials/S1_CriminalJustice_Prez.pdf">Presentation</a></p>
 </li>
 
 <li class="list-group-item">
   <h4>Food Inspection Forecasting - Chicago, IL</h4>
   <p>The Chicago Department of Public Health (CDPH), Department of Innovation and Technology (DOIT), Allstate Insurance, and Civic Consulting Alliance developed a predictive model that allowed the City to reduce residents’ exposure to foodborne illnesses.</p>
   <p><a href="/summit-materials/S2_FoodInspections_Summary.pdf">Summary</a></p>
-  <p><a href="S2_Health_Prez">Presentation</a></p>
+  <p><a href="/summit-materials/S2_Health_Prez.pdf">Presentation</a></p>
 </li>
 
 <li class="list-group-item">
   <h4>Preventing Childhood Lead Poisoning - Chicago, IL</h4>
   <p>Data Science for Social Good (DSSG) developed a predictive model to determine the risk of a child being poisoned by lead. This model encouraged city inspectors to prioritize potential hazards and identify children most at risk.</p>
   <p><a href="/summit-materials/S2_LeadPoisoning_Summary.pdf">Summary</a></p>
-  <p><a href="/summit-materials/S2_Health_Prez">Presentation</a></p>
+  <p><a href="/summit-materials/S2_Health_Prez.pdf">Presentation</a></p>
 </li>
 
 <li class="list-group-item">
@@ -55,14 +55,14 @@ Below are links to materials and presentations from the 2016 WWC Summit on Trans
   <h4>Probabilistic Modeling for Code Violations - Cincinnati, OH</h4>
   <p>The City of Cincinnati and the Data Science for Social Good (DSSG) team are helping code inspectors prioritize properties likely to have a significant code violation. By predicting future violations, they can reduce unnecessary inspections and get to problem properties early, before significant damage to the property occurs. Preliminary results indicate that the “discovery rate,” or the rate at which inspections result in discovery of an actual violation, could increase by more than 30% by using the model developed by the team.</p>
   <p><a href="/summit-materials/S5_Cincy_Summary.pdf">Summary</a></p>
-  <p><a href="/summit-materials/S5_Blight_Prez">Presentation</a></p>
+  <p><a href="/summit-materials/S5_Blight_Prez.pdf">Presentation</a></p>
 </li>
 
 <li class="list-group-item">
   <h4>Code Violation Decision Tool - New Orleans, LA</h4>
   <p>New Orleans has done major work to reduce the number of properties with code violations and improve quality of life in neighborhoods. It used data science to create a decision tool, which helped city staff expedite the removal of unoccupied structures with major deterioration from neighborhoods through either strategic demolition or sale of the property. The decision to either demolish or sell a property is a highly political and visible one, and the tool helped to add rigor and transparency to the decision-making process. It also resulted in staff eliminating a backlog of 1,400 properties requiring a decision in just 3 months. This type of analytical tool could apply to any process where staff are required to make a large volume of similar decisions.</p>
-  <p><a href="/summit-materials/S5_NOLA_Summary">Summary</a></p>
-  <p><a href="/summit-materials/S5_Blight_Prez">Presentation</a></p>
+  <p><a href="/summit-materials/S5_NOLA_Summary.pdf">Summary</a></p>
+  <p><a href="/summit-materials/S5_Blight_Prez.pdf">Presentation</a></p>
 </li>
 
 <li class="list-group-item">
