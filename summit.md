@@ -76,21 +76,21 @@ Below are links to materials and presentations from the 2016 WWC Summit on Trans
   <h4>Launching Performance Management: JackStat - Jackson, MS</h4>
   <p>At the first JackStat meeting the JPD reported saving more than $525,792 in FY 2015 by property owners voluntarily cleaning up their properties after receiving a letter from the department. Jackson now continues to hold biweekly JackStat meetings after the first meeting was rated “very useful” by 57.1% of participants “somewhat useful” by 42.9%.</p>
   <p><a href="/summit-materials/S7_Launching_Summary.pdf">Summary</a></p>
-  <p><a href="/summit-materials/">Presentation</a></p>
+  <p><a href="/summit-materials/S7_Performance_Prez.pdf">Presentation</a></p>
 </li>
 
 <li class="list-group-item">
   <h4>Priority Performance Management: HALAStat - Seattle, WA</h4>
   <p>Seattle piloted a performance management program by developing a data collection framework, key performance indicators, and meeting structure required to support a key priority for the City: The Housing Affordability and Livability Agenda (HALA).</p>
   <p><a href="/summit-materials/S7_Prioritizing_Summary.pdf">Summary</a></p>
-  <p><a href="/summit-materials/">Presentation</a></p>
+  <p><a href="/summit-materials/S7_Performance_Prez.pdf">Presentation</a></p>
 </li>
 
 <li class="list-group-item">
   <h4>Rebooting Performance Management: DepartmentStat - Kansas City, MO</h4>
   <p>Kansas City rebooted their KCStat program by creating DepartmentStat, which applies a data-driven emphasis to departments’ priorities. Now, department goals are linked to citywide goals covered by KCStat. Departments have an opportunity to learn how their peers are improving data-driven decision making. DepartmentStat gives more visibility to departments, leadership, and the Office of Performance Management around the interconnection across departments, and opportunities for collaboration.</p>
   <p><a href="/summit-materials/S7_Rebooting_Summary.pdf">Summary</a></p>
-  <p><a href="/summit-materials/">Presentation</a></p>
+  <p><a href="/summit-materials/S7_Performance_Prez.pdf">Presentation</a></p>
 </li>
 
 </ul>
