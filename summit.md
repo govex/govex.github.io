@@ -18,7 +18,7 @@ Below are links to materials and presentations from the 2016 WWC Summit on Trans
 
 <li class="list-group-item">
   <h4>Preventing Adverse Police Interactions - Charlotte, NC</h4>
-  <p>Thisprojectuses d atasciencetoimprovethepolicedepartment’sEarlyIntervention System (EIS) by figuring out which of Charlotte’s 1,800 officers are likely to have an adverse interaction in the next two years.</p>
+  <p>This project uses data science to improve the police department’s Early Intervention System (EIS) by figuring out which of Charlotte’s 1,800 officers are likely to have an adverse interaction in the next two years.</p>
   <p><a href="/summit-materials/S1_CriminalJustice_Summary.pdf">Summary</a></p>
   <p><a href="/summit-materials/S1_CriminalJustice_Prez.pdf">Presentation</a></p>
 </li>
