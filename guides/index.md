@@ -6,10 +6,10 @@ layout: default
 Below are guidebooks which the Center for Government Excellence makes available online. You may also visit <a href="https://www.gitbook.com/@centerforgov">our page on GitBooks</a>.
 
 <ul class="list-group">
-<li class="list-group-item" href="http://labs.centerforgov.org/guides/datainventory.md">
+<li class="list-group-item" href="http://labs.centerforgov.org/guides/datainventory">
   <h4>Data Inventory Guide</h4>
   <p>A guide to help cities understand what a data inventory is and how to inventory data</p>
-  <a href="http://labs.centerforgov.org/guides/datainventory.md">Read online</a>
+  <a href="http://labs.centerforgov.org/guides/datainventory">Read online</a>
   </p>
 </li>
 <li class="list-group-item" href="http://labs.centerforgov.org/guides/dataviz/index.html">
