@@ -6,6 +6,14 @@ layout: default
 Below are guidebooks which the Center for Government Excellence makes available online. You may also visit <a href="https://www.gitbook.com/@centerforgov">our page on GitBooks</a>.
 
 <ul class="list-group">
+<li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/performance-based-budgeting/details">
+  <h4>Performance-Based Budgeting</h4>
+  <p>A government's introduction and guide to performance-based budgeting.</p>
+  <a href="https://www.gitbook.com/book/centerforgov/performance-based-budgeting/details">Read online</a> |
+  <a href="https://www.gitbook.com/download/pdf/book/centerforgov/performance-based-budgeting">Download PDF</a> | 
+  <a href="https://github.com/govex/performance-based-budgeting">View on Github</a>
+  </p>
+</li>
 <li class="list-group-item" href="http://labs.centerforgov.org/guides/datainventory">
   <h4>Data Inventory Guide</h4>
   <p>A guide to help cities understand what a data inventory is and how to inventory data</p>
