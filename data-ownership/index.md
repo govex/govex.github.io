@@ -48,7 +48,7 @@ Government Data: data which describes the operations of a government; electronic
   <div class="panel-body">
     <div style="font-family: monospace">
 The Vendor hereby assigns without any requirement of further consideration all right, title, or interest the Vendor may have to the Government Data, including any copyrights or other intellectual property rights to the same.
-The Vendor hereby warrants that the Licensed Product is able to does not maintain, store, or export the Government Data using a database structure, data model, entity relationship diagram or equivalent which is itself a trade secret or which would cause substantial injury to the competitive position of the Vendor if published.
+The Vendor hereby warrants that the Licensed Product does not maintain, store, or export the Government Data using a database structure, data model, entity relationship diagram or equivalent which is itself a trade secret or which would cause substantial injury to the competitive position of the Vendor if published.
 Subject to the provisions of <code>[SPECIFY SECTION OR ATTACHMENT]</code>, the Agency hereby grants to Vendor a nonexclusive, nontransferable, worldwide:
       <ol>
         <li>know-how license to internally use the Government Data for the sole purpose of enabling Vendor to develop, test, and support Agency’s use of the Licensed Product;</li>
