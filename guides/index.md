@@ -7,8 +7,8 @@ Below are guidebooks which the Center for Government Excellence makes available 
 
 <ul class="list-group">
 <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/community-engagement-playbook/details">
-  <h4>Performance-Based Budgeting</h4>
-  <p>A government's introduction and guide to performance-based budgeting.</p>
+  <h4>Community Engagement Playbook</h4>
+  <p>A guide to help cities move past communicating to the “usual suspects” and ensure the data it shares reaches all interested parties.</p>
   <a href="https://www.gitbook.com/book/centerforgov/community-engagement-playbook/details">Read online</a> |
   <a href="https://www.gitbook.com/download/pdf/book/centerforgov/community-engagement-playbook">Download PDF</a> |
   <a href="https://github.com/govex/community-engagement">View on Github</a>
