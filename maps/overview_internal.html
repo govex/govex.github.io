@@ -11,6 +11,7 @@
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="page-shield.js"></script>
     <style>
     @font-face {
         font-family: 'quadon';
@@ -291,7 +292,7 @@
         <div class="infowindow-custom">
             <a href="#close" class="cartodb-popup-close-button close" >x</a>
             <div class="popup-header">
-                <h1 id="{{content.data.status}}">{{content.data.city}}, {{content.data.state}}
+                <h1 id="{{content.data.status}}">{{content.data.city}}, {{content.data.state}} </h1>
             </div>
             <div class="cartodb-popup-content">
                 <div class="content" style="padding:5px">
@@ -463,7 +464,7 @@
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
                             ", " + data.rows[i].state + "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
                         }}  else if
-                         (data.rows[0].status == "Scheduled Site Visit")
+                         (data.rows[0].status == "Site Visit Scheduled")
                         {
                             for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
@@ -620,8 +621,5 @@
     }
     window.onload = main;
     </script>
-        <script type="text/javascript" src="page-shield.js"></script>
-
 </body>
-
 </html>
