@@ -17,7 +17,7 @@ pageShieldContent.style.color = "white";
 pageShieldContent.style.textAlign = "center";
 pageShieldContent.style.verticalAlign = "middle";
 pageShieldContent.style.display = "table-cell";
-pageShieldContent.style.zindex = "1000000";
+pageShieldContent.style.zIndex = "2147483647";
 
 function injectShield() {
     if (document.body) {
