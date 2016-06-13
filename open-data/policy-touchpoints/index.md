@@ -2,7 +2,7 @@
 layout: collaboration
 ---
 
-# Small-P Policy Components For Open Data Program
+# Small-P Policy Touchpoints For Open Data Programs
 Ordinances and Executive Orders set the stage for effective open data programs with good governance practices. However, implementing and operating an open data program requires the support of many city staff, reaching well beyond the scope of documents signed by a Mayor, City Manager, or Council. This document outlines additional functions/areas of government organizations that may have policies or processes that can be modified to support open data programs, and describes what those new interactions might be. The final section of the document also includes specific recommendations on the direct operation of the open data program.
 
 ##Communications/Marketing/Press
