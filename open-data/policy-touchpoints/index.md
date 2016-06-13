@@ -5,18 +5,18 @@ layout: collaboration
 # Small-P Policy Touchpoints For Open Data Programs
 Ordinances and Executive Orders set the stage for effective open data programs with good governance practices. However, implementing and operating an open data program requires the support of many city staff, reaching well beyond the scope of documents signed by a Mayor, City Manager, or Council. This document outlines additional functions/areas of government organizations that may have policies or processes that can be modified to support open data programs, and describes what those new interactions might be. The final section of the document also includes specific recommendations on the direct operation of the open data program.
 
-##Communications/Marketing/Press
+## Communications/Marketing/Press
 
 * Press releases should include references to open data resources where appropriate.
   * If possible or appropriate, invite the city’s open data lead to review draft press releases.
   * If there are press release templates, they should be modified to remind staff to include open data references.
 * Key mayoral announcements, such as budget or state of the city addresses, should include references to existing open data (either self-published or published by others) as backup for factual/statistical statements.
 
-##Community Affairs / Engagement
+## Community Affairs / Engagement
 
 * Community engagement managers have experience working with a variety of non-government partners to achieve mutual goals. They can serve as a gateway to conversations with various groups of the public about their interests in open data as well as raising the awareness of it.
 
-##Coordination/Governance/Training
+## Coordination/Governance/Training
 
 * Agencies/Departments should assign responsibilities for open data coordination within their own organization.
   * The coordinator should be empowered to lead the organization’s work with its specific communities of interest as well as maintain alignment with citywide objectives as defined by the governance committee or city’s open data program owner.
@@ -24,7 +24,7 @@ Ordinances and Executive Orders set the stage for effective open data programs w
 * If you have an “open by default” mandate in applicable laws or executive orders, ensure that you define clear criteria for when data should be excluded from public release.
 * If you do not have an “open by default” mandate in applicable laws or executive orders, ensure that you define clear criteria for when data should be included for public release.
 
-##Information Technology
+## Information Technology
 
 * If not defined in applicable laws or executive orders, create a reasonable and consistent definition for “data” that applies across the enterprise.
 * New technology and service (re)design projects should include resources and tasks to ensure open data is included from the beginning.
@@ -38,7 +38,7 @@ Ordinances and Executive Orders set the stage for effective open data programs w
 * Develop and maintain a data inventory. (This can be done in conjunction with the items under “Information Security.”)
   * Metadata should be maintained at a database table level, if possible.
 
-##Information Security
+## Information Security
 
 * City data should be classified according to sensitivity.
   * Typically classifications have three or four levels and each level has clearly defined criteria such as risk factors, potential impacts, and legal/compliance requirements.
@@ -48,17 +48,17 @@ Ordinances and Executive Orders set the stage for effective open data programs w
 * Apply policies and measures to the open data portal and data integration (automation) tools as needed to ensure the protection of city data and technology resources from malicious actions such as denial of service, data corruption, and other risks.
   * This includes identity management practices on the portal for authorized city users to add, modify, and remove data.
 
-##Procurement
+## Procurement
 
 * Procurements should require open data to be included as appropriate. This goes beyond traditional software contracts and should at minimum include vendors who are providing services on behalf of the city. Refer to our Data Ownership and Usage Terms for Government Contracts for specific contract language to include.
   * Alternately, consider requiring vendors to publicly publish data about the products and services they provide as means for the city to consume and validate invoices and payments.
 
-##Public Records
+## Public Records
 
 * Staff who are responsible for handling public records / freedom of information requests should be engaged. They can help identify and prioritize data for public release based upon their intimate knowledge of the public’s requests for information.
 * Public records requests which can be fulfilled using open data should be responded to by directing the original requestor to the appropriate resource on the open data portal.
 
-##Open Data Practices
+## Open Data Practices
 
 * Published data should be required conform to appropriate open standards (e.g., GTFS or BLDS).
   * The city should have a defined mechanism for identifying relevant standards, applying them when appropriate, and updating published data to maintain conformance as standards evolve.
