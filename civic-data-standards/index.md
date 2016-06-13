@@ -34,6 +34,7 @@ Below is the list of civic data standards we have identified so far. They vary g
 * [Federal Spending Transparency](http://fedspendingtransparency.github.io/) - not applicable to cities or states yet, but highly likely to be in the future.
 * [Green Button](http://www.greenbuttondata.org/)
 * [Blue Button](http://bluebuttontoolkit.healthit.gov/)
+* [Open Legislation](http://openleg-dev.nysenate.gov/)
 
 ### Other relevant work
 The below efforts might not qualify as civic data standards (pending further research), but their existence is worth noting.
