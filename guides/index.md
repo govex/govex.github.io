@@ -6,6 +6,12 @@ layout: default
 Below are guidebooks which the Center for Government Excellence makes available online. You may also visit <a href="https://www.gitbook.com/@centerforgov">our page on GitBooks</a>.
 
 <ul class="list-group">
+<li class="list-group-item" href="http://labs.centerforgov.org/open-data/policy-touchpoints/">
+  <h4>Policy Touchpoints for Open Data Programs</h4>
+  <p>An outline of additional functions/areas of government organizations that may have policies or processes that can be modified to support open data programs.</p>
+  <a href="http://labs.centerforgov.org/open-data/policy-touchpoints/">Read and comment online</a>
+  </p>
+</li>
 <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/community-engagement-playbook/details">
   <h4>Community Engagement Playbook</h4>
   <p>A guide to help cities move past communicating to the “usual suspects” and ensure the data it shares reaches all interested parties.</p>
