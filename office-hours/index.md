@@ -4,8 +4,8 @@ suppressSiteNotice: true
 ---
 
   <div class="row center-block">
-    <h1>GovEx Office Hours</h1>
-    <h3>Wednesday, March 2, 2016 &mdash; 3:00p Eastern / 12:00p Pacific</h3>
+    <h1>GovEx Office Hours: Opening 311 Data</h1>
+    <h3>Wednesday, July 6, 2016 &mdash; 3:00p Eastern / 12:00p Pacific</h3>
     <p>GovEx Office Hours take place at 3:00pm ET / 12:00p PT on the first Wednesday of every month.</p>
     <br />
     <a class="btn btn-primary" href="http://govex.jhu.edu/resource-type/office-hours/">View Previous Events</a> <a class="btn btn-primary" href="/office-hours/vote" target="_blank">Vote for a future topic</a> 
