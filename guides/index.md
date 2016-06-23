@@ -9,55 +9,63 @@ Below are guidebooks which the Center for Government Excellence makes available 
 <li class="list-group-item" href="http://labs.centerforgov.org/open-data/policy-touchpoints/">
   <h4>Policy Touchpoints for Open Data Programs</h4>
   <p>An outline of additional functions/areas of government organizations that may have policies or processes that can be modified to support open data programs.</p>
-  <a href="http://labs.centerforgov.org/open-data/policy-touchpoints/">Read and comment online</a>
+  <p>
+    <a href="http://labs.centerforgov.org/open-data/policy-touchpoints/">Read and comment online</a>
   </p>
 </li>
 <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/community-engagement-playbook/details">
   <h4>Community Engagement Playbook</h4>
   <p>A guide to help cities move past communicating to the “usual suspects” and ensure the data it shares reaches all interested parties.</p>
-  <a href="https://www.gitbook.com/book/centerforgov/community-engagement-playbook/details">Read online</a> |
-  <a href="https://www.gitbook.com/download/pdf/book/centerforgov/community-engagement-playbook">Download PDF</a> |
-  <a href="https://github.com/govex/community-engagement">View on Github</a>
+  <p>
+    <a href="https://www.gitbook.com/book/centerforgov/community-engagement-playbook/details">Read online</a> |
+    <a href="https://www.gitbook.com/download/pdf/book/centerforgov/community-engagement-playbook">Download PDF</a> |
+    <a href="https://github.com/govex/community-engagement">View on Github</a>
   </p>
 </li>
 <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/performance-based-budgeting/details">
   <h4>Performance-Based Budgeting</h4>
   <p>A government's introduction and guide to performance-based budgeting.</p>
-  <a href="https://www.gitbook.com/book/centerforgov/performance-based-budgeting/details">Read online</a> |
-  <a href="https://www.gitbook.com/download/pdf/book/centerforgov/performance-based-budgeting">Download PDF</a> |
-  <a href="https://github.com/govex/performance-based-budgeting">View on Github</a>
+  <p>
+    <a href="https://www.gitbook.com/book/centerforgov/performance-based-budgeting/details">Read online</a> |
+    <a href="https://www.gitbook.com/download/pdf/book/centerforgov/performance-based-budgeting">Download PDF</a> |
+    <a href="https://github.com/govex/performance-based-budgeting">View on Github</a>
   </p>
 </li>
 <li class="list-group-item" href="http://labs.centerforgov.org/guides/datainventory">
   <h4>Data Inventory Guide</h4>
   <p>A guide to help cities understand what a data inventory is and how to inventory data</p>
-  <a href="http://labs.centerforgov.org/guides/datainventory">Read online</a>
+  <p>
+    <a href="http://labs.centerforgov.org/guides/datainventory">Read online</a>
   </p>
 </li>
 <li class="list-group-item" href="http://labs.centerforgov.org/guides/dataviz/index.html">
   <h4>Data Visualization Guide</h4>
   <p>Governments collect a significant amount of valuable data, but visualizing it can be difficult. This guide helps governments determine the right visualization to display information clearly.</p>
-  <a href="http://labs.centerforgov.org/guides/dataviz/index.html">Read online</a>
+  <p>
+    <a href="http://labs.centerforgov.org/guides/dataviz/index.html">Read online</a>
   </p>
 </li>
 <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/cultivating-talent/details">
   <h4>Cultivating Talent</h4>
   <p>Talent isn't everything, but it sure helps. This guide helps governments find and keep the talent necessary to accelerate the effective use of data and evidence.</p>
-  <a href="https://www.gitbook.com/book/centerforgov/cultivating-talent/details">Read online</a> |
-      <a href="https://www.gitbook.com/download/pdf/book/centerforgov/cultivating-talent">Download PDF</a> |
-      <a href="https://github.com/govex/Talent">View on Github</a>
+  <p>
+    <a href="https://www.gitbook.com/book/centerforgov/cultivating-talent/details">Read online</a> |
+    <a href="https://www.gitbook.com/download/pdf/book/centerforgov/cultivating-talent">Download PDF</a> |
+    <a href="https://github.com/govex/Talent">View on Github</a>
   </p>
 </li>
 <li class="list-group-item" href="http://labs.centerforgov.org/affordability.html">
   <h4>Affordability Index</h4>
   <p>A data visualization tool for users to explore housing affordability trends in select mid-sized U.S. cities.</p>
-  <a href="http://labs.centerforgov.org/affordability.html">View online</a>
+  <p>
+    <a href="http://labs.centerforgov.org/affordability.html">View online</a>
   </p>
 </li>
   <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/changing-culture/details/">
     <h4>Changing Culture</h4>
     <p>This practical guide helps government leaders and managers understand organizational culture and how to build cultures more adept with data.</p>
-    <a href="https://centerforgov.gitbooks.io/changing-culture/content/index.html">Read online</a> |
+    <p>
+      <a href="https://centerforgov.gitbooks.io/changing-culture/content/index.html">Read online</a> |
       <a href="https://www.gitbook.com/book/centerforgov/changing-culture/details">Download PDF</a> |
       <a href="https://github.com/centerforgov/culture">View on Github</a>
     </p>
@@ -65,14 +73,16 @@ Below are guidebooks which the Center for Government Excellence makes available 
   <li class="list-group-item" href="http://labs.centerforgov.org/open-data/addressing-concerns/">
     <h4>Addressing Open Data Concerns</h4>
     <p>City leaders often hear concerns and resistance about opening data. GovEx developed a short video and list to guide you through common concerns and how to respond.</p>
-    <a href="https://www.youtube.com/watch?v=70Zl9jXdzLo&feature=youtu.be" target="_blank">Watch the Video</a> |
-    <a href="http://labs.centerforgov.org/open-data/addressing-concerns/">Read online</a>
+    <p>
+      <a href="https://www.youtube.com/watch?v=70Zl9jXdzLo&feature=youtu.be" target="_blank">Watch the Video</a> |
+      <a href="http://labs.centerforgov.org/open-data/addressing-concerns/">Read online</a>
     </p>
   </li>
   <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/benchmarking/details">
     <h4>Benchmarking</h4>
     <p>The Johns Hopkins University Center for Government Excellence has created this short guide to help governments understand the practices of internal and external benchmarking.</p>
-    <a href="https://centerforgov.gitbooks.io/benchmarking/content/">Read online</a> |
+    <p>
+      <a href="https://centerforgov.gitbooks.io/benchmarking/content/">Read online</a> |
       <a href="https://www.gitbook.com/book/centerforgov/benchmarking/details">Download PDF</a> |
       <a href="https://github.com/centerforgov/benchmarking">View on Github</a>
     </p>
@@ -80,18 +90,21 @@ Below are guidebooks which the Center for Government Excellence makes available 
   <li class="list-group-item" href="https://youtu.be/MCRXeMG95I0">
     <h4>Talking about Performance (Without Complicating It)</h4>
     <p>The Johns Hopkins University Center for Government Excellence has created this short survey to help governments get past the semantics and focus on the substance of performance measurement.</p>
-    <a href="https://youtu.be/Qa3gtv7TRxk">Watch the Video</a>
+    <p>
+      <a href="https://youtu.be/Qa3gtv7TRxk">Watch the Video</a>
     </p>
   </li>
   <li class="list-group-item" href="https://drive.google.com/open?id=0B9eOOc60hbhLR3dLNzBLRGM0WUU">
     <h4>GovEx Guide: Performance Alignment</h4>
     <p>The Johns Hopkins University Center for Government Excellence has created this infographic to help governments align outcomes, measures, activities and resources within a performance management system.</p>
-    <a href="https://drive.google.com/open?id=0B9eOOc60hbhLUG55bURsSTZwdms">View & Download PDF</a>
+    <p>
+      <a href="https://drive.google.com/open?id=0B9eOOc60hbhLUG55bURsSTZwdms">View & Download PDF</a>
     </p>
   </li>
   <li class="list-group-item" href="https://www.gitbook.com/book/centerforgov/setting-performance-targets-getting-started-guide/details">
     <h4>Setting Performance Targets: Getting Started Guide</h4>
     <p>The Johns Hopkins University Center for Government Excellence has created this getting started guide to help governments improve performance practices by setting strong targets.</p>
+    <p>
       <a href="https://centerforgov.gitbooks.io/setting-performance-targets-getting-started-guide/content/">Read online</a> |
       <a href="https://www.gitbook.com/download/pdf/book/centerforgov/setting-performance-targets-getting-started-guide">Download PDF</a> |
       <a href="https://github.com/centerforgov/setting-performance-targets-getting-started-guide">View on Github</a>
