@@ -10,9 +10,7 @@ navigation:
     url: /events/
   - title: <span class="glyphicon glyphicon-cog"></span>Civic Data Standards
     url: /civic-data-standards/
-  - title: <img src="/images/wwc-bbp-white.png" style="height: 22px; opacity: 0.4;">
-    url: http://www.whatworkscities.org/
-
+    
 defaults:
   -
     scope:
