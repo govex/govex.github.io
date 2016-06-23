@@ -67,7 +67,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <p>
       <a href="https://centerforgov.gitbooks.io/changing-culture/content/index.html">Read online</a> |
       <a href="https://www.gitbook.com/book/centerforgov/changing-culture/details">Download PDF</a> |
-      <a href="https://github.com/centerforgov/culture">View on Github</a>
+      <a href="https://github.com/govex/culture">View on Github</a>
     </p>
   </li>
   <li class="list-group-item">
@@ -84,7 +84,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <p>
       <a href="https://centerforgov.gitbooks.io/benchmarking/content/">Read online</a> |
       <a href="https://www.gitbook.com/book/centerforgov/benchmarking/details">Download PDF</a> |
-      <a href="https://github.com/centerforgov/benchmarking">View on Github</a>
+      <a href="https://github.com/govex/benchmarking">View on Github</a>
     </p>
   </li>
   <li class="list-group-item">
@@ -107,7 +107,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <p>
       <a href="https://centerforgov.gitbooks.io/setting-performance-targets-getting-started-guide/content/">Read online</a> |
       <a href="https://www.gitbook.com/download/pdf/book/centerforgov/setting-performance-targets-getting-started-guide">Download PDF</a> |
-      <a href="https://github.com/centerforgov/setting-performance-targets-getting-started-guide">View on Github</a>
+      <a href="https://github.com/govex/setting-performance-targets-getting-started-guide">View on Github</a>
     </p>
   </li>
   <li class="list-group-item">
@@ -115,10 +115,10 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <p></p>
     <p>
       <a href="{{ site.baseurl }}data-governance/data-ownership/">Read online</a> |
-      <a href="https://github.com/centerforgov/data-ownership/blob/master/README.md">View on Github</a> |
-      <a href="https://github.com/centerforgov/data-ownership/edit/master/README.md">Edit on Github</a> |
-      Fork and submit a <a href="https://github.com/centerforgov/data-ownership/pulls">pull request</a> |
-      <a href="https://github.com/centerforgov/data-ownership/issues">View Github Issues</a>
+      <a href="https://github.com/govex/data-ownership/blob/master/README.md">View on Github</a> |
+      <a href="https://github.com/govex/data-ownership/edit/master/README.md">Edit on Github</a> |
+      Fork and submit a <a href="https://github.com/govex/data-ownership/pulls">pull request</a> |
+      <a href="https://github.com/govex/data-ownership/issues">View Github Issues</a>
     </p>
   </li>
   <li class="list-group-item">
@@ -127,7 +127,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <p>
       <a href="http://centerforgov.gitbooks.io/open-data-getting-started/content/">Read online</a> |
       <a href="https://www.gitbook.com/download/pdf/book/centerforgov/open-data-getting-started">Download PDF</a> |
-      <a href="https://github.com/centerforgov/open-data-getting-started">View on Github</a>
+      <a href="https://github.com/govex/open-data-getting-started">View on Github</a>
     </p>
   </li>
   <li class="list-group-item">
@@ -136,7 +136,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <p>
       <a href="https://www.gitbook.com/read/book/centerforgov/performance-management-getting-started">Read online</a> |
       <a href="https://www.gitbook.com/download/pdf/book/centerforgov/performance-management-getting-started">Download PDF</a> |
-      <a href="https://github.com/centerforgov/performance-management-getting-started">View on Github</a>
+      <a href="https://github.com/govex/performance-management-getting-started">View on Github</a>
     </p>
   </li>
   <li class="list-group-item">
@@ -145,7 +145,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <p>
       <a href="https://www.gitbook.com/read/book/centerforgov/open-data-metadata-guide">Read online</a> |
       <a href="https://www.gitbook.com/download/pdf/book/centerforgov/open-data-metadata-guide">Download PDF</a> |
-      <a href="https://github.com/centerforgov/open-data-metadata-guide">View on Github</a>
+      <a href="https://github.com/govex/open-data-metadata-guide">View on Github</a>
     </p>
   </li>
   <li class="list-group-item">
@@ -154,7 +154,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <p>
       <a href="https://www.gitbook.com/read/book/centerforgov/dataset-inventory-guidelines">Read online</a> |
       <a href="https://www.gitbook.com/download/pdf/book/centerforgov/dataset-inventory-guidelines">Download PDF</a> |
-      <a href="https://github.com/centerforgov/open-data-inventory">View on Github</a>
+      <a href="https://github.com/govex/open-data-inventory">View on Github</a>
     </p>
   </li>
   <li class="list-group-item">
@@ -162,10 +162,10 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <p>The Open Data Portal Requirements is a document which governments can use to develop or procure an open data platform. It identifies critical and optional functionality needed to support a data catalog, access to data. Non-functional (technical) requirements are also identified.</p>
     <p>
       <a href="{{ site.baseurl }}open-data/portal-requirements/">Read online</a> |
-      <a href="https://github.com/centerforgov/open-data-portal-requirements/blob/master/README.md">View on Github</a> |
-      <a href="https://github.com/centerforgov/open-data-portal-requirements/edit/master/README.md">Edit on Github</a> |
-      Fork and submit a <a href="https://github.com/centerforgov/open-data-portal-requirements/pulls">pull request</a> |
-      <a href="https://github.com/centerforgov/open-data-portal-requirements/issues">View Github Issues</a>
+      <a href="https://github.com/govex/open-data-portal-requirements/blob/master/README.md">View on Github</a> |
+      <a href="https://github.com/govex/open-data-portal-requirements/edit/master/README.md">Edit on Github</a> |
+      Fork and submit a <a href="https://github.com/govex/open-data-portal-requirements/pulls">pull request</a> |
+      <a href="https://github.com/govex/open-data-portal-requirements/issues">View Github Issues</a>
     </p>
   </li>
 </ul>
