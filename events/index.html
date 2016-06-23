@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
     <script type='text/javascript' src='js/tabletop1.3.4.js'></script>
     <script type='text/javascript' src='js/sheetsee.js'></script>
 
@@ -14,6 +13,12 @@ layout: default
           {{/rows}}
         </table>
     </script>
+
+        <span class="glyphicon glyphicon-calendar"></span> Events
+        <br>
+        <input id="fullTableFilter" type="text" placeholder="search">
+
+        <div id="fullTable"></div>
 
     <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function() {
@@ -34,10 +39,3 @@ layout: default
       Sheetsee.initiateTableFilter(tableOptions)
       }
     </script>
-
-
-        <span class="glyphicon glyphicon-calendar"></span> Events
-        <br>
-        <input id="fullTableFilter" type="text" placeholder="search">
-
-        <div id="fullTable"></div>
