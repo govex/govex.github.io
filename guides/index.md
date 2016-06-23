@@ -35,7 +35,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Data Inventory Guide</h4>
     <p>A guide to help cities understand what a data inventory is and how to inventory data</p>
     <p>
-      <a href="{{ site.baseurl }}/guides/datainventory">Read online</a>
+      <a href="{{ site.baseurl }}/data-governance/data-inventory/">Read online</a>
     </p>
   </li>
   <li class="list-group-item">
