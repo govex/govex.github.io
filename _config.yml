@@ -4,11 +4,11 @@ baseurl: /govex.github.io
 
 # navigation configuration
 navigation:
-  - title: <span class="glyphicon glyphicon-book"></span>Guides
+  - title: <span class="glyphicon glyphicon-book"></span> Guides
     url: /guides/
-  - title: <span class="glyphicon glyphicon-calendar"></span>Events
+  - title: <span class="glyphicon glyphicon-calendar"></span> Events
     url: /events/
-  - title: <span class="glyphicon glyphicon-cog"></span>Civic Data Standards
+  - title: <span class="glyphicon glyphicon-cog"></span> Civic Data Standards
     url: /civic-data-standards/
     
 defaults:
