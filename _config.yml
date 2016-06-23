@@ -2,6 +2,8 @@ title: GovEx Labs
 description: Our playground for experimentation and fluid content.
 logo: images/govexlogo-small.png
 favicon: http://govex.jhu.edu/content/themes/govex/GovEx_favicon.png
+
+# always include the trailing slash in baseurl (ex: "site/")
 baseurl: /
 
 # navigation configuration
