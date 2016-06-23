@@ -10,7 +10,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Policy Touchpoints for Open Data Programs</h4>
     <p>An outline of additional functions/areas of government organizations that may have policies or processes that can be modified to support open data programs.</p>
     <p>
-      <a href="{{ site.baseurl }}/open-data/policy-touchpoints/">Read and comment online</a>
+      <a href="{{ site.baseurl }}open-data/policy-touchpoints/">Read and comment online</a>
     </p>
   </li>
   <li class="list-group-item">
@@ -35,14 +35,14 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Data Inventory Guide</h4>
     <p>A guide to help cities understand what a data inventory is and how to inventory data</p>
     <p>
-      <a href="{{ site.baseurl }}/data-governance/data-inventory/">Read online</a>
+      <a href="{{ site.baseurl }}data-governance/data-inventory/">Read online</a>
     </p>
   </li>
   <li class="list-group-item">
     <h4>Data Visualization Guide</h4>
     <p>Governments collect a significant amount of valuable data, but visualizing it can be difficult. This guide helps governments determine the right visualization to display information clearly.</p>
     <p>
-      <a href="{{ site.baseurl }}/guides/dataviz/index.html">Read online</a>
+      <a href="{{ site.baseurl }}guides/dataviz/index.html">Read online</a>
     </p>
   </li>
   <li class="list-group-item">
@@ -58,7 +58,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Affordability Index</h4>
     <p>A data visualization tool for users to explore housing affordability trends in select mid-sized U.S. cities.</p>
     <p>
-      <a href="{{ site.baseurl }}/projects/affordability/">View online</a>
+      <a href="{{ site.baseurl }}projects/affordability/">View online</a>
     </p>
   </li>
   <li class="list-group-item">
@@ -75,7 +75,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <p>City leaders often hear concerns and resistance about opening data. GovEx developed a short video and list to guide you through common concerns and how to respond.</p>
     <p>
       <a href="https://www.youtube.com/watch?v=70Zl9jXdzLo&feature=youtu.be" target="_blank">Watch the Video</a> |
-      <a href="{{ site.baseurl }}/open-data/addressing-concerns/">Read online</a>
+      <a href="{{ site.baseurl }}open-data/addressing-concerns/">Read online</a>
     </p>
   </li>
   <li class="list-group-item">
@@ -114,7 +114,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Data Ownership Contract Terms</h4>
     <p></p>
     <p>
-      <a href="{{ site.baseurl }}/data-governance/data-ownership/">Read online</a> |
+      <a href="{{ site.baseurl }}data-governance/data-ownership/">Read online</a> |
       <a href="https://github.com/centerforgov/data-ownership/blob/master/README.md">View on Github</a> |
       <a href="https://github.com/centerforgov/data-ownership/edit/master/README.md">Edit on Github</a> |
       Fork and submit a <a href="https://github.com/centerforgov/data-ownership/pulls">pull request</a> |
@@ -161,7 +161,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Open Data Portal Requirements</h4>
     <p>The Open Data Portal Requirements is a document which governments can use to develop or procure an open data platform. It identifies critical and optional functionality needed to support a data catalog, access to data. Non-functional (technical) requirements are also identified.</p>
     <p>
-      <a href="{{ site.baseurl }}/open-data/portal-requirements/">Read online</a> |
+      <a href="{{ site.baseurl }}open-data/portal-requirements/">Read online</a> |
       <a href="https://github.com/centerforgov/open-data-portal-requirements/blob/master/README.md">View on Github</a> |
       <a href="https://github.com/centerforgov/open-data-portal-requirements/edit/master/README.md">Edit on Github</a> |
       Fork and submit a <a href="https://github.com/centerforgov/open-data-portal-requirements/pulls">pull request</a> |
