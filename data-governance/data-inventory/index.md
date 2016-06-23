@@ -1,4 +1,5 @@
 ---
+redirect_from: /datainventory
 layout: default
 ---
 **Data Inventory Guide**
