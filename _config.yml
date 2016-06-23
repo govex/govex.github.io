@@ -27,3 +27,6 @@ defaults:
       path: "open-data-portal-requirements"
     values:
       layout: collaboration
+      
+gems:
+  - jekyll-redirect-from
