@@ -1,4 +1,4 @@
-This is the repository for the labs.centerforgov.org site. Switch to the gh-pages branch to manage the content.
+This is the repository for the labs.centerforgov.org site. Use the `master` branch to manage the content.
 
 2016.06.23 Changelog
 * new /projects folder. it contains:
