@@ -11,10 +11,13 @@ Ordinances and Executive Orders set the stage for effective open data programs w
   * If possible or appropriate, invite the city’s open data lead to review draft press releases.
   * If there are press release templates, they should be modified to remind staff to include open data references.
 * Key mayoral announcements, such as budget or state of the city addresses, should include references to existing open data (either self-published or published by others) as backup for factual/statistical statements.
+* If the city uses social media to engage with constituents, use those channels to share open data and gather feedback. For additional informationm, refer to the [GovEx Community Engagement Playbook](https://www.gitbook.com/book/centerforgov/community-engagement-playbook/details).
+* Internal data consumers should be informed when updates to the open data program or portal happen.
 
 ### Community Affairs / Engagement
 
 * Community engagement managers have experience working with a variety of non-government partners to achieve mutual goals. They can serve as a gateway to conversations with various groups of the public about their interests in open data as well as raising the awareness of it.
+* In conjunction with the appropriate community engagement managers, the open data leadership team should ideally hold regular meetings or events to engage the community around open data (e.g., hackathons, training, analysis partnerships). For additional information, refer to the [GovEx Community Engagement Playbook](https://www.gitbook.com/book/centerforgov/community-engagement-playbook/details).
 
 ### Coordination/Governance/Training
 
@@ -23,6 +26,7 @@ Ordinances and Executive Orders set the stage for effective open data programs w
 * New or supplemental employee training programs should include a primer on open data as a tool for internal use, public engagement, and service co-production.
 * If you have an “open by default” mandate in applicable laws or executive orders, ensure that you define clear criteria for when data should be excluded from public release.
 * If you do not have an “open by default” mandate in applicable laws or executive orders, ensure that you define clear criteria for when data should be included for public release.
+* Refer to the [GovEx Open Data Getting Started Guide](http://centerforgov.gitbooks.io/open-data-getting-started/content/) for more details on building open data governance.
 
 ### Information Technology
 
@@ -79,3 +83,4 @@ Ordinances and Executive Orders set the stage for effective open data programs w
   * Ensuring that coded values in source data are translated to human-readable values.
     * If you must provide coded values in your published data, ensure the human-readable value is adjacent and make clear in the field metadata that a relationship exists between the code and the description.
     * If you are unable to provide a human-readable value for each row in the data, ensure the metadata describes what each code that is in the data can be translated to.
+ * The open data leadership team should routinely meet and coordinate with regional partners to share and align priorities for open data releases, as well as sharing best practices. This might include neighboring / peer cities, counties, as well as overlapping school, water, and fire districts.
