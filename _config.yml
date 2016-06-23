@@ -7,11 +7,11 @@ baseurl: /
 # navigation configuration
 navigation:
   - title: <span class="glyphicon glyphicon-book"></span> Guides
-    url: /guides/
+    url: guides/
   - title: <span class="glyphicon glyphicon-calendar"></span> Events
-    url: /events/
+    url: events/
   - title: <span class="glyphicon glyphicon-cog"></span> Civic Data Standards
-    url: /civic-data-standards/
+    url: open-data/civic-data-standards/
     
 defaults:
   -
