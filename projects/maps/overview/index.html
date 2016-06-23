@@ -1,3 +1,6 @@
+---
+redirect_from: /overview
+---
 <!DOCTYPE html>
 <html>
 
@@ -11,25 +14,27 @@
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
-    <script type="text/javascript" src="page-shield.js"></script>
     <style>
     @font-face {
         font-family: 'quadon';
-        src: url('http://labs.centerforgov.org/fonts/quadon/webfonts/Quadon-Black.eot');
-        src: url('http://labs.centerforgov.org/fonts/quadon/webfonts/Quadon-Black.eot?#iefix') format('embedded-opentype'),
-             url('http://labs.centerforgov.org/fonts/quadon/webfonts/Quadon-Black.woff') format('woff'),
-             url('http://labs.centerforgov.org/fonts/quadon/webfonts/Quadon-Black.ttf') format('truetype');
+        src: url('http://govex.github.io/fonts/quadon/webfonts/Quadon-Black.eot');
+        src: url('http://govex.github.io/fonts/quadon/webfonts/Quadon-Black.eot?#iefix') format('embedded-opentype'),
+             url('http://govex.github.io/fonts/quadon/webfonts/Quadon-Black.woff') format('woff'),
+             url('http://govex.github.io/fonts/quadon/webfonts/Quadon-Black.ttf') format('truetype');
         font-weight: 800;
         font-style: normal;
     }
+
     @font-face {
         font-family: 'din';
-        src: url('http://labs.centerforgov.org/fonts/din-condensed/DINWeb-CondBold.eot');
-        src: url('http://labs.centerforgov.org/fonts/din-condensed/DINWeb-CondBold.woff') format('woff'),
-             url('http://labs.centerforgov.org/fonts/din-condensed/DINWeb-CondBold.ttf') format('truetype');
+        src: url('http://govex.github.io/fonts/din-condensed/DINWeb-CondBold.eot');
+        src: url('http://govex.github.io/fonts/din-condensed/DINWeb-CondBold.woff') format('woff'),
+             url('http://govex.github.io/fonts/din-condensed/DINWeb-CondBold.ttf') format('truetype');
         font-weight: 800;
         font-style: normal;
     }
+
+
     html,
     body,
     #map {
@@ -39,7 +44,7 @@
     }
     option {
         font: lighter 12px "Helvetica", Arial;
-    }
+    }    
     li {
         list-style-type: none;
         font: lighter 12px "Helvetica", Arial;
@@ -81,19 +86,19 @@
         z-index: 99;
         background-color: rgba(255, 255, 255, .6);
         padding: 5px 0px 20px 10px;
-        max-width: 400px; 
+        max-width: 260px;
         height:95%;
     }
     #Working,
     #Completed {
         color: #2F9BBB;
     }
-    #Applied,
+    #Applied, 
     #Eligible {
         color: #472F92;
     }
-    #Site\20 Visit\20 Completed,
-    #Site\20 Visit\20 Scheduled,
+    #Completed\20 Site\20 Visit, 
+    #Scheduled\20 Site\20 Visit,
     #Accepted {
         color: #FF6600;
     }
@@ -129,15 +134,16 @@
     #menu {
         height: 100%;
         overflow-y: auto;
-        max-width:400px;
+        max-width:290px;
     }
     #menu table{
-        max-width: 400px;
+        max-width: 290px;
         padding-left:3px;
     }
     #cityinfoh{
         padding-left:7px;
     }
+
     #menu tr{
         display: block;
     }
@@ -168,8 +174,8 @@
     #tba:hover,
     #Accepted.selected,
     #Accepted:hover,
-    #Site\20 Visit\20 Completed.selected,
-    #Site\20 Visit\20 Completed:hover,
+    #Completed\20 Site\20 Visit.selected,
+    #Completed\20 Site\20 Visit:hover,
     #csv.selected,
     #csv:hover{
         color: #fff;
@@ -177,7 +183,7 @@
         box-shadow: rgba(0, 0, 0, 0.80) 0px 0.5px 2.5px 0px;
     }
     #Working.selected,
-    #Working:hover,
+    #Working:hover,    
     #Completed.selected,
     #Completed:hover{
         color: #fff;
@@ -200,8 +206,8 @@
         background: #2F9BBB;
         box-shadow: rgba(0, 0, 0, 0.80) 0px 0.5px 2.5px 0px;
     }
-    .popup-header #Site\20 Visit\20 Completed,
-    .popup-header #Site\20 Visit\20 Scheduled,
+    .popup-header #Completed\20 Site\20 Visit,
+    .popup-header #Scheduled\20 Site\20 Visit,
     .popup-header #Accepted {
         color: #fff;
         background: #FF6600;
@@ -277,22 +283,25 @@
     .short{
         line-height: 30px !important;
     }
+
 #Labels.selected,
     #Labels:hover{
         color: #fff;
         background: #808080;
         box-shadow: rgba(0, 0, 0, 0.80) 0px 0.5px 2.5px 0px;
     }
+
     #tog{
         padding-left: 130px;
         width: 80px;
     }
+
     </style>
     <script type="infowindow/html" id="infowindow_template">
         <div class="infowindow-custom">
             <a href="#close" class="cartodb-popup-close-button close" >x</a>
             <div class="popup-header">
-                <h1 id="{{content.data.status}}">{{content.data.city}}, {{content.data.state}} </h1>
+                <h1 id="{{content.data.status}}">{{content.data.city}}, {{content.data.state}}
             </div>
             <div class="cartodb-popup-content">
                 <div class="content" style="padding:5px">
@@ -324,41 +333,11 @@
     <div id="over_map">
         <div id="menu">
         <table>
-        <tr>
-            <td>
-                <select id="lead">
-                    <option value="All">All Senior Implementation Advisors</option>
-                    <option value="Matt Raifman">Kristen Ahearn</option>
-                    <option value="Sheila Dugan">Sheila Dugan</option>
-                    <option value="Katherine Klosek">Katherine Klosek</option>
-                    <option value="Matt Pazoles">Matt Pazoles</option>
-                    <option value="Matt Raifman">Matt Raifman</option>
-                    <option value="Matt Raifman">Rebecca Williams</option>
-                </select>
-            </td>
-            <td>
-                <select id="analyst">
-                    <option value="All">All Analysts</option>
-                    <option value="Michael Benison">Michael Benison</option>
-                    <option value="Lena Geraghty">Lena Geraghty</option>
-                    <option value="Nick Hadjigeorge">Nick Hadjigeorge</option>
-                    <option value="Eric Reese">Eric Reese</option>
-                </select>
-            </td>
-        </tr>
+        
         <tr>
             <td id="status"><h2>Status</h2></td>
             <td id="tog"><a id="Labels" class="short button labels">Labels</a></td>
 
-        </tr>
-        <tr>
-            <td id="two"><a id="Applied" class="short button status selected">Applied</a></td>
-            <td id="two"><a id="Eligible" class="short button status selected">Eligible</a></td>
-        </tr>
-        <tr>
-            <td id="three"><a id="Accepted" class="short button status selected">Accepted</a></td>
-            <td id="three"><a id="tba" class="button status selected">Site Visit Scheduled</a></td>
-            <td id="three"><a id="csv" class="button status selected">Site Visit Completed</a></td>
         </tr>
         <tr>
             <td id="two"><a id="Working" class="short button status selected">Working</a></td>
@@ -395,6 +374,7 @@
             zoomControl: true,
             zoom: 4
             });
+
         //add points layer
         cartodb.createLayer(map, {
                 user_name: 'govex',
@@ -409,6 +389,7 @@
             })
             .addTo(map)
             .done(function(layer) {
+
                 //data to route to infowindow
                 cdb.vis.Vis.addInfowindow(map, layer.getSubLayer(0), ['cartodb_id','status','city','state','scope1','scope2','scope3','lead','analyst','timeline_progress','mayor', 'pop', 'income'], {infowindowTemplate: $('#infowindow_template').html()});
                 //uncomment the alert to confirm sublayer additions
@@ -416,6 +397,7 @@
                     sublayers[i] = layer.getSubLayer(i);
                     //alert("Sublayer #" + i + "was added");
                 }
+
                 //add logos, sorry leaflet attribution!
                 var sublayer = layer.getSubLayer(0)
                 $('.leaflet-bottom.leaflet-left').append("<img class='bbp' src='https://cloud.githubusercontent.com/assets/3632538/11053004/4cb5bb9e-872b-11e5-9d3a-b9ec5d26b8ca.png'>");
@@ -428,9 +410,11 @@
                         </style>\
                         <text transform='matrix(1 0 0 1 500 242.7529)' class='st0 st1 st2'>GovEx</text>\
                         </svg>");
+
                 //cityinfo div filling query
                 sublayer.on('featureClick', function (e, latlng, pos, data, layerIndex) {
                     var sql = new cartodb.SQL({ user: 'govex', api_key: 'd229b9ac25b04c923fa56651f6bcaec878351cf6' });
+
                     //convert decimal number into formatted percentage
                     function percentify(n) {
                         raw_number = n;
@@ -442,49 +426,30 @@
                         }
                         return format;
                     };
+
+
                     var query = "SELECT * FROM wwcapplicantmap where city = '{{city}}' and state = '{{state}}'";
                     console.log(query);
+
                     sql.execute(query, {city: data.city, state: data.state})
                     .done(function (data) {
                         $('#cityinfo').empty();
                         console.log(data);
+
                         //set what appears in cityinfo div
                         if(data.rows[0].status == "Working") {
+
                         for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2><li>" + data.rows[i].latest_news + "</li><div id='timeline_progress'><h2>TIMELINE PROGRESS</h2><li id='timeline_progress'><progress max='1' value='" + data.rows[i].timeline_progress + "'></progress> " + percentify(data.rows[i].timeline_progress) + "</li></div><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                            ", " + data.rows[i].state + "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2></div><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'></div>");
                             $('.city_name').css("color","#2F9BBB")
                         }} else if (data.rows[0].status == "Completed")
                         {
                             for (var i = 0; i < data.total_rows; i++) {
                             $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2><li>" + data.rows[i].latest_news + "</li><div id='timeline_progress'><h2>TIMELINE PROGRESS</h2><li id='timeline_progress'><progress max='1' value='" + data.rows[i].timeline_progress + "'></progress> " + percentify(data.rows[i].timeline_progress) + "</li></div><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
+                            ", " + data.rows[i].state + "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2></div><div id='scopes'><h2 >SCOPES</h2><li id='scope1'>" + data.rows[i].scope1 + "</li><li id='scope2'>" + data.rows[i].scope2 + "</li><li id='scope3'>" + data.rows[i].scope3 + "</li></div><div id='staff'></div>");
                             $('.city_name').css("color","#2F9BBB")
-                        }} else if (data.rows[0].status == "Site Visit Completed")
-                        {
-                            for (var i = 0; i < data.total_rows; i++) {
-                            $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
-                        }}  else if
-                         (data.rows[0].status == "Site Visit Scheduled")
-                        {
-                            for (var i = 0; i < data.total_rows; i++) {
-                            $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
-                        }}    else if
-                         (data.rows[0].status == "Accepted")
-                        {
-                            for (var i = 0; i < data.total_rows; i++) {
-                            $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state + "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2><div id='staff'><h2> STAFF</h2><li id='lead'>" + data.rows[i].lead + "</li><li id='analyst'>" + data.rows[i].analyst + "</li></div>");
-                        }}  else
-                        {
-                            for (var i = 0; i < data.total_rows; i++) {
-                            $('#cityinfo').append("<div><h1 class='city_name'>" + data.rows[i].city +
-                            ", " + data.rows[i].state +
-                            "</h1></div><h2>STATUS | <em id='" + data.rows[i].status + "'>" + data.rows[i].status + "</em></h2></div>");
-                            $('.city_name').css("color","#472F92");
-                        }}
+                        }} 
                     })
                 });
             //initialize variables
@@ -492,7 +457,7 @@
                 analyst = "";
                 lead = "";
                 scope = "";
-                status = "";
+                status = "and a.status in ('Working','Completed')";
                 style = "";
                 timeline_progress = "";
                 layer.setParams({
@@ -502,6 +467,7 @@
                     'status': status,
                     'style': style
                 });
+
                 //Senior Analyst dropdown
                 $('select[id="lead"]').change(function() {
                     if ($(this).val() == "All") {
@@ -513,6 +479,7 @@
                     'lead': lead
                     })
                 });
+
                 //Analyst dropdown
                 $('select[id="analyst"]').change(function() {
                     if ($(this).val() == "All") {
@@ -524,6 +491,7 @@
                     'analyst': analyst
                     })
                 });
+
                 //labels button
                 $('.button.labels').click(function() {
                     style = ""
@@ -538,6 +506,7 @@
                     'style': style
                     });
                 });
+
                 //status buttons
                 $('.button.status').click(function() {
                     status = ""
@@ -558,6 +527,7 @@
                     'status': status
                     });
                 });
+
                 //creates string of all selected statuses to pass to CartoDB via SQL
                 function statusvalues() {
                     values = "";
@@ -569,6 +539,7 @@
                      .join("','");
                     return values;
                 };
+
                 //scope buttons
                 $('.button.scope').click(function() {
                     scope = ""
@@ -591,6 +562,7 @@
                         $(this).addClass('selected');
                         scopeconcat();
                         scope = "and (('" + scopevalues + "' in (a.scope1,a.scope2,a.scope3)))";
+
                         $("#Applied").removeClass('selected');
                         $("#Eligible").removeClass('selected');
                         $("#csv").removeClass('selected');
@@ -599,6 +571,7 @@
                         $("#Working").addClass('selected');
                         $("#Completed").addClass('selected');
                         statusvalues();
+
                         status = "and a.status in ('Working','Completed')";
                     }
                     layer.setParams({
@@ -608,6 +581,9 @@
                     'lead': lead
                     });
                 });
+
+
+
                 //creates string of all selected scopes to pass to CartoDB via SQL
                 function scopeconcat() {
                     scopevalues = "";

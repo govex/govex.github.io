@@ -1,3 +1,0 @@
-[submodule "submodule-test"]
-	path = submodule-test
-	url = https://github.com/centerforgov/submodule-test.git

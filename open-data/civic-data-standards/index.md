@@ -1,4 +1,5 @@
 ---
+redirect_from: /civic-data-standards/
 layout: default
 ---
 

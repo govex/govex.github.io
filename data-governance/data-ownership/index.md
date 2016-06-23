@@ -1,4 +1,5 @@
 ---
+redirect_from: "/data-ownership/"
 layout: collaboration
 prose-link: http://prose.io/#centerforgov/data-ownership/edit/master/README.md
 github-document-link: https://github.com/centerforgov/data-ownership/blob/master/README.md

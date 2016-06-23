@@ -1,3 +1,18 @@
+title: GovEx Labs
+description: Our playground for experimentation and fluid content.
+logo: /images/govexlogo-small.png
+favicon: http://govex.jhu.edu/content/themes/govex/GovEx_favicon.png
+baseurl: /govex.github.io
+
+# navigation configuration
+navigation:
+  - title: <span class="glyphicon glyphicon-book"></span> Guides
+    url: /guides/
+  - title: <span class="glyphicon glyphicon-calendar"></span> Events
+    url: /events/
+  - title: <span class="glyphicon glyphicon-cog"></span> Civic Data Standards
+    url: /civic-data-standards/
+    
 defaults:
   -
     scope:
@@ -12,3 +27,6 @@ defaults:
       path: "open-data-portal-requirements"
     values:
       layout: collaboration
+      
+gems:
+  - jekyll-redirect-from
