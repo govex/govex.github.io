@@ -1,6 +1,7 @@
 ---
 redirect_from: /overview
 ---
+{% raw %}
 <!DOCTYPE html>
 <html>
 
@@ -17,19 +18,19 @@ redirect_from: /overview
     <style>
     @font-face {
         font-family: 'quadon';
-        src: url('http://govex.github.io/fonts/quadon/webfonts/Quadon-Black.eot');
-        src: url('http://govex.github.io/fonts/quadon/webfonts/Quadon-Black.eot?#iefix') format('embedded-opentype'),
-             url('http://govex.github.io/fonts/quadon/webfonts/Quadon-Black.woff') format('woff'),
-             url('http://govex.github.io/fonts/quadon/webfonts/Quadon-Black.ttf') format('truetype');
+        src: url('{{ site.baseurl }}fonts/quadon/webfonts/Quadon-Black.eot');
+        src: url('{{ site.baseurl }}fonts/quadon/webfonts/Quadon-Black.eot?#iefix') format('embedded-opentype'),
+             url('{{ site.baseurl }}fonts/quadon/webfonts/Quadon-Black.woff') format('woff'),
+             url('{{ site.baseurl }}fonts/quadon/webfonts/Quadon-Black.ttf') format('truetype');
         font-weight: 800;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'din';
-        src: url('http://govex.github.io/fonts/din-condensed/DINWeb-CondBold.eot');
-        src: url('http://govex.github.io/fonts/din-condensed/DINWeb-CondBold.woff') format('woff'),
-             url('http://govex.github.io/fonts/din-condensed/DINWeb-CondBold.ttf') format('truetype');
+        src: url('{{ site.baseurl }}fonts/din-condensed/DINWeb-CondBold.eot');
+        src: url('{{ site.baseurl }}fonts/din-condensed/DINWeb-CondBold.woff') format('woff'),
+             url('{{ site.baseurl }}fonts/din-condensed/DINWeb-CondBold.ttf') format('truetype');
         font-weight: 800;
         font-style: normal;
     }
@@ -607,3 +608,4 @@ redirect_from: /overview
     </script>
 </body>
 </html>
+{% endraw %}
