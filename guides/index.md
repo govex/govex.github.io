@@ -6,6 +6,13 @@ layout: default
 Below are guidebooks which the Center for Government Excellence makes available online. You may also visit <a href="https://www.gitbook.com/@centerforgov">our page on GitBooks</a>.
 
 <ul class="list-group">
+<li class="list-group-item">
+  <h4>Data Science 101 Resources</h4>
+  <p>Data Science 101 Resources is a course primer created as a part of GovEx and Denver What Works Cities MOU for advanced analytics training within Peak Academy.</p>
+  <p>
+    <a href="{{ site.baseurl }}data-science/101-resource/">Read and comment online</a>
+  </p>
+</li>
   <li class="list-group-item">
     <h4>Policy Touchpoints for Open Data Programs</h4>
     <p>An outline of additional functions/areas of government organizations that may have policies or processes that can be modified to support open data programs.</p>
@@ -74,7 +81,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Addressing Open Data Concerns</h4>
     <p>City leaders often hear concerns and resistance about opening data. GovEx developed a short video and list to guide you through common concerns and how to respond.</p>
     <p>
-      <a href="https://www.youtube.com/watch?v=70Zl9jXdzLo&feature=youtu.be" target="_blank">Watch the Video</a> |
+      <a href="https://www.youtube.com/watch?v=70Zl9jXdzLo&feature=youtu.be" target="_blank">Watch the video</a> |
       <a href="{{ site.baseurl }}open-data/addressing-concerns/">Read online</a>
     </p>
   </li>
@@ -91,7 +98,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Talking about Performance (Without Complicating It)</h4>
     <p>The Johns Hopkins University Center for Government Excellence has created this short survey to help governments get past the semantics and focus on the substance of performance measurement.</p>
     <p>
-      <a href="https://youtu.be/Qa3gtv7TRxk">Watch the Video</a>
+      <a href="https://youtu.be/Qa3gtv7TRxk">Watch the video</a>
     </p>
   </li>
   <li class="list-group-item">
