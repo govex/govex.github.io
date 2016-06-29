@@ -12,9 +12,8 @@ The purpose of this guide is to provide a brief overview of the courses, concept
 
 ## Data Science Courses
 
-If you want to become a bonafide Data Scientist, there are many routes and options available to you. For a list of Data Science programs across the United States, offered by major universities and colleges, check out <a href="https://public.tableau.com/s/gallery/data-science-programs-us" target="_blank">this data visualization</a>. The table below shows some of the most popular online/in-person offerings for those wishing to do it on their own. Many colleges and universities offer similar programs, often through statistics or business departments, so check with your local universities and professors to see if there are any local offerings that can help meet data science needs.
+If you want to become a bonafide Data Scientist, there are many routes and options available to you. For a list of Data Science programs across the United States, offered by major universities and colleges, check out <a href="https://public.tableau.com/s/gallery/data-science-programs-us" >this data visualization</a>. The table below shows some of the most popular online/in-person offerings for those wishing to do it on their own. Many colleges and universities offer similar programs, often through statistics or business departments, so check with your local universities and professors to see if there are any local offerings that can help meet data science needs.
 
-<table class="tableizer-table">
 <thead>
 <tr class="tableizer-firstrow"><th>Course</th><th>Provided Through</th><th>Developed By</th><th>Price</th><th>Format</th></tr></thead>
 <tbody>
@@ -38,7 +37,6 @@ Not everyone wants to be a Data Scientist, but plenty of people want to strength
 
 The internet is rich with resources for learning data science. Plus, the community is an active one... so join in and get involved! Liberally use sites like StackXchange, R Bloggers, GitHub, and even Twitter to start learning from your peers, no matter your skill level as a data scientist.
 
-<table class="tableizer-table">
 <thead>
 	<tr class="tableizer-firstrow"><th>Concept</th><th>Type</th><th>Description</th><th>Level</th></tr></thead>
 <tbody>
@@ -74,13 +72,13 @@ The internet is rich with resources for learning data science. Plus, the communi
  <tr><td>●      SAS</td><td>A software package used for statistical computing. </td><td>Advanced</td></tr>
 </tbody>
 </table>
-*If you’re not familiar with databases, SQL, Postgre, or NoSQL, check out this fun and information introduction to databases from Guru 99. http://www.guru99.com/introduction-to-database-sql.html
+
+*If you’re not familiar with databases, SQL, Postgre, or NoSQL, check out this fun and information introduction to databases from Guru 99. http://www.guru99.com/introduction-to-database-sql.html*
 
 ## Data Science Tools
 
 Being a Data Scientist, or even pretending to be one, requires the utilization of some of the tools below. This table provides a brief overview of some of the tools used in data science and what those tools are best suited for. Many of these tools have functionality in other areas outside their focus area, so careful research and choice of tools are important when working in data science.
 
-<table class="tableizer-table">
 <thead>
 <tr class="tableizer-firstrow"><th>Tool</th><th>Used for</th><th>Cost</th></tr></thead><tbody>
  <tr><td><a href="https://git-scm.com/">Git</a></td><td>Version control</td><td>Free</td></tr>
@@ -103,23 +101,23 @@ Being a Data Scientist, or even pretending to be one, requires the utilization o
 ## Data Science Resources
 
 ### Books:
-* <a href="https://itunes.apple.com/us/book/introduction-to-data-science/id529088127?mt=11">An Introduction to Data Science</a> by Jeffrey Stanton
-* <a href="https://itunes.apple.com/us/book/what-is-data-science/id520235965?mt=11">What is Data Science?</a> by Mike Loukides
-* <a href="https://itunes.apple.com/us/book/building-data-science-teams/id466584582?mt=11">Building Data Science Teams</a> by DJ Patil
-* <a href="https://leanpub.com/eds">Executive Data Science</a> by Brian Caffo, Roger D. Peng and Jeffrey Leek
-* <a href="https://leanpub.com/rprogramming">R Programming for Data Science</a> by Roger Peng
-* <a href="https://leanpub.com/artofdatascience">The Art of Data Science</a> by Roger D. Peng and Elizabeth Matsui
-* <a href="https://leanpub.com/LittleInferenceBook">Statistical Inference for Data Science</a> by Brian Caffo
-* <a href="https://leanpub.com/regmods">Regression Models for Data Science in R</a> by Brian Caffo
-* <a href="https://leanpub.com/reportwriting">Report Writing for Data Science</a> in R by Roger Peng
-* <a href="https://leanpub.com/lm">Advanced Linear Models for Data Science</a> by Brian Caffo
-* <a href="https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X/191-7985461-1076024?ie=UTF8&keywords=data%20science&qid=1463699926&ref_=sr_1_1&s=books&sr=1-1">Data Science from Scratch: Principles with Python</a> by Joel Grus
-* <a href="https://www.amazon.com/Data-Science-Business-Data-Analytic-Thinking/dp/1449361323?ie=UTF8&keywords=data%20science&qid=1463699926&ref_=sr_1_3&s=books&sr=1-3">Data Science for Business: What you Need to Know about Data Mining and Data Analytic Thinking</a> by Foster Provost
-* <a href="https://www.amazon.com/Data-Smart-Science-Transform-Information/dp/111866146X?ie=UTF8&keywords=data%20science&qid=1463699926&ref_=sr_1_4&s=books&sr=1-4">Data Smart: Using Data Science to Transform Information into Insight</a> by John Foreman
-* <a href="https://www.amazon.com/Data-Science-Dummies-Lillian-Pierson/dp/1118841557?ie=UTF8&keywords=data%20science&qid=1463699926&ref_=sr_1_5&s=books&sr=1-5">Data Science for Dummies</a> by Lillian Pierson
-* <a href="https://www.amazon.com/Doing-Data-Science-Straight-Frontline/dp/1449358659?ie=UTF8&keywords=data%20science&qid=1463699926&ref_=sr_1_10&s=books&sr=1">Doing Data Science: Straight Talk from the Frontline</a> by Cathy O’Neil
-* <a href="https://www.amazon.com/Data-Science-Handbook-Insights-Scientists/dp/0692434879?ie=UTF8&keywords=data%20science&qid=1463699926&ref_=sr_1_11&s=books&">The Data Science Handbook: Advice and Insights from 25 Amazing Data Scientists</a> by Carl Shan
-* <a href="https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1449319793?ie=UTF8&keywords=python%20for%20data%20analysis&qid=1463752193&ref_=sr_1_1&sr=8-1">Python for Data Analysis</a> by Wes McKinney
-* <a href="https://www.amazon.com/Bad-Data-Handbook-Cleaning-Back/dp/1449321887?ie=UTF8&keywords=bad%20data%20handbook&qid=1463752260&ref_=sr_1_1&sr=8-1">Bad Data Handbook</a> by Q Ethan McCallum
-* <a href="https://www.amazon.com/Mining-Social-Web-Facebook-LinkedIn/dp/1449367615?ie=UTF8&keywords=mining%20the%20social%20web&qid=1463752288&ref_=sr_1_1&sr=8-1">Mining the Social Web</a> by Matthew Russel
-* <a href="https://www.amazon.com/Creating-Data-Driven-Organization-Carl-Anderson/dp/1491916915?ie=UTF8&keywords=creating%20a%20data-driven%20organization&qid=1463752312&ref_=sr_1_1&sr=8-1">Creating a Data-Driven Organization</a> by Carl Anderson
+* [An Introduction to Data Science](https://itunes.apple.com/us/book/introduction-to-data-science/id529088127?mt=11) by Jeffrey Stanton
+* [What is Data Science?](https://itunes.apple.com/us/book/what-is-data-science/id520235965?mt=11) by Mike Loukides
+* [Building Data Science Teams](https://itunes.apple.com/us/book/building-data-science-teams/id466584582?mt=11) by DJ Patil
+* [Executive Data Science](https://leanpub.com/eds) by Brian Caffo, Roger D. Peng and Jeffrey Leek
+* [R Programming for Data Science](https://leanpub.com/rprogramming) by Roger Peng
+* [The Art of Data Science](https://leanpub.com/artofdatascience) by Roger D. Peng and Elizabeth Matsui
+* [Statistical Inference for Data Science](https://leanpub.com/LittleInferenceBook) by Brian Caffo
+* [Regression Models for Data Science in R](https://leanpub.com/regmods) by Brian Caffo
+* [Report Writing for Data Science](https://leanpub.com/reportwriting) in R by Roger Peng
+* [Advanced Linear Models for Data Science](https://leanpub.com/lm) by Brian Caffo
+* [Data Science from Scratch: Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X/191-7985461-1076024?ie=UTF8&keywords=data%20science&qid=1463699926&ref_=sr_1_1&s=books&sr=1-1) by Joel Grus
+* [Data Science for Business: What you Need to Know about Data Mining and Data Analytic Thinking](https://www.amazon.com/Data-Science-Business-Data-Analytic-Thinking/dp/1449361323?ie=UTF8&keywords=data%20science&qid=1463699926&ref_=sr_1_3&s=books&sr=1-3) by Foster Provost
+* [Data Smart: Using Data Science to Transform Information into Insight](https://www.amazon.com/Data-Smart-Science-Transform-Information/dp/111866146X?ie=UTF8&keywords=data%20science&qid=1463699926&ref_=sr_1_4&s=books&sr=1-4) by John Foreman
+* [Data Science for Dummies](https://www.amazon.com/Data-Science-Dummies-Lillian-Pierson/dp/1118841557?ie=UTF8&keywords=data%20science&qid=1463699926&ref_=sr_1_5&s=books&sr=1-5) by Lillian Pierson
+* [Doing Data Science: Straight Talk from the Frontline](https://www.amazon.com/Doing-Data-Science-Straight-Frontline/dp/1449358659?ie=UTF8&keywords=data%20science&qid=1463699926&ref_=sr_1_10&s=books&sr=1) by Cathy O’Neil
+* [The Data Science Handbook: Advice and Insights from 25 Amazing Data Scientists](https://www.amazon.com/Data-Science-Handbook-Insights-Scientists/dp/0692434879?ie=UTF8&keywords=data%20science&qid=1463699926&ref_=sr_1_11&s=books&) by Carl Shan
+* [Python for Data Analysis](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1449319793?ie=UTF8&keywords=python%20for%20data%20analysis&qid=1463752193&ref_=sr_1_1&sr=8-1) by Wes McKinney
+* [Bad Data Handbook](https://www.amazon.com/Bad-Data-Handbook-Cleaning-Back/dp/1449321887?ie=UTF8&keywords=bad%20data%20handbook&qid=1463752260&ref_=sr_1_1&sr=8-1) by Q Ethan McCallum
+* [Mining the Social Web](https://www.amazon.com/Mining-Social-Web-Facebook-LinkedIn/dp/1449367615?ie=UTF8&keywords=mining%20the%20social%20web&qid=1463752288&ref_=sr_1_1&sr=8-1) by Matthew Russel
+* [Creating a Data-Driven Organization](https://www.amazon.com/Creating-Data-Driven-Organization-Carl-Anderson/dp/1491916915?ie=UTF8&keywords=creating%20a%20data-driven%20organization&qid=1463752312&ref_=sr_1_1&sr=8-1) by Carl Anderson
