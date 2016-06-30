@@ -28,7 +28,7 @@ If you want to become a bonafide Data Scientist, there are many routes and optio
 
 ## Data Science Key Concepts
 
-Not everyone wants to be a Data Scientist, but plenty of people want to strengthen their skills in the underlying competencies. It’s possible to learn key concepts in data science without going through a full-fledged program like those mentioned above. For a high-level overview of some key (and commonly confusing) terms, check out the <a href="https://github.com/govex/Data-Science">GovEx Data Science Cheat Sheet</a>). The list below includes the subject areas which are often taught in data science coursework.
+Not everyone wants to be a Data Scientist, but plenty of people want to strengthen their skills in the underlying competencies. It’s possible to learn key concepts in data science without going through a full-fledged program like those mentioned above. For a high-level overview of some key (and commonly confusing) terms, check out the <a href="https://github.com/govex/Data-Science">GovEx Data Science Cheat Sheet</a>. The list below includes the subject areas which are often taught in data science coursework.
 
 The internet is rich with resources for learning data science. Plus, the community is an active one... so join in and get involved! Liberally use sites like StackXchange, R Bloggers, GitHub, and even Twitter to start learning from your peers, no matter your skill level as a data scientist.
 
@@ -44,7 +44,7 @@ The internet is rich with resources for learning data science. Plus, the communi
 | R Programming | Programming Language | A programming language used for statistical computing. | Advanced |
 | Python Programming | Programming Language | A general purpose programming language. | Advanced |
 | Regression Models | Analysis | Statistical methods for analyzing relationships between variables. | Introductory |
-| Machine Learning | Concept | Computational algorithms used to make predictions. | Advanced | 
+| Machine Learning | Concept | Computational algorithms used to make predictions. | Advanced |
 | Data Visualization | Concept | The visual representation of information in a multidimensional space. | Introductory |
 | Econometrics | Statistics | A field of statistics for analyzing economic data. | Advanced |
 | Big Data | Concept | A term used to describe data that is extremely large in storage size, or that requires large amounts of processing to analyze. | Advanced |
@@ -58,7 +58,7 @@ The internet is rich with resources for learning data science. Plus, the communi
 | PostgreSQL* | Databases | Querying language for PostgreSQL relational databases. | Intermediate |
 | NoSQL* | Databases | Querying language used to interact with a non-relational database. | Advanced |
 
-#### Tools for conducting data analysis: 
+#### Tools for conducting data analysis:
 
 | Concept | Type | Description | Level |
 | ------------- |:-------------:| -----:| -----:|
@@ -75,7 +75,7 @@ The internet is rich with resources for learning data science. Plus, the communi
 
 Being a Data Scientist, or even pretending to be one, requires the utilization of some of the tools below. This table provides a brief overview of some of the tools used in data science and what those tools are best suited for. Many of these tools have functionality in other areas outside their focus area, so careful research and choice of tools are important when working in data science.
 
-| Tool | Used for | Cost | 
+| Tool | Used for | Cost |
 | ------------- |:-------------:| -----:|
 | [Git](https://git-scm.com/) | Version control | Free |
 | [Github](https://github.com/) | Collaborative development | Free |
