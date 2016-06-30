@@ -14,22 +14,17 @@ The purpose of this guide is to provide a brief overview of the courses, concept
 
 If you want to become a bonafide Data Scientist, there are many routes and options available to you. For a list of Data Science programs across the United States, offered by major universities and colleges, check out <a href="https://public.tableau.com/s/gallery/data-science-programs-us" >this data visualization</a>. The table below shows some of the most popular online/in-person offerings for those wishing to do it on their own. Many colleges and universities offer similar programs, often through statistics or business departments, so check with your local universities and professors to see if there are any local offerings that can help meet data science needs.
 
-<thead>
-<tr class="tableizer-firstrow"><th>Course</th><th>Provided Through</th><th>Developed By</th><th>Price</th><th>Format</th></tr></thead>
-<tbody>
-<tr><td><a href="https://www.coursera.org/specializations/jhu-data-science">Data Science Specialization</a></td><td>Coursera</td><td>Johns Hopkins University</td><td>$441 </td><td>Online</td></tr>
-<tr><td><a href="https://www.coursera.org/specializations/executive-data-science">Executive Data Science Specialization</a></td><td>Coursera</td><td>Johns Hopkins University</td><td>From $49/course</td><td>Online</td></tr>
-<tr><td><a href="https://www.coursera.org/university-programs/masters-in-computer-data-science">Master of Computer Science in Data Science</a></td><td>Coursera</td><td>University of Illinois at Urbana-Champaign</td><td>$19,000 for 32 credit hour degree</td><td>Online</td></tr>
-<tr><td><a href="https://www.coursera.org/specializations/data-science">Data Science at Scale</a></td><td>Coursera</td><td>University of Washington</td><td>$284</td><td>Online</td></tr>
-<tr><td><a href="https://www.udacity.com/course/intro-to-data-science--ud359">Intro to Data Science</a></td><td>UDACITY</td><td>UDACITY</td><td>Free</td><td>Online</td></tr>
-<tr><td><a href="https://www.edx.org/course/data-science-essentials-microsoft-dat203-1x">Data Science and Machine Learning Essentials</a></td><td>EdX</td><td>Microsoft</td><td>Free</td><td>Online</td></tr>
-<tr><td><a href="https://www.class-central.com/mooc/1806/open-education-by-blackboard-applied-data-science-an-introduction">Applied Data Science: An Introduction</a></td><td>Course Central</td><td>Syracuse University</td><td>Free</td><td>Online</td></tr>
-<tr><td><a href="https://github.com/open-source-society/data-science">Open Source Society University</a></td><td>Github</td><td>Open Source Society</td><td>Free</td><td>Online</td></tr>
-<tr><td><a href="https://generalassemb.ly/education/data-science-immersive">Data Science Immersive</td><td>General Assembly</a></td><td>General Assembly</td><td>$14,500 </td><td>In Person</td></tr>
-<tr><td><a href="https://generalassemb.ly/education/data-science">Data Science Part Time</td><td>General Assembly</a></td><td>General Assembly</td><td>$4,000 </td><td>½ Online <br>
-½ In Person</td></tr>
-</tbody>
-</table>
+| Course        | Provided Through | Developed By | Price | Format |
+| ------------- |:-------------:| -----:| -----:| -----:|
+| [Data Science Specialization](https://www.coursera.org/specializations/jhu-data-science) | Coursera | Johns Hopkins University | $441 | Online |
+| [Executive Data Science Specialization](https://www.coursera.org/specializations/executive-data-science) | Coursera | Johns Hopkins University | From $49/course | Online |
+| [Master of Computer Science in Data Science](https://www.coursera.org/university-programs/masters-in-computer-data-science) | Coursera | University of Illinois at Urbana-Champaign | $19,000 for 32 credit hour degree | Online |
+| [Data Science at Scale](https://www.coursera.org/specializations/data-science) | Coursera | University of Washington | $284 | Online |
+| [Intro to Data Science](https://www.udacity.com/course/intro-to-data-science--ud359) | UDACITY | UDACITY | Free | Online |
+| [Applied Data Science: An Introduction](https://www.class-central.com/mooc/1806/open-education-by-blackboard-applied-data-science-an-introduction) | Course Central | Syracuse University | Free | Online |
+| [Open Source Society](https://github.com/open-source-society/data-science) | Open Source Society University | Github | Free | Online |
+| [Data Science Immersive](https://generalassemb.ly/education/data-science-immersive) | General Assembly | General Assembly | $14,500 | In Person |
+| [Data Science Part Time](https://generalassemb.ly/education/data-science) | General Assembly | General Assembly | $4,000 | ½ Online ½ In Person |
 
 ## Data Science Key Concepts
 
@@ -37,41 +32,42 @@ Not everyone wants to be a Data Scientist, but plenty of people want to strength
 
 The internet is rich with resources for learning data science. Plus, the community is an active one... so join in and get involved! Liberally use sites like StackXchange, R Bloggers, GitHub, and even Twitter to start learning from your peers, no matter your skill level as a data scientist.
 
-<thead>
-	<tr class="tableizer-firstrow"><th>Concept</th><th>Type</th><th>Description</th><th>Level</th></tr></thead>
-<tbody>
- <tr><td>Getting and Cleaning Data</td><td>Concept</td><td>Acquiring and preparing data for analysis through a variety of manual and automated techniques.</td><td>Introductory</td></tr>
- <tr><td>Exploratory Data Analysis</td><td>Concept</td><td>Performing initial analysis on data without a particular research question in mind in order to discover potential insights.</td><td>Intermediate</td></tr>
- <tr><td>Reproducible Research</td><td>Concept</td><td>Cataloguing research so that others can follow data, steps, and analysis in order to replicate/test findings.</td><td>Advanced</td></tr>
- <tr><td>Descriptive Statistics</td><td>Statistics</td><td>Statistics used to describe and summarize data, including measures of central tendency (mean, median, mode, etc.) and variance.</td><td>Introductory</td></tr>
- <tr><td>Inferential Statistics</td><td>Statistics</td><td>Using data from a sample to make inferences about a larger population of data.</td><td>Intermediate</td></tr>
- <tr><td>Bayesian Statistics</td><td>Statistics</td><td>Field of statistics that treats probability as a state of belief that can change given new information. </td><td>Advanced</td></tr>
- <tr><td>Probability</td><td>Statistics</td><td>A measure of the likelihood that an event will occur.</td><td>Introductory</td></tr>
- <tr><td>R Programming</td><td>Programming Language</td><td>A programming language used for statistical computing.</td><td>Advanced</td></tr>
- <tr><td>Python Programming</td><td>Programming Language</td><td>A general purpose programming language.</td><td>Advanced</td></tr>
- <tr><td>Regression Models</td><td>Analysis</td><td>Statistical methods for analyzing relationships between variables. </td><td>Introductory</td></tr>
- <tr><td>Machine Learning</td><td>Concept</td><td>Computational algorithms used to make predictions.</td><td>Advanced</td></tr>
- <tr><td>Data Visualization</td><td>Concept</td><td>The visual representation of information in a multidimensional space. </td><td>Introductory</td></tr>
- <tr><td>Econometrics</td><td>Statistics</td><td>A field of statistics for analyzing economic data. </td><td>Advanced</td></tr>
- <tr><td>Big Data</td><td>Concept</td><td>A term used to describe data that is extremely large in storage size, or that requires large amounts of processing to analyze.</td><td>Advanced</td></tr>
- <tr><td>Algorithms</td><td>Concept</td><td>A set of defined operations on a given input that result in an output. </td><td>Introductory</td></tr>
- <tr><td>Survey Data Collection & Analysis</td><td>Concept</td><td>Surveys are a set of questions answered by a selected group of people. The answers can be analyzed quantitatively and/or qualitatively. </td><td>Intermediate</td></tr>
- <tr><td>Text Mining</td><td>Concept</td><td>Method of computational analysis to derive information from text. </td><td>Intermediate</td></tr>
- <tr><td>Business Intelligence</td><td>Analysis</td><td>Method of data analysis to produce useful information for business purposes. </td><td>Intermediate</td></tr>
- <tr><td>Data Warehousing </td><td>Concept</td><td>System for electronically storing data in an organized manner. </td><td>Advanced</td></tr>
- <tr><td>Systems (GIS)/ spatial analysis</td><td>Analysis</td><td>Method for analyzing the geographical dimension of various types of data. </td><td>Advanced</td></tr>
- <tr><td>SQL*</td><td>Databases</td><td>Querying language used to interact with a relational database. </td><td>Intermediate</td></tr>
- <tr><td>PostgreSQL*</td><td>Databases</td><td>Querying language for PostgreSQL relational databases.</td><td>Intermediate</td></tr>
- <tr><td>NoSQL*</td><td>Databases</td><td>Querying language used to interact with a non-relational database. </td><td>Advanced</td></tr>
- <tr><th colspan=5>Conducting Data Analysis in:</th>
- <tr><td>●      Excel</td><td rowspan=6>Analysis</td><td>A Microsoft spreadsheet application used for calculation and other purposes. </td><td>Introductory</td></tr>
- <tr><td>●      R</td><td>A programming language used for statistical computing.</td><td>Advanced</td></tr>
- <tr><td>●      Python</td><td>A general purpose programming language made with ease and accessibility in mind.</td><td>Advanced</td></tr>
- <tr><td>●      Tableau</td><td>An application used for data visualization.</td><td>Intermediate</td></tr>
- <tr><td>●      SPSS</td><td>A software package used for statistical computing. </td><td>Advanced</td></tr>
- <tr><td>●      SAS</td><td>A software package used for statistical computing. </td><td>Advanced</td></tr>
-</tbody>
-</table>
+| Concept | Type | Description | Level |
+| ------------- |:-------------:| -----:| -----: |
+| Getting and Cleaning Data | Concept | Acquiring and preparing data for analysis through a variety of manual and automated techniques. | Introductory |
+| Exploratory Data Analysis | Concept | Performing initial analysis on data without a particular research question in mind in order to discover potential insights. | Intermediate |
+| Reproducible Research | Concept | Cataloguing research so that others can follow data, steps, and analysis in order to replicate/test findings. | Advanced |
+| Descriptive Statistics | Statistics | Statistics used to describe and summarize data, including measures of central tendency (mean, median, mode, etc.) and variance. | Introductory |
+| Inferential Statistics | Statistics | Using data from a sample to make inferences about a larger population of data. | Intermediate |
+| Bayesian Statistics | Statistics | Field of statistics that treats probability as a state of belief that can change given new information. | Advanced |
+| Probability | Statistics | A measure of the likelihood that an event will occur. | Introductory |
+| R Programming | Programming Language | A programming language used for statistical computing. | Advanced |
+| Python Programming | Programming Language | A general purpose programming language. | Advanced |
+| Regression Models | Analysis | Statistical methods for analyzing relationships between variables. | Introductory |
+| Machine Learning | Concept | Computational algorithms used to make predictions. | Advanced | 
+| Data Visualization | Concept | The visual representation of information in a multidimensional space. | Introductory |
+| Econometrics | Statistics | A field of statistics for analyzing economic data. | Advanced |
+| Big Data | Concept | A term used to describe data that is extremely large in storage size, or that requires large amounts of processing to analyze. | Advanced |
+| Algorithms | Concept | A set of defined operations on a given input that result in an output. | Introductory |
+| Survey Data Collection & Analysis | Concept | Surveys are a set of questions answered by a selected group of people. The answers can be analyzed quantitatively and/or qualitatively. | Intermediate |
+| Text Mining | Concept | Method of computational analysis to derive information from text. | Intermediate |
+| Business Intelligence | Analysis | Method of data analysis to produce useful information for business purposes. | Intermediate |
+| Data Warehousing | Concept | System for electronically storing data in an organized manner. | Advanced |
+| Systems (GIS)/ spatial analysis | Analysis | Method for analyzing the geographical dimension of various types of data. | Advanced |
+| SQL* | Databases | Querying language used to interact with a relational database. | Intermediate |
+| PostgreSQL* | Databases | Querying language for PostgreSQL relational databases. | Intermediate |
+| NoSQL* | Databases | Querying language used to interact with a non-relational database. | Advanced |
+
+#### Tools for conducting data analysis: 
+
+| Concept | Type | Description | Level |
+| ------------- |:-------------:| -----:| -----:|
+| Excel | Analysis | A Microsoft spreadsheet application used for calculation and other purposes. | Introductory |
+| R | Analysis | A programming language used for statistical computing.  | Advanced |
+| Python | Analysis | A general purpose programming language made with ease and accessibility in mind. | Advanced |
+| Tableau | Analysis | An application used for data visualization. | Intermediate |
+| SPSS | Analysis | A software package used for statistical computing. | Advanced |
+| SAS | Analysis | A software package used for statistical computing. | Advanced |
 
 *If you’re not familiar with databases, SQL, Postgre, or NoSQL, check out this fun and information introduction to databases from Guru 99. http://www.guru99.com/introduction-to-database-sql.html*
 
@@ -79,24 +75,22 @@ The internet is rich with resources for learning data science. Plus, the communi
 
 Being a Data Scientist, or even pretending to be one, requires the utilization of some of the tools below. This table provides a brief overview of some of the tools used in data science and what those tools are best suited for. Many of these tools have functionality in other areas outside their focus area, so careful research and choice of tools are important when working in data science.
 
-<thead>
-<tr class="tableizer-firstrow"><th>Tool</th><th>Used for</th><th>Cost</th></tr></thead><tbody>
- <tr><td><a href="https://git-scm.com/">Git</a></td><td>Version control</td><td>Free</td></tr>
- <tr><td><a href="https://github.com/">Github</a></td><td>Collaborative development</td><td>Free</td></tr>
- <tr><td><a href="https://www.r-project.org/">R</a> / <a href="https://www.rstudio.com/">RStudio</a></td><td>Statistical analysis, visualization</td><td>Free</td></tr>
- <tr><td><a href="https://www.python.org/">Python</a></td><td>Statistical analysis, applications</td><td>Free</td></tr>
- <tr><td><a href="https://office.live.com/start/Excel.aspx">Excel</a></td><td>Database, statistical analysis</td><td>$</td></tr>
- <tr><td><a href="http://hadoop.apache.org/">Hadoop</a> (large datasets)</td><td>Data storage, computing</td><td>Free</td></tr>
- <tr><td><a href="https://hive.apache.org/">Hive</a> (large datasets)</td><td>Data storage</td><td>Free</td></tr>
- <tr><td><a href="https://pig.apache.org/">Pig</a> (large datasets)</td><td>Data analysis</td><td>Free</td></tr>
- <tr><td><a href="http://spark.apache.org/">Apache Spark </a> (large datasets)</td><td>Data analysis</td><td>Free</td></tr>
- <tr><td><a href="http://www.tableau.com/">Tableau</a></td><td>Data analysis, visualization</td><td>$$$</td></tr>
- <tr><td><a href="http://www.ibm.com/analytics/us/en/technology/spss/">SPSS</a></td><td>Data analysis</td><td>$$</td></tr>
- <tr><td><a href="http://www.sas.com/en_us/home.html">SAS</a></td><td>Analysis, data management</td><td>$$</td></tr>
- <tr><td><a href="https://www.mysql.com/">MySQL</a></td><td>Database</td><td>Free</td></tr>
- <tr><td><a href="https://www.postgresql.org/">PostgreSQL</a></td><td>Database</td><td>Free</td></tr>
-</tbody>
-</table>
+| Tool | Used for | Cost | 
+| ------------- |:-------------:| -----:|
+| [Git](https://git-scm.com/) | Version control | Free |
+| [Github](https://github.com/) | Collaborative development | Free |
+| [R](https://www.r-project.org/)/ [RStudio](https://www.rstudio.com/) | Statistical analysis, visualization | Free |
+| [Python](https://www.python.org/) | Statistical analysis, applications | Free |
+| [Excel](https://office.live.com/start/Excel.aspx) | Database, statistical analysis | $ |
+| [Hadoop (large datasets)](http://hadoop.apache.org/) | Data storage, computing | Free |
+| [Hive (large datasets)](https://hive.apache.org/) | Data storage | Free |
+| [Pig (large datasets)](https://pig.apache.org/) | Data analysis | Free |
+| [Apache Spark (large datasets)](http://spark.apache.org) | Data analysis | Free |
+| [Tableau](http://www.tableau.com/) | Data analysis, visualization | $$$ |
+| [SPSS](http://www.ibm.com/analytics/us/en/technology/spss/) | Data analysis | $$ |
+| [SAS](http://www.sas.com/en_us/home.html) | Analysis, data management | $$ |
+| [MySQL](https://www.mysql.com/) | Database | Free |
+| [PostgreSQL](https://www.postgresql.org/) | Database | Free |
 
 ## Data Science Resources
 
