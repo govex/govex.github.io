@@ -30,7 +30,7 @@ suppressSiteNotice: true
         <div class="panel-heading"><h3 class="panel-title"><span class="glyphicon glyphicon glyphicon-facetime-video"></span> Video Conference</h3></div>
         <div class="panel-body">
           <p>Joining by video requires a desktop or laptop computer with a microphone, speakers, and camera. Apple and Android devices are also supported. Software download from zoom.us required.</p>
-          <a class="btn btn-primary" href="https://zoom.us/j/6396268606" target="_blank">Join by video</a>
+          <a class="btn btn-primary" href="https://zoom.us/j/756800970" target="_blank">Join by video</a>
         </div>
       </div>
     </div>
@@ -39,7 +39,7 @@ suppressSiteNotice: true
         <div class="panel-heading"><h3 class="panel-title"><span class="glyphicon glyphicon-earphone"></span> Phone</h3></div>
         <div class="panel-body">
           <p>Please call:</p>
-          <h3><a href="tel:+1-646-558-8656">646-558-8656</a>; Meeting ID: 639 626 8606</h3>
+          <h3><a href="tel:+1-646-558-8656">646-558-8656</a>; Meeting ID: 756 800 970</h3>
         </div>
       </div>
     </div>
