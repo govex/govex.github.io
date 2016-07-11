@@ -108,7 +108,7 @@ When it comes to inventorying, there’s no need to reinvent the wheel. A lot of
 	 - [Data Inventory Process Diagram](https://drive.google.com/file/d/0B3D_5mo12oglNDV1aEJtVDA4SDQ/view?usp=sharing)
 	 - [Data Coordinator Guidebook](https://drive.google.com/file/d/0B3D_5mo12oglcTJ3TGRza3JHdXc/view?usp=sharing)
  - GovEx Sample Dataset Fields
-	 - [Sample fields](https://centerforgov.gitbooks.io/dataset-inventory-guidelines/content/index.html)
+	 - [Sample fields](https://github.com/govex/govex.github.io/tree/master/data-governance/data-inventory/sample-fields)
 
  - **Step 3: Catalog Data Assets in Accordance with Inventory Plan**
 	 - Chattanooga, TN
