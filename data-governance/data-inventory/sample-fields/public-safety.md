@@ -2,7 +2,7 @@
 
 | Name | Description | Examples |
 | --- | --- | --- |
-| *Alerts* |	Emergency community notifications such as evacuations, amber/silver alerts, severe weather, etc. | | [San Francisco Crime Mapping](http://www.crimemapping.com/map/ca/sanfrancisco) |
+| *Alerts* |	Emergency community notifications such as evacuations, amber/silver alerts, severe weather, etc. | [San Francisco Crime Mapping](http://www.crimemapping.com/map/ca/sanfrancisco) |
 | *Collisions* |	Moving vehicle collisions such as cars, trucks, buses, trains, trams, aircraft, etc. | --- |
 | *Crimes* |	Crimes reported to law enforcement including assaults, homicides, thefts, etc. | [NYPD Crime Statistics](http://www.nyc.gov/html/nypd/html/crime_prevention/crime_statistics.shtml) |
 | *Evacuations* |	Zones, routes, shelters, meeting points for emergency events such as hurricanes, blizzards, tornados, floods, earthquakes, etc. | --- |
