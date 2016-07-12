@@ -15,7 +15,7 @@ The purpose of this guide is to provide a brief overview of the courses, concept
 If you want to become a bonafide Data Scientist, there are many routes and options available to you. For a list of Data Science programs across the United States, offered by major universities and colleges, check out <a href="https://public.tableau.com/s/gallery/data-science-programs-us" >this data visualization</a>. The table below shows some of the most popular online/in-person offerings for those wishing to do it on their own. Many colleges and universities offer similar programs, often through statistics or business departments, so check with your local universities and professors to see if there are any local offerings that can help meet data science needs.
 
 | Course        | Provided Through | Developed By | Price | Format |
-| ------------- |:-------------:| -----:| -----:| -----:|
+| ------------- |:-------------:| :-----: | :-----: | :-----: |
 | [Data Science Specialization](https://www.coursera.org/specializations/jhu-data-science) | Coursera | Johns Hopkins University | $441 | Online |
 | [Executive Data Science Specialization](https://www.coursera.org/specializations/executive-data-science) | Coursera | Johns Hopkins University | From $49/course | Online |
 | [Master of Computer Science in Data Science](https://www.coursera.org/university-programs/masters-in-computer-data-science) | Coursera | University of Illinois at Urbana-Champaign | $19,000 for 32 credit hour degree | Online |
@@ -33,7 +33,7 @@ Not everyone wants to be a Data Scientist, but plenty of people want to strength
 The internet is rich with resources for learning data science. Plus, the community is an active one... so join in and get involved! Liberally use sites like StackXchange, R Bloggers, GitHub, and even Twitter to start learning from your peers, no matter your skill level as a data scientist.
 
 | Concept | Type | Description | Level |
-| ------------- |:-------------:| -----:| -----: |
+| ------------- |:-------------:| -----| : -----: |
 | Getting and Cleaning Data | Concept | Acquiring and preparing data for analysis through a variety of manual and automated techniques. | Introductory |
 | Exploratory Data Analysis | Concept | Performing initial analysis on data without a particular research question in mind in order to discover potential insights. | Intermediate |
 | Reproducible Research | Concept | Cataloguing research so that others can follow data, steps, and analysis in order to replicate/test findings. | Advanced |
@@ -61,7 +61,7 @@ The internet is rich with resources for learning data science. Plus, the communi
 #### Tools for conducting data analysis:
 
 | Concept | Type | Description | Level |
-| ------------- |:-------------:| -----:| -----:|
+| ------------- |:-------------:| -----| :-----:|
 | Excel | Analysis | A Microsoft spreadsheet application used for calculation and other purposes. | Introductory |
 | R | Analysis | A programming language used for statistical computing.  | Advanced |
 | Python | Analysis | A general purpose programming language made with ease and accessibility in mind. | Advanced |
@@ -76,7 +76,7 @@ The internet is rich with resources for learning data science. Plus, the communi
 Being a Data Scientist, or even pretending to be one, requires the utilization of some of the tools below. This table provides a brief overview of some of the tools used in data science and what those tools are best suited for. Many of these tools have functionality in other areas outside their focus area, so careful research and choice of tools are important when working in data science.
 
 | Tool | Used for | Cost |
-| ------------- |:-------------:| -----:|
+| ------------- |-------------| :-----:|
 | [Git](https://git-scm.com/) | Version control | Free |
 | [Github](https://github.com/) | Collaborative development | Free |
 | [R](https://www.r-project.org/)/ [RStudio](https://www.rstudio.com/) | Statistical analysis, visualization | Free |
