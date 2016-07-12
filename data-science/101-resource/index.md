@@ -33,7 +33,7 @@ Not everyone wants to be a Data Scientist, but plenty of people want to strength
 The internet is rich with resources for learning data science. Plus, the community is an active one... so join in and get involved! Liberally use sites like StackXchange, R Bloggers, GitHub, and even Twitter to start learning from your peers, no matter your skill level as a data scientist.
 
 | Concept | Type | Description | Level |
-| ------------- |:-------------:| -----| : -----: |
+| ------------- |:-------------:| -----| :-----: |
 | Getting and Cleaning Data | Concept | Acquiring and preparing data for analysis through a variety of manual and automated techniques. | Introductory |
 | Exploratory Data Analysis | Concept | Performing initial analysis on data without a particular research question in mind in order to discover potential insights. | Intermediate |
 | Reproducible Research | Concept | Cataloguing research so that others can follow data, steps, and analysis in order to replicate/test findings. | Advanced |
@@ -103,7 +103,7 @@ Being a Data Scientist, or even pretending to be one, requires the utilization o
 * [The Art of Data Science](https://leanpub.com/artofdatascience) by Roger D. Peng and Elizabeth Matsui
 * [Statistical Inference for Data Science](https://leanpub.com/LittleInferenceBook) by Brian Caffo
 * [Regression Models for Data Science in R](https://leanpub.com/regmods) by Brian Caffo
-* [Report Writing for Data Science](https://leanpub.com/reportwriting) in R by Roger Peng
+* [Report Writing for Data Science in R](https://leanpub.com/reportwriting) by Roger Peng
 * [Advanced Linear Models for Data Science](https://leanpub.com/lm) by Brian Caffo
 * [Data Science from Scratch: Principles with Python](https://www.amazon.com/Data-Science-Scratch-Principles-Python/dp/149190142X/191-7985461-1076024?ie=UTF8&keywords=data%20science&qid=1463699926&ref_=sr_1_1&s=books&sr=1-1) by Joel Grus
 * [Data Science for Business: What you Need to Know about Data Mining and Data Analytic Thinking](https://www.amazon.com/Data-Science-Business-Data-Analytic-Thinking/dp/1449361323?ie=UTF8&keywords=data%20science&qid=1463699926&ref_=sr_1_3&s=books&sr=1-3) by Foster Provost
