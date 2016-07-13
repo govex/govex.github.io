@@ -4,7 +4,7 @@ layout: default
 **Sample Data Source List**
 This page contains lists of sample datasets, data sources, and descriptions by subject-matter focus area to help governments think about datasets to include in their inventories.
 
-#Business
+# Business
 
 | Name | Description | Examples |
 | --- | --- | --- |
@@ -14,7 +14,7 @@ This page contains lists of sample datasets, data sources, and descriptions by s
 | Registrations | Entities registered to do business, but that may not be incorporated by the state |  --- |
 | Violations |  Violations issued to businesses |  --- |
 
-#Education
+# Education
 
 | Name | Description | Example |
 | --- | --- | --- |
@@ -29,7 +29,7 @@ This page contains lists of sample datasets, data sources, and descriptions by s
 | Head Start enrollment | Number of children enrolled for any period of the year in any of the Head Start programs, by age group. | --- |
 | Pre-K enrollment | Number of children enrolled for any period of the year in any of the pre-k programs, by age group. | --- |
 
-#Elections
+# Elections
 
 | Name | Description | Example |
 | --- | --- | --- |
@@ -39,14 +39,14 @@ This page contains lists of sample datasets, data sources, and descriptions by s
 | *Voting Results* | Election outcomes | --- |
 | *Voting Locations* |	Locations for citizens to vote | --- |
 
-#Environment
+# Environment
 
 | Name | Description | Example |
 | --- | --- | --- |
 | *Green Space* | Parks, urban forests, green parking, urban agriculture, preservation areas, protected lands | [Raleigh Open GIS Data](http://data.ral.opendata.arcgis.com/datasets?q=environmental&sort_by=relevance) |
 | *Food Environment* | Food deserts, healthy food availability, fast food density, tree coverage, trees planted | [MD iMAP: Maryland's Mapping & GIS Data Portal](http://data.imap.maryland.gov/datasets?q=Environment) |
 
-#Fiscal
+# Fiscal
 
 | Name | Description | Example
 | --- | --- | --- |
@@ -57,7 +57,7 @@ This page contains lists of sample datasets, data sources, and descriptions by s
 | *Payroll* | Salaries of elected officials and government employees |  --- |
 | *Revenues* |	Line items of revenue streams, structured by chart of accounts |  --- |
 
-#Health
+# Health
 
 | Name |  Description | Example |
 | --- | --- | --- |
@@ -66,7 +66,7 @@ This page contains lists of sample datasets, data sources, and descriptions by s
 | *Teen pregnancy rate* |	Rate of female teens 15-19 that gave birth per 1,000 females | --- |
 | *Lead* |	% of lead violations per 1,000 residential units; lead poisoning | [Healthy People 2020](http://www.healthypeople.gov/) |
 
-#Operations
+# Operations
 
 | Name | Description | Example |
 | --- | --- | --- |
@@ -78,7 +78,7 @@ This page contains lists of sample datasets, data sources, and descriptions by s
 | *Vacancies* | Filled positions, vacancies (authorized and unauthorized) |  --- |
 | *Workforce Demographics* | Demographics by department, zip, ethnicity, gender, education, pay level, diversity, earnings |  --- |
 
-#Properties
+# Properties
 
 | Name | Description | Examples |
 | --- | --- | --- |
@@ -93,7 +93,7 @@ This page contains lists of sample datasets, data sources, and descriptions by s
 | *Violations* |	Violations of ordinances, laws, rules, or code | --- |
 | *Zoning* |	Information on allowed land and structural uses of geographic areas, including economic development, industrial, commercial, residential, mixed, historic preservation, etc. | --- |
 
-#Public Safety
+# Public Safety
 
 | Name | Description | Examples |
 | --- | --- | --- |
@@ -105,7 +105,7 @@ This page contains lists of sample datasets, data sources, and descriptions by s
 | *Incidents* |	Events that may require significantly coordinated response from multiple government agencies, such as oil spills, structural collapses, severe weather, etc. |  [SeaStat](https://data.seattle.gov/) |
 | *Notifications* |	Non-emergency community notifications such as traffic warnings, awareness campaigns, etc. | --- |
 
-#Services
+# Services
 
 | Name | Description | Examples |
 | --- | --- | --- |
@@ -115,7 +115,7 @@ This page contains lists of sample datasets, data sources, and descriptions by s
 | *Facilities* |	Government-operated facilities such as libraries, assistance centers, senior centers, computer centers, and other offices, etc. | --- |
 | *Services* |	Services offered at walk-in facilities, such as tax assistance, permit applications, disability benefits, etc. | [City of Palo Alto Open Data Portal](http://data.cityofpaloalto.org/dashboards/8873/city-services/) |
 
-#Transportation
+# Transportation
 
 | Name | Description | Examples |
 | --- | --- | --- |
@@ -132,7 +132,7 @@ This page contains lists of sample datasets, data sources, and descriptions by s
 | *Walking* |	Details of pedestrian facilities, both on- and off-street, etc. | --- |
 | *Commute* |	# of population that gets to work via public transportation, walking, carpool, or other means to commute to work | --- |
 
-#Utilities
+# Utilities
 
 | Name | Description | Examples |
 | --- | --- | --- |
