@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
+---
+redirect_from: /guides/datainventory
+layout: default
+---
 
-    {% include head.html %}
-
-  </head>
-  <body>
-
-    {% include header.html %}
-
-      <div class="container">
-        <div class="row">
-
-        **Sample Data Source List**
+**Sample Data Source List**
+------------------------
         This page contains lists of sample datasets, data sources, and descriptions by subject-matter focus area to help governments think about datasets to include in their inventories.
 
         # Business
@@ -149,16 +141,3 @@
         | --- | --- | --- |
         | *Energy* |	Residences heated by electricity & utility gas; weatherization | --- |
         | *Water* |	Water consumption, water rates | --- |
-
-
-        </div>
-      </div><!-- container -->
-
-    <br />
-    <br />
-    <br />
-
-    {% include footer.html %}
-
-  </body>
-</html>
