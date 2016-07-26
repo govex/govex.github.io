@@ -6,7 +6,7 @@
 | *College readiness* |  Test scores indicate that a high school graduate or GED recipient has the English and math skills to qualify for college coursework with no remedial training |  --- |
 | *College attendance* |  --- | --- |
 | *Enrollment* | Number of students enrolled for each grade, school, and district | --- |
-| *College graduation* | Four-year or extended-year adjusted cohort | --- |
+| *College graduation* | Four-year or extended-year adjusted cohort | [Open Data Philly (https://www.opendataphilly.org/dataset/high-school-graduates-2004-2011)] |
 | *Dropout* | Percentage of 16- through 24-year-olds who are not enrolled in school and have not earned a high school credential | --- |
 | *Kindergarten readiness* | --- | --- |
 | *Third grade reading* | --- | --- |
