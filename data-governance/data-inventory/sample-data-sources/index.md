@@ -10,36 +10,36 @@ This page contains lists of sample datasets, data sources, and descriptions by s
 
 | Name | Description | Examples |
 | --- | --- | --- |
-| Certifications | Professional certifications given to individuals such as plumbers, electricians, etc. | [NYC Open Data](https://nycopendata.socrata.com/data?cat=business) |
-| Inspections | Inspections of licensed businesses such as restaurants, manufacturers, etc. | [Open Data KC](https://data.kcmo.org/browse?category=Business&utf8=%E2%9C%93) |
-| Licenses | Businesses that have been issued licenses to operate in the jurisdiction including permits|  --- |
-| Registrations | Entities registered to do business, but that may not be incorporated by the state |  --- |
-| Violations |  Violations issued to businesses |  --- |
+| *Certifications* | Professional certifications given to individuals such as plumbers, electricians, etc. | [NYC Open Data](https://data.cityofnewyork.us/Business/M-WBE-LBE-and-EBE-Certified-Business-List/ci93-uc8s) |
+| *Inspections* | Inspections of licensed businesses such as restaurants, manufacturers, etc. | [City of Chicago Data Portal] (https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5) |
+| *Licenses* | Businesses that have been issued licenses to operate in the jurisdiction including permits|  [Open Data KC] (https://data.kcmo.org/Business/Business-License-Holders/pnm4-68wg) |
+| *Registrations* | Entities registered to do business, but that may not be incorporated by the state |  [ABQ Data] (http://data.cabq.gov/business/busregistration/) |
+| *Violations* |  Violations issued to businesses |  [SF Open Data] (https://data.sfgov.org/Health-and-Social-Services/Food-Inspections-LIVES-Standard/pyih-qa8i) |
 
 # Education
 
 | Name | Description | Example |
 | --- | --- | --- |
-| Attendance | Average percentage of days that students are present for school, excluding absences and suspensions; Absenteeism; Chronic absenteeism | [MD Open Data Report Card](http://www.mdreportcard.org/Entity.aspx?K=30AAAA) |
-| College readiness |  Test scores indicate that a high school graduate or GED recipient has the English and math skills to qualify for college coursework with no remedial training |  --- |
-| College attendance |  --- | --- |
-| Enrollment | Number of students enrolled for each grade, school, and district | --- |
-| College graduation | Four-year or extended-year adjusted cohort | --- |
-| Dropout | Percentage of 16- through 24-year-olds who are not enrolled in school and have not earned a high school credential | --- |
-| Kindergarten readiness | --- | --- |
-| Third grade reading | --- | --- |
-| Head Start enrollment | Number of children enrolled for any period of the year in any of the Head Start programs, by age group. | --- |
-| Pre-K enrollment | Number of children enrolled for any period of the year in any of the pre-k programs, by age group. | --- |
+| *Attendance* | Average percentage of days that students are present for school, excluding absences and suspensions; Absenteeism; Chronic absenteeism | [MD Open Data Report Card](http://www.mdreportcard.org/Entity.aspx?K=30AAAA) |
+| *College readiness* |  Test scores indicate that a high school graduate or GED recipient has the English and math skills to qualify for college coursework with no remedial training |  [City of Chicago Data Portal](https://data.cityofchicago.org/Education/Chicago-Public-Schools-Progress-Report-Cards-2011-/9xs2-f89t) |
+| *College attendance* |  Percentage of students who continue on to college | [Chicago Public School](http://cps.edu/SchoolData/Pages/SchoolData.aspx) |
+| *Enrollment* | Number of students enrolled for each grade, school, and district | [DC Public Charter School Boards](https://data.dcpcsb.org/browse?category=Enrollment) |
+| *College graduation* | Four-year or extended-year adjusted cohort | [Open Data Philly] (https://www.opendataphilly.org/dataset/high-school-graduates-2004-2011) |
+| *Dropout* | Percentage of 16- through 24-year-olds who are not enrolled in school and have not earned a high school credential | --- |
+| *Kindergarten readiness* | --- | --- |
+| *Third grade reading* | --- | --- |
+| *Head Start enrollment* | Number of children enrolled for any period of the year in any of the Head Start programs, by age group. | --- |
+| *Pre-K enrollment* | Number of children enrolled for any period of the year in any of the pre-k programs, by age group. | --- |
 
 # Elections
 
 | Name | Description | Example |
 | --- | --- | --- |
 | *Campaign Expenditures*	| Expenditure information reported to election authorities by campaigns on behalf of individuals running for elected positions | --- |
-| *Campaign Revenues* |	Revenue information reported to election authorities by campaigns on behalf of individuals running for elected positions | --- |
-| *Districts*	| Information on geographic subdivisions for each elected body such as mayor, council members, etc. | --- |
-| *Voting Results* | Election outcomes | --- |
-| *Voting Locations* |	Locations for citizens to vote | --- |
+| *Campaign Revenues* |	Revenue information reported to election authorities by campaigns on behalf of individuals running for elected positions | [City of Oakland Open Data](https://data.oaklandnet.com/dataset/Essentials/uzsp-6qvc) |
+| *Districts*	| Information on geographic subdivisions for each elected body such as mayor, council members, etc. | [OpenIndy](http://data.indy.gov/datasets?q=political&sort_by=updated_at) |
+| *Voting Results* | Election outcomes | [City of Santa Clarita, CA](https://santaclaritaca.opengov.com/transparency#/7567/query=C5A77F234034A3D4F050EF7D90984086) |
+| *Voting Locations* |	Locations for citizens to vote | [OpenHoward] (https://opendata.howardcountymd.gov/Maps-Locations-and-Boundaries/Voting-Locations/q7v9-x8md) |
 
 # Environment
 
@@ -53,19 +53,19 @@ This page contains lists of sample datasets, data sources, and descriptions by s
 | Name | Description | Example
 | --- | --- | --- |
 | *Bids* | Solicitations issued for competitive (or non-competitive) contracts to be awarded | [City of Providence Open Data Portal](https://data.providenceri.gov/browse?category=Finance&utf8=%E2%9C%93) |
-| *Budgets* | Line items of operating budget, structured by chart of accounts |  --- |
-| *Contracts* | Awarded contracts |  --- |
+| *Budgets* | Line items of operating budget, structured by chart of accounts |  [City of Palo Alto, CA](https://paloalto.opengov.com/transparency#/329/accountType=expenses&breakdown=3ae92313-04df-42e6-aaf9-6428e2d2c5b5&currentYearAmount=cumulative&currentYearPeriod=years&graph=stacked&legendSort=desc&month=6&proration=true&saved_view=null&selectedDataSetIndex=8&selection=F27FD044A63ADC842F2C21EB66DA828B&year=2015&fiscal_start=earliest&fiscal_end=latest) |
+| *Contracts* | Awarded contracts |  [City of Cincinnati, OH](https://data.cincinnati-oh.gov/Fiscal-Sustainability-Strategic-Investment/Procurement-Opportunities-and-Contract-Awards/pid3-z56k) |
 | *Expenditures* | Line items of expenditures, either checkbook level or structured by chart of accounts |  --- |
-| *Payroll* | Salaries of elected officials and government employees |  --- |
+| *Payroll* | Salaries of elected officials and government employees |  [City of San Jose, CA](http://data.sanjoseca.gov/dataviews/225564/employee-compensation-plan-2015/) |
 | *Revenues* |	Line items of revenue streams, structured by chart of accounts |  --- |
 
 # Health
 
 | Name |  Description | Example |
 | --- | --- | --- |
-| *Mortality and morbidity* | Life expectancy, infant mortality, mortality by age, number of deaths, death rate |  [N.C. State Center for Health Statistics](http://www.schs.state.nc.us/) |
+| *Mortality and morbidity* | Life expectancy, infant mortality, mortality by age, number of deaths, death rate |  [NC State Center for Health Statistics](http://www.schs.state.nc.us/) |
 | *Facilities* | Hospitals (including children's, psychiatric, other specialties), clinics, FQHCs, health department offices, LTC facilities, hospices, dialysis centers | [Toronto Data Catalogue](http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=09c6e03bb8d1e310VgnVCM10000071d60f89RCRD) |
-| *Teen pregnancy rate* |	Rate of female teens 15-19 that gave birth per 1,000 females | --- |
+| *Teen pregnancy rate* |	Rate of female teens 15-19 that gave birth per 1,000 females | [City of Chicago Data Portal](https://data.cityofchicago.org/Health-Human-Services/Public-Health-Statistics-Births-to-mothers-aged-15/9kva-bt6k) |
 | *Lead* |	% of lead violations per 1,000 residential units; lead poisoning | [Healthy People 2020](http://www.healthypeople.gov/) |
 
 # Operations
@@ -76,9 +76,9 @@ This page contains lists of sample datasets, data sources, and descriptions by s
 | *HR Outcomes* | Quality of hire, retention of high-performing outcomes |  --- |
 | *Strategy* | Strategic, workforce or HR metrics linked to an organizational performance metric |  --- |
 | *Time lost due to injury or illness* | Sick leave, comp time, accident leave, unscheduled leave/absenteeism (sick, workers compensation (by type), FLMA, personal, other |  --- |
-| *Overtime* | Overtime pay, overtime hours (scheduled and unscheduled) |  --- |
-| *Vacancies* | Filled positions, vacancies (authorized and unauthorized) |  --- |
-| *Workforce Demographics* | Demographics by department, zip, ethnicity, gender, education, pay level, diversity, earnings |  --- |
+| *Overtime* | Overtime pay, overtime hours (scheduled and unscheduled) |  [Montgomery County, MD](https://data.montgomerycountymd.gov/Human-Resources/Employee-Salaries-2015/6rqk-pdub) |
+| *Vacancies* | Filled positions, vacancies (authorized and unauthorized) |  [NYC Open Data](https://data.cityofnewyork.us/City-Government/NYC-Jobs/kpav-sd4t/data) |
+| *Workforce Demographics* | Demographics by department, zip, ethnicity, gender, education, pay level, diversity, earnings |  [City of Saint Paul, MN](https://information.stpaul.gov/City-Administration/Workforce-Demographics-Report-Dataset/7uin-pnex) |
 
 # Properties
 
