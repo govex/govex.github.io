@@ -85,25 +85,25 @@ This page contains lists of sample datasets, data sources, and descriptions by s
 | Name | Description | Examples |
 | --- | --- | --- |
 | *Mobility* | Homebuyer incentives; new homebuyers | --- |
-| *Assessments* | Property value assessments | --- |
-| *Blight* |	Properties which are registered vacant, may have been abandoned, subject to foreclosure proceedings, devalue adjacent properties, properties that do not receive mail | --- |
-| *Construction* |	New construction permits, housing starts, housing completions | --- |
-| *Inspections* |	Inspections of properties conducted by the government such as structural, fire, cleanliness, etc. | --- |
-| *Parcels* |	Basic property information | --- |
-| *Permits* |	Permits issued for properties such as construction, modification, demolition, etc. | --- |
-| *Taxes* |	Tax rates effective for properties | --- |
-| *Violations* |	Violations of ordinances, laws, rules, or code | --- |
-| *Zoning* |	Information on allowed land and structural uses of geographic areas, including economic development, industrial, commercial, residential, mixed, historic preservation, etc. | --- |
+| *Assessments* | Property value assessments | [NYC Open Data](https://data.cityofnewyork.us/Housing-Development/Property-Valuation-and-Assessment-Data/rgy2-tti8/data) |
+| *Blight* |	Properties which are registered vacant, may have been abandoned, subject to foreclosure proceedings, devalue adjacent properties, properties that do not receive mail | [City of New Orleans Open Data](https://data.nola.gov/Housing-Land-Use-and-Blight/BlightStatus-Demolitions/e3wd-h7q2) |
+| *Construction* |	New construction permits, housing starts, housing completions | [City of Raleigh, NC Open Data](https://data.raleighnc.gov/Urban-Planning/Building-Permits-Master-Official-BLDS-Standard-NEW/xce4-kemu) |
+| *Inspections* |	Inspections of properties conducted by the government such as structural, fire, cleanliness, etc. | [City of Pasadena, CA](http://data.cityofpasadena.net/dataviews/82223/4-YEAR-RESID-MULTI-FAMIL/) |
+| *Parcels* |	Basic property information | [County of Los Angeles Open Data](https://data.lacounty.gov/Parcel-/Assessor-Parcels-Data-2006-thru-2016/9trm-uz8i) |
+| *Permits* |	Permits issued for properties such as construction, modification, demolition, etc. | [City of Chicago Data Portal](https://data.cityofchicago.org/Buildings/Building-Permits/ydr8-5enu/data) |
+| *Taxes* |	Tax rates effective for properties | [Montgomery County, MD dataMontgomery](https://data.montgomerycountymd.gov/Finance-Tax-Property/Real-Property-Tax-2016/uvy4-94zr) |
+| *Violations* |	Violations of ordinances, laws, rules, or code | [Fort Worth Open Data](https://data.fortworthtexas.gov/view/hycn-9myi) |
+| *Zoning* |	Information on allowed land and structural uses of geographic areas, including economic development, industrial, commercial, residential, mixed, historic preservation, etc. | [SF Open Data](https://data.sfgov.org/Housing-and-Buildings/San-Francisco-Development-Pipeline-2016-Quarter-1/dtz9-jkjt) |
 
 # Public Safety
 
 | Name | Description | Examples |
 | --- | --- | --- |
 | *Alerts* |	Emergency community notifications such as evacuations, amber/silver alerts, severe weather, etc. | [San Francisco Crime Mapping](http://www.crimemapping.com/map/ca/sanfrancisco) |
-| *Collisions* |	Moving vehicle collisions such as cars, trucks, buses, trains, trams, aircraft, etc. | --- |
+| *Collisions* |	Moving vehicle collisions such as cars, trucks, buses, trains, trams, aircraft, etc. | [NYC Open Data](https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95) |
 | *Crimes* |	Crimes reported to law enforcement including assaults, homicides, thefts, etc. | [NYPD Crime Statistics](http://www.nyc.gov/html/nypd/html/crime_prevention/crime_statistics.shtml) |
-| *Evacuations* |	Zones, routes, shelters, meeting points for emergency events such as hurricanes, blizzards, tornados, floods, earthquakes, etc. | --- |
-| *Fires* |	Working fires or other incidents which require coordinated responses from fire departments, including structural fires, hazardous material conditions, mutual aid calls, injuries, etc. | --- |
+| *Evacuations* |	Zones, routes, shelters, meeting points for emergency events such as hurricanes, blizzards, tornados, floods, earthquakes, etc. | [City of Virginia Beach, VA](http://gis.data.vbgov.com/datasets/027917e45e0847c282140356dc10a77d_1?uiTab=table) |
+| *Fires* |	Working fires or other incidents which require coordinated responses from fire departments, including structural fires, hazardous material conditions, mutual aid calls, injuries, etc. | [City of Detroit, MI](https://data.detroitmi.gov/Public-Safety/2015-Fire-Data/g7tj-vvtd) |
 | *Incidents* |	Events that may require significantly coordinated response from multiple government agencies, such as oil spills, structural collapses, severe weather, etc. |  [SeaStat](https://data.seattle.gov/) |
 | *Notifications* |	Non-emergency community notifications such as traffic warnings, awareness campaigns, etc. | --- |
 
@@ -114,7 +114,7 @@ This page contains lists of sample datasets, data sources, and descriptions by s
 | *311* | Services provided by 311 | [Open Data KC](https://data.kcmo.org/browse?category=311&utf8=%E2%9C%93) |
 | *Rules* |	Regulations promulgated by an executive or government agency which do not require votes of elected officials, etc. | --- |
 | *Contact Information* |	Electronic and traditional means of contact for government officials, agencies, etc. | --- |
-| *Facilities* |	Government-operated facilities such as libraries, assistance centers, senior centers, computer centers, and other offices, etc. | --- |
+| *Facilities* |	Government-operated facilities such as libraries, assistance centers, senior centers, computer centers, and other offices, etc. | [Arlington County, VA](https://data.arlingtonva.us/dataviews/112363/county-facilities/) |
 | *Services* |	Services offered at walk-in facilities, such as tax assistance, permit applications, disability benefits, etc. | [City of Palo Alto Open Data Portal](http://data.cityofpaloalto.org/dashboards/8873/city-services/) |
 
 # Transportation
@@ -122,21 +122,21 @@ This page contains lists of sample datasets, data sources, and descriptions by s
 | Name | Description | Examples |
 | --- | --- | --- |
 | *Accessibility* |	Information for people with disabilities such as sidewalk curb ramps, trails without stairs, intersections equipped with audible alerts, etc. | --- |
-|*Bicycling* |	Information for cyclists such as dedicated & shared pathways, municipal bicycle stations, etc. | --- |
-| *Parking* |	Public parking location data | --- |
-| *Public Transit Locations* |	Geospatial data on public transit locations, including airports and sea ports | --- |
-| *Public Transit Routes* |	Routes and stops for buses, trams, trains, subways, shuttles, etc. | --- |
+|*Bicycling* |	Information for cyclists such as dedicated & shared pathways, municipal bicycle stations, etc. | [Santa Clara Valley Transportation Authority Open Data](https://data.vta.org/Active-Transportation/Bike-Paths-Lanes-and-Routes/4dp8-j694) |
+| *Parking* |	Public parking location data | [SF Open Data](https://data.sfgov.org/Transportation/Off-Street-parking-lots-and-parking-garages/uupn-yfaw) |
+| *Public Transit Locations* |	Geospatial data on public transit locations, including airports and sea ports | [City of San Diego, CA](http://data.sandiego.gov/dataset/transit-stop-locations) |
+| *Public Transit Routes* |	Routes and stops for buses, trams, trains, subways, shuttles, etc. | [ABQ Data](http://data.cabq.gov/transit/routesandstops/) |
 | *Public Transit Schedules* |	Schedules for buses, trams, trains, subways, shuttles, etc, by stop or route segment. | --- |
-| *Public Transit Service Status* |	Real-time updates for buses, trams, trains, subways, shuttles, etc. | --- |
-| *Street Networks* |	Basic information on streets and intersections | --- |
-| *Taxis* |	Licensed for-hire-vehicle companies, vehicles, drivers, inspection stations, etc. | --- |
-| *Traffic*	| Real-time and/or historic data on traffic speeds and flow rates as collected by cameras, automatic sensors, etc. | --- |
+| *Public Transit Service Status* |	Real-time updates for buses, trams, trains, subways, shuttles, etc. | [Montgomery County, MD dataMontgomery](https://data.montgomerycountymd.gov/Transportation/Bus-Delays-and-Detours/rdz7-f9v4) |
+| *Street Networks* |	Basic information on streets and intersections | [City of Seattle, WA Data Portal](https://data.seattle.gov/dataset/Street-Network-Database/afip-2mzr) |
+| *Taxis* |	Licensed for-hire-vehicle companies, vehicles, drivers, inspection stations, etc. | [NYC Open Data](https://data.cityofnewyork.us/Transportation/For-Hire-Vehicles-FHV-Active-Drivers/xjfq-wh2d) |
+| *Traffic*	| Real-time and/or historic data on traffic speeds and flow rates as collected by cameras, automatic sensors, etc. | [City of Seattle, WA Data Portal](https://data.seattle.gov/Transportation/Streets/95dy-dige) |
 | *Walking* |	Details of pedestrian facilities, both on- and off-street, etc. | --- |
-| *Commute* |	# of population that gets to work via public transportation, walking, carpool, or other means to commute to work | --- |
+| *Commute* |	# of population that gets to work via public transportation, walking, carpool, or other means to commute to work | [City of Chicago Data Portal](https://data.cityofchicago.org/Transportation/CTA-Ridership-Bus-Routes-Daily-Totals-by-Route/jyb9-n7fm) |
 
 # Utilities
 
 | Name | Description | Examples |
 | --- | --- | --- |
-| *Energy* |	Residences heated by electricity & utility gas; weatherization | --- |
-| *Water* |	Water consumption, water rates | --- |
+| *Energy* |	Residences heated by electricity & utility gas; weatherization | [SF Open Data](https://data.sfgov.org/Energy-and-Environment/Energy-Benchmarking-San-Francisco-Municipal-Buildi/eg8h-pgn3) |
+| *Water* |	Water consumption, water rates | [City of Los Angeles, CA Data](https://data.lacity.org/A-Livable-and-Sustainable-City/Water-Use-Average-By-Zipcode/pzbs-vimf) |
