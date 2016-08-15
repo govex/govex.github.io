@@ -4,9 +4,10 @@ suppressSiteNotice: true
 ---
 
   <div class="row center-block">
-    <h1>GovEx Office Hours: Opening 311 Data</h1>
-    <h3>Wednesday, July 6, 2016 &mdash; 3:00p Eastern / 12:00p Pacific</h3>
-    <p>GovEx Office Hours take place at 3:00pm ET / 12:00p PT on the first Wednesday of every month.</p>
+    <h1>GovEx Office Hours: Data Quality</h1>
+    <h3>Thursday, September 8, 2016 &mdash; 3:00p Eastern / 12:00p Pacific</h3>
+    <div class="alert alert-warning">Please note that September's office hours take place on Thursday September 8, not Wednesday September 7.</div>
+    <p>GovEx Office Hours usually take place at 3:00pm ET / 12:00p PT on the first Wednesday of each month.</p>
     <br />
     <a class="btn btn-primary" href="http://govex.jhu.edu/resource-type/office-hours/">View Previous Events</a> <a class="btn btn-primary" href="/office-hours/vote" target="_blank">Vote for a future topic</a> 
     <br />
@@ -15,9 +16,8 @@ suppressSiteNotice: true
     <h4><a href="https://www.linkedin.com/in/carterhewgley">Carter Hewgley, Director of Performance & Analytics, GovEx</a></h4>
     <h4><a href="https://www.linkedin.com/in/andrewnicklin">Andrew Nicklin, Director of Open Data, GovEx</a></h4>
     <br />
-    <!--
     <p>featuring</p>
-    <h4><a href="https://www.linkedin.com/in/joybonaguro">Joy Bonaguro, Chief Data Officer, San Francisco</a></h4>
+    <h4><a href="https://www.linkedin.com/in/stephanie-singer-68499a">Stephanie Singer<a/>, Elections and Government Data Strategist</h4>
     <br />    
     -->
     <hr />
