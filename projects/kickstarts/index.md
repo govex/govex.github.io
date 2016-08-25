@@ -11,7 +11,7 @@ Below are links to materials about the GovEx Analytics Kickstart projects.
 <li class="list-group-item">
   <h4>Fort Lauderdale, Florida</h4>
   <p>Shedding Light on Safety</p>
-  <p><a href="{{ site.baseurl }}projects/kickstarts/FTL Kickstart.pdf">Welcome Letter</a></p>
+  <p><a href="{{ site.baseurl }}projects/kickstarts/FTL Kickstart.pdf">Summary</a></p>
 </li>
 
 <li class="list-group-item">
