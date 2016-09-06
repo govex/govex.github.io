@@ -17,9 +17,8 @@ suppressSiteNotice: true
     <h4><a href="https://www.linkedin.com/in/andrewnicklin">Andrew Nicklin, Director of Open Data, GovEx</a></h4>
     <br />
     <p>featuring</p>
-    <h4><a href="https://www.linkedin.com/in/stephanie-singer-68499a">Stephanie Singer<a/>, Elections and Government Data Strategist</h4>
+    <h4><a href="https://www.linkedin.com/in/stephanie-singer-68499a">Stephanie Singer</a>, Elections and Government Data Strategist</h4>
     <br />    
-    -->
     <hr />
     <h3>Please select an option to connect:</h3>
   </div>
