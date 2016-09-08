@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Office Hours - GovEx
+description: GovEx Office monthly office hours landing page
 suppressSiteNotice: true
 ---
 
