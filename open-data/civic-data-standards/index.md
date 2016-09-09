@@ -26,6 +26,7 @@ Below is the list of civic data standards we have identified so far. They vary g
   * [Open Eligibility](http://about.auntbertha.com/openeligibility)
   * [Human Services Data Specification](https://github.com/codeforamerica/OpenReferral/blob/master/Human%20Services%20Data%20Specification%20%20v1.0.md)
 * [Open Trails](http://www.opentraildata.org/)
+* [Open Spending](http://fiscal.dataprotocols.org/spec/)
 * [Housefacts](https://sites.google.com/site/housefactsdatastandard/home/specification)
 * [Building &amp; Land Development Specification (BLDS)](http://permitdata.org/)
 * [Open Contracting](http://standard.open-contracting.org/)
