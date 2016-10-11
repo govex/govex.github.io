@@ -178,6 +178,13 @@ Below are guidebooks which the Center for Government Excellence makes available 
     </p>
   </li>
   <li class="list-group-item">
+    <h4>Data Quality Guide</h4>
+    <p>A practical guide for any government agency wishing to improve the quality of its data. Learn how to create buy-in, profile your data, and apply quality improvements.</p>
+    <p>
+      <a href="https://docs.google.com/document/d/1wF57eAnHKRe5mXh5-CZsnsRJUQI6_d-uCeJl-YUQEnM/edit">Read online</a>
+    </p>
+  </li>  
+  <li class="list-group-item">
     <h4>Data Visualization Guide</h4>
     <p>Governments collect a significant amount of valuable data, but visualizing it can be difficult. This guide helps governments determine the right visualization to display information clearly.</p>
     <p>
