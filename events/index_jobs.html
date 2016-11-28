@@ -1,0 +1,40 @@
+---
+layout: default
+head_include: |
+    <script type='text/javascript' src='js/tabletop1.3.4.js'></script>
+    <script type='text/javascript' src='js/sheetsee.js'></script>
+
+    <script id="fullTable_template" type="text/html">
+        <table class = "table table-hover">
+        <tr><th class="tHeader">Posted Date</th><th class="tHeader">Start Date</th><th class="tHeader">Job Title</th><th class="tHeader">URL</th><th class="tHeader">Location</th><th class="tHeader">Salary</th><th class="tHeader">Contact</th><th class="tHeader">Contact Email</th></tr>
+          {{#rows}}
+            <tr><td>{{posteddate}}</td><td>{{startdate}}</td><td>{{jobtitle}}</td><td><a href ="{{url}}" target="_blank">{{jobtitle}}</a></td><td>{{location}}</td><td>{{salary}}</td><td>{{contact}}</td><td>{{contactemail}}</td></tr>
+          {{/rows}}
+        </table>
+    </script>
+    <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+      var data
+      var URL = "2PACX-1vRtrL1d07uXgr9BNBn5lBkLIDpEUdsWhcPtPn-HFLrQ7JpKufuVQ60wjZU5xfld8aa_1gcZ6B7btWCx/pubhtml"
+      Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true } )
+    })
+
+    function showInfo(data) {
+      var tableOptions = {
+                          "data": data,
+                          "pagination": 50,
+                          "tableDiv": "#fullTable",
+                          "filterDiv": "#fullTableFilter",
+                          "templateID": "fullTable_template"
+                          }
+      Sheetsee.makeTable(tableOptions)
+      Sheetsee.initiateTableFilter(tableOptions)
+      }
+    </script>
+---
+
+    <span class="glyphicon glyphicon-calendar"></span> Jobs
+    <br>
+    <input id="fullTableFilter" type="text" placeholder="search">
+
+    <div id="fullTable"></div>
