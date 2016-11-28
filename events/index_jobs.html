@@ -1,6 +1,14 @@
 ---
 layout: default
+head_include: |
+
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
 ---
 
     <span class="glyphicon glyphicon-calendar"></span> Jobs
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRtrL1d07uXgr9BNBn5lBkLIDpEUdsWhcPtPn-HFLrQ7JpKufuVQ60wjZU5xfld8aa_1gcZ6B7btWCx/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+    <br>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRtrL1d07uXgr9BNBn5lBkLIDpEUdsWhcPtPn-HFLrQ7JpKufuVQ60wjZU5xfld8aa_1gcZ6B7btWCx/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
