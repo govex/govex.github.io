@@ -1,7 +1,7 @@
 iframe {
     display:block;
-    width:90%;    /* as desired */
-    height:50vh;    /* as desired */
+    width:90%;   
+    height:50vh;
     border:none;
     margin:0px auto
 }
