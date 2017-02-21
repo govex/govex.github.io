@@ -115,3 +115,4 @@ Being a Data Scientist, or even pretending to be one, requires the utilization o
 * [Bad Data Handbook](https://www.amazon.com/Bad-Data-Handbook-Cleaning-Back/dp/1449321887?ie=UTF8&keywords=bad%20data%20handbook&qid=1463752260&ref_=sr_1_1&sr=8-1) by Q Ethan McCallum
 * [Mining the Social Web](https://www.amazon.com/Mining-Social-Web-Facebook-LinkedIn/dp/1449367615?ie=UTF8&keywords=mining%20the%20social%20web&qid=1463752288&ref_=sr_1_1&sr=8-1) by Matthew Russel
 * [Creating a Data-Driven Organization](https://www.amazon.com/Creating-Data-Driven-Organization-Carl-Anderson/dp/1491916915?ie=UTF8&keywords=creating%20a%20data-driven%20organization&qid=1463752312&ref_=sr_1_1&sr=8-1) by Carl Anderson
+* [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](http://r4ds.had.co.nz/) by Hadley Wickham & Garrett Grolemund
