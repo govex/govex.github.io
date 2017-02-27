@@ -54,6 +54,14 @@ Below are guidebooks which the Center for Government Excellence makes available 
     </p>
   </li>
   <li class="list-group-item">
+    <h4>Open Data Canvas</h4>
+    <p>A framework to help cities and stakeholders understand open data and answer common questions</p>
+    <p>
+      <a href="https://render.githubusercontent.com/view/pdf?commit=0663dadbb882297a8366d0ed7358c1ea4ff3c46d&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f676f7665782f676f7665782e6769746875622e696f2f303636336461646262383832323937613833363664306564373335386331656134666633633436642f6775696465732f4f70656e2d446174612d43616e7661732e706466&amp;nwo=govex%2Fgovex.github.io&amp;path=guides%2FOpen-Data-Canvas.pdf&amp;repository_id=37391248#0003db96-4442-41e0-9268-5c04e1877c0c" target="_blank">View online</a> |
+      <a href="https://raw.githubusercontent.com/govex/govex.github.io/0663dadbb882297a8366d0ed7358c1ea4ff3c46d/guides/Open-Data-Canvas.pdf">Download PDF</a>
+    </p>
+  </li>
+<li class="list-group-item">
     <h4>Open Data Portal Requirements</h4>
     <p>The Open Data Portal Requirements is a document which governments can use to develop or procure an open data platform. It identifies critical and optional functionality needed to support a data catalog, access to data. Non-functional (technical) requirements are also identified.</p>
     <p>
