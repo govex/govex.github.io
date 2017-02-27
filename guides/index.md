@@ -54,6 +54,13 @@ Below are guidebooks which the Center for Government Excellence makes available 
     </p>
   </li>
   <li class="list-group-item">
+    <h4>Open Data Canvas</h4>
+    <p>A framework to help cities and stakeholders understand open data and answer common questions</p>
+    <p>
+      <a href="{{ site.baseurl }}data-governance/data-inventory/">View PDF</a>
+    </p>
+  </li>
+<li class="list-group-item">
     <h4>Open Data Portal Requirements</h4>
     <p>The Open Data Portal Requirements is a document which governments can use to develop or procure an open data platform. It identifies critical and optional functionality needed to support a data catalog, access to data. Non-functional (technical) requirements are also identified.</p>
     <p>
