@@ -57,7 +57,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Open Data Canvas</h4>
     <p>A framework to help cities and stakeholders understand open data and answer common questions</p>
     <p>
-      <a href="{{ site.baseurl }}data-governance/data-inventory/">View PDF</a>
+      <a href="https://govex.github.io/Open-Data-Canvas.pdf">View PDF</a>
     </p>
   </li>
 <li class="list-group-item">
