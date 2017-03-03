@@ -185,6 +185,13 @@ Below are guidebooks which the Center for Government Excellence makes available 
     </p>
   </li>
   <li class="list-group-item">
+    <h4>Data Sharing Agreement Guide</h4>
+    <p>Developing data sharing agreements with other organizations, especially when handling sensitive or private data, can be complicated. In this guide we discuss the key issues to address through a data sharing agreement, and provide examples for reference.</p>
+    <p>
+      <a href="https://docs.google.com/document/d/1JuFvW76PPoZTG0c5QOAQ0iZ-Qe5uM2cF0Oiy71NGaYI/preview#">Read online</a>
+    </p>
+  </li>
+  <li class="list-group-item">
     <h4>Data Quality Guide</h4>
     <p>A practical guide for any government agency wishing to improve the quality of its data. Learn how to create buy-in, profile your data, and apply quality improvements.</p>
     <p>
