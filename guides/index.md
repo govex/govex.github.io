@@ -14,21 +14,21 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <p>City leaders often hear concerns and resistance about opening data. GovEx developed a short video and list to guide you through common concerns and how to respond.</p>
     <p>
       <a href="https://www.youtube.com/watch?v=70Zl9jXdzLo&feature=youtu.be">Watch the video</a> |
-      <a href="{{ site.baseurl }}open-data/addressing-concerns/">Read online</a>
+      <a href="/open-data/addressing-concerns/">Read online</a>
     </p>
   </li>
   <li class="list-group-item">
     <h4>Data Inventory Guide</h4>
     <p>A guide to help cities understand what a data inventory is and how to inventory data</p>
     <p>
-      <a href="{{ site.baseurl }}data-governance/data-inventory/">Read online</a>
+      <a href="/data-governance/data-inventory/">Read online</a>
     </p>
   </li>
   <li class="list-group-item">
     <h4>Data Ownership Contract Terms</h4>
     <p></p>
     <p>
-      <a href="{{ site.baseurl }}data-governance/data-ownership/">Read online</a> |
+      <a href="/data-governance/data-ownership/">Read online</a> |
       <a href="https://github.com/govex/data-ownership/blob/master/README.md">View on Github</a> |
       <a href="https://github.com/govex/data-ownership/edit/master/README.md">Edit on Github</a> |
       Fork and submit a <a href="https://github.com/govex/data-ownership/pulls">pull request</a> |
@@ -58,13 +58,14 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <p>A framework to help cities and stakeholders understand open data and answer common questions.</p>
     <p>
       <a href="https://render.githubusercontent.com/view/pdf?commit=d03ef6ac404a5854d7b6cdff56db6d2e946c4fa6&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f676f7665782f676f7665782e6769746875622e696f2f643033656636616334303461353835346437623663646666353664623664326539343663346661362f6f70656e2d646174612f4f70656e2d446174612d43616e7661732e706466&amp;nwo=govex%2Fgovex.github.io&amp;path=open-data%2FOpen-Data-Canvas.pdf&amp;repository_id=37391248#b166f3f6-48de-4969-8095-5fb6f903ee28" target="_blank">View online</a> |
-      <a href="https://raw.githubusercontent.com/govex/govex.github.io/d03ef6ac404a5854d7b6cdff56db6d2e946c4fa6/open-data/Open-Data-Canvas.pdf">Download PDF</a> 
+      <a href="https://raw.githubusercontent.com/govex/govex.github.io/d03ef6ac404a5854d7b6cdff56db6d2e946c4fa6/open-data/Open-Data-Canvas.pdf">Download PDF</a>
+    </p>
   </li>
-<li class="list-group-item">
+  <li class="list-group-item">
     <h4>Open Data Portal Requirements</h4>
     <p>The Open Data Portal Requirements is a document which governments can use to develop or procure an open data platform. It identifies critical and optional functionality needed to support a data catalog, access to data. Non-functional (technical) requirements are also identified.</p>
     <p>
-      <a href="{{ site.baseurl }}open-data/portal-requirements/">Read online</a> |
+      <a href="/open-data/portal-requirements/">Read online</a> |
       <a href="https://github.com/govex/open-data-portal-requirements/blob/master/README.md">View on Github</a> |
       <a href="https://github.com/govex/open-data-portal-requirements/edit/master/README.md">Edit on Github</a> |
       Fork and submit a <a href="https://github.com/govex/open-data-portal-requirements/pulls">pull request</a> |
@@ -84,7 +85,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Policy Touchpoints for Open Data Programs</h4>
     <p>An outline of additional functions/areas of government organizations that may have policies or processes that can be modified to support open data programs.</p>
     <p>
-      <a href="{{ site.baseurl }}open-data/policy-touchpoints/">Read and comment online</a>
+      <a href="/open-data/policy-touchpoints/">Read and comment online</a>
     </p>
   </li>
   <li class="list-group-item">
@@ -103,7 +104,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Data Science 101 Resources</h4>
     <p>Data Science 101 Resources is a course primer created as a part of GovEx and Denver What Works Cities MOU for advanced analytics training within Peak Academy.</p>
     <p>
-      <a href="{{ site.baseurl }}data-science/101-resource/">Read and comment online</a>
+      <a href="/data-science/101-resource/">Read and comment online</a>
     </p>
   </li>
   <li class="list-group-item">
@@ -154,7 +155,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Affordability Index</h4>
     <p>A data visualization tool for users to explore housing affordability trends in select mid-sized U.S. cities.</p>
     <p>
-      <a href="{{ site.baseurl }}projects/affordability/">View online</a>
+      <a href="/projects/affordability/">View online</a>
     </p>
   </li>
   <li class="list-group-item">
@@ -202,7 +203,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Data Visualization Guide</h4>
     <p>Governments collect a significant amount of valuable data, but visualizing it can be difficult. This guide helps governments determine the right visualization to display information clearly.</p>
     <p>
-      <a href="{{ site.baseurl }}guides/dataviz/index.html">Read online</a>
+      <a href="/guides/dataviz/index.html">Read online</a>
     </p>
   </li>
 </ul>

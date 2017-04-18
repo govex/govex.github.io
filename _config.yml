@@ -1,8 +1,9 @@
 title: GovEx Labs
 url: http://labs.centerforgov.org
 description: Our playground for experimentation and fluid content.
-logo: images/govex-labs-purple.svg
-favicon: http://govex.jhu.edu/content/themes/govex/GovEx_favicon.png
+logo: /images/govex-labs-purple.svg
+favicon: /images/GovEx_favicon.png
+repository: govex/govex.github.io
 
 # never include the trailing slash in baseurl (ex: "site/")
 baseurl: 
@@ -22,10 +23,6 @@ defaults:
       path: ""
     values:
       layout: default
-    scope:
-      path: "submodule-test"
-    values:
-      layout: collaboration
     scope:
       path: "open-data-portal-requirements"
     values:
