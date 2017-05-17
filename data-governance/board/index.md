@@ -43,5 +43,5 @@ These topics help you focus on using data as a strategic asset to achieve the ob
 * **New Initiatives**. New or re-engineered business processes will have new data needs. Use these opportunities to align transformative changes with your organization’s strategic ownership of data. Ensure procurement contracts have language that empowers your organization to own and use its own data.
 * **Analytics, GIS, & Data Science**. Establish a distinct team or identify existing talented individuals who can dig deeply into your data to identify opportunities for improvement. These projects are generally started off as experiments, though it’s quite common for them to be continually used in service of improved efficiency, better prioritization of issues, and so on.
 
-Additional Resources:
-Lessons From Leading Chief Data Officers (January 25, 2017)
+## Additional Resources
+[Lessons From Leading Chief Data Officers](http://datasmart.ash.harvard.edu/news/article/lessons-from-leading-cdos-966) (January 25, 2017)
