@@ -206,4 +206,11 @@ Below are guidebooks which the Center for Government Excellence makes available 
       <a href="/guides/dataviz/index.html">Read online</a>
     </p>
   </li>
+  <li class="list-group-item">
+    <h4>Focus Areas for a Data Governance Board</h4>
+    <p>A list of topics which members of a data governance group should consider focusing on during the course of their work.<p>
+    <p>
+      <a href="/data-governance/board/">Read online</a>
+    </p>
+    </li>
 </ul>
