@@ -108,6 +108,13 @@ Below are guidebooks which the Center for Government Excellence makes available 
     </p>
   </li>
   <li class="list-group-item">
+    <h4>Focusing on the Right Questions </h4>
+    <p>GovEx has worked with a variety of cities on setting up performance management frameworks. This example from the City of Tacoma, WA, helps cities think about questions to focus on before, during, and after performance management meetings.</p>
+    <p>
+      <a href="https://drive.google.com/file/d/0B8NENEr6E7I0anFIY0F6QXRDMjg/view?usp=sharing">View & Download PDF</a>
+    </p>
+  </li>
+  <li class="list-group-item">
     <h4>GovEx Guide: Performance Alignment</h4>
     <p>The Johns Hopkins University Center for Government Excellence has created this infographic to help governments align outcomes, measures, activities and resources within a performance management system.</p>
     <p>
