@@ -16,7 +16,7 @@ Insert some text here about the point of this page.
       <a href="#">Placeholder Link 1B</a>
   </li>
 </ul>
-<ul class="list-grou">
+<ul class="list-group">
   <li class="list-group-item">
     <h4>Placeholder Item Group 2</h4>
   </li>
