@@ -12,6 +12,7 @@ navigation:
   - title: <span class="glyphicon glyphicon-book"></span> Guides
     url: guides/
   - title: <span class="glyphicon glyphicon-user"></span> Courses
+    url: courses/
   - title: <span class="glyphicon glyphicon-calendar"></span> Events
     url: events/
   - title: <span class="glyphicon glyphicon-cog"></span> Civic Data Standards
