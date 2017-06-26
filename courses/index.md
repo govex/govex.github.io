@@ -2,8 +2,8 @@
 layout: default
 ---
 
-## <span class="glyphicon glyphicon-book"></span> Guides
-Below are guidebooks which the Center for Government Excellence makes available online. You may also visit <a href="https://www.gitbook.com/@centerforgov">our page on GitBooks</a>.
+## <span class="glyphicon glyphicon-user"></span> Courses
+Insert some text here about the point of this page.
 
 <ul class="list-group">
   <li class="list-group-item">
