@@ -22,12 +22,34 @@ This page is designed to be collaborative and iterative so layout, topics, and c
 </ul>
 <ul class="list-group">
   <li class="list-group-item">
-    <h4>Analysis</h4>
+    <h4>Data Cleaning</h4>
   </li>
   <li class="list-group-item">
     <h4>Placeholder Item 2</h4>
     <p>Placeholder descriptive text 2</p>
       <a href="#">Placeholder Link 2A</a> |
       <a href="#">Placeholder Link 2B</a>
+  </li>
+</ul>
+<ul class="list-group">
+  <li class="list-group-item">
+    <h4>Analysis</h4>
+  </li>
+  <li class="list-group-item">
+    <h4>Placeholder Item 1</h4>
+    <p>Placeholder descriptive text 1</p>
+      <a href="#">Placeholder Link 1A</a> |
+      <a href="#">Placeholder Link 1B</a>
+  </li>
+</ul>
+<ul class="list-group">
+  <li class="list-group-item">
+    <h4>Visualization</h4>
+  </li>
+  <li class="list-group-item">
+    <h4>Placeholder Item 1</h4>
+    <p>Placeholder descriptive text 1</p>
+      <a href="#">Placeholder Link 1A</a> |
+      <a href="#">Placeholder Link 1B</a>
   </li>
 </ul>
