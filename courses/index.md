@@ -3,7 +3,9 @@ layout: default
 ---
 
 ## <span class="glyphicon glyphicon-user"></span> City Trainings
-This page is designed to collect data training resources from city governments. Curated by GovEx, city governments can submit training materials including course syllabi, slides, videos, and work products related to building data skills. This page will be organized by training topic to include major elements of data learning.
+This page is designed to collect data training resources from city governments. Curated by GovEx, governments can submit training materials including course syllabi, slides, videos, and work products related to building data skills. 
+
+This page will be organized by training topic to include major elements of data learning. To make contributions, governments should fork the repository and create pull requests. When submitting resources, please create a title, a one sentence description, and links to live content.
 
 This page is designed to be collaborative and iterative so layout, topics, and content may change. If you have questions, please reach out to Eric Reese at <a href="mailto:ereese@jhu.edu">ereese@jhu.edu</a>.
 
