@@ -9,7 +9,7 @@ This page is designed to be collaborative and iterative so layout, topics, and c
 
 <ul class="list-group">
   <li class="list-group-item">
-    <h4>Placeholder Item Group 1</h4>
+    <h4>Data Literacy</h4>
   </li>
   <li class="list-group-item">
     <h4>Placeholder Item 1</h4>
@@ -20,7 +20,7 @@ This page is designed to be collaborative and iterative so layout, topics, and c
 </ul>
 <ul class="list-group">
   <li class="list-group-item">
-    <h4>Placeholder Item Group 2</h4>
+    <h4>Analysis</h4>
   </li>
   <li class="list-group-item">
     <h4>Placeholder Item 2</h4>
