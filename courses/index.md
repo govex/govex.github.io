@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## <span class="glyphicon glyphicon-user"></span> Courses
+## <span class="glyphicon glyphicon-user"></span> City Trainings
 Insert some text here about the point of this page.
 
 <ul class="list-group">
