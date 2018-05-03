@@ -13,8 +13,6 @@ navigation:
     url: guides/
   - title: <span class="glyphicon glyphicon-user"></span> City Trainings
     url: courses/
-  - title: <span class="glyphicon glyphicon-calendar"></span> Events
-    url: events/
   - title: <span class="glyphicon glyphicon-cog"></span> Civic Data Standards
     url: open-data/civic-data-standards/
     
