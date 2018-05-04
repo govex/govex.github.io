@@ -16,7 +16,7 @@ This page is designed to be collaborative and iterative so layout, topics, and c
   <li class="list-group-item">
     <h4>Placeholder Item 1</h4>
     <p>Placeholder descriptive text 1</p>
-      <a href="https://govex.github.io/courses/PNW Regional_Final.pdf">Launching a Data Academy</a> |
+      <a href="https://govex.github.io/courses/PNW Regional_Final.pdf" target="_blank">Launching a Data Academy</a> |
       <a href="#">Placeholder Link 1B</a>
   </li>
 </ul>
