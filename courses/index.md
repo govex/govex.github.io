@@ -17,6 +17,6 @@ This page is designed to be collaborative and iterative so layout, topics, and c
     <h4>GovEx - Launching a Data Academy Training</h4>
     <p>Placeholder descriptive text 1</p>
       <a href="https://govex.github.io/courses/PNW Regional_Final.pdf" target="_blank">Launching a Data Academy</a> |
-      <a href="#">Placeholder Link 1B</a>
+      <a href="https://govex.github.io/courses/PNW Regional_Workshop Outline.docx" target="_blank">Workshop Outline</a>
   </li>
 </ul>
