@@ -11,10 +11,10 @@ This page is designed to be collaborative and iterative so layout, topics, and c
 
 <ul class="list-group">
   <li class="list-group-item">
-    <h4>Data Literacy</h4>
+    <h4>Data Academiesy</h4>
   </li>
   <li class="list-group-item">
-    <h4>Placeholder Item 1</h4>
+    <h4>GovEx - Launching a Data Academy Training</h4>
     <p>Placeholder descriptive text 1</p>
       <a href="https://govex.github.io/courses/PNW Regional_Final.pdf" target="_blank">Launching a Data Academy</a> |
       <a href="#">Placeholder Link 1B</a>
