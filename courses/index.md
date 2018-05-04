@@ -11,12 +11,12 @@ This page is designed to be collaborative and iterative so layout, topics, and c
 
 <ul class="list-group">
   <li class="list-group-item">
-    <h4>Data Academiesy</h4>
+    <h4>Data Academies</h4>
   </li>
   <li class="list-group-item">
     <h4>GovEx - Launching a Data Academy Training</h4>
     <p>A variety of cities are planning to launch data academies. To respond to this need, GovEx facilitated a workshop sharing examples from cities, developed interactive activities for planning, and helped cities outline next steps.</p>
-      <a href="https://govex.github.io/courses/PNW Regional_Final.pdf" target="_blank">Launching a Data Academy</a> |
+      <a href="https://govex.github.io/courses/PNW Regional_Final.pdf" target="_blank">Launching a Data Academy Deck</a> |
       <a href="https://govex.github.io/courses/PNW Regional_Workshop Outline.docx" target="_blank">Workshop Outline</a>
   </li>
 </ul>
