@@ -17,7 +17,7 @@ This page is designed to be collaborative and iterative so layout, topics, and c
       <a href="PNW Regional_Workshop Outline.docx" target="_blank">Workshop Outline</a>
   </li>
     <li class="list-group-item">
-    <h4>GovEx - Raleigh - Creating Performance Measures/h4>
+    <h4>Raleigh - Creating Performance Measures</h4>
     <p>Resources include an infographic of the four main types of performance measures used in Raleigh and a case study using EMS data.</p>
       <a href="4 types of performance measures - Rafael Baptista.pdf" target="_blank">Four Types of Performance Measures</a> |
       <a href="EMS Case Study - Rafael Baptista.docx" target="_blank">EMS Case Study</a>
