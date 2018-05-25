@@ -11,15 +11,15 @@ This page is designed to be collaborative and iterative so layout, topics, and c
 
 <ul class="list-group">
   <li class="list-group-item">
-    <h4>GovEx - Launching a Data Academy Training</h4>
-    <p>A variety of cities are planning to launch data academies. To respond to this need, GovEx facilitated a workshop sharing examples from cities, developed interactive activities for planning, and helped cities outline next steps.</p>
-      <a href="PNW Regional_Final.pdf" target="_blank">Launching a Data Academy Deck</a> |
-      <a href="PNW Regional_Workshop Outline.docx" target="_blank">Workshop Outline</a>
-  </li>
-    <li class="list-group-item">
     <h4>Raleigh - Creating Performance Measures</h4>
     <p>Resources include an infographic of the four main types of performance measures used in Raleigh and a case study using EMS data.</p>
       <a href="4 types of performance measures - Rafael Baptista.pdf" target="_blank">Four Types of Performance Measures</a> |
       <a href="EMS Case Study - Rafael Baptista.docx" target="_blank">EMS Case Study</a>
+  </li>
+  <li class="list-group-item">
+    <h4>GovEx - Launching a Data Academy Training</h4>
+    <p>A variety of cities are planning to launch data academies. To respond to this need, GovEx facilitated a workshop sharing examples from cities, developed interactive activities for planning, and helped cities outline next steps.</p>
+      <a href="PNW Regional_Final.pdf" target="_blank">Launching a Data Academy Deck</a> |
+      <a href="PNW Regional_Workshop Outline.docx" target="_blank">Workshop Outline</a>
   </li>
 </ul>
