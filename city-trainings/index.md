@@ -10,6 +10,12 @@ This page will be organized by training topic to include major elements of data 
 This page is designed to be collaborative and iterative so layout, topics, and content may change. If you have questions or ideas on improving this page, please reach out to Eric Reese at <a href="mailto:ereese@jhu.edu">ereese@jhu.edu</a>.
 
 <ul class="list-group">
+    <li class="list-group-item">
+    <h4>Boise - Data Visualization and PowerBI</h4>
+    <p>Learn the principles of data visualization and how to put these ideas into practice in PowerBI. Participants practiced in PowerBI while going through these materials.</p>
+      <a href="Data Visualization Training FINAL_share.pdf" target="_blank">Data Visualization</a> |
+      <a href="PowerBI Training FINAL_share.pdf" target="_blank">PowerBI</a>
+  </li>
   <li class="list-group-item">
     <h4>Raleigh - Creating Performance Measures</h4>
     <p>Resources include an infographic of the four main types of performance measures used in Raleigh and a case study using EMS data.</p>
