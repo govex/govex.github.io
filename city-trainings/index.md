@@ -22,10 +22,4 @@ This page is designed to be collaborative and iterative so layout, topics, and c
       <a href="4 types of performance measures - Rafael Baptista.pdf" target="_blank">Four Types of Performance Measures</a> |
       <a href="EMS Case Study-Rafael Baptista.docx?raw=true" target="_blank">EMS Case Study</a>
   </li>
-  <li class="list-group-item">
-    <h4>GovEx - Launching a Data Academy Training</h4>
-    <p>A variety of cities are planning to launch data academies. To respond to this need, GovEx facilitated a workshop sharing examples from cities, developed interactive activities for planning, and helped cities outline next steps.</p>
-      <a href="PNW Regional_Final.pdf" target="_blank">Launching a Data Academy Deck</a> |
-      <a href="PNW Regional_Workshop Outline.docx?raw=true" target="_blank">Workshop Outline</a>
-  </li>
 </ul>
