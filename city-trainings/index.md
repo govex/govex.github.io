@@ -11,13 +11,13 @@ This page is designed to be collaborative and iterative so layout, topics, and c
 
 <ul class="list-group">
     <li class="list-group-item">
-    <h4>Boise - Data Visualization and PowerBI</h4>
+    <h4>Boise | Data Visualization and PowerBI</h4>
     <p>Learn the principles of data visualization and how to put these ideas into practice in PowerBI. Participants practiced in PowerBI while going through these materials.</p>
       <a href="Data Visualization Training FINAL_share.pdf" target="_blank">Data Visualization</a> |
       <a href="PowerBI Training FINAL_share.pdf" target="_blank">PowerBI</a>
   </li>
   <li class="list-group-item">
-    <h4>Raleigh - Creating Performance Measures</h4>
+    <h4>Raleigh | Creating Performance Measures</h4>
     <p>Resources include an infographic of the four main types of performance measures used in Raleigh and a case study using EMS data.</p>
       <a href="4 types of performance measures - Rafael Baptista.pdf" target="_blank">Four Types of Performance Measures</a> |
       <a href="EMS Case Study-Rafael Baptista.docx?raw=true" target="_blank">EMS Case Study</a>
