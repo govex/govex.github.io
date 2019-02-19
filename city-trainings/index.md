@@ -33,4 +33,9 @@ This page is designed to be collaborative and iterative so layout, topics, and c
     <p>A list of existing open data standards and specifications for how some sets of data should be made publicly available.</p>
       <a href="http://datastandards.directory/" target="_blank">View the Directory</a>
      </li>
+      <li class="list-group-item">
+    <h4>GovEx | Ethics and Algorithms Toolkit/h4>
+    <p>A risk management framework for governments (and other people too!) thinking of using algorithms ethically.</p>
+      <a href="https://ethicstoolkit.ai/" target="_blank">View the Toolkit</a>
+     </li>
 </ul>
