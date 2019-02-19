@@ -29,12 +29,12 @@ This page is designed to be collaborative and iterative so layout, topics, and c
       <a href="https://govex.jhu.edu/wp-content/uploads/2018/05/City_roadmap_FINAL_web.jpg" target="_blank">View the 9 Steps</a>
   </li>
       <li class="list-group-item">
-    <h4>GovEx | Data Standards Directory/h4>
+    <h4>GovEx | Data Standards Directory</h4>
     <p>A list of existing open data standards and specifications for how some sets of data should be made publicly available.</p>
       <a href="http://datastandards.directory/" target="_blank">View the Directory</a>
      </li>
       <li class="list-group-item">
-    <h4>GovEx | Ethics and Algorithms Toolkit/h4>
+    <h4>GovEx | Ethics and Algorithms Toolkit</h4>
     <p>A risk management framework for governments (and other people too!) thinking of using algorithms ethically.</p>
       <a href="https://ethicstoolkit.ai/" target="_blank">View the Toolkit</a>
      </li>
