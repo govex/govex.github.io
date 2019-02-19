@@ -22,4 +22,10 @@ This page is designed to be collaborative and iterative so layout, topics, and c
       <a href="4 types of performance measures - Rafael Baptista.pdf" target="_blank">Four Types of Performance Measures</a> |
       <a href="EMS Case Study-Rafael Baptista.docx?raw=true" target="_blank">EMS Case Study</a>
   </li>
+  <li class="list-group-item">
+    <h4>GovEx | Roadmap for Policy Change</h4>
+    <p>Resources include an infographic of the four main types of performance measures used in Raleigh and a case study using EMS data.</p>
+      <a href="https://govex.jhu.edu/wiki/a-roadmap-for-policy-change/" target="_blank">Read the Roadmap</a> |
+      <a href="https://govex.jhu.edu/wp-content/uploads/2018/05/City_roadmap_FINAL_web.jpg" target="_blank">View the 9 Steps</a>
+  </li>
 </ul>
