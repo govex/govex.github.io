@@ -24,8 +24,13 @@ This page is designed to be collaborative and iterative so layout, topics, and c
   </li>
   <li class="list-group-item">
     <h4>GovEx | Roadmap for Policy Change</h4>
-    <p>Resources include an infographic of the four main types of performance measures used in Raleigh and a case study using EMS data.</p>
+    <p>GovEx created A Roadmap for Policy Change for cities, and with input from cities, to facilitate a new way to help municipalities rethink the way they solve problems and address the most salient policy challenges in urban governance.</p>
       <a href="https://govex.jhu.edu/wiki/a-roadmap-for-policy-change/" target="_blank">Read the Roadmap</a> |
       <a href="https://govex.jhu.edu/wp-content/uploads/2018/05/City_roadmap_FINAL_web.jpg" target="_blank">View the 9 Steps</a>
   </li>
+      <li class="list-group-item">
+    <h4>GovEx | Data Standards Directory/h4>
+    <p>A list of existing open data standards and specifications for how some sets of data should be made publicly available.</p>
+      <a href="http://datastandards.directory/" target="_blank">View the Directory</a>
+     </li>
 </ul>
