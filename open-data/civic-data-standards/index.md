@@ -3,6 +3,11 @@ redirect_from: /civic-data-standards/
 layout: default
 ---
 
+<div class="alert alert-warning alert-dismissable" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>Attention:</strong> This page is out of date. Please visit <a href="https://datastandards.directory/">datastandards.directory</a> for a more up-to-date list of civic data standards.
+</div>
+
 ## Civic Data Standards
 
 ### Introduction
