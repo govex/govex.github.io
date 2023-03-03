@@ -28,19 +28,15 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Data Ownership Contract Terms</h4>
     <p></p>
     <p>
-      <a href="/data-governance/data-ownership/">Read online</a> |
-      <a href="https://github.com/govex/data-ownership/blob/master/README.md">View on Github</a> |
-      <a href="https://github.com/govex/data-ownership/edit/master/README.md">Edit on Github</a> |
-      Fork and submit a <a href="https://github.com/govex/data-ownership/pulls">pull request</a> |
-      <a href="https://github.com/govex/data-ownership/issues">View Github Issues</a>
+      <a href="https://govex.gitbook.io/data-ownership-and-usage-terms/">Read online</a> |
+      <a href="https://github.com/govex/data-ownership/edit/master/README.md">View on Github</a> |
     </p>
   </li>
   <li class="list-group-item">
     <h4>Open Data Getting Started</h4>
     <p>The Johns Hopkins University Center for Government Excellence has created this getting started guide to assist cities in implementing open data programs in their own communities.</p>
     <p>
-      <a href="http://centerforgov.gitbooks.io/open-data-getting-started/content/">Read online</a> |
-      <a href="https://www.gitbook.com/download/pdf/book/centerforgov/open-data-getting-started">Download PDF</a> |
+      <a href="https://govex.gitbook.io/open-data-getting-started/">Read online</a> |
       <a href="https://github.com/govex/open-data-getting-started">View on Github</a>
     </p>
   </li>
@@ -48,8 +44,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Open Data Metadata</h4>
     <p>Finding and working with many different sets of data requires descriptive information. This metadata guide explains the basics.</p>
     <p>
-      <a href="https://www.gitbook.com/read/book/centerforgov/open-data-metadata-guide">Read online</a> |
-      <a href="https://www.gitbook.com/download/pdf/book/centerforgov/open-data-metadata-guide">Download PDF</a> |
+      <a href="https://govex.gitbook.io/open-data-metadata-guide/">Read online</a> |
       <a href="https://github.com/govex/open-data-metadata-guide">View on Github</a>
     </p>
   </li>
@@ -63,19 +58,15 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Open Data Portal Requirements</h4>
     <p>The Open Data Portal Requirements is a document which governments can use to develop or procure an open data platform. It identifies critical and optional functionality needed to support a data catalog, access to data. Non-functional (technical) requirements are also identified.</p>
     <p>
-      <a href="/open-data/portal-requirements/">Read online</a> |
-      <a href="https://github.com/govex/open-data-portal-requirements/blob/master/README.md">View on Github</a> |
+      <a href="https://govex.gitbook.io/open-data-portal-requirements/">Read online</a> |
       <a href="https://github.com/govex/open-data-portal-requirements/edit/master/README.md">Edit on Github</a> |
-      Fork and submit a <a href="https://github.com/govex/open-data-portal-requirements/pulls">pull request</a> |
-      <a href="https://github.com/govex/open-data-portal-requirements/issues">View Github Issues</a>
     </p>
   </li>
   <li class="list-group-item">
     <h4>Open Data Dataset Starter Kit</h4>
     <p>Cities often already have valuable data which can be opened up. This guide helps open data program leaders rapidly identify this data within their governments.</p>
     <p>
-      <a href="https://www.gitbook.com/read/book/centerforgov/dataset-inventory-guidelines">Read online</a> |
-      <a href="https://www.gitbook.com/download/pdf/book/centerforgov/dataset-inventory-guidelines">Download PDF</a> |
+      <a href="https://govex.gitbook.io/open-data-dataset-starter-kit/">Read online</a> |
       <a href="https://github.com/govex/open-data-inventory">View on Github</a>
     </p>
   </li>
@@ -93,8 +84,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Benchmarking</h4>
     <p>The Johns Hopkins University Center for Government Excellence has created this short guide to help governments understand the practices of internal and external benchmarking.</p>
     <p>
-      <a href="https://centerforgov.gitbooks.io/benchmarking/content/">Read online</a> |
-      <a href="https://www.gitbook.com/book/centerforgov/benchmarking/details">Download PDF</a> |
+      <a href="https://govex.gitbook.io/benchmarking/">Read online</a> |
       <a href="https://github.com/govex/benchmarking">View on Github</a>
     </p>
   </li>
@@ -123,8 +113,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Performance-Based Budgeting</h4>
     <p>A government's introduction and guide to performance-based budgeting.</p>
     <p>
-      <a href="https://www.gitbook.com/book/centerforgov/performance-based-budgeting/details">Read online</a> |
-      <a href="https://www.gitbook.com/download/pdf/book/centerforgov/performance-based-budgeting">Download PDF</a> |
+      <a href="https://govex.gitbook.io/performance-based-budgeting/">Read online</a> |
       <a href="https://github.com/govex/performance-based-budgeting">View on Github</a>
     </p>
   </li>
@@ -132,8 +121,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Performance Management Getting Started</h4>
     <p>The Johns Hopkins University Center for Government Excellence has created this getting started guide to assist cities in implementing performance management programs in their own communities.</p>    
     <p>
-      <a href="https://www.gitbook.com/read/book/centerforgov/performance-management-getting-started">Read online</a> |
-      <a href="https://www.gitbook.com/download/pdf/book/centerforgov/performance-management-getting-started">Download PDF</a> |
+      <a href="https://govex.gitbook.io/performance-management-getting-started-guide/">Read online</a> |
       <a href="https://github.com/govex/performance-management-getting-started">View on Github</a>
     </p>
   </li>
@@ -141,8 +129,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Setting Performance Targets: Getting Started Guide</h4>
     <p>The Johns Hopkins University Center for Government Excellence has created this getting started guide to help governments improve performance practices by setting strong targets.</p>
     <p>
-      <a href="https://centerforgov.gitbooks.io/setting-performance-targets-getting-started-guide/content/">Read online</a> |
-      <a href="https://www.gitbook.com/download/pdf/book/centerforgov/setting-performance-targets-getting-started-guide">Download PDF</a> |
+      <a href="https://govex.gitbook.io/setting-performance-targets-getting-started-guide/">Read online</a> |
       <a href="https://github.com/govex/setting-performance-targets-getting-started-guide">View on Github</a>
     </p>
   </li>
@@ -167,8 +154,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Changing Culture</h4>
     <p>This practical guide helps government leaders and managers understand organizational culture and how to build cultures more adept with data.</p>
     <p>
-      <a href="https://centerforgov.gitbooks.io/changing-culture/content/index.html">Read online</a> |
-      <a href="https://www.gitbook.com/book/centerforgov/changing-culture/details">Download PDF</a> |
+      <a href="https://govex.gitbook.io/changing-culture/">Read online</a> |
       <a href="https://github.com/govex/culture">View on Github</a>
     </p>
   </li>
@@ -176,8 +162,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Community Engagement Playbook</h4>
     <p>A guide to help cities move past communicating to the “usual suspects” and ensure the data it shares reaches all interested parties.</p>
     <p>
-      <a href="https://www.gitbook.com/book/centerforgov/community-engagement-playbook/details">Read online</a> |
-      <a href="https://www.gitbook.com/download/pdf/book/centerforgov/community-engagement-playbook">Download PDF</a> |
+      <a href="https://govex.gitbook.io/community-engagement-playbook/">Read online</a> |
       <a href="https://github.com/govex/community-engagement">View on Github</a>
     </p>
   </li>
@@ -185,8 +170,7 @@ Below are guidebooks which the Center for Government Excellence makes available 
     <h4>Cultivating Talent</h4>
     <p>Talent isn't everything, but it sure helps. This guide helps governments find and keep the talent necessary to accelerate the effective use of data and evidence.</p>
     <p>
-      <a href="https://www.gitbook.com/book/centerforgov/cultivating-talent/details">Read online</a> |
-      <a href="https://www.gitbook.com/download/pdf/book/centerforgov/cultivating-talent">Download PDF</a> |
+      <a href="https://govex.gitbook.io/cultivating-talent/">Read online</a> |
       <a href="https://github.com/govex/Talent">View on Github</a>
     </p>
   </li>
